@@ -83,3 +83,16 @@ mobile Chromium and iPhone WebKit. The new check opens East Asia from Explore,
 compares its displayed count to directory results, finds Yusaku Horiuchi,
 checks the filter and reload, and confirms the broader Asia search. Existing
 profile, keyboard, accessibility and map tests also passed.
+
+## Visible regional labels — 2026-10-27
+
+Faculty cards and profile region links now use the same deduplicated regional
+membership as search. Removed the card's two-region truncation so matching labels
+remain visible. Yusaku Horiuchi shows East Asia and Asia alongside his existing
+Global / Cross-national label. Derived-label tooltips and profile/About wording
+identify geographic grouping; no public faculty data or evidence was changed.
+
+All 176 records validate, 46 unit tests pass, and TypeScript/build plus the 8-file
+artifact audit pass. All 21 browser tests passed in 50.1 seconds across desktop
+and mobile Chromium and iPhone WebKit. The regression checks visible labels,
+exactly one copy of each, profile region links and their directory results.

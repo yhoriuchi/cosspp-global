@@ -101,8 +101,8 @@ export function About({ rows }: { rows: Faculty[] }) {
             <p>
               Regional searches also include country expertise: for example, Japan matches East
               Asia and Asia. These geographic groupings help discovery; they do not imply that a
-              faculty member studies every country in the region. Profile tags retain the scope
-              documented in their sources.
+              faculty member studies every country in the region. Regional labels on cards and
+              profiles include these groupings; source details describe the specific research.
             </p>
             <p className="small muted">
               Geographic groupings are adapted from{' '}

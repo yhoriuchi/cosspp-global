@@ -13,12 +13,31 @@ test('country expertise appears in regional searches with matching exploration c
   await eastAsia.click();
   await expect(page.getByRole('status')).toContainText(`${count} faculty`);
   await expect(page.getByRole('link', { name: 'Yusaku Horiuchi', exact: true })).toBeVisible();
+  const horiuchiCard = page.locator('.faculty-card').filter({
+    has: page.getByRole('link', { name: 'Yusaku Horiuchi', exact: true }),
+  });
+  for (const region of ['East Asia', 'Asia', 'Global / Cross-national']) {
+    await expect(
+      horiuchiCard.locator('.tag.region').filter({ hasText: new RegExp(`^${region}$`) }),
+    ).toHaveCount(1);
+    await expect(horiuchiCard.getByText(region, { exact: true })).toBeVisible();
+  }
   await openFilters(page);
   await expect(page.getByRole('checkbox', { name: 'East Asia', exact: true })).toBeChecked();
   await page.reload();
   await expect(page.getByRole('link', { name: 'Yusaku Horiuchi', exact: true })).toBeVisible();
   await page.goto('?page=directory&region=Asia&q=Horiuchi');
   await expect(page.getByRole('status')).toContainText('1 faculty');
+  await expect(page.getByRole('link', { name: 'Yusaku Horiuchi', exact: true })).toBeVisible();
+  await page.getByRole('link', { name: 'Yusaku Horiuchi', exact: true }).click();
+  for (const region of ['East Asia', 'Asia', 'Global / Cross-national']) {
+    await expect(
+      page.locator('.tag.region').filter({ hasText: new RegExp(`^${region}$`) }),
+    ).toHaveCount(1);
+    await expect(page.getByRole('link', { name: region, exact: true })).toBeVisible();
+  }
+  await page.getByRole('link', { name: 'East Asia', exact: true }).click();
+  await expect(page.getByRole('status')).toContainText(`${count} faculty`);
   await expect(page.getByRole('link', { name: 'Yusaku Horiuchi', exact: true })).toBeVisible();
 });
 test('home, search, filters, profile, refresh and history under repository subpath', async ({

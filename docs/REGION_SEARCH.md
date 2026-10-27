@@ -2,9 +2,12 @@
 
 Regional search combines source-supported region tags with the regions containing
 source-supported country codes. The shared `researchRegions` helper drives text
-search, region filters, available filter choices and Explore geography counts.
-It deduplicates memberships per person. It never writes derived regions back to
-faculty.json or displays them as additional source-verified profile claims.
+search, region filters, available filter choices, Explore geography counts and
+regional labels on faculty cards and profiles.
+It deduplicates memberships per person. Card region labels are not truncated, so
+a matching region remains visible. Derived labels describe geographic groupings;
+they do not add source-verified claims to faculty.json. Profile copy and derived
+label tooltips explain that distinction.
 A regional match does not imply expertise in every country in that region.
 
 ## Reference and conventions

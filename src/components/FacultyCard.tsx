@@ -1,6 +1,7 @@
 import type { Faculty } from '../types/faculty';
 import { Link } from './Link';
 import { affiliationLabel, appointmentLabel } from '../utils/profileDisplay';
+import { researchRegions } from '../utils/geography';
 export function profileHref(id: string) {
   const p = new URLSearchParams(window.location.search);
   p.set('page', 'profile');
@@ -38,8 +39,16 @@ export function FacultyCard({ person: r }: { person: Faculty }) {
             {c.name}
           </span>
         ))}
-        {r.geographic_research_regions.slice(0, 2).map((region) => (
-          <span className="tag region" key={region}>
+        {researchRegions(r).map((region) => (
+          <span
+            className="tag region"
+            key={region}
+            title={
+              r.geographic_research_regions.includes(region)
+                ? undefined
+                : 'Regional grouping of the research locations listed in this profile.'
+            }
+          >
             {region}
           </span>
         ))}

@@ -3,6 +3,7 @@ import { Link } from '../components/Link';
 import { queryFor } from '../utils/search';
 import { PageHeading } from '../components/Layout';
 import { affiliationLabel, appointmentLabel } from '../utils/profileDisplay';
+import { researchRegions } from '../utils/geography';
 export function Profile({ person: r, params }: { person?: Faculty; params: URLSearchParams }) {
   if (!r)
     return (
@@ -65,7 +66,8 @@ export function Profile({ person: r, params }: { person?: Faculty; params: URLSe
             <div className="profile-section">
               <h2>Geographic research expertise</h2>
               <p className="muted small">
-                Countries and regions studied, as documented in the sources below.
+                Research locations documented in the sources below, with regional groupings
+                for the countries studied.
               </p>
               <div className="tags">
                 {r.geographic_research_countries.map((c) => (
@@ -73,8 +75,17 @@ export function Profile({ person: r, params }: { person?: Faculty; params: URLSe
                     {c.name}
                   </Link>
                 ))}
-                {r.geographic_research_regions.map((region) => (
-                  <Link className="tag region" key={region} href={queryFor({ region: [region] })}>
+                {researchRegions(r).map((region) => (
+                  <Link
+                    className="tag region"
+                    key={region}
+                    href={queryFor({ region: [region] })}
+                    title={
+                      r.geographic_research_regions.includes(region)
+                        ? undefined
+                        : 'Regional grouping of the research locations listed in this profile.'
+                    }
+                  >
                     {region}
                   </Link>
                 ))}
