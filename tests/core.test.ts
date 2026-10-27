@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect, vi } from 'vitest';
 import { datasetSchema, facultySchema } from '../src/types/faculty';
 import { filterFaculty, emptyFilters, parseFilters, queryFor } from '../src/utils/search';
 import { readCSV, writeCSV } from '../src/utils/csv';
@@ -171,6 +171,25 @@ describe('directory search', () => {
   });
 });
 describe('publication gate', () => {
+  it('accepts China with different browser locale labels while rejecting wrong names', () => {
+    const original = Intl.DisplayNames.prototype.of;
+    const localeName = vi.spyOn(Intl.DisplayNames.prototype, 'of').mockImplementation(function (
+      this: Intl.DisplayNames,
+      code: string,
+    ) {
+      return code === 'CN' ? 'China mainland' : original.call(this, code);
+    });
+    try {
+      expect(() =>
+        facultySchema.parse({ ...a, geographic_research_countries: [{ code: 'CN', name: 'China' }] }),
+      ).not.toThrow();
+      expect(() =>
+        facultySchema.parse({ ...a, geographic_research_countries: [{ code: 'CN', name: 'Japan' }] }),
+      ).toThrow();
+    } finally {
+      localeName.mockRestore();
+    }
+  });
   it('rejects duplicate IDs and normalized names', () => {
     expect(() => datasetSchema.parse([a, a])).toThrow(/Duplicate/);
     expect(() =>

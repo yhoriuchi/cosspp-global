@@ -38,7 +38,7 @@ jobs:
         env:
           BASE_PATH: /cosspp-global/
         run: pnpm run build
-      - run: pnpm exec playwright install --with-deps chromium
+      - run: pnpm exec playwright install --with-deps chromium webkit
       - run: pnpm run test:e2e
         env:
           PLAYWRIGHT_BASE_PATH: /cosspp-global/

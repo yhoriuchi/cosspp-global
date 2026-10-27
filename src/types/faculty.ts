@@ -200,6 +200,8 @@ export const facultySchema = z
       ctx.addIssue({ code: 'custom', message: 'Faculty confirmation status mismatch' });
     const names = new Intl.DisplayNames(['en'], { type: 'region' });
     const aliases: Record<string, string[]> = {
+      // WebKit's locale data can label CN differently from Chromium/Node.
+      CN: ['China'],
       KR: ['South Korea', 'Republic of Korea'],
       US: ['United States', 'United States of America'],
       GB: ['United Kingdom', 'UK'],

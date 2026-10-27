@@ -87,6 +87,7 @@ test('geographic navigation, empty language state and unknown profile', async ({
 });
 test('responsive pages, internal routes, keyboard and automated accessibility', async ({
   page,
+  browserName,
 }) => {
   // Five pages plus axe scans can exceed 30 seconds on shared CI runners.
   test.setTimeout(60_000);
@@ -108,7 +109,10 @@ test('responsive pages, internal routes, keyboard and automated accessibility', 
     ).toEqual([]);
   }
   await page.goto('');
-  await page.keyboard.press('Tab');
+  // macOS WebKit uses Option-Tab to include links in keyboard navigation.
+  await page.keyboard.press(
+    browserName === 'webkit' && process.platform === 'darwin' ? 'Alt+Tab' : 'Tab',
+  );
   await expect(page.getByRole('link', { name: 'Skip to content' })).toBeFocused();
   await page.keyboard.press('Enter');
   await expect(page.locator('#main')).toBeFocused();

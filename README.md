@@ -74,7 +74,7 @@ Use `pnpm run <name>`, `npm run <name>` if npm is installed, or `./scripts/local
 | links:check | Conservative rate-limited source-link check, private report |
 | data:export | Export all public fields to private CSV; optional output path |
 | data:import path.csv | Validate CSV into private candidates; never auto-promote |
-| test:e2e | Desktop/mobile Chromium workflow, profile, routing and accessibility tests |
+| test:e2e | Desktop/mobile Chromium and iPhone WebKit workflow, profile, routing and accessibility tests |
 | format | Format project source with Prettier |
 
 For the repository-subpath test build:
@@ -82,7 +82,7 @@ For the repository-subpath test build:
 ```sh
 BASE_PATH=/cosspp-global/ ./scripts/local.sh build
 # Install a test browser once on a normal environment:
-pnpm exec playwright install chromium
+pnpm exec playwright install chromium webkit
 pnpm run test:e2e
 ```
 

@@ -44,3 +44,24 @@ Playwright tests passed in 49.9 seconds, followed by successful Pages deployment
 for shared runners; assertions are unchanged. Live Chrome checks verified the
 homepage, Horiuchi search, profile navigation and direct reload under
 https://yhoriuchi.github.io/cosspp-global/.
+
+## iPhone blank-screen correction — 2026-10-27
+
+The public site returned HTTP 200 but showed no heading in Playwright WebKit with
+an iPhone 13 device profile. Captured startup errors identified three rejected
+`CN / China` values: browser-provided `Intl.DisplayNames` labels differed from
+Node/Chromium. Added `China` to the existing accepted-name aliases for `CN`,
+retaining rejection of genuinely mismatched country names and all source/consent
+checks. No faculty data changed.
+
+A unit regression simulates the differing locale label and checks both valid and
+invalid country names. The browser suite now includes iPhone WebKit, and Pages CI
+installs WebKit as well as Chromium before publication. On macOS WebKit, the
+keyboard test uses Option-Tab to reach links; focus assertions remain unchanged.
+Validation of all 176 records, 33 unit tests, TypeScript/build and the artifact
+audit passed. Actual iPhone hardware has not been tested by the agent.
+All 18 browser tests passed locally across desktop Chromium, mobile Chromium and
+iPhone WebKit (1.1 minutes), including all 176 profiles in each browser project.
+The first run hit local trace-file EPERM errors; a fresh `/tmp` output directory
+resolved them. The separate macOS WebKit keyboard-navigation difference was
+corrected as described above.
