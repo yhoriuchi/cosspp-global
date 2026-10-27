@@ -1,3 +1,4 @@
+import { researchRegions } from '../utils/geography';
 import type { Faculty } from '../types/faculty';
 import type { Filters } from '../utils/search';
 type FilterKey = 'department' | 'country' | 'region' | 'language' | 'topic' | 'method';
@@ -28,7 +29,7 @@ export function FilterPanel({
       unique(rows.flatMap((r) => [r.primary_department, ...r.additional_affiliations])),
     ],
     ['country', 'Country studied', countries],
-    ['region', 'Research region', unique(rows.flatMap((r) => r.geographic_research_regions))],
+    ['region', 'Research region', unique(rows.flatMap(researchRegions))],
     ['language', 'Languages', languages],
     ['topic', 'Research topic', unique(rows.flatMap((r) => r.research_interests))],
     ['method', 'Research method', unique(rows.flatMap((r) => r.methodological_expertise))],

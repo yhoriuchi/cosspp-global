@@ -1,3 +1,4 @@
+import { researchRegions } from '../utils/geography';
 import type { Faculty } from '../types/faculty';
 import { PageHeading } from '../components/Layout';
 import { WorldMap } from '../components/WorldMap';
@@ -10,7 +11,7 @@ export function Explore({ rows }: { rows: Faculty[] }) {
       active.flatMap((r) => r.geographic_research_countries.map((c) => [c.code, c.name] as const)),
     ),
   ].sort((a, b) => a[1].localeCompare(b[1]));
-  const regions = [...new Set(active.flatMap((r) => r.geographic_research_regions))].sort();
+  const regions = [...new Set(active.flatMap(researchRegions))].sort();
   return (
     <>
       <PageHeading eyebrow="EXPLORE GEOGRAPHY" title="A world of research connections.">
@@ -46,12 +47,15 @@ export function Explore({ rows }: { rows: Faculty[] }) {
       </section>
       <section className="home-section">
         <h2>Regions & cross-national research</h2>
+        <p className="muted">
+          Regional searches also include faculty who study countries within each region.
+        </p>
         <div className="place-grid">
           {regions.map((region) => (
             <Link href={queryFor({ region: [region] })} key={region}>
               <span>{region}</span>
               <span>
-                {active.filter((r) => r.geographic_research_regions.includes(region)).length}{' '}
+                {active.filter((r) => researchRegions(r).includes(region)).length}{' '}
                 <span className="sr-only">faculty</span> ↗
               </span>
             </Link>

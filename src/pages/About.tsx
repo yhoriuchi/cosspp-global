@@ -99,6 +99,19 @@ export function About({ rows }: { rows: Faculty[] }) {
               Filters are stored in the URL and can be bookmarked or shared.
             </p>
             <p>
+              Regional searches also include country expertise: for example, Japan matches East
+              Asia and Asia. These geographic groupings help discovery; they do not imply that a
+              faculty member studies every country in the region. Profile tags retain the scope
+              documented in their sources.
+            </p>
+            <p className="small muted">
+              Geographic groupings are adapted from{' '}
+              <a href="https://www.unicode.org/cldr/">Unicode CLDR</a> (
+              <a href={`${import.meta.env.BASE_URL}unicode-license.txt`}>license</a>). Latin
+              America includes the Caribbean; North America includes Central America and the
+              Caribbean.
+            </p>
+            <p>
               Regular and teaching faculty with current appointments appear by default. Use the
               appointment checkbox to include visiting, adjunct, affiliated and upcoming listings,
               along with entries whose current appointment details are being reconciled by the

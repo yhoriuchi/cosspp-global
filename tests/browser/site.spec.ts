@@ -6,6 +6,21 @@ async function openFilters(page: Page) {
   if ((await button.isVisible()) && (await button.getAttribute('aria-expanded')) === 'false')
     await button.click();
 }
+test('country expertise appears in regional searches with matching exploration counts', async ({ page }) => {
+  await page.goto('?page=explore');
+  const eastAsia = page.locator('.place-grid').getByRole('link', { name: /^East Asia / });
+  const count = Number((await eastAsia.innerText()).match(/\d+/)![0]);
+  await eastAsia.click();
+  await expect(page.getByRole('status')).toContainText(`${count} faculty`);
+  await expect(page.getByRole('link', { name: 'Yusaku Horiuchi', exact: true })).toBeVisible();
+  await openFilters(page);
+  await expect(page.getByRole('checkbox', { name: 'East Asia', exact: true })).toBeChecked();
+  await page.reload();
+  await expect(page.getByRole('link', { name: 'Yusaku Horiuchi', exact: true })).toBeVisible();
+  await page.goto('?page=directory&region=Asia&q=Horiuchi');
+  await expect(page.getByRole('status')).toContainText('1 faculty');
+  await expect(page.getByRole('link', { name: 'Yusaku Horiuchi', exact: true })).toBeVisible();
+});
 test('home, search, filters, profile, refresh and history under repository subpath', async ({
   page,
 }) => {

@@ -65,3 +65,21 @@ iPhone WebKit (1.1 minutes), including all 176 profiles in each browser project.
 The first run hit local trace-file EPERM errors; a fresh `/tmp` output directory
 resolved them. The separate macOS WebKit keyboard-navigation difference was
 corrected as described above.
+
+## Country expertise in regional search — 2026-10-27
+
+Regional search now combines explicit region tags with country membership from a
+shared geographic mapping. The same helper feeds text search, filter options and
+Explore geography counts. Profile claims and faculty.json are unchanged. All 249
+supported ISO country/area codes have a mapping; regional membership is
+one-directional and never invents individual country expertise or global/Arctic
+research. See REGION_SEARCH.md for conventions and primary references.
+
+Validation passed for 176 records, all 46 unit tests passed, and TypeScript/build
+and the 8-file artifact audit passed. The current data produce 8 East Asia
+matches and 13 Asia matches; both include Yusaku Horiuchi.
+All 21 browser tests passed locally (1.1 minutes), including desktop Chromium,
+mobile Chromium and iPhone WebKit. The new check opens East Asia from Explore,
+compares its displayed count to directory results, finds Yusaku Horiuchi,
+checks the filter and reload, and confirms the broader Asia search. Existing
+profile, keyboard, accessibility and map tests also passed.

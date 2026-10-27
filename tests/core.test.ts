@@ -1,5 +1,6 @@
 import { describe, it, expect, vi } from 'vitest';
-import { datasetSchema, facultySchema } from '../src/types/faculty';
+import { countryCodes, datasetSchema, facultySchema, regions } from '../src/types/faculty';
+import { researchRegions, regionsForCountry } from '../src/utils/geography';
 import { filterFaculty, emptyFilters, parseFilters, queryFor } from '../src/utils/search';
 import { readCSV, writeCSV } from '../src/utils/csv';
 import {
@@ -118,6 +119,48 @@ const a = facultySchema.parse(base),
     languages: [],
   });
 describe('directory search', () => {
+  it('finds country-only expertise through region filters and region text without altering claims', () => {
+    const japanOnly = { ...a, geographic_research_regions: [] };
+    for (const region of ['East Asia', 'Asia']) {
+      expect(filterFaculty([japanOnly, b], { ...emptyFilters, region: [region] })).toEqual([japanOnly]);
+      expect(filterFaculty([japanOnly, b], { ...emptyFilters, q: region })).toEqual([japanOnly]);
+    }
+    expect(filterFaculty([japanOnly], { ...emptyFilters, region: ['Europe'] })).toEqual([]);
+    expect(japanOnly.geographic_research_regions).toEqual([]);
+  });
+  it('deduplicates country and explicit region membership and does not infer specific countries', () => {
+    expect(researchRegions(a).filter((r) => r === 'East Asia')).toHaveLength(1);
+    const regionalOnly = { ...a, geographic_research_countries: [] };
+    expect(filterFaculty([regionalOnly], { ...emptyFilters, region: ['Asia'] })).toEqual([regionalOnly]);
+    expect(filterFaculty([regionalOnly], { ...emptyFilters, country: ['JP'] })).toEqual([]);
+    expect(filterFaculty([a], { ...emptyFilters, region: ['East Asia'], country: ['FR'] })).toEqual([]);
+    expect(researchRegions(b)).toEqual([]);
+  });
+  it.each([
+    ['JP', ['East Asia', 'Asia']],
+    ['ID', ['Southeast Asia', 'Asia']],
+    ['IN', ['South Asia', 'Asia']],
+    ['FR', ['Europe']],
+    ['KE', ['Sub-Saharan Africa', 'Africa']],
+    ['EG', ['North Africa', 'Africa', 'Middle East']],
+    ['BR', ['Latin America']],
+    ['MX', ['Latin America', 'North America']],
+    ['JM', ['Caribbean', 'Latin America', 'North America']],
+    ['AU', ['Oceania']],
+  ])('maps %s to its search regions', (code, expected) => {
+    expect(regionsForCountry(code as string)).toEqual(expect.arrayContaining(expected as string[]));
+  });
+  it('covers valid country codes using only supported regions without inventing global or Arctic expertise', () => {
+    for (const code of countryCodes) {
+      const mapped = regionsForCountry(code);
+      expect(mapped.length, code).toBeGreaterThan(0);
+      expect(mapped.every((region) => regions.includes(region))).toBe(true);
+      expect(mapped).not.toContain('Global / Cross-national');
+      expect(mapped).not.toContain('Arctic');
+    }
+    expect(regionsForCountry('AQ')).toEqual(['Antarctica']);
+    expect(regionsForCountry('XX')).toEqual([]);
+  });
   it('matches accent-insensitive name and ignores case', () =>
     expect(filterFaculty([a, b], { ...emptyFilters, q: 'ELISE' })).toEqual([a]));
   it('matches country names as text', () =>

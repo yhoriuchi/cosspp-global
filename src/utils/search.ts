@@ -1,3 +1,4 @@
+import { researchRegions } from './geography';
 import type { Faculty } from '../types/faculty';
 export type Filters = {
   q: string;
@@ -65,7 +66,7 @@ export function filterFaculty(rows: Faculty[], f: Filters) {
           ...r.methodological_expertise,
           ...r.research_keywords,
           ...r.geographic_research_countries.map((c) => c.name),
-          ...r.geographic_research_regions,
+          ...researchRegions(r),
           ...r.languages.map((l) => l.language),
           r.short_biography || '',
         ].join(' '),
@@ -81,7 +82,7 @@ export function filterFaculty(rows: Faculty[], f: Filters) {
           f.country,
           r.geographic_research_countries.map((c) => c.code),
         ) &&
-        match(f.region, r.geographic_research_regions) &&
+        match(f.region, researchRegions(r)) &&
         match(
           f.language,
           r.languages.map((l) => l.code),

@@ -35,7 +35,7 @@ No account, backend, environment secret or paid database is needed for the websi
 - OR within each filter group; AND across groups. Multiword free text matches all words across a profile. Department filters include documented additional affiliations.
 - Faculty cards and direct-link profiles, evidence/source details, appointment categories and guidance to keep public faculty profiles/CVs current.
 - Faculty-facing wording emphasizes discovery and source context; scope and confirmation methods are explained on About without repeated absence notices on individual profiles.
-- Country/region explorer using local public-domain Natural Earth geometry and D3, plus equivalent accessible links without a map.
+- Country/region explorer using local public-domain Natural Earth geometry and D3, plus equivalent accessible links without a map. Regional searches include country expertise (Japan → East Asia and Asia); search and exploration counts share the same [geographic membership rules](docs/REGION_SEARCH.md).
 - Department browsing, scope/privacy explanation, responsive light/dark modes, keyboard controls and visible update dates.
 - Typed JSON, strict publication validation, CSV import/export, private coverage/link reports, unit/browser tests and a disabled-by-default GitHub Pages deployment workflow.
 
