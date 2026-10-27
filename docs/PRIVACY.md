@@ -1,0 +1,11 @@
+# Privacy and publication boundaries
+
+The proposed public build contains public professional faculty names, roles, units/affiliations, professional contact links where listed, source-supported academic/research facts, research countries/regions, source URLs/evidence and access/review dates. It intentionally includes no citizenship data, inferred languages, national-origin labels, faculty photographs, logos, private correspondence, consent forms or internal notes. Languages remain empty until faculty confirmation and publication approval are documented.
+
+No backend, account, tracking analytics, cookies or submission endpoint is used. The browser stores only the theme preference. Search/filter values appear in the URL and browser history; do not enter sensitive information. Map geometry is served locally. External links and email clients operate under their own policies. Public professional contact addresses are public-source information but still merit faculty correction review before launch.
+
+`data/review/`, `data/sources/raw/`, `.local/`, test output, secrets and `project_history/` are ignored and never imported into the build. The schema rejects unknown public fields; the build audit scans emitted assets for prohibited properties and local paths. Only `dist/` is the deployment artifact. Ignoring a path does not remove an already committed copy; inspect staged/tracked files and full history before creating any public repository.
+
+Public repository publication would additionally expose source code, public data, schemas, docs and the workflow. The project owner must approve the account/repository name, visibility, data release and exact publishing actions. No repository or institutional organization should be created remotely without that approval.
+
+Profile changes are directed to faculty-maintained public profile pages and CVs for periodic source refreshes. The website provides no profile-edit request form or maintainer correction-email link. Faculty professional email links remain for academic contact. Privacy/legal/institutional review remains an owner decision before publication.

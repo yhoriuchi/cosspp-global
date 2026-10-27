@@ -1,0 +1,109 @@
+name: Refresh faculty sources in the cloud
+on:
+  schedule:
+    - cron: '37 8 * * 1'
+  workflow_dispatch:
+    inputs:
+      save:
+        description: 'Save validated data and publish if ENABLE_PAGES is true'
+        type: boolean
+        default: false
+permissions:
+  contents: read
+concurrency:
+  group: faculty-refresh
+  cancel-in-progress: false
+jobs:
+  research:
+    if: ${{ vars.ENABLE_CLOUD_REFRESH == 'true' && github.event.repository.private && github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Check required API configuration
+        env:
+          REFRESH_KEY: ${{ secrets.OPENAI_API_KEY }}
+          REFRESH_MODEL: ${{ vars.REFRESH_MODEL }}
+        run: |
+          test -n "$REFRESH_KEY" || { echo 'Configure OPENAI_API_KEY in repository Actions secrets.'; exit 1; }
+          test -n "$REFRESH_MODEL" || { echo 'Set REFRESH_MODEL to an available API model.'; exit 1; }
+      - name: Read sources and propose data changes
+        uses: openai/codex-action@v1
+        with:
+          openai-api-key: ${{ secrets.OPENAI_API_KEY }}
+          model: ${{ vars.REFRESH_MODEL }}
+          effort: medium
+          sandbox: workspace-write
+          safety-strategy: drop-sudo
+          codex-args: '["--config", "sandbox_workspace_write.network_access=true"]'
+          prompt-file: .github/codex/refresh-faculty.md
+      # Only a data artifact crosses the job boundary. No agent-modified code runs.
+      - uses: actions/upload-artifact@v7
+        with:
+          name: faculty-candidate
+          path: data/public/faculty.json
+          if-no-files-found: error
+          retention-days: 7
+  validate-and-save:
+    needs: research
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    outputs:
+      revision: ${{ steps.save.outputs.revision }}
+      publish: ${{ steps.save.outputs.publish }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.sha }}
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - run: npm install --global pnpm@11.25.0
+      - run: pnpm install --frozen-lockfile
+      - uses: actions/download-artifact@v8
+        with:
+          name: faculty-candidate
+          path: data/review/cloud
+      - run: pnpm run refresh:validate data/review/cloud/faculty.json
+      - run: pnpm run validate
+      - run: pnpm test
+      - run: pnpm run build
+        env:
+          BASE_PATH: /cosspp-global/
+      - name: Save only validated public data
+        id: save
+        env:
+          SAVE: ${{ github.event_name == 'schedule' || inputs.save }}
+        run: |
+          if [[ "$SAVE" != true ]]; then
+            echo 'Validation-only run; no commit or publication.'
+            exit 0
+          fi
+          git add -- data/public/faculty.json data/sources/inventory.json
+          if git diff --cached --quiet; then
+            echo 'No substantive change; no commit or publication.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Refresh source-supported faculty data'
+          # Reject a concurrent main update; never force-push or merge stale data.
+          git push origin HEAD:main
+          echo "revision=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          echo 'publish=true' >> "$GITHUB_OUTPUT"
+  publish:
+    needs: validate-and-save
+    if: ${{ needs.validate-and-save.outputs.publish == 'true' && vars.ENABLE_PAGES == 'true' }}
+    permissions:
+      contents: read
+    uses: ./.github/workflows/pages.yml
+    secrets:
+      PUBLIC_SITE_DEPLOY_KEY: ${{ secrets.PUBLIC_SITE_DEPLOY_KEY }}
+    with:
+      publish: true
+      revision: ${{ needs.validate-and-save.outputs.revision }}

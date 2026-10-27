@@ -1,0 +1,191 @@
+import type { Faculty } from '../types/faculty';
+import { Link } from '../components/Link';
+import { queryFor } from '../utils/search';
+import { PageHeading } from '../components/Layout';
+import { affiliationLabel, appointmentLabel } from '../utils/profileDisplay';
+export function Profile({ person: r, params }: { person?: Faculty; params: URLSearchParams }) {
+  if (!r)
+    return (
+      <>
+        <PageHeading eyebrow="DIRECTORY" title="Profile not found">
+          <p>This link does not match a faculty record.</p>
+        </PageHeading>
+        <Link className="button" href="?page=directory">
+          Return to directory
+        </Link>
+      </>
+    );
+  const back = new URLSearchParams(params);
+  back.set('page', 'directory');
+  back.delete('id');
+  return (
+    <>
+      <Link className="back-link" href={`?${back}`}>
+        ← Back to faculty directory
+      </Link>
+      <PageHeading
+        eyebrow={affiliationLabel(r).toUpperCase()}
+        title={r.preferred_display_name || r.full_name}
+      >
+        <p>{r.academic_title}</p>
+      </PageHeading>
+      <div className="profile-layout">
+        <div>
+          <div className="profile-section">
+            <h2>Research & expertise</h2>
+            {r.short_biography && <p>{r.short_biography}</p>}
+            {r.research_interests.length ? (
+              <div className="topic-tags">
+                {r.research_interests.map((t) => (
+                  <Link key={t} href={queryFor({ topic: [t] })}>
+                    {t}
+                  </Link>
+                ))}
+              </div>
+            ) : (
+              <p className="muted">
+                Visit the <a href={r.official_profile_url}>official FSU page</a> for more
+                information.
+              </p>
+            )}
+          </div>
+          {r.methodological_expertise.length > 0 && (
+            <div className="profile-section">
+              <h2>Methods</h2>
+              <div className="topic-tags">
+                {r.methodological_expertise.map((m) => (
+                  <Link key={m} href={queryFor({ method: [m] })}>
+                    {m}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
+          {!!(r.geographic_research_countries.length || r.geographic_research_regions.length) && (
+            <div className="profile-section">
+              <h2>Geographic research expertise</h2>
+              <p className="muted small">
+                Countries and regions studied, as documented in the sources below.
+              </p>
+              <div className="tags">
+                {r.geographic_research_countries.map((c) => (
+                  <Link className="tag country" key={c.code} href={queryFor({ country: [c.code] })}>
+                    {c.name}
+                  </Link>
+                ))}
+                {r.geographic_research_regions.map((region) => (
+                  <Link className="tag region" key={region} href={queryFor({ region: [region] })}>
+                    {region}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
+          {r.languages.length > 0 && (
+            <div className="profile-section">
+              <h2>Languages</h2>
+              {r.languages.map((l) => (
+                <div key={l.code}>
+                  <h3>{l.language}</h3>
+                  <p>
+                    Speaking: {l.speaking_proficiency} · Reading: {l.reading_proficiency} · Writing:{' '}
+                    {l.writing_proficiency}
+                  </p>
+                  <p className="muted small">
+                    Shared with faculty permission on {l.approval_date}.
+                  </p>
+                </div>
+              ))}
+            </div>
+          )}
+          {r.phd && (
+            <div className="profile-section">
+              <h2>Academic background</h2>
+              <p>
+                PhD{r.phd.field ? ` in ${r.phd.field}` : ''}, {r.phd.institution}
+                {r.phd.year ? `, ${r.phd.year}` : ''}
+              </p>
+            </div>
+          )}
+          {r.additional_affiliations.length > 0 && (
+            <div className="profile-section">
+              <h2>Additional affiliations</h2>
+              <ul>
+                {r.additional_affiliations.map((a) => (
+                  <li key={a}>{a}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+          {r.international_academic_experience.length > 0 && (
+            <div className="profile-section">
+              <h2>International academic experience</h2>
+              <ul>
+                {r.international_academic_experience.map((a) => (
+                  <li key={a}>{a}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+          {r.selected_publications.length > 0 && (
+            <div className="profile-section">
+              <h2>Selected publications</h2>
+              <ul>
+                {r.selected_publications.map((p) => (
+                  <li key={p.url}>
+                    <a href={p.url}>{p.citation}</a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+          <div className="profile-section sources">
+            <h2>Sources & updates</h2>
+            <p>
+              Based on public academic sources. Reviewed {r.last_verified}.
+              {r.faculty_review_status === 'confirmed' && ' Confirmed by the faculty member.'}{' '}
+              <Link href="?page=about">How profiles are prepared</Link>
+            </p>
+            {r.sources.map((s, i) => (
+              <details key={`${s.url}-${i}`}>
+                <summary>
+                  Source {i + 1}: {new URL(s.url).hostname}{' '}
+                  <span className="muted">
+                    · {s.retrieval === 'search_index' ? 'search-index evidence' : 'public page'}
+                  </span>
+                </summary>
+                <p>{s.evidence}</p>
+                <p className="small">
+                  Supports: {s.fields.map((f) => f.replaceAll('_', ' ')).join(', ')}.<br />
+                  Accessed {s.accessed} · {s.extraction.replaceAll('_', ' ')}.
+                </p>
+                <a href={s.url}>View source ↗</a>
+              </details>
+            ))}
+          </div>
+        </div>
+        <aside className="profile-aside">
+          <p className="eyebrow">CONNECT & LEARN MORE</p>
+          <a href={r.official_profile_url}>Official FSU profile / listing ↗</a>
+          {r.personal_website_url && <a href={r.personal_website_url}>Academic website ↗</a>}
+          {r.cv_url && <a href={r.cv_url}>Curriculum vitae ↗</a>}
+          {r.email && <a href={`mailto:${r.email}`}>{r.email}</a>}
+          {r.office && <p>{r.office}</p>}
+          <hr />
+          <p className="eyebrow">APPOINTMENT</p>
+          <p>{appointmentLabel(r)}</p>
+          <hr />
+          <h2>Keeping your profile up to date</h2>
+          <p>
+            To update your information, please revise your own faculty profile page or publicly
+            available CV.
+          </p>
+          <p>
+            This directory is designed to refresh profiles automatically at regular intervals using
+            those public sources.
+          </p>
+        </aside>
+      </div>
+    </>
+  );
+}

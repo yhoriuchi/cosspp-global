@@ -1,0 +1,1753 @@
+[
+  {
+    "url": "https://academic.oup.com/ej/article-abstract/135/665/285/7716698",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "vivek-moorthy"
+    ]
+  },
+  {
+    "url": "https://academic.oup.com/restud/article-abstract/92/3/2027/7685418",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "tuba-tuncel"
+    ]
+  },
+  {
+    "url": "https://cge.fsu.edu/about-us/cge-staff",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "bryant-harden"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/aas/faculty/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "carolina-s-velasquez-calderon",
+      "katrinell-davis",
+      "kwasi-densu",
+      "shantel-buggs",
+      "sierra-turner"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/askew/faculty/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "ana-maria-dimand",
+      "daniel-l-fay",
+      "danielle-n-atkins",
+      "david-berlan",
+      "ene-ikpebe",
+      "gary-vanlandingham",
+      "hongtao-yi",
+      "keon-hyung-lee",
+      "mauricio-astudillo-rodas",
+      "minyoung-ku",
+      "portia-campos",
+      "raoul-lavin",
+      "sue-titus-reid",
+      "tian-tang",
+      "tracy-banner",
+      "william-t-jackson",
+      "xue-gao"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/askew/faculty/ana-maria-dimand/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "ana-maria-dimand"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/askew/faculty/daniel-fay/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "daniel-l-fay"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/askew/faculty/danielle-atkins/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "danielle-n-atkins"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/askew/faculty/david-berlan/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "david-berlan"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/askew/faculty/ene-ikpebe/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "ene-ikpebe"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/askew/faculty/gary-van-landingham/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "gary-vanlandingham"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/askew/faculty/hongtao-yi/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "hongtao-yi"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/askew/faculty/keon-hyung-lee/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "keon-hyung-lee"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/askew/faculty/mauricio-astudillo-rodas/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "mauricio-astudillo-rodas"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/askew/faculty/minyoung-ku/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "minyoung-ku"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/askew/faculty/portia-campos/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "portia-campos"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/askew/faculty/raoul-lavin/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "raoul-lavin"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/askew/faculty/sue-titus-reid/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "sue-titus-reid"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/askew/faculty/tian-tang/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "tian-tang"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/askew/faculty/william-t-jackson/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "william-t-jackson"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/askew/faculty/xue-gao/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "xue-gao"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/associate-professor-of-geography-receives-community-engaged-research-partnership-award/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "tyler-mccreary"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/cosspp-welcomes-13-new-faculty-members-in-fall-2024/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "nick-quinton"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/dmi/current-team/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "crystal-taylor",
+      "randall-g-holcombe",
+      "samuel-r-staley"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/durp/faculty/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "aurora-echavarria",
+      "billie-ventimiglia",
+      "chris-coutts",
+      "dennis-smith",
+      "fariba-siddiq",
+      "jeff-brown",
+      "john-felkner",
+      "kelly-kinahan",
+      "meaghan-mcsorley",
+      "mehak-sachdeva",
+      "michael-duncan",
+      "tim-chapin",
+      "tisha-joseph-holmes",
+      "william-butler"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/durp/faculty/2007/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "fariba-siddiq"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/durp/faculty/aurora-echavarria/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "aurora-echavarria"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/durp/faculty/chris-coutts/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "chris-coutts"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/durp/faculty/dennis-smith/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "dennis-smith"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/durp/faculty/jeff-brown/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "jeff-brown"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/durp/faculty/john-felkner/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "john-felkner"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/durp/faculty/kelly-kinahan/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "kelly-kinahan"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/durp/faculty/meaghan-mcsorley/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "meaghan-mcsorley"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/durp/faculty/mehak-sachdeva/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "mehak-sachdeva"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/durp/faculty/michael-duncan/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "michael-duncan"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/durp/faculty/tim-chapin/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "tim-chapin"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/durp/faculty/tisha-holmes/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "tisha-joseph-holmes"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/durp/faculty/william-butler/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "william-butler"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/durp/wp-content/uploads/sites/9/2020/02/Holmes_General_Vita_2022-08-16.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "tisha-joseph-holmes"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/durp/wp-content/uploads/sites/9/2024/10/TSC-Vita-Sept-2024.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "tim-chapin"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/faculty/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "amid-ardakani",
+      "anthony-kwasnica",
+      "carl-kitchens",
+      "cynthia-fan-yang",
+      "davide-luparello",
+      "doug-norton",
+      "elif-basaran",
+      "gabriel-olivier",
+      "hyoeun-park",
+      "javier-cano-urbina",
+      "jeongbin-kim",
+      "john-r-hamman",
+      "kalyani-padmakumar",
+      "katherine-yewell",
+      "katie-sherron",
+      "luke-boosey",
+      "luke-p-rodgers",
+      "manoj-atolia",
+      "michael-r-hammock",
+      "nicholas-l-brown",
+      "nick-bergan",
+      "pellumb-reshidi",
+      "r-mark-isaac",
+      "r-vijay-krishna",
+      "randall-g-holcombe",
+      "shawn-kantor",
+      "simona-andrei",
+      "stefan-c-norrbin",
+      "tuba-tuncel",
+      "vivek-moorthy",
+      "william-m-cockriel",
+      "xiaoyu-cheng",
+      "yonggyun-kim",
+      "youwei-xing"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/faculty/2633/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "kalyani-padmakumar"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/faculty/jeongbin-kim/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "jeongbin-kim"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/faculty/john/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "john-r-hamman"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/faculty/luke-boosey/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "luke-boosey"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/faculty/manoj-atolia/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "manoj-atolia"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/faculty/stefan-norrbin/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "stefan-c-norrbin"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/faculty/tuba-tuncel/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "tuba-tuncel"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/faculty/vivek-moorthy/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "vivek-moorthy"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/faculty/xiaoyu-cheng/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "xiaoyu-cheng"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/faculty/yonggyun-kim/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "yonggyun-kim"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/phd-program/ph-d-program-overview/fields-of-specialization/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "anthony-kwasnica",
+      "carl-kitchens",
+      "cynthia-fan-yang",
+      "javier-cano-urbina",
+      "jeongbin-kim",
+      "john-r-hamman",
+      "kalyani-padmakumar",
+      "katherine-yewell",
+      "luke-boosey",
+      "luke-p-rodgers",
+      "manoj-atolia",
+      "nicholas-l-brown",
+      "pellumb-reshidi",
+      "r-mark-isaac",
+      "r-vijay-krishna",
+      "randall-g-holcombe",
+      "shawn-kantor",
+      "stefan-c-norrbin",
+      "tuba-tuncel",
+      "vivek-moorthy",
+      "xiaoyu-cheng"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/engage-2025-2026-updates-from-cosspps-chairs-and-directors/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "amit-anshumali",
+      "emelie-griffin",
+      "maria-cristina-ramos",
+      "onnie-norrbin",
+      "renata-schama"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/engage-magazine-feature-2024-2025-updates-from-cosspp-chairs-and-directors/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "juan-david-irigoyen-borunda",
+      "mason-mathews"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/fsu-geography-faculty-researchers-join-national-ai-effort-to-advance-wildfire-forecasting/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "liling-chang",
+      "ziqi-li"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/fsus-askew-school-welcomes-new-director-david-berlan/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "david-berlan"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/geography/faculty-affiliates/nick-quinton/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "nick-quinton"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/geography/faculty/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "amber-dejohn",
+      "anne-chin",
+      "carolina-s-velasquez-calderon",
+      "christopher-uejio",
+      "emily-billo",
+      "huanping-huang",
+      "liling-chang",
+      "mark-w-horner",
+      "mason-mathews",
+      "rachael-cofield",
+      "stewart-fotheringham",
+      "tyler-mccreary",
+      "victor-mesev",
+      "xiaojun-yang",
+      "ziqi-li"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/geography/faculty/a-stewart-fotheringham/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "stewart-fotheringham"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/geography/faculty/amber-dejohn/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "amber-dejohn"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/geography/faculty/anne-chin/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "anne-chin"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/geography/faculty/carolina-velasquez/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "carolina-s-velasquez-calderon"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/geography/faculty/huanping-huang/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "huanping-huang"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/geography/faculty/liling-chang/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "liling-chang"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/geography/faculty/mark-horner/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "mark-w-horner"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/geography/faculty/mason-mathews/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "mason-mathews"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/internationalaffairs/faculty/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "bryant-harden",
+      "eman-m-vovsi",
+      "eric-reading",
+      "juan-david-irigoyen-borunda",
+      "lee-k-metcalf",
+      "naama-nagar",
+      "onnie-norrbin",
+      "whitney-t-bendeck"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/internationalaffairs/faculty/juan-david-irigoyen-borunda-phd/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "juan-david-irigoyen-borunda"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/internationalaffairs/faculty/lee-k-metcalf/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "lee-k-metcalf"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/internationalaffairs/faculty/onnie-norbin/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "onnie-norrbin"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/iss/faculty/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "alexandra-cockerham",
+      "amit-anshumali",
+      "camilo-rubbini",
+      "emelie-griffin",
+      "lisa-turner-de-vera",
+      "radha-modi",
+      "renata-schama",
+      "tracy-woodard"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/iss/faculty/amit-anshumali/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "amit-anshumali"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/iss/faculty/camilo-rubbini/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "camilo-rubbini"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/john-hamman-appointed-chair-of-the-department-of-economics/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "joe-calhoun"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/pepperinstitute/faculty-affiliates/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "andy-scott-chang",
+      "ladanya-ramirez-surmeier",
+      "mathew-hauer",
+      "matthew-m-brooks"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/pepperinstitute/faculty/page/2/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "amber-dejohn",
+      "amy-burdette",
+      "anne-barrett",
+      "dawn-carr",
+      "deana-a-rohlinger",
+      "john-reynolds",
+      "miles-taylor",
+      "patricia-homan"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/pepperinstitute/faculty/patricia-homan-phd/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "patricia-homan"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/faculty/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "amanda-driscoll",
+      "andrew-ballard",
+      "brad-gomez",
+      "bradley-kile",
+      "carlisle-rainey",
+      "christopher-reenock",
+      "david-foster",
+      "dotan-haim",
+      "eric-coleman",
+      "hanzhang-liu",
+      "holger-kern",
+      "jacqueline-colao",
+      "james-l-gibson",
+      "james-strickland",
+      "jason-davis",
+      "jens-grosser",
+      "kai-ou",
+      "karen-cyphers",
+      "kelly-matush",
+      "lonna-atkeson",
+      "mark-souva",
+      "naama-nagar",
+      "olga-gasparyan",
+      "quintin-beazer",
+      "ryan-owens",
+      "sam-england",
+      "sean-ehrlich",
+      "yusaku-horiuchi"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/faculty/2080/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "yusaku-horiuchi"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/faculty/amanda-driscoll/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "amanda-driscoll"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/faculty/carlisle-rainey/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "carlisle-rainey"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/faculty/david-foster/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "david-foster"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/faculty/dotan-haim/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "dotan-haim"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/faculty/eric-coleman/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "eric-coleman"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/faculty/hanzhang-liu/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "hanzhang-liu"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/faculty/holger-kern/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "holger-kern"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/faculty/james-l-gibson/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "james-l-gibson"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/faculty/jens-grosser/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "jens-grosser"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/faculty/kai-ou/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "kai-ou"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/faculty/kelly-matush/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "kelly-matush"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/faculty/mark-souva/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "mark-souva"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/faculty/olga-gasparyan/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "olga-gasparyan"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/faculty/quintin-beazer/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "quintin-beazer"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/faculty/ryan-owens/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "ryan-owens"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/faculty/sam-england/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "sam-england"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/faculty/sean-ehrlich/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "sean-ehrlich"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/popcenter/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "megan-evans"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/popcenter/faculty/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "amber-dejohn",
+      "amy-burdette",
+      "john-reynolds",
+      "karin-brewster",
+      "kathryn-tillman",
+      "katrinell-davis",
+      "mathew-hauer",
+      "matthew-m-brooks",
+      "michael-mcfarland",
+      "miles-taylor",
+      "paromita-sanyal",
+      "patricia-homan",
+      "vivek-moorthy"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/publichealth/faculty/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "alan-rowan",
+      "amber-dejohn",
+      "amy-burdette",
+      "annette-schwabe",
+      "chris-coutts",
+      "christopher-uejio",
+      "daniel-grischy",
+      "deanna-barath",
+      "helen-mahony",
+      "kathryn-baughman-samuel",
+      "katie-sherron",
+      "keon-hyung-lee",
+      "ladanya-ramirez-surmeier",
+      "michael-mcfarland",
+      "teresa-roach",
+      "tory-peek"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/publichealth/faculty/chris-coutts/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "chris-coutts"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/publichealth/faculty/chris-uejio/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "christopher-uejio"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/publichealth/faculty/kathryn-baughman-samuel/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "kathryn-baughman-samuel"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/sglab/faculty/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "eric-coleman",
+      "tian-tang",
+      "tisha-joseph-holmes",
+      "xue-gao"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/sociology/faculty/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "amy-burdette",
+      "andy-scott-chang",
+      "anne-barrett",
+      "corey-moss-pech",
+      "dawn-carr",
+      "deana-a-rohlinger",
+      "doug-schrock",
+      "john-reynolds",
+      "karin-brewster",
+      "kathryn-tillman",
+      "katrinell-davis",
+      "kelly-russell",
+      "koji-ueno",
+      "lindsay-cannon",
+      "lisa-munson",
+      "maria-cristina-ramos",
+      "mathew-hauer",
+      "matthew-m-brooks",
+      "megan-evans",
+      "michael-mcfarland",
+      "miles-taylor",
+      "paromita-sanyal",
+      "patricia-homan",
+      "shantel-buggs",
+      "sourabh-singh",
+      "teresa-roach",
+      "yao-li"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/sociology/faculty/andy-chang/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "andy-scott-chang"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/sociology/faculty/kathryn-tillman/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "kathryn-tillman"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/sociology/faculty/koji-ueno/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "koji-ueno"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/sociology/faculty/maria-cristina-ramos-ph-d/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "maria-cristina-ramos"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/sociology/faculty/paromita-sanyal/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "paromita-sanyal"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/sociology/faculty/patricia-homan/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "patricia-homan"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/sociology/faculty/sourabh-singh/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "sourabh-singh"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/sociology/faculty/yao-li/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "yao-li"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/stavros/contact-us/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "joe-calhoun"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/wp-content/uploads/sites/36/2021/09/cv_jfelkner.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "john-felkner"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/wp-content/uploads/sites/5/2020/02/Tang_General_Vita_2022-08-19.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "tian-tang"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/wp-content/uploads/sites/5/2023/08/CV-Yi-Aug-2024-08.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "hongtao-yi"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/wp-content/uploads/sites/5/2024/08/DimandCV.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "ana-maria-dimand"
+    ]
+  },
+  {
+    "url": "https://cre.fsu.edu/research-symposium?page=118",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "paromita-sanyal"
+    ]
+  },
+  {
+    "url": "https://em.fsu.edu/faculty-broder.php",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "jarrett-broder"
+    ]
+  },
+  {
+    "url": "https://em.fsu.edu/faculty-hart.php",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "laura-hart"
+    ]
+  },
+  {
+    "url": "https://em.fsu.edu/faculty-merrick.php",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "david-merrick"
+    ]
+  },
+  {
+    "url": "https://em.fsu.edu/faculty-staff.php",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "audrey-heffron-casserleigh",
+      "becs-rogers",
+      "brad-skillman",
+      "carolyn-washington",
+      "chris-carhart",
+      "david-merrick",
+      "jarrett-broder",
+      "laura-hart",
+      "rayne-hawkins",
+      "robert-duggleby",
+      "robert-mcdaniel",
+      "sue-sullivan"
+    ]
+  },
+  {
+    "url": "https://honors.fsu.edu/about/tyler-mccreary-phd",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "tyler-mccreary"
+    ]
+  },
+  {
+    "url": "https://nais.fsu.edu/faculty",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "emily-billo",
+      "tyler-mccreary"
+    ]
+  },
+  {
+    "url": "https://sanyalsociology.wordpress.com/2018/12/12/paromita-sanyal/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "paromita-sanyal"
+    ]
+  },
+  {
+    "url": "https://sociology.rutgers.edu/people/alumni/all-alumni/alumni-details/1058-singh-sourabh",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "sourabh-singh"
+    ]
+  },
+  {
+    "url": "https://www.andyscottchang.com/research",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "andy-scott-chang"
+    ]
+  }
+]

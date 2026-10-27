@@ -1,0 +1,8 @@
+node_modules
+dist
+data
+public
+project_history
+test-results
+.local
+pnpm-lock.yaml

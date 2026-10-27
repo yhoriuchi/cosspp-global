@@ -1,0 +1,491 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "full_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "preferred_display_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "academic_title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "primary_department": {
+      "type": "string",
+      "minLength": 1
+    },
+    "additional_affiliations": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "appointment_type": {
+      "type": "string",
+      "enum": [
+        "regular",
+        "teaching",
+        "visiting",
+        "adjunct",
+        "emeritus",
+        "affiliate",
+        "unknown"
+      ]
+    },
+    "current_affiliation_status": {
+      "type": "string",
+      "enum": [
+        "current",
+        "upcoming",
+        "unknown"
+      ]
+    },
+    "email": {
+      "type": "string",
+      "format": "email",
+      "pattern": "^(?:[A-Za-z0-9_'+\\-]+\\.)*[A-Za-z0-9_'+\\-]*[A-Za-z0-9_+-]@(?:[A-Za-z0-9][A-Za-z0-9\\-]*\\.)+[A-Za-z]{2,}$"
+    },
+    "office": {
+      "type": "string",
+      "minLength": 1
+    },
+    "official_profile_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "personal_website_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "cv_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "short_biography": {
+      "type": "string",
+      "minLength": 1
+    },
+    "phd": {
+      "type": "object",
+      "properties": {
+        "institution": {
+          "type": "string",
+          "minLength": 1
+        },
+        "field": {
+          "type": "string",
+          "minLength": 1
+        },
+        "year": {
+          "type": "integer",
+          "minimum": 1850,
+          "maximum": 2100
+        }
+      },
+      "required": [
+        "institution"
+      ],
+      "additionalProperties": false
+    },
+    "other_degrees": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "institution": {
+            "type": "string",
+            "minLength": 1
+          },
+          "field": {
+            "type": "string",
+            "minLength": 1
+          },
+          "year": {
+            "type": "integer",
+            "minimum": 1850,
+            "maximum": 2100
+          }
+        },
+        "required": [
+          "institution"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "previous_academic_appointments": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "international_academic_experience": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "research_interests": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "methodological_expertise": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "geographic_research_countries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "code",
+          "name"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "geographic_research_regions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "Global / Cross-national",
+          "East Asia",
+          "Southeast Asia",
+          "South Asia",
+          "Central Asia",
+          "Europe",
+          "Sub-Saharan Africa",
+          "North Africa",
+          "Middle East",
+          "Latin America",
+          "Caribbean",
+          "North America",
+          "Oceania",
+          "Africa",
+          "Asia",
+          "Arctic",
+          "Antarctica"
+        ]
+      }
+    },
+    "comparative_or_crossnational_focus": {
+      "type": "boolean"
+    },
+    "international_research_projects": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "research_keywords": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "selected_publications": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "citation": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "required": [
+          "citation",
+          "url"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "languages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string",
+            "enum": [
+              "en",
+              "fr",
+              "es",
+              "pt",
+              "de",
+              "it",
+              "ja",
+              "ko",
+              "zh",
+              "ar",
+              "ru",
+              "hi",
+              "bn",
+              "ur",
+              "id",
+              "ms",
+              "vi",
+              "th",
+              "tr",
+              "fa",
+              "he",
+              "sw",
+              "nl",
+              "pl",
+              "uk",
+              "el",
+              "sv",
+              "no",
+              "da",
+              "fi",
+              "cs",
+              "ro",
+              "hu",
+              "ta",
+              "te",
+              "ne",
+              "tl"
+            ]
+          },
+          "language": {
+            "type": "string",
+            "minLength": 1
+          },
+          "speaking_proficiency": {
+            "type": "string",
+            "enum": [
+              "Native / Heritage",
+              "Fluent / Professional",
+              "Conversational",
+              "Basic",
+              "Not specified"
+            ]
+          },
+          "reading_proficiency": {
+            "type": "string",
+            "enum": [
+              "Native / Heritage",
+              "Fluent / Professional",
+              "Conversational",
+              "Basic",
+              "Not specified"
+            ]
+          },
+          "writing_proficiency": {
+            "type": "string",
+            "enum": [
+              "Native / Heritage",
+              "Fluent / Professional",
+              "Conversational",
+              "Basic",
+              "Not specified"
+            ]
+          },
+          "verification_source": {
+            "type": "string",
+            "format": "uri"
+          },
+          "faculty_confirmed": {
+            "type": "boolean",
+            "const": true
+          },
+          "publication_approved": {
+            "type": "boolean",
+            "const": true
+          },
+          "approval_date": {
+            "type": "string",
+            "format": "date",
+            "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+          }
+        },
+        "required": [
+          "code",
+          "language",
+          "speaking_proficiency",
+          "reading_proficiency",
+          "writing_proficiency",
+          "verification_source",
+          "faculty_confirmed",
+          "publication_approved",
+          "approval_date"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "countries_of_prior_professional_experience": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "international_institutional_affiliations": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "sources": {
+      "minItems": 1,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "accessed": {
+            "type": "string",
+            "format": "date",
+            "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+          },
+          "fields": {
+            "minItems": 1,
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "evidence": {
+            "type": "string",
+            "minLength": 1
+          },
+          "extraction": {
+            "type": "string",
+            "enum": [
+              "automatic",
+              "agent_reviewed",
+              "human_reviewed"
+            ]
+          },
+          "reviewed_by": {
+            "type": "string",
+            "enum": [
+              "agent",
+              "human"
+            ]
+          },
+          "retrieval": {
+            "default": "direct",
+            "type": "string",
+            "enum": [
+              "direct",
+              "search_index"
+            ]
+          }
+        },
+        "required": [
+          "url",
+          "accessed",
+          "fields",
+          "evidence",
+          "extraction",
+          "retrieval"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date",
+      "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+    },
+    "last_verified": {
+      "type": "string",
+      "format": "date",
+      "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": [
+        "source_verified",
+        "faculty_confirmed"
+      ]
+    },
+    "faculty_review_status": {
+      "type": "string",
+      "enum": [
+        "not_requested",
+        "pending",
+        "confirmed"
+      ]
+    },
+    "publication_status": {
+      "type": "string",
+      "const": "public"
+    }
+  },
+  "required": [
+    "id",
+    "full_name",
+    "academic_title",
+    "primary_department",
+    "additional_affiliations",
+    "appointment_type",
+    "current_affiliation_status",
+    "official_profile_url",
+    "other_degrees",
+    "previous_academic_appointments",
+    "international_academic_experience",
+    "research_interests",
+    "methodological_expertise",
+    "geographic_research_countries",
+    "geographic_research_regions",
+    "international_research_projects",
+    "research_keywords",
+    "selected_publications",
+    "languages",
+    "countries_of_prior_professional_experience",
+    "international_institutional_affiliations",
+    "sources",
+    "last_updated",
+    "last_verified",
+    "verification_status",
+    "faculty_review_status",
+    "publication_status"
+  ],
+  "additionalProperties": false
+}
