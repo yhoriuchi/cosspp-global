@@ -2,15 +2,20 @@
 
 ## Owner-approved configuration — 2026-10-27
 
-Yusaku approved a private repository, `yhoriuchi/cosspp-global`, weekly refreshes
-on GitHub-hosted runners, and automatic public-site deployment after validation.
-This supersedes the earlier requirement to approve each deployment manually.
-It does not authorize publishing the repository, private review material,
-unapproved languages, photos or university marks.
+Yusaku approved weekly refreshes on GitHub-hosted runners and automatic site
+deployment after validation. He subsequently explicitly approved and changed
+`yhoriuchi/cosspp-global` to Public, with Pages hosted by this same repository.
+No separate `cosspp-global-site` repository is needed. This supersedes the earlier
+private-source/separate-output plan and per-deployment manual approval requirement.
+Private review material, unapproved languages, photos and university marks remain excluded.
 
 The repository has been created. Workflow files and local checks are prepared;
-GitHub authentication, API secret registration and the first cloud run must be
-completed before this can be described as operational.
+Source upload is complete. API secret registration and the first cloud refresh
+run must be completed before automated source maintenance is operational.
+The refresh job still deliberately requires a private repository: its candidate
+artifact/log handling needs adaptation before enabling it in this public repository.
+Do not enable ENABLE_CLOUD_REFRESH until that work is complete. Static-site
+publication does not need an OpenAI API key.
 
 ## Execution
 
@@ -42,7 +47,7 @@ completed before this can be described as operational.
 ## Activation and recovery
 
 1. Push the reviewed source only; confirm ignored history, review caches and local
-   tools remain excluded. Keep repository visibility private.
+   tools remain excluded. This source repository is public by explicit owner choice.
 2. Set `REFRESH_MODEL=gpt-6.1-sol`; register the dedicated API key through GitHub
    Actions secrets. Enable GitHub Pages with the GitHub Actions build source.
 3. Set `ENABLE_CLOUD_REFRESH=true`; manually run the refresh with `save=false`.
@@ -72,5 +77,5 @@ Private project history remains local and must never enter the Pages artifact.
 - [GPT-6.1 Sol API model](https://developers.openai.com/api/docs/models/gpt-6.1-sol)
 
 Public-repository schedules can be disabled after 60 days of repository inactivity;
-the chosen repository is private. A disconnected Mac does not stop a GitHub-hosted
+this applies to the now-public repository. A disconnected Mac does not stop a GitHub-hosted
 runner. Cloud authentication, billing and service availability still apply.

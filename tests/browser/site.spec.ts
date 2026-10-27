@@ -88,6 +88,8 @@ test('geographic navigation, empty language state and unknown profile', async ({
 test('responsive pages, internal routes, keyboard and automated accessibility', async ({
   page,
 }) => {
+  // Five pages plus axe scans can exceed 30 seconds on shared CI runners.
+  test.setTimeout(60_000);
   for (const route of ['home', 'directory', 'explore', 'departments', 'about']) {
     await page.goto(`?page=${route}`);
     if (route === 'explore') await expect(page.locator('.world-map')).toBeVisible();

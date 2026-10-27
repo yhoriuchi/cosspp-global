@@ -1,6 +1,6 @@
 # GitHub Pages and cloud refresh
 
-The owner approved and created the private personal repository `yhoriuchi/cosspp-global` on 2026-10-27. Code upload, API credentials and the first cloud deployment remain to be verified. No institutional account is used. The application is ready for local preview and review. Dataset completeness and institutional permission are separate from technical readiness.
+The owner explicitly made `yhoriuchi/cosspp-global` Public on 2026-10-27 and requested a Pages site from this repository. Code upload is complete. The target URL is https://yhoriuchi.github.io/cosspp-global/. Automated source-refresh credentials and execution remain unconfigured. No institutional account is used. The application is ready for local preview and review. Dataset completeness and institutional permission are separate from technical readiness.
 
 ## Local use
 
@@ -41,7 +41,8 @@ Review appointment/source conflicts and indexed-only evidence, directory-link fa
 
 On 2026-10-27 Yusaku explicitly approved creating the private personal repository,
 pushing the reviewed project, weekly cloud source refreshes and automatic public
-site updates after validation. The source repository stays private. This replaces
+site updates after validation. He later approved public source and same-repository
+Pages hosting, superseding the separate build-output repository plan. This replaces
 the earlier per-deployment manual approval requirement for this project.
 
 See [CLOUD_REFRESH.md](CLOUD_REFRESH.md) for activation, secrets, operating limits,
@@ -51,6 +52,6 @@ is configured. Both manual deployment and the trusted refresh workflow require
 revision, installs locked dependencies, validates data, runs unit/browser tests,
 builds the repository subpath, audits artifacts and publishes only `dist/`.
 
-A private repository does not make its Pages website private. Verify the account's
-Pages eligibility and final public URL before declaring launch complete. API keys,
+Both the repository and website are public by owner choice. No cross-repository
+deploy key is required; GitHub Pages uses its scoped workflow token and OIDC. API keys,
 review notes, raw caches, local tools and project history stay out of Git and Pages.

@@ -3,7 +3,7 @@
 **Faculty Expertise & Connections**  
 Connecting faculty across countries, cultures, and disciplines.
 
-A functional, independently developed research directory for Florida State University's College of Social Sciences and Public Policy. Built for faculty collaboration, international partnerships, graduate mentoring, conferences, grants and policy expertise discovery. This is a local implementation prepared for GitHub Pages; it is not publicly deployed or officially endorsed by FSU.
+A functional, independently developed research directory for Florida State University's College of Social Sciences and Public Policy. Built for faculty collaboration, international partnerships, graduate mentoring, conferences, grants and policy expertise discovery. The owner has approved public source and GitHub Pages hosting at https://yhoriuchi.github.io/cosspp-global/. This independently developed project is not officially endorsed by FSU.
 
 ## Run locally
 
@@ -116,4 +116,4 @@ For CSV edits, export, edit nested JSON cells carefully, import to private candi
 
 The build exposes only the public schema and static assets. A public repository would also expose code/docs/public data. No citizenship, internal review notes, private history, photos or unapproved languages belong in either. Faculty confirmation has not yet been obtained. The owner’s update policy routes changes through faculty-maintained public profiles/CVs. Configure and verify periodic automated source refreshes before describing them as operational; the cloud workflow is prepared but its first remote run is not yet verified. Review institutional representation, permissions/licensing, data/source gaps and staged/history contents.
 
-**Do not create a remote repository, push or deploy without explicit owner approval.** On 2026-10-27 the owner approved the private `yhoriuchi/cosspp-global` repository, weekly cloud refreshes and publication after validation. The workflow has no general push trigger; deployment requires `ENABLE_PAGES=true` and either manual dispatch or a validated refresh commit. See [cloud setup](docs/CLOUD_REFRESH.md). Exact authorization steps are in [DEPLOYMENT.md](docs/DEPLOYMENT.md). Remaining research and future secure editing/expansion are in [ROADMAP.md](docs/ROADMAP.md).
+**Do not create a remote repository, push or deploy without explicit owner approval.** On 2026-10-27 the owner approved the `yhoriuchi/cosspp-global` repository (subsequently made Public by the owner), weekly cloud refreshes and publication after validation. The workflow has no general push trigger; deployment requires `ENABLE_PAGES=true` and either manual dispatch or a validated refresh commit. See [cloud setup](docs/CLOUD_REFRESH.md). Exact authorization steps are in [DEPLOYMENT.md](docs/DEPLOYMENT.md). Remaining research and future secure editing/expansion are in [ROADMAP.md](docs/ROADMAP.md).

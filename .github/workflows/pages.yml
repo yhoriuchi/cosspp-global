@@ -1,9 +1,6 @@
 name: Validate and publish the public site
 on:
   workflow_call:
-    secrets:
-      PUBLIC_SITE_DEPLOY_KEY:
-        required: false
     inputs:
       publish:
         type: boolean
@@ -39,51 +36,26 @@ jobs:
       - run: pnpm test
       - name: Build for the public repository
         env:
-          BASE_PATH: /cosspp-global-site/
+          BASE_PATH: /cosspp-global/
         run: pnpm run build
       - run: pnpm exec playwright install --with-deps chromium
       - run: pnpm run test:e2e
         env:
-          PLAYWRIGHT_BASE_PATH: /cosspp-global-site/
-      - uses: actions/upload-artifact@v7
+          PLAYWRIGHT_BASE_PATH: /cosspp-global/
+      - uses: actions/upload-pages-artifact@v4
         with:
-          name: verified-public-site
           path: dist
-          if-no-files-found: error
-          retention-days: 7
   deploy:
     if: ${{ inputs.publish && vars.ENABLE_PAGES == 'true' && github.ref == 'refs/heads/main' }}
     needs: build
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
-      url: https://yhoriuchi.github.io/cosspp-global-site/
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/download-artifact@v8
-        with:
-          name: verified-public-site
-          path: verified-site
-      - name: Publish only the audited website files
-        env:
-          PUBLIC_SITE_DEPLOY_KEY: ${{ secrets.PUBLIC_SITE_DEPLOY_KEY }}
-        run: |
-          set -euo pipefail
-          test -n "$PUBLIC_SITE_DEPLOY_KEY"
-          umask 077
-          printf '%s\n' "$PUBLIC_SITE_DEPLOY_KEY" > "$RUNNER_TEMP/site-deploy-key"
-          trap 'rm -f "$RUNNER_TEMP/site-deploy-key"' EXIT
-          # Fetch GitHub's published host keys over authenticated HTTPS.
-          curl --fail --silent --show-error https://api.github.com/meta | jq -r '.ssh_keys[] | "github.com " + .' > "$RUNNER_TEMP/github-known-hosts"
-          export GIT_SSH_COMMAND="ssh -i $RUNNER_TEMP/site-deploy-key -o IdentitiesOnly=yes -o BatchMode=yes -o StrictHostKeyChecking=yes -o UserKnownHostsFile=$RUNNER_TEMP/github-known-hosts"
-          git clone git@github.com:yhoriuchi/cosspp-global-site.git published
-          rsync -a --delete --exclude=.git verified-site/ published/
-          touch published/.nojekyll
-          cd published
-          git checkout -B main
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add --all
-          if git diff --cached --quiet; then exit 0; fi
-          git commit -m 'Publish verified COSSPP Global website'
-          git push origin HEAD:main
+      - uses: actions/deploy-pages@v4
+        id: deployment
