@@ -34,3 +34,13 @@ The checker deliberately does not bypass missing robots policies, access restric
 ## Known limits
 
 Live remote Actions/Pages execution was not authorized and has not been tested. Safari/Firefox, actual assistive-technology users and real phones/tablets were not tested. Many faculty biographies remain unenriched, some titles/primary homes/current statuses are unresolved, several official URLs are directory fallbacks, and faculty confirmations are not yet collected. Source-policy/network limits prevent a universal link-health claim. Two harmless third-party Zod comment-annotation warnings appear during Vite builds; the build completes and no source code was altered in dependencies.
+
+## Public Pages launch — 2026-10-27
+
+Commit `a0b9aae` passed 176-record validation, 32 unit tests, TypeScript and the
+seven-file build/privacy/base-path audit in GitHub Actions. All 12 desktop/mobile
+Playwright tests passed in 49.9 seconds, followed by successful Pages deployment
+(run 40575360208). The multi-page accessibility test now has a 60-second timeout
+for shared runners; assertions are unchanged. Live Chrome checks verified the
+homepage, Horiuchi search, profile navigation and direct reload under
+https://yhoriuchi.github.io/cosspp-global/.

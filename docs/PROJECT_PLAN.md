@@ -14,7 +14,7 @@ React + TypeScript + Vite; JSON canonical public records; strict Zod runtime/bui
 4. Enrichment: sourced topics, methods, research geography and selected academic-background fields added; many biographies remain unenriched. Language information remains intentionally empty without confirmation/consent.
 5. Refinement: local world map with equivalent country/region links, URL-based filters, unknown/missing states and appointment filters implemented.
 6. QA: strict schema, search/CSV tests, source-link checks, build/privacy audit and browser tests; see QA.md for actual results and limits.
-7. GitHub readiness: manual gated Actions workflow and publication checklist prepared; public publication remains disabled.
+7. GitHub Pages: public repository and site launched on 2026-10-27 after cloud validation and browser tests; automated source refresh remains disabled.
 
 ## Completion boundary
 

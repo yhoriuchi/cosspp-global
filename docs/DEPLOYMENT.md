@@ -1,6 +1,6 @@
 # GitHub Pages and cloud refresh
 
-The owner explicitly made `yhoriuchi/cosspp-global` Public on 2026-10-27 and requested a Pages site from this repository. Code upload is complete. The target URL is https://yhoriuchi.github.io/cosspp-global/. Automated source-refresh credentials and execution remain unconfigured. No institutional account is used. The application is ready for local preview and review. Dataset completeness and institutional permission are separate from technical readiness.
+The owner explicitly made `yhoriuchi/cosspp-global` Public on 2026-10-27 and requested a Pages site from this repository. Code upload is complete. The live site is https://yhoriuchi.github.io/cosspp-global/. Automated source-refresh credentials and execution remain unconfigured. No institutional account is used. The application is ready for local preview and review. Dataset completeness and institutional permission are separate from technical readiness.
 
 ## Local use
 
@@ -55,3 +55,17 @@ builds the repository subpath, audits artifacts and publishes only `dist/`.
 Both the repository and website are public by owner choice. No cross-repository
 deploy key is required; GitHub Pages uses its scoped workflow token and OIDC. API keys,
 review notes, raw caches, local tools and project history stay out of Git and Pages.
+
+## First verified publication — 2026-10-27
+
+GitHub Pages source is GitHub Actions; `ENABLE_PAGES=true`. The manually dispatched
+[publication run](https://github.com/yhoriuchi/cosspp-global/actions/runs/40575360208)
+successfully built and deployed commit `a0b9aae82572eee98a91eb041b88d55518f04644`.
+It passed 176-record validation, 32 unit tests, TypeScript/build/privacy auditing and
+all 12 desktop/mobile browser tests (49.9 seconds). The live homepage, faculty
+search and profile route reload were then checked in Chrome.
+
+For subsequent manual publication, push the intended changes, open Actions >
+Validate and publish the public site > Run workflow, choose main and check Deploy
+publicly. A normal push does not deploy. Automated research refresh remains
+disabled and requires the separate setup described in CLOUD_REFRESH.md.

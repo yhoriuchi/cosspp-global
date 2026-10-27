@@ -3,7 +3,7 @@
 **Faculty Expertise & Connections**  
 Connecting faculty across countries, cultures, and disciplines.
 
-A functional, independently developed research directory for Florida State University's College of Social Sciences and Public Policy. Built for faculty collaboration, international partnerships, graduate mentoring, conferences, grants and policy expertise discovery. The owner has approved public source and GitHub Pages hosting at https://yhoriuchi.github.io/cosspp-global/. This independently developed project is not officially endorsed by FSU.
+A functional, independently developed research directory for Florida State University's College of Social Sciences and Public Policy. Built for faculty collaboration, international partnerships, graduate mentoring, conferences, grants and policy expertise discovery. Live site: [COSSPP Global](https://yhoriuchi.github.io/cosspp-global/), published on 2026-10-27 from the owner-approved public repository. This independently developed project is not officially endorsed by FSU.
 
 ## Run locally
 
