@@ -22,3 +22,7 @@ The weekly cloud source-refresh workflow is prepared; see [configuration and act
 A profile may be source-verified while its present appointment is unknown; the unknown status remains explicit and excludes it from defaults. Source dates mean access/review dates, not publication dates. Directory listing and CV link counts do not establish complete coverage or current CV availability. Some records rely on search-index copies when live official pages fail. Recheck live sources before public launch and retain uncertainty where evidence conflicts.
 
 A future secure faculty-review process could add FSU SSO, faculty-owned drafts, administrative approval, consent tracking, revision history and scheduled refreshes. Do not place any private approval queue in a static site's JavaScript.
+
+## Owner-curated directory scope
+
+On 2026-10-27, the owner instructed that James L. Gibson be listed under Political Science only. Keep his additional_affiliations empty during routine refreshes, even if source biographies mention an outside appointment. This is a directory-scope choice, not a claim that an outside appointment does not exist.

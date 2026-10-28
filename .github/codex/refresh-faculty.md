@@ -50,3 +50,5 @@ workflows, policies, tests, dependencies, credentials or repository settings.
 The following CI job validates the candidate in a clean checkout and saves only
 the public faculty JSON and its derived source inventory. It never executes code
 from this workspace. Public deployment is separately controlled by ENABLE_PAGES.
+
+Preserve the owner-curated directory scope for James L. Gibson (`james-l-gibson`): Political Science only, with no additional_affiliations. See docs/DATA_VERIFICATION.md.

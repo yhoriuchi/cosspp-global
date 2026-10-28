@@ -5798,9 +5798,7 @@
     "appointment_type": "regular",
     "current_affiliation_status": "current",
     "official_profile_url": "https://cosspp.fsu.edu/polisci/faculty/james-l-gibson/",
-    "additional_affiliations": [
-      "Stellenbosch University (Professor Extraordinary in Political Science)"
-    ],
+    "additional_affiliations": [],
     "research_interests": [
       "Judicial politics",
       "Democratization",
@@ -5848,11 +5846,10 @@
           "methodological_expertise",
           "geographic_research_countries",
           "geographic_research_regions",
-          "additional_affiliations",
           "short_biography",
           "official_profile_url"
         ],
-        "evidence": "Specialization explicitly names South African politics and survey research; biography and areas of interest identify American politics and continuing appointment at Stellenbosch University.",
+        "evidence": "Specialization explicitly names South African politics and survey research; biography and areas of interest identify American politics.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index",
         "reviewed_by": "agent"
