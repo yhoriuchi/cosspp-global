@@ -1,6 +1,6 @@
-import { researchRegions } from '../utils/geography';
+import { researchRegions, regionsForCountry } from '../utils/geography';
 import type { Faculty } from '../types/faculty';
-import type { Filters } from '../utils/search';
+import { reconcileGeography, type Filters } from '../utils/search';
 type FilterKey = 'department' | 'country' | 'region' | 'language';
 export function FilterPanel({
   rows,
@@ -28,7 +28,15 @@ export function FilterPanel({
       'Department',
       unique(rows.flatMap((r) => [r.primary_department, ...r.additional_affiliations])),
     ],
-    ['country', 'Country', countries],
+    [
+      'country',
+      'Country',
+      countries.filter(
+        ([code]) =>
+          !filters.region.length ||
+          filters.region.some((region) => regionsForCountry(code).some((r) => r === region)),
+      ),
+    ],
     ['region', 'Region', unique(rows.flatMap(researchRegions))],
     ['language', 'Language', languages],
   ];
@@ -40,8 +48,14 @@ export function FilterPanel({
             <span>{label}</span>
             <select
               value={filters[key].length > 1 ? '__multiple__' : filters[key][0] || ''}
+              disabled={key === 'region' && filters.country.length === 1}
+              aria-describedby={
+                key === 'region' && filters.country.length === 1 ? 'region-country-hint' : undefined
+              }
               onChange={(e) =>
-                onChange({ ...filters, [key]: e.target.value ? [e.target.value] : [] })
+                onChange(
+                  reconcileGeography({ ...filters, [key]: e.target.value ? [e.target.value] : [] }),
+                )
               }
             >
               <option value="">All</option>
@@ -59,6 +73,11 @@ export function FilterPanel({
           </label>
         ))}
       </div>
+      {filters.country.length === 1 && (
+        <p id="region-country-hint" className="small muted">
+          Region is set by Country. Choose All under Country to change the region.
+        </p>
+      )}
       <label className="appointment-toggle">
         <input
           type="checkbox"

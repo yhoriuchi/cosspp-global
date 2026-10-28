@@ -1,7 +1,13 @@
 import { describe, it, expect, vi } from 'vitest';
 import { countryCodes, datasetSchema, facultySchema, regions } from '../src/types/faculty';
 import { researchRegions, regionsForCountry } from '../src/utils/geography';
-import { filterFaculty, emptyFilters, parseFilters, queryFor } from '../src/utils/search';
+import {
+  filterFaculty,
+  emptyFilters,
+  parseFilters,
+  queryFor,
+  reconcileGeography,
+} from '../src/utils/search';
 import { readCSV, writeCSV } from '../src/utils/csv';
 import {
   createWorldProjection,
@@ -376,5 +382,27 @@ describe('official faculty portraits', () => {
         ).toBe(false);
       }
     }
+  });
+});
+
+describe('linked country and region filters', () => {
+  it('selects the country region and corrects incompatible URL filters', () => {
+    expect(reconcileGeography({ ...emptyFilters, country: ['JP'] }).region).toEqual(['East Asia']);
+    expect(parseFilters(new URLSearchParams('country=JP&region=Europe')).region).toEqual([
+      'East Asia',
+    ]);
+    expect(parseFilters(new URLSearchParams('country=US')).region).toEqual(['North America']);
+  });
+  it('retains a selected broader or overlapping region containing the country', () => {
+    for (const [country, region] of [
+      ['JP', 'Asia'],
+      ['EG', 'Middle East'],
+      ['MX', 'North America'],
+    ]) {
+      expect(
+        reconcileGeography({ ...emptyFilters, country: [country], region: [region] }).region,
+      ).toEqual([region]);
+    }
+    expect(reconcileGeography({ ...emptyFilters, region: ['Europe'] }).region).toEqual(['Europe']);
   });
 });

@@ -59,7 +59,7 @@ test('home, search, filters, profile, refresh and history under repository subpa
   await expect(page.getByRole('status')).toContainText('1 faculty');
   await page.getByRole('link', { name: 'Yusaku Horiuchi', exact: true }).click();
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('Yusaku Horiuchi');
-  await expect(page.getByRole('heading', { name: 'Sources & updates' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Last updated' })).toBeVisible();
   await page.reload();
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('Yusaku Horiuchi');
   await page.getByRole('link', { name: 'Back to faculty directory' }).click();
@@ -268,7 +268,10 @@ test('four compact dropdowns combine with topic and method text search', async (
     .getByRole('combobox', { name: 'Department', exact: true })
     .selectOption('Political Science');
   await page.getByRole('combobox', { name: 'Country', exact: true }).selectOption('JP');
-  await page.getByRole('combobox', { name: 'Region', exact: true }).selectOption('East Asia');
+  await expect(page.getByRole('combobox', { name: 'Region', exact: true })).toHaveValue(
+    'East Asia',
+  );
+  await expect(page.getByRole('combobox', { name: 'Region', exact: true })).toBeDisabled();
   await page.getByRole('combobox', { name: 'Language', exact: true }).selectOption('ja');
   await page.getByRole('searchbox').fill('Conjoint analysis');
   await expect(page.getByRole('link', { name: 'Yusaku Horiuchi', exact: true })).toBeVisible();
@@ -324,4 +327,43 @@ test('profiles without verified photos retain initials', async ({ page }) => {
   await expect(page.locator('.profile-heading .avatar')).toHaveText('SF');
   await expect(page.locator('.profile-heading img')).toHaveCount(0);
   await expect(page.getByRole('link', { name: 'Photo: official FSU page' })).toHaveCount(0);
+});
+
+test('region restricts countries and country sets and locks its region', async ({ page }) => {
+  await page.goto('?page=directory');
+  const country = page.getByRole('combobox', { name: 'Country', exact: true });
+  const region = page.getByRole('combobox', { name: 'Region', exact: true });
+  await region.selectOption('East Asia');
+  await expect(country.locator('option[value="JP"]')).toHaveCount(1);
+  await expect(country.locator('option[value="US"]')).toHaveCount(0);
+  await expect(country.locator('option[value="FR"]')).toHaveCount(0);
+  await country.selectOption('JP');
+  await expect(region).toHaveValue('East Asia');
+  await expect(region).toBeDisabled();
+  await page.reload();
+  await expect(region).toHaveValue('East Asia');
+  await expect(region).toBeDisabled();
+  await country.selectOption('');
+  await expect(region).toBeEnabled();
+  await region.selectOption('Europe');
+  await expect(country.locator('option[value="JP"]')).toHaveCount(0);
+  await expect(country.locator('option[value="FR"]')).toHaveCount(1);
+  await page.getByRole('button', { name: 'Clear filters' }).click();
+  await country.selectOption('US');
+  await expect(region).toHaveValue('North America');
+  await expect(region).toBeDisabled();
+  await page.goto('?page=directory&country=JP&region=Europe');
+  await expect(country).toHaveValue('JP');
+  await expect(region).toHaveValue('East Asia');
+  await expect(page.getByRole('link', { name: 'Yusaku Horiuchi', exact: true })).toBeVisible();
+  await page.goto('?page=directory&country=JP&region=Asia');
+  await expect(region).toHaveValue('Asia');
+  await expect(region).toBeDisabled();
+  await page.getByRole('button', { name: 'Remove region filter Asia', exact: true }).click();
+  await expect(country).toHaveValue('');
+  await expect(region).toHaveValue('');
+  await expect(region).toBeEnabled();
+  await page.goto('?page=profile&id=yusaku-horiuchi');
+  await expect(page.getByRole('heading', { name: 'Last updated', exact: true })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Sources & updates' })).toHaveCount(0);
 });

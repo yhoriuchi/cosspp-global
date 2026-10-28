@@ -45,7 +45,13 @@ export function Directory({ rows, params }: { rows: Faculty[]; params: URLSearch
                 f[key].map((value) => (
                   <button
                     key={`${key}-${value}`}
-                    onClick={() => set({ ...f, [key]: f[key].filter((x) => x !== value) })}
+                    onClick={() =>
+                      set({
+                        ...f,
+                        ...(key === 'region' ? { country: [] } : {}),
+                        [key]: f[key].filter((x) => x !== value),
+                      })
+                    }
                     aria-label={`Remove ${key} filter ${value}`}
                   >
                     {key}:{' '}

@@ -149,3 +149,9 @@ was not tested. No faculty data or matching logic changed.
 - Validated all 176 records; 49 unit checks, production build and eight-file privacy/subpath audit passed. All 36 browser checks passed across desktop Chromium, phone Chromium and iPhone WebKit, including portrait navigation, initials fallback, all profile routes, keyboard use, four dropdowns and automated accessibility.
 - Independently checked selected official image resources and visually reviewed contact sheets to exclude marks. Real official images loaded in Chromium and iPhone WebKit for Horiuchi, Moorthy (AVIF), Heffron Casserleigh and Taylor. Desktop and phone screenshots were inspected; no page errors or horizontal overflow. Real iPhone hardware was not available.
 - External image responses are stubbed only in deterministic browser tests; live image checks use actual official URLs. Image binaries, source caches and screenshots remain private and ignored.
+
+### Linked geography filters and concise profile date — 2026-10-27
+
+- Country choices are limited to the selected region. A selected country automatically selects and locks its containing region; resetting Country to All unlocks Region. Existing containing broad/overlapping regions are retained. Incompatible incoming single-country URLs normalize to the country's preferred mapped region; removing the region chip clears its country.
+- Profile footer now shows Last updated and its date; detailed evidence remains in the dataset, with language/photo source links preserved.
+- All 176 records, 51 unit checks, TypeScript/build and privacy/subpath audit passed. Local Chromium and iPhone WebKit spot checks confirmed linked choices, lock/unlock, reload and date-only footer with no page errors/overflow; phone screenshot inspected. Full browser-suite result is recorded in private project history.

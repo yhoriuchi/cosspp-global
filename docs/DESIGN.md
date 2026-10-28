@@ -83,3 +83,7 @@ Natural Earth’s official terms explicitly make credit optional. Removed the at
 ## Direct profile updates to public academic sources — 2026-10-27
 
 Profile sidebars and About now ask faculty to revise their own faculty profile pages or publicly available CVs. Removed the maintainer correction-email generator, Suggest an update button and About contact button; footer now says Sources, scope & updates. Ordinary faculty professional contact links remain. Public wording describes a directory designed for regular automated refreshes because no scheduled refresh job is present in the repository; no cadence or immediate-update promise is invented. This change implements the owner’s source-based update policy without setting up or claiming a live automation.
+
+Profile footers display only Last updated and the record date. Detailed field-level evidence remains in the dataset for verification; language and photo source links remain next to their respective content.
+
+Country and Region are linked: Region limits the available Country options. Choosing a country sets its mapped region and locks Region until Country is reset to All. An already selected containing region (including a broader region) is retained; otherwise the first preferred grouping in the shared geography mapping is used. Incoming single-country URLs receive the same normalization. Removing the region chip also clears its country.

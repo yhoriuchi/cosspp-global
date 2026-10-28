@@ -186,29 +186,11 @@ export function Profile({ person: r, params }: { person?: Faculty; params: URLSe
               </ul>
             </div>
           )}
-          <div className="profile-section sources">
-            <h2>Sources & updates</h2>
+          <div className="profile-section">
+            <h2>Last updated</h2>
             <p>
-              Based on public academic sources. Reviewed {r.last_verified}.
-              {r.faculty_review_status === 'confirmed' && ' Confirmed by the faculty member.'}{' '}
-              <Link href="?page=about">How profiles are prepared</Link>
+              <time dateTime={r.last_updated}>{r.last_updated}</time>
             </p>
-            {r.sources.map((s, i) => (
-              <details key={`${s.url}-${i}`}>
-                <summary>
-                  Source {i + 1}: {new URL(s.url).hostname}{' '}
-                  <span className="muted">
-                    · {s.retrieval === 'search_index' ? 'search-index evidence' : 'public page'}
-                  </span>
-                </summary>
-                <p>{s.evidence}</p>
-                <p className="small">
-                  Supports: {s.fields.map((f) => f.replaceAll('_', ' ')).join(', ')}.<br />
-                  Accessed {s.accessed} · {s.extraction.replaceAll('_', ' ')}.
-                </p>
-                <a href={s.url}>View source ↗</a>
-              </details>
-            ))}
           </div>
         </div>
         <aside className="profile-aside">

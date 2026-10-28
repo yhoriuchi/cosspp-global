@@ -1,4 +1,4 @@
-import { researchRegions } from './geography';
+import { researchRegions, regionsForCountry } from './geography';
 import type { Faculty } from '../types/faculty';
 export type Filters = {
   q: string;
@@ -28,7 +28,7 @@ export const normalize = (s: string) =>
     .replace(/\p{Diacritic}/gu, '')
     .toLowerCase();
 export function parseFilters(params: URLSearchParams): Filters {
-  return {
+  return reconcileGeography({
     ...emptyFilters,
     q: params.get('q') || '',
     department: params.getAll('department'),
@@ -39,7 +39,16 @@ export function parseFilters(params: URLSearchParams): Filters {
     method: params.getAll('method'),
     appointments: params.get('appointments') === 'all' ? 'all' : 'current',
     sort: params.get('sort') === 'department' ? 'department' : 'name',
-  };
+  });
+}
+// Keep the selected broad/subregion when it contains the country; otherwise use
+// the first (most specific preferred) grouping in the shared country mapping.
+export function reconcileGeography(filters: Filters): Filters {
+  if (filters.country.length !== 1) return filters;
+  const regions = regionsForCountry(filters.country[0]);
+  const region =
+    filters.region.find((r) => regions.includes(r as (typeof regions)[number])) || regions[0];
+  return { ...filters, region: region ? [region] : [] };
 }
 export function queryFor(f: Partial<Filters>, page = 'directory') {
   const p = new URLSearchParams({ page });
