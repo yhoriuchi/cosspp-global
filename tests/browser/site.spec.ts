@@ -1,6 +1,17 @@
 import { readFileSync } from 'node:fs';
 import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
+
+// External image availability is checked separately; keep UI checks deterministic.
+const portraitPixel = Buffer.from(
+  'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+jRZkAAAAASUVORK5CYII=',
+  'base64',
+);
+test.beforeEach(async ({ page }) => {
+  await page.route(/^https:\/\/[^/]*fsu\.edu\/.*\.(?:jpe?g|png|webp|avif)(?:\?.*)?$/i, (route) =>
+    route.fulfill({ contentType: 'image/png', body: portraitPixel }),
+  );
+});
 test('country expertise appears in regional searches with matching exploration counts', async ({
   page,
 }) => {
@@ -233,15 +244,13 @@ test('four compact dropdowns combine with topic and method text search', async (
   await expect(
     page.getByText('Search names, research topics, methods, places, and languages.'),
   ).toBeVisible();
-  const positions = await filters
-    .getByRole('combobox')
-    .evaluateAll((selects) =>
-      selects.map((el) => ({
-        x: el.getBoundingClientRect().x,
-        y: el.getBoundingClientRect().y,
-        height: el.getBoundingClientRect().height,
-      })),
-    );
+  const positions = await filters.getByRole('combobox').evaluateAll((selects) =>
+    selects.map((el) => ({
+      x: el.getBoundingClientRect().x,
+      y: el.getBoundingClientRect().y,
+      height: el.getBoundingClientRect().height,
+    })),
+  );
   const searchBottom = await page
     .getByRole('searchbox')
     .evaluate((el) => el.getBoundingClientRect().bottom);
@@ -280,4 +289,39 @@ test('four compact dropdowns combine with topic and method text search', async (
   );
   await page.getByRole('combobox', { name: 'Country', exact: true }).selectOption('JP');
   expect(new URL(page.url()).searchParams.getAll('country')).toEqual(['JP']);
+});
+
+test('official portrait opens the profile and appears beside its name', async ({ page }) => {
+  await page.goto('?page=directory&q=Horiuchi');
+  const portrait = page.getByRole('img', { name: 'Portrait of Yusaku Horiuchi' });
+  await expect(portrait).toBeVisible();
+  await expect(portrait).toHaveAttribute('referrerpolicy', 'no-referrer');
+  await page.getByRole('link', { name: 'Open profile of Yusaku Horiuchi', exact: true }).focus();
+  await page.keyboard.press('Enter');
+  await expect(page.getByRole('heading', { level: 1 })).toHaveText('Yusaku Horiuchi');
+  await expect(page.locator('.profile-heading').getByRole('img')).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Photo: official FSU page' })).toHaveAttribute(
+    'href',
+    'https://cosspp.fsu.edu/polisci/faculty/2080/',
+  );
+  await page.reload();
+  await expect(page.locator('.profile-heading').getByRole('img')).toBeVisible();
+});
+test('unavailable portraits fall back to initials without blocking profile navigation', async ({
+  page,
+}) => {
+  await page.route(/^https:\/\/[^/]*fsu\.edu\/.*\.(?:jpe?g|png|webp|avif)(?:\?.*)?$/i, (route) =>
+    route.abort(),
+  );
+  await page.goto('?page=directory&q=Horiuchi');
+  await expect(page.locator('.avatar')).toHaveText('YH');
+  await expect(page.locator('.avatar img')).toHaveCount(0);
+  await page.getByRole('link', { name: 'Open profile of Yusaku Horiuchi', exact: true }).click();
+  await expect(page.locator('.profile-heading .avatar')).toHaveText('YH');
+});
+test('profiles without verified photos retain initials', async ({ page }) => {
+  await page.goto('?page=profile&id=stewart-fotheringham');
+  await expect(page.locator('.profile-heading .avatar')).toHaveText('SF');
+  await expect(page.locator('.profile-heading img')).toHaveCount(0);
+  await expect(page.getByRole('link', { name: 'Photo: official FSU page' })).toHaveCount(0);
 });

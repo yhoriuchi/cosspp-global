@@ -4,6 +4,7 @@ import { queryFor } from '../utils/search';
 import { PageHeading } from '../components/Layout';
 import { affiliationLabel, appointmentLabel } from '../utils/profileDisplay';
 import { researchRegions } from '../utils/geography';
+import { FacultyPortrait } from '../components/FacultyPortrait';
 export function Profile({ person: r, params }: { person?: Faculty; params: URLSearchParams }) {
   if (!r)
     return (
@@ -24,12 +25,20 @@ export function Profile({ person: r, params }: { person?: Faculty; params: URLSe
       <Link className="back-link" href={`?${back}`}>
         ← Back to faculty directory
       </Link>
-      <PageHeading
-        eyebrow={affiliationLabel(r).toUpperCase()}
-        title={r.preferred_display_name || r.full_name}
-      >
-        <p>{r.academic_title}</p>
-      </PageHeading>
+      <div className="profile-heading">
+        <FacultyPortrait key={r.id} person={r} large />
+        <PageHeading
+          eyebrow={affiliationLabel(r).toUpperCase()}
+          title={r.preferred_display_name || r.full_name}
+        >
+          <p>{r.academic_title}</p>
+        </PageHeading>
+      </div>
+      {r.photo && (
+        <p className="photo-credit small">
+          <a href={r.photo.source_url}>Photo: official FSU page ↗</a>
+        </p>
+      )}
       <nav className="profile-resource-links" aria-label="Detailed faculty information">
         <a className="button" href={r.official_profile_url}>
           Official FSU profile ↗

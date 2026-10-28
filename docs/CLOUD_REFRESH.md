@@ -7,7 +7,7 @@ deployment after validation. He subsequently explicitly approved and changed
 `yhoriuchi/cosspp-global` to Public, with Pages hosted by this same repository.
 No separate `cosspp-global-site` repository is needed. This supersedes the earlier
 private-source/separate-output plan and per-deployment manual approval requirement.
-Private review material, unapproved languages, photos and university marks remain excluded.
+Private review material, inferred or unsourced languages and university marks remain excluded.
 
 The repository has been created. Workflow files and local checks are prepared;
 Source upload is complete. API secret registration and the first cloud refresh

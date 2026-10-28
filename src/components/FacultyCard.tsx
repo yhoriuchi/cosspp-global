@@ -2,6 +2,7 @@ import type { Faculty } from '../types/faculty';
 import { Link } from './Link';
 import { affiliationLabel, appointmentLabel } from '../utils/profileDisplay';
 import { researchRegions } from '../utils/geography';
+import { FacultyPortrait } from './FacultyPortrait';
 export function profileHref(id: string) {
   const p = new URLSearchParams(window.location.search);
   p.set('page', 'profile');
@@ -12,14 +13,13 @@ export function FacultyCard({ person: r }: { person: Faculty }) {
   return (
     <article className="faculty-card">
       <div className="card-top">
-        <div className="avatar" aria-hidden="true">
-          {r.full_name
-            .split(/\s+/)
-            .map((x) => x[0])
-            .filter(Boolean)
-            .filter((_, i, a) => i === 0 || i === a.length - 1)
-            .join('')}
-        </div>
+        <Link
+          className="portrait-link"
+          href={profileHref(r.id)}
+          aria-label={`Open profile of ${r.full_name}`}
+        >
+          <FacultyPortrait person={r} />
+        </Link>
         <span className="department-label">{affiliationLabel(r)}</span>
       </div>
       <h3>

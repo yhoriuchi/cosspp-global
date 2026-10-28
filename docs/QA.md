@@ -142,3 +142,10 @@ across desktop/mobile Chromium and iPhone WebKit: passed (30.5 seconds), includi
 and method text queries, reset, reload and legacy multi-value URLs. Private visual
 checks and screenshots confirm the desktop/phone layouts. Actual iPhone hardware
 was not tested. No faculty data or matching logic changed.
+
+### Official faculty portraits — 2026-10-27
+
+- Added 169 source-linked official portraits across 176 records; seven retain initials because reviewed pages provided no usable portrait or used a university mark. Existing academic fields and sources were preserved.
+- Validated all 176 records; 49 unit checks, production build and eight-file privacy/subpath audit passed. All 36 browser checks passed across desktop Chromium, phone Chromium and iPhone WebKit, including portrait navigation, initials fallback, all profile routes, keyboard use, four dropdowns and automated accessibility.
+- Independently checked selected official image resources and visually reviewed contact sheets to exclude marks. Real official images loaded in Chromium and iPhone WebKit for Horiuchi, Moorthy (AVIF), Heffron Casserleigh and Taylor. Desktop and phone screenshots were inspected; no page errors or horizontal overflow. Real iPhone hardware was not available.
+- External image responses are stubbed only in deterministic browser tests; live image checks use actual official URLs. Image binaries, source caches and screenshots remain private and ignored.

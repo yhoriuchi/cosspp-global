@@ -26,6 +26,19 @@ export const regions = [
 const text = z.string().trim().min(1);
 const date = z.iso.date();
 const url = z.url().refine((s) => /^https?:\/\//.test(s), 'Only public HTTP(S) URLs allowed');
+const officialPhotoUrl = z.url().refine((s) => {
+  try {
+    const u = new URL(s);
+    return (
+      u.protocol === 'https:' &&
+      !u.username &&
+      !u.password &&
+      (u.hostname === 'fsu.edu' || u.hostname.endsWith('.fsu.edu'))
+    );
+  } catch {
+    return false;
+  }
+}, 'Portraits and their source pages must use official FSU HTTPS URLs');
 export const sourceSchema = z.strictObject({
   url,
   accessed: date,
@@ -123,6 +136,7 @@ export const facultySchema = z
     official_profile_url: url,
     personal_website_url: url.optional(),
     cv_url: url.optional(),
+    photo: z.strictObject({ url: officialPhotoUrl, source_url: officialPhotoUrl }).optional(),
     short_biography: text.optional(),
     phd: degreeSchema.optional(),
     other_degrees: z.array(degreeSchema).default([]),
@@ -166,6 +180,7 @@ export const facultySchema = z
       'email',
       'office',
       'cv_url',
+      'photo',
       'personal_website_url',
       'short_biography',
       'phd',
@@ -199,6 +214,21 @@ export const facultySchema = z
           message: 'Populated public field requires reviewed source evidence',
         });
     }
+    if (
+      r.photo &&
+      !r.sources.some(
+        (s) =>
+          s.url === r.photo!.source_url &&
+          s.fields.includes('photo') &&
+          s.retrieval === 'direct' &&
+          (s.extraction !== 'automatic' || !!s.reviewed_by),
+      )
+    )
+      ctx.addIssue({
+        code: 'custom',
+        path: ['photo'],
+        message: 'Portrait requires a matching directly reviewed official page source',
+      });
     if (r.verification_status === 'faculty_confirmed' && r.faculty_review_status !== 'confirmed')
       ctx.addIssue({ code: 'custom', message: 'Faculty confirmation status mismatch' });
     const names = new Intl.DisplayNames(['en'], { type: 'region' });

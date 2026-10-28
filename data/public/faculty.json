@@ -28,6 +28,17 @@
         "evidence": "Listed in the current faculty directory, accessed through indexed official content.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/publichealth/faculty/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Alan Rowan.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "alan-rowan",
@@ -36,7 +47,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/publichealth/wp-content/uploads/sites/16/2022/12/Alan-Rowan-2022-4x4-web-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/publichealth/faculty/"
+    }
   },
   {
     "full_name": "Alexandra Cockerham",
@@ -67,6 +82,17 @@
         "evidence": "Listed in the current faculty directory, accessed through indexed official content.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/iss/faculty/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Alexandra Cockerham, Ph.D..",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "alexandra-cockerham",
@@ -75,7 +101,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/iss/wp-content/uploads/sites/13/2022/03/Alexandra-Cockerham-SQ-300x300.jpeg",
+      "source_url": "https://cosspp.fsu.edu/iss/faculty/"
+    }
   },
   {
     "full_name": "Amanda Driscoll",
@@ -145,6 +175,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/amanda-driscoll/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Amanda Driscoll.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "adriscoll@fsu.edu",
@@ -162,7 +203,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/Amanda-Driscoll-2022-4x4-1-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/polisci/faculty/amanda-driscoll/"
+    }
   },
   {
     "full_name": "Amber DeJohn",
@@ -268,6 +313,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/geography/faculty/amber-dejohn/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Amber DeJohn.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "ad23cb@fsu.edu",
@@ -284,7 +340,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "personal_website_url": "https://www.amberddejohn.com/"
+    "personal_website_url": "https://www.amberddejohn.com/",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/geography/wp-content/uploads/sites/41/2023/07/thumbnail-5-300x300.jpeg",
+      "source_url": "https://cosspp.fsu.edu/geography/faculty/amber-dejohn/"
+    }
   },
   {
     "full_name": "Amid Ardakani",
@@ -315,6 +375,17 @@
         "extraction": "automatic",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/amid-ardakani/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Amid Ardakani.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "amardakani@fsu.edu",
@@ -324,7 +395,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2020/02/Amid-Ardakani-2024-4x6-1-200x300.jpeg",
+      "source_url": "https://cosspp.fsu.edu/economics/faculty/amid-ardakani/"
+    }
   },
   {
     "full_name": "Amit Anshumali",
@@ -404,6 +479,17 @@
         "evidence": "College update specifically identifies the three Integrated Studies faculty within its ISS report.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/iss/faculty/amit-anshumali/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Amit Anshumali.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "amit-anshumali",
@@ -412,7 +498,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/iss/wp-content/uploads/sites/13/2025/03/Amit-Anshumali-2025-4x4-web-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/iss/faculty/amit-anshumali/"
+    }
   },
   {
     "full_name": "Amy Burdette",
@@ -504,6 +594,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/sociology/faculty/#post-120",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Amy Burdette.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "aburdette@fsu.edu",
@@ -514,7 +615,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "cv_url": "https://cosspp.fsu.edu/publichealth/wp-content/uploads/sites/16/2019/07/CVBURDETTE.doc"
+    "cv_url": "https://cosspp.fsu.edu/publichealth/wp-content/uploads/sites/16/2019/07/CVBURDETTE.doc",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/sociology/wp-content/uploads/sites/18/2023/03/burdette-headshot-768x1024-1-e1733516408648-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/sociology/faculty/#post-120"
+    }
   },
   {
     "full_name": "Ana-Maria Dimand",
@@ -598,6 +703,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/askew/faculty/ana-maria-dimand/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Ana-Maria Dimand.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "ana-maria-dimand",
@@ -663,7 +779,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "personal_website_url": "https://anamariadimand.github.io"
+    "personal_website_url": "https://anamariadimand.github.io",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2024/08/Askew-Headshot-Web-Dimand-1-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/askew/faculty/ana-maria-dimand/"
+    }
   },
   {
     "full_name": "Andrew Ballard",
@@ -735,6 +855,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/andrew-ballard/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Andrew Ballard.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "aoballard@fsu.edu",
@@ -746,7 +877,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "personal_website_url": "https://www.andrewoballard.com"
+    "personal_website_url": "https://www.andrewoballard.com",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2023/08/AOBallard_Headshot_2017-e1733509362544-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/polisci/faculty/andrew-ballard/"
+    }
   },
   {
     "full_name": "Andy Scott Chang",
@@ -852,6 +987,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/sociology/faculty/andy-chang/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Andy Scott Chang.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "aschang@fsu.edu",
@@ -863,7 +1009,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "personal_website_url": "https://www.andyscottchang.com/"
+    "personal_website_url": "https://www.andyscottchang.com/",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/sociology/wp-content/uploads/sites/18/2023/09/Andy-Chang-2024-4x4-1-300x300.jpeg",
+      "source_url": "https://cosspp.fsu.edu/sociology/faculty/andy-chang/"
+    }
   },
   {
     "full_name": "Anne Barrett",
@@ -908,6 +1058,17 @@
         "evidence": "Listed as a Pepper Associate or director on the official current faculty page.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/sociology/faculty/#post-120",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Anne Barrett.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "abarrett@fsu.edu",
@@ -917,7 +1078,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/sociology/wp-content/uploads/sites/18/2020/02/Anne-Barrett-2024-4x4-1-300x300.jpeg",
+      "source_url": "https://cosspp.fsu.edu/sociology/faculty/#post-120"
+    }
   },
   {
     "full_name": "Anne Chin",
@@ -985,6 +1150,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/geography/faculty/anne-chin/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Anne Chin.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "anne.chin@fsu.edu",
@@ -1001,7 +1177,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/geography/wp-content/uploads/sites/41/2024/08/Anne-Chin_SQ-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/geography/faculty/anne-chin/"
+    }
   },
   {
     "full_name": "Annette Schwabe",
@@ -1032,6 +1212,17 @@
         "evidence": "Listed in the current faculty directory, accessed through indexed official content.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/publichealth/faculty/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Annette Schwabe.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "annette-schwabe",
@@ -1040,7 +1231,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/publichealth/wp-content/uploads/sites/16/2022/10/Annette-Schwabe-2022-4x4-1-300x300.jpeg",
+      "source_url": "https://cosspp.fsu.edu/publichealth/faculty/"
+    }
   },
   {
     "full_name": "Anthony Kwasnica",
@@ -1112,6 +1307,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/tony-kwasnica/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Anthony Kwasnica.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "akwasnica@fsu.edu",
@@ -1122,7 +1328,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2023/11/Anthony-Kwasnica-2024-4x6-web-200x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/economics/faculty/tony-kwasnica/"
+    }
   },
   {
     "full_name": "Audrey Heffron Casserleigh",
@@ -1152,6 +1362,17 @@
         "evidence": "Listed under Faculty or Faculty Affiliates, separate from Staff, in current EMHS directory.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://em.fsu.edu/faculty-staff.php",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Audrey Heffron Casserleigh, PhD.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "aheffron@em.fsu.edu",
@@ -1161,7 +1382,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://em.fsu.edu/images/people/casserleigh_sq500_2025.png",
+      "source_url": "https://em.fsu.edu/faculty-staff.php"
+    }
   },
   {
     "full_name": "Aurora Echavarria",
@@ -1218,6 +1443,17 @@
         "evidence": "Biography explicitly describes comparative governance, urban finance, property-tax perceptions and fair-housing research. Visiting work in Mexico is not coded as geographic research expertise.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/durp/faculty/aurora-echavarria/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Aurora Echavarria.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "short_biography": "Studies governance, property taxation, and inequalities in housing and public spending.",
@@ -1227,7 +1463,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/durp/wp-content/uploads/sites/9/2025/08/Echavarria2-300x297.png",
+      "source_url": "https://cosspp.fsu.edu/durp/faculty/aurora-echavarria/"
+    }
   },
   {
     "full_name": "Becs Rogers",
@@ -1257,6 +1497,17 @@
         "evidence": "Listed under Faculty or Faculty Affiliates, separate from Staff, in current EMHS directory.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://em.fsu.edu/faculty-staff.php",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Becs Rogers, PhD.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "becs-rogers",
@@ -1265,7 +1516,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://em.fsu.edu/images/people/rogers_sq500_2025.png",
+      "source_url": "https://em.fsu.edu/faculty-staff.php"
+    }
   },
   {
     "full_name": "Billie Ventimiglia",
@@ -1296,6 +1551,17 @@
         "evidence": "Listed in the current faculty directory, accessed through indexed official content.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/durp/faculty/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Billie Ventimiglia.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "billie-ventimiglia",
@@ -1304,7 +1570,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/durp/wp-content/uploads/sites/9/2021/05/VentimigliaHeadshot-300x263.jpg",
+      "source_url": "https://cosspp.fsu.edu/durp/faculty/"
+    }
   },
   {
     "full_name": "Brad Gomez",
@@ -1386,6 +1656,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/brad-gomez/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Brad Gomez.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "bgomez@fsu.edu",
@@ -1397,7 +1678,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "personal_website_url": "http://myweb.fsu.edu/bgomez/"
+    "personal_website_url": "http://myweb.fsu.edu/bgomez/",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/Gomez-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/polisci/faculty/brad-gomez/"
+    }
   },
   {
     "full_name": "Brad Skillman",
@@ -1427,6 +1712,17 @@
         "evidence": "Listed under Faculty or Faculty Affiliates, separate from Staff, in current EMHS directory.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://em.fsu.edu/faculty-staff.php",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Brad Skillman, EdD.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "bskillman@em.fsu.edu",
@@ -1436,7 +1732,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://em.fsu.edu/images/people/skillman_sq500_2025.png",
+      "source_url": "https://em.fsu.edu/faculty-staff.php"
+    }
   },
   {
     "full_name": "Bradley Kile",
@@ -1505,6 +1805,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/bradley-kile/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Bradley Kile.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "bkile@fsu.edu",
@@ -1515,7 +1826,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/Capture-e1733510971941-300x300.png",
+      "source_url": "https://cosspp.fsu.edu/polisci/faculty/bradley-kile/"
+    }
   },
   {
     "full_name": "Bryant Harden",
@@ -1559,6 +1874,17 @@
         "evidence": "Current CGE staff directory lists the Global Citizenship Certificate program director. IA directory establishes affiliated listing.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/internationalaffairs/faculty/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Bryant Harden.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "bryant-harden",
@@ -1567,7 +1893,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/internationalaffairs/wp-content/uploads/sites/12/2024/08/Bryant-Harden-GCCHeadshot-e1723559692932-300x300.png",
+      "source_url": "https://cosspp.fsu.edu/internationalaffairs/faculty/"
+    }
   },
   {
     "full_name": "Camilo Rubbini",
@@ -1659,6 +1989,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/iss/faculty/camilo-rubbini/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Camilo Rubbini, Ph.D..",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "camilo-rubbini",
@@ -1694,7 +2035,11 @@
     "faculty_review_status": "not_requested",
     "publication_status": "public",
     "personal_website_url": "https://www.camilorubbini.com",
-    "cv_url": "https://www.camilorubbini.com/wp-content/uploads/2026/10/Camilo_Rubbbini_CV.pdf"
+    "cv_url": "https://www.camilorubbini.com/wp-content/uploads/2026/10/Camilo_Rubbbini_CV.pdf",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/iss/wp-content/uploads/sites/13/2023/09/Camilo-Rubbini-SQ-300x300.jpeg",
+      "source_url": "https://cosspp.fsu.edu/iss/faculty/camilo-rubbini/"
+    }
   },
   {
     "full_name": "Carl Kitchens",
@@ -1771,6 +2116,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/carl-kitchens/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Carl Kitchens.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "ckitchens@fsu.edu",
@@ -1782,7 +2138,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "personal_website_url": "https://sites.google.com/site/kitchct/"
+    "personal_website_url": "https://sites.google.com/site/kitchct/",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2020/09/Carl-Kitchens-2023-4x6-1-200x300.jpeg",
+      "source_url": "https://cosspp.fsu.edu/economics/faculty/carl-kitchens/"
+    }
   },
   {
     "full_name": "Carlisle Rainey",
@@ -1861,6 +2221,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/carlisle-rainey/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Carlisle Rainey.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "crainey@fsu.edu",
@@ -1878,7 +2249,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/rainey-cropped-300x274.jpeg",
+      "source_url": "https://cosspp.fsu.edu/polisci/faculty/carlisle-rainey/"
+    }
   },
   {
     "full_name": "Carolina S. Velasquez-Calderón",
@@ -1959,6 +2334,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/geography/faculty/carolina-velasquez/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Carolina S. Velasquez-Calderón.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "csv23@fsu.edu",
@@ -1974,7 +2360,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/geography/wp-content/uploads/sites/41/2023/10/Carolina-Velasquez-2024-4x4-1-300x300.jpeg",
+      "source_url": "https://cosspp.fsu.edu/geography/faculty/carolina-velasquez/"
+    }
   },
   {
     "full_name": "Carolyn Washington",
@@ -2004,6 +2394,17 @@
         "evidence": "Listed under Faculty or Faculty Affiliates, separate from Staff, in current EMHS directory.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://em.fsu.edu/faculty-staff.php",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Carolyn Washington, PhD.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "cwashington@em.fsu.edu",
@@ -2013,7 +2414,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://em.fsu.edu/images/people/washington_sq400_2022.jpg",
+      "source_url": "https://em.fsu.edu/faculty-staff.php"
+    }
   },
   {
     "full_name": "Chris Carhart",
@@ -2043,6 +2448,17 @@
         "evidence": "Listed under Faculty or Faculty Affiliates, separate from Staff, in current EMHS directory.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://em.fsu.edu/faculty-staff.php",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Chris Carhart.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "ccarhart@em.fsu.edu",
@@ -2052,7 +2468,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://em.fsu.edu/images/people/carhart_sq300_2025.jpg",
+      "source_url": "https://em.fsu.edu/faculty-staff.php"
+    }
   },
   {
     "full_name": "Chris Coutts",
@@ -2164,6 +2584,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/durp/faculty/chris-coutts/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Chris Coutts.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "short_biography": "Studies how ecological land use and nature conservation support community health, including research in Malawi.",
@@ -2175,7 +2606,11 @@
     "faculty_review_status": "not_requested",
     "publication_status": "public",
     "personal_website_url": "https://coss.fsu.edu/ccoutts/",
-    "cv_url": "https://cvdb.fsu.edu/cvdb/CCOUTTS.rtf"
+    "cv_url": "https://cvdb.fsu.edu/cvdb/CCOUTTS.rtf",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/durp/wp-content/uploads/sites/9/2020/09/Chris-Coutts-2022-4x4-web-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/durp/faculty/chris-coutts/"
+    }
   },
   {
     "full_name": "Christopher Reenock",
@@ -2233,6 +2668,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/christopher-reenock/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Christopher Reenock.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "creenock@fsu.edu",
@@ -2244,7 +2690,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "personal_website_url": "https://chrisreenock.org/"
+    "personal_website_url": "https://chrisreenock.org/",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/reenock_1-1_0.jpg",
+      "source_url": "https://cosspp.fsu.edu/polisci/faculty/christopher-reenock/"
+    }
   },
   {
     "full_name": "Christopher Uejio",
@@ -2327,6 +2777,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/geography/faculty/christopher-uejio/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Christopher Uejio.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "cuejio@fsu.edu",
@@ -2357,7 +2818,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/geography/wp-content/uploads/sites/41/2015/07/Chris-Uejio-2024-4x4-1-300x300.jpeg",
+      "source_url": "https://cosspp.fsu.edu/geography/faculty/christopher-uejio/"
+    }
   },
   {
     "full_name": "Corey Moss-Pech",
@@ -2388,6 +2853,17 @@
         "extraction": "automatic",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/sociology/faculty/#post-120",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Corey  Moss-Pech.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "corey.mosspech@fsu.edu",
@@ -2397,7 +2873,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/sociology/wp-content/uploads/sites/18/2023/09/Corey-Moss-Pech-2024-4x4-web-300x300.jpeg",
+      "source_url": "https://cosspp.fsu.edu/sociology/faculty/#post-120"
+    }
   },
   {
     "full_name": "Crystal Taylor",
@@ -2445,6 +2925,17 @@
         "evidence": "Current institute profile confirms teaching appointment, environmental and healthy-community research, program evaluations and field research in Ghana; study abroad in Japan is not research-country evidence.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/dmi/current-team/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Crystal Taylor, PhD.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "crystal-taylor",
@@ -2453,7 +2944,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/dmi/wp-content/uploads/sites/8/2024/06/Screen-Shot-2024-06-06-at-6.29.31-PM-edited.png",
+      "source_url": "https://cosspp.fsu.edu/dmi/current-team/"
+    }
   },
   {
     "full_name": "Cynthia Fan Yang",
@@ -2508,6 +3003,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/cynthia-fan-yang/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Cynthia Fan Yang.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "cynthia.yang@fsu.edu",
@@ -2518,7 +3024,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "personal_website_url": "https://sites.google.com/site/cynthiafanyang/"
+    "personal_website_url": "https://sites.google.com/site/cynthiafanyang/",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2020/09/20250408_160202000_iOS-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/economics/faculty/cynthia-fan-yang/"
+    }
   },
   {
     "full_name": "Daniel Grischy",
@@ -2549,6 +3059,17 @@
         "evidence": "Listed in the current faculty directory, accessed through indexed official content.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/publichealth/faculty/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Daniel Grischy.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "daniel-grischy",
@@ -2557,7 +3078,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/publichealth/wp-content/uploads/sites/16/2025/04/Daniel-Grischy-2025-4x4-1-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/publichealth/faculty/"
+    }
   },
   {
     "full_name": "Daniel L. Fay",
@@ -2639,6 +3164,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/askew/faculty/daniel-fay/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Daniel L. Fay.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "daniel-l-fay",
@@ -2648,7 +3184,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "cv_url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2023/10/Fay_General_Vita_2023_10_03.pdf"
+    "cv_url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2023/10/Fay_General_Vita_2023_10_03.pdf",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2020/02/Daniel-Fay-2022-4x4-web-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/askew/faculty/daniel-fay/"
+    }
   },
   {
     "full_name": "Danielle N. Atkins",
@@ -2720,6 +3260,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/askew/faculty/danielle-atkins/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Danielle N. Atkins.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "danielle-n-atkins",
@@ -2728,7 +3279,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2022/08/2026-Askew-Headshot-Equalizing-Web-1-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/askew/faculty/danielle-atkins/"
+    }
   },
   {
     "full_name": "David Berlan",
@@ -2823,6 +3378,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/askew/faculty/david-berlan/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed David Berlan.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "short_biography": "Studies how ideas and organizational networks shape nonprofit change across global health, development and other policy fields.",
@@ -2833,7 +3399,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "cv_url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2020/09/Berlan_General_Vita_2020-03-04.pdf"
+    "cv_url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2020/09/Berlan_General_Vita_2020-03-04.pdf",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2020/02/2026-Askew-Headshot-Equalizing-Web-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/askew/faculty/david-berlan/"
+    }
   },
   {
     "full_name": "David Foster",
@@ -3016,6 +3586,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://em.fsu.edu/faculty-staff.php",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed David Merrick.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "dmerrick@em.fsu.edu",
@@ -3025,7 +3606,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://em.fsu.edu/images/people/merrick_sq500_2025b.png",
+      "source_url": "https://em.fsu.edu/faculty-staff.php"
+    }
   },
   {
     "full_name": "Davide Luparello",
@@ -3086,6 +3671,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/davide-luparello/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Davide Luparello.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "dluparello@fsu.edu",
@@ -3096,7 +3692,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "personal_website_url": "https://www.davideluparello.com/"
+    "personal_website_url": "https://www.davideluparello.com/",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2026/07/Profile-245x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/economics/faculty/davide-luparello/"
+    }
   },
   {
     "full_name": "Dawn Carr",
@@ -3151,6 +3751,17 @@
         "evidence": "Current Pepper directory identifies Carr as Claude Pepper Center director.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/sociology/faculty/#post-120",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Dawn Carr.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "dccarr@fsu.edu",
@@ -3160,7 +3771,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/sociology/wp-content/uploads/sites/18/2020/02/Dawn-Carr-2022-4x4-web-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/sociology/faculty/#post-120"
+    }
   },
   {
     "full_name": "Deana A. Rohlinger",
@@ -3219,6 +3834,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/sociology/faculty/deana-rohlinger/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Deana A.  Rohlinger.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "deana.rohlinger@fsu.edu",
@@ -3228,7 +3854,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/sociology/wp-content/uploads/sites/18/2020/02/rohlinger-pic2-273x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/sociology/faculty/deana-rohlinger/"
+    }
   },
   {
     "full_name": "Deanna Barath",
@@ -3259,6 +3889,17 @@
         "evidence": "Listed in the current faculty directory, accessed through indexed official content.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/publichealth/faculty/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Deanna Barath.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "deanna-barath",
@@ -3267,7 +3908,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/publichealth/wp-content/uploads/sites/16/2022/10/Deanna-Barath-2022-4x4-web-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/publichealth/faculty/"
+    }
   },
   {
     "full_name": "Dennis Smith",
@@ -3308,6 +3953,17 @@
         "evidence": "Individual official profile located through indexed public content.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/durp/faculty/dennis-smith/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Dennis Smith, FAICP.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "dennis-smith",
@@ -3316,7 +3972,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/durp/wp-content/uploads/sites/9/2020/02/Dennis-Smith-2022-4x4-web-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/durp/faculty/dennis-smith/"
+    }
   },
   {
     "full_name": "Dotan Haim",
@@ -3387,6 +4047,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/dotan-haim/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Dotan Haim.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "dhaim@fsu.edu",
@@ -3404,7 +4075,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "cv_url": "https://dotanhaim.com/docs/Haim_CV.pdf?v=19aea12a"
+    "cv_url": "https://dotanhaim.com/docs/Haim_CV.pdf?v=19aea12a",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/09/Dotan-Haim-2022-4x4-web-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/polisci/faculty/dotan-haim/"
+    }
   },
   {
     "full_name": "Doug Norton",
@@ -3463,6 +4138,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/doug-norton/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Doug Norton.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "danorton@fsu.edu",
@@ -3473,7 +4159,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "personal_website_url": "https://www.dougnorton.com/"
+    "personal_website_url": "https://www.dougnorton.com/",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2022/08/norton_headshot-Fall-2022-200x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/economics/faculty/doug-norton/"
+    }
   },
   {
     "full_name": "Doug Schrock",
@@ -3504,6 +4194,17 @@
         "extraction": "automatic",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/sociology/faculty/#post-120",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Doug Schrock.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "dschrock@fsu.edu",
@@ -3513,7 +4214,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/sociology/wp-content/uploads/sites/18/2020/02/Doug-Schrock-2022-4x4-web-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/sociology/faculty/#post-120"
+    }
   },
   {
     "full_name": "Elif Basaran",
@@ -3605,6 +4310,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/elif-basaran/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Elif Basaran.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "efb5398@psu.edu",
@@ -3653,7 +4369,11 @@
     "faculty_review_status": "not_requested",
     "publication_status": "public",
     "personal_website_url": "https://www.elif-basaran.com/",
-    "cv_url": "https://www.elif-basaran.com/_files/ugd/968c7f_ea8c78e039054347b75f13b8f6be7b2a.pdf"
+    "cv_url": "https://www.elif-basaran.com/_files/ugd/968c7f_ea8c78e039054347b75f13b8f6be7b2a.pdf",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2026/07/Headshot_ElifBasaran-235x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/economics/faculty/elif-basaran/"
+    }
   },
   {
     "full_name": "Eman M. Vovsi",
@@ -3684,6 +4404,17 @@
         "evidence": "Listed in the current faculty directory, accessed through indexed official content.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/internationalaffairs/faculty/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Eman M. Vovsi.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "eman-m-vovsi",
@@ -3692,7 +4423,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/internationalaffairs/wp-content/uploads/sites/12/2025/08/Eman-Vovsi-Headshot-SQ-300x300.png",
+      "source_url": "https://cosspp.fsu.edu/internationalaffairs/faculty/"
+    }
   },
   {
     "full_name": "Emelie Griffin",
@@ -3757,6 +4492,17 @@
         "evidence": "College update specifically identifies the three Integrated Studies faculty within its ISS report.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/iss/faculty/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Emelie Griffin.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "emelie-griffin",
@@ -3765,7 +4511,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/iss/wp-content/uploads/sites/13/2025/03/Emelie-Griffin-2025-4x4-web-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/iss/faculty/"
+    }
   },
   {
     "full_name": "Emily Billo",
@@ -3821,6 +4571,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/geography/faculty/emily-billo/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Emily Billo.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "ebillo@fsu.edu",
@@ -3831,7 +4592,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/geography/wp-content/uploads/sites/41/2023/09/Emily-Billo-2023-4x4-web-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/geography/faculty/emily-billo/"
+    }
   },
   {
     "full_name": "Ene Ikpebe",
@@ -3919,6 +4684,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/askew/faculty/ene-ikpebe/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Ene Ikpebe.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "ene-ikpebe",
@@ -3942,7 +4718,11 @@
     "faculty_review_status": "not_requested",
     "publication_status": "public",
     "personal_website_url": "http://www.eneikpebe.com",
-    "cv_url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2021/08/CV_Ene-Ikpebe-1.pdf"
+    "cv_url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2021/08/CV_Ene-Ikpebe-1.pdf",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2021/08/Ene-Ikpebe-2022-4x4-web-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/askew/faculty/ene-ikpebe/"
+    }
   },
   {
     "full_name": "Eric Coleman",
@@ -4019,6 +4799,17 @@
         "evidence": "Listed in the current lab faculty directory.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/eric-coleman/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Eric Coleman.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "ecoleman@fsu.edu",
@@ -4036,7 +4827,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/Eric-Coleman-2023-4x4-1-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/polisci/faculty/eric-coleman/"
+    }
   },
   {
     "full_name": "Eric Reading",
@@ -4067,6 +4862,17 @@
         "evidence": "Listed in the current faculty directory, accessed through indexed official content.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/internationalaffairs/faculty/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Eric Reading.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "eric-reading",
@@ -4075,7 +4881,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/internationalaffairs/wp-content/uploads/sites/12/2025/08/Eric-Reading-Headshot-300x291.jpg",
+      "source_url": "https://cosspp.fsu.edu/internationalaffairs/faculty/"
+    }
   },
   {
     "full_name": "Fariba Siddiq",
@@ -4139,6 +4949,17 @@
         "evidence": "Biography describes research in developed and developing countries and combined quantitative and qualitative methods. Global / Cross-national denotes this explicitly broad scope, not a country-specific claim.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/durp/faculty/2007/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Fariba Siddiq.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "short_biography": "Studies travel and access to opportunities across developed and developing country contexts.",
@@ -4148,7 +4969,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/durp/wp-content/uploads/sites/9/2025/08/image001-e1757526400841-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/durp/faculty/2007/"
+    }
   },
   {
     "full_name": "Gabriel Olivier",
@@ -4228,6 +5053,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/gabriel-olivier/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Gabriel Olivier.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "go26f@fsu.edu",
@@ -4239,7 +5075,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "personal_website_url": "https://gabrieljolivier.github.io/"
+    "personal_website_url": "https://gabrieljolivier.github.io/",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2026/07/Untitled-design-1-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/economics/faculty/gabriel-olivier/"
+    }
   },
   {
     "full_name": "Gary VanLandingham",
@@ -4324,6 +5164,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/askew/faculty/gary-van-landingham/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Gary VanLandingham.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "gary-vanlandingham",
@@ -4333,7 +5184,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "cv_url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2023/10/VanLandingham_General_Vita_2023_10_19.pdf"
+    "cv_url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2023/10/VanLandingham_General_Vita_2023_10_19.pdf",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2020/02/Askew-Headshot-Web-VanLandingham-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/askew/faculty/gary-van-landingham/"
+    }
   },
   {
     "full_name": "Hanzhang Liu",
@@ -4430,6 +5285,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/hanzhang-liu/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Hanzhang Liu.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "hanzhang.liu@fsu.edu",
@@ -4460,7 +5326,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2025/08/Screenshot-2025-08-09-151806-231x300.png",
+      "source_url": "https://cosspp.fsu.edu/polisci/faculty/hanzhang-liu/"
+    }
   },
   {
     "full_name": "Helen Mahony",
@@ -4491,6 +5361,17 @@
         "evidence": "Listed in the current faculty directory, accessed through indexed official content.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/publichealth/faculty/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Helen Mahony.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "helen-mahony",
@@ -4499,7 +5380,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/publichealth/wp-content/uploads/sites/16/2021/08/Mahony-Headshot-small-300x290.jpg",
+      "source_url": "https://cosspp.fsu.edu/publichealth/faculty/"
+    }
   },
   {
     "full_name": "Holger Kern",
@@ -4558,6 +5443,17 @@
         "extraction": "agent_reviewed",
         "retrieval": "search_index",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/holger-kern/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Holger Kern.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "hkern@fsu.edu",
@@ -4573,7 +5469,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/Holger-Kern-2022-4x4-web-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/polisci/faculty/holger-kern/"
+    }
   },
   {
     "full_name": "Hongtao Yi",
@@ -4639,6 +5539,17 @@
         "evidence": "CV URL discovered in public search; not downloaded; dated file is not used to establish current appointment.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/askew/faculty/hongtao-yi/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Hongtao Yi.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "cv_url": "https://cosspp.fsu.edu/wp-content/uploads/sites/5/2023/08/CV-Yi-Aug-2024-08.pdf",
@@ -4648,7 +5559,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2023/08/Askew-Headshot-Web-Yi-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/askew/faculty/hongtao-yi/"
+    }
   },
   {
     "full_name": "Huanping Huang",
@@ -4722,6 +5637,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/geography/faculty/huanping-huang/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Huanping Huang.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "hhuang5@fsu.edu",
@@ -4738,7 +5664,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/geography/wp-content/uploads/sites/41/2026/07/image009-1-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/geography/faculty/huanping-huang/"
+    }
   },
   {
     "full_name": "Hyoeun Park",
@@ -4836,6 +5766,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/jacqueline-colao/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Jacqueline Colao.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "jacqueline-colao",
@@ -4844,7 +5785,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2026/07/colao_headshot-257x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/polisci/faculty/jacqueline-colao/"
+    }
   },
   {
     "full_name": "James L. Gibson",
@@ -4911,6 +5856,17 @@
         "extraction": "agent_reviewed",
         "retrieval": "search_index",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/james-l-gibson/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed James L. Gibson.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "james.gibson@fsu.edu",
@@ -4922,7 +5878,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2026/07/2026-09-25-Jim-Gibson-3-270x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/polisci/faculty/james-l-gibson/"
+    }
   },
   {
     "full_name": "James Strickland",
@@ -4976,6 +5936,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/james-strickland/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed James Strickland.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "jmstrickland@fsu.edu",
@@ -4986,7 +5957,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2025/08/2025-08-29-James-Strickland-Headshot-scaled-e1756841011169-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/polisci/faculty/james-strickland/"
+    }
   },
   {
     "full_name": "Jarrett Broder",
@@ -5045,6 +6020,17 @@
         "evidence": "Profile identifies research on UAS in public safety and post-disaster data management, and CDRP deputy directorship.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://em.fsu.edu/faculty-staff.php",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Jarrett Broder.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "jbroder@em.fsu.edu",
@@ -5054,7 +6040,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://em.fsu.edu/images/people/broder_sq400_2021.jpg",
+      "source_url": "https://em.fsu.edu/faculty-staff.php"
+    }
   },
   {
     "full_name": "Jason Davis",
@@ -5117,6 +6107,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/jason-davis/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Jason Davis.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "jason.davis@fsu.edu",
@@ -5128,7 +6129,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "personal_website_url": "http://umich.edu/~jasonsd"
+    "personal_website_url": "http://umich.edu/~jasonsd",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2022/08/jasondavis-297x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/polisci/faculty/jason-davis/"
+    }
   },
   {
     "full_name": "Javier Cano-Urbina",
@@ -5209,6 +6214,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/javier-cano-urbina/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Javier Cano-Urbina.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "jcanourbina@fsu.edu",
@@ -5244,7 +6260,11 @@
     "faculty_review_status": "not_requested",
     "publication_status": "public",
     "personal_website_url": "https://myweb.fsu.edu/jcanourbina/",
-    "cv_url": "https://myweb.fsu.edu/jcanourbina/JavierCanoUrbina-CV.pdf"
+    "cv_url": "https://myweb.fsu.edu/jcanourbina/JavierCanoUrbina-CV.pdf",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2020/02/jcanourbina-200x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/economics/faculty/javier-cano-urbina/"
+    }
   },
   {
     "full_name": "Jeff Brown",
@@ -5300,6 +6320,17 @@
         "evidence": "Biography describes transit, transportation finance and transportation/built-environment relationships.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/durp/faculty/jeff-brown/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Jeff Brown.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "jeff-brown",
@@ -5308,7 +6339,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/durp/wp-content/uploads/sites/9/2020/02/Jeff-Brown-2022-4x4-web-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/durp/faculty/jeff-brown/"
+    }
   },
   {
     "full_name": "Jens Grosser",
@@ -5377,6 +6412,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/jens-grosser/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Jens Grosser.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "jgrosser@fsu.edu",
@@ -5429,7 +6475,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/IMG_2634-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/polisci/faculty/jens-grosser/"
+    }
   },
   {
     "full_name": "Jeongbin Kim",
@@ -5508,6 +6558,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/jeongbin-kim/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Jeongbin Kim.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "jkim33@fsu.edu",
@@ -5520,7 +6581,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "personal_website_url": "https://sites.google.com/site/jbkimecon"
+    "personal_website_url": "https://sites.google.com/site/jbkimecon",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2022/08/Jeongbin_Kim_4x6-225x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/economics/faculty/jeongbin-kim/"
+    }
   },
   {
     "full_name": "Joe Calhoun",
@@ -5747,6 +6812,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/durp/faculty/john-felkner/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed John Felkner.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "short_biography": "Studies urbanization, resilience, and the economic and environmental effects of infrastructure.",
@@ -5757,7 +6833,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/durp/wp-content/uploads/sites/9/2020/02/John-Felkner.jpg",
+      "source_url": "https://cosspp.fsu.edu/durp/faculty/john-felkner/"
+    }
   },
   {
     "full_name": "John R. Hamman",
@@ -5847,6 +6927,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/john/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed John R. Hamman.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "jhamman@fsu.edu",
@@ -5859,7 +6950,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "personal_website_url": "https://myweb.fsu.edu/jhamman"
+    "personal_website_url": "https://myweb.fsu.edu/jhamman",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2020/02/John-Hamman-2022-4x6-1-200x300.jpeg",
+      "source_url": "https://cosspp.fsu.edu/economics/faculty/john/"
+    }
   },
   {
     "full_name": "John Reynolds",
@@ -5914,6 +7009,17 @@
         "evidence": "Listed as a Pepper Associate or director on the official current faculty page.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/sociology/faculty/john-reynolds/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed John Reynolds.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "john.reynolds@fsu.edu",
@@ -5923,7 +7029,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/sociology/wp-content/uploads/sites/18/2020/02/John-Reynolds-2022-4x4-web-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/sociology/faculty/john-reynolds/"
+    }
   },
   {
     "full_name": "Juan David Irigoyen Borunda",
@@ -6044,6 +7154,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/internationalaffairs/faculty/juan-david-irigoyen-borunda-phd/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Juan David Irigoyen  Borunda.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "juan-david-irigoyen-borunda",
@@ -6079,7 +7200,11 @@
     "faculty_review_status": "not_requested",
     "publication_status": "public",
     "personal_website_url": "https://www.jd-irigoyen-borunda.com",
-    "cv_url": "https://www.jd-irigoyen-borunda.com/_files/ugd/eb96bb_1e95c002a38649619bad87134011608b.pdf"
+    "cv_url": "https://www.jd-irigoyen-borunda.com/_files/ugd/eb96bb_1e95c002a38649619bad87134011608b.pdf",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/internationalaffairs/wp-content/uploads/sites/12/2024/01/Juan-David-Irigoyen-Borunda-2024-4x4-web-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/internationalaffairs/faculty/juan-david-irigoyen-borunda-phd/"
+    }
   },
   {
     "full_name": "Kai Ou",
@@ -6183,6 +7308,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/kai-ou/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Kai Ou.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "kou@fsu.edu",
@@ -6200,7 +7336,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/Kai-Ou-2023-4x4-web-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/polisci/faculty/kai-ou/"
+    }
   },
   {
     "full_name": "Kalyani Padmakumar",
@@ -6277,6 +7417,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/2633/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Kalyani Padmakumar.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "kp23ba@fsu.edu",
@@ -6325,7 +7476,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2024/10/Kalyani-Padmakumar-2024-4x6-1-200x300.jpeg",
+      "source_url": "https://cosspp.fsu.edu/economics/faculty/2633/"
+    }
   },
   {
     "full_name": "Karen Cyphers",
@@ -6378,6 +7533,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/karen-cyphers/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Karen Cyphers.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "khalperin@fsu.edu",
@@ -6387,7 +7553,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2023/03/KarenCyphersHeadshotSquare-297x300.jpeg",
+      "source_url": "https://cosspp.fsu.edu/polisci/faculty/karen-cyphers/"
+    }
   },
   {
     "full_name": "Karin Brewster",
@@ -6431,6 +7601,17 @@
         "evidence": "Listed in the current CDPH faculty directory.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/sociology/faculty/#post-120",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Karin Brewster.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "brewster@fsu.edu",
@@ -6440,7 +7621,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/sociology/wp-content/uploads/sites/18/2020/02/Karin-Brewster-2025-4x4-web-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/sociology/faculty/#post-120"
+    }
   },
   {
     "full_name": "Katherine Yewell",
@@ -6532,6 +7717,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/katherine-yewell/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Katherine Yewell.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "kyewell@fsu.edu",
@@ -6543,7 +7739,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "personal_website_url": "https://www.kgyewell.com"
+    "personal_website_url": "https://www.kgyewell.com",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2024/05/KY23-231x300.png",
+      "source_url": "https://cosspp.fsu.edu/economics/faculty/katherine-yewell/"
+    }
   },
   {
     "full_name": "Kathryn Baughman Samuel",
@@ -6665,6 +7865,17 @@
         "evidence": "Listed in the current CDPH faculty directory.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/sociology/faculty/kathryn-tillman/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Kathryn Tillman.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "ktillman@fsu.edu",
@@ -6674,7 +7885,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/sociology/wp-content/uploads/sites/18/2020/02/Kathi-Tillman-2022-4x4-web-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/sociology/faculty/kathryn-tillman/"
+    }
   },
   {
     "full_name": "Katie Sherron",
@@ -6733,6 +7948,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/katie-sherron/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Katie Sherron.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "ksherron@fsu.edu",
@@ -6743,7 +7969,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2020/09/Katie-Sherron-2022-4x6-web-200x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/economics/faculty/katie-sherron/"
+    }
   },
   {
     "full_name": "Katrinell Davis",
@@ -6798,6 +8028,17 @@
         "evidence": "Listed in the current African American Studies faculty directory.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/sociology/faculty/#post-120",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Katrinell Davis.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "kmdavis3@fsu.edu",
@@ -6807,7 +8048,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/sociology/wp-content/uploads/sites/18/2020/02/Untitled-design-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/sociology/faculty/#post-120"
+    }
   },
   {
     "full_name": "Kelly Kinahan",
@@ -6874,6 +8119,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/durp/faculty/kelly-kinahan/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Kelly Kinahan.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "kelly-kinahan",
@@ -6883,7 +8139,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "cv_url": "https://cosspp.fsu.edu/durp/wp-content/uploads/sites/9/2022/08/fall-2022-Kinahan_CV_7-2022.pdf"
+    "cv_url": "https://cosspp.fsu.edu/durp/wp-content/uploads/sites/9/2022/08/fall-2022-Kinahan_CV_7-2022.pdf",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/durp/wp-content/uploads/sites/9/2022/08/Kelly-Kinahan-2022-4x4-web-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/durp/faculty/kelly-kinahan/"
+    }
   },
   {
     "full_name": "Kelly Matush",
@@ -6937,6 +8197,17 @@
         "extraction": "agent_reviewed",
         "retrieval": "search_index",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/kelly-matush/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Kelly Matush.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "kmatush@fsu.edu",
@@ -6953,7 +8224,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/09/Kelly-Matush-2022-4x4-web-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/polisci/faculty/kelly-matush/"
+    }
   },
   {
     "full_name": "Kelly Russell",
@@ -6984,6 +8259,17 @@
         "extraction": "automatic",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/sociology/faculty/#post-120",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Kelly Russell.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "klrussell@fsu.edu",
@@ -6993,7 +8279,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/sociology/wp-content/uploads/sites/18/2021/09/Kelly-Russell-4x4-1-300x300.jpeg",
+      "source_url": "https://cosspp.fsu.edu/sociology/faculty/#post-120"
+    }
   },
   {
     "full_name": "Keon-Hyung Lee",
@@ -7085,6 +8375,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/askew/faculty/keon-hyung-lee/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Keon-Hyung Lee.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "keon-hyung-lee",
@@ -7094,7 +8395,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "cv_url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2020/02/CV_Keon-Lee-1.pdf"
+    "cv_url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2020/02/CV_Keon-Lee-1.pdf",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2020/02/Keon_Hyung_Lee_1-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/askew/faculty/keon-hyung-lee/"
+    }
   },
   {
     "full_name": "Koji Ueno",
@@ -7162,6 +8467,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/sociology/faculty/koji-ueno/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Koji Ueno.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "kueno@fsu.edu",
@@ -7173,7 +8489,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/sociology/wp-content/uploads/sites/18/2020/02/Koji-Ueno-2022-4x4-web-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/sociology/faculty/koji-ueno/"
+    }
   },
   {
     "full_name": "Kwasi Densu",
@@ -7218,6 +8538,17 @@
         "evidence": "Current AAS listing establishes the affiliation but does not establish primary home; primary department remains Unknown pending review.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/aas/faculty/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Kwasi Densu.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "kwasi-densu",
@@ -7226,7 +8557,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/aas/wp-content/uploads/sites/2/2020/02/Kwasi-Densu_0.jpg",
+      "source_url": "https://cosspp.fsu.edu/aas/faculty/"
+    }
   },
   {
     "full_name": "Ladanya Ramirez Surmeier",
@@ -7269,6 +8604,17 @@
         "evidence": "Listed as an affiliate in the current Pepper Institute directory.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/publichealth/faculty/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Ladanya Ramirez  Surmeier.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "ladanya-ramirez-surmeier",
@@ -7277,7 +8623,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/publichealth/wp-content/uploads/sites/16/2023/01/ladanya-headshot-scaled-e1720402809195-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/publichealth/faculty/"
+    }
   },
   {
     "full_name": "Laura Hart",
@@ -7339,6 +8689,17 @@
         "evidence": "Profile identifies these interests, research approaches and senior research staff role at CDRP. International project locations are not treated as research-country expertise without project-specific confirmation.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://em.fsu.edu/faculty-staff.php",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Laura Hart, PhD.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "lhart@em.fsu.edu",
@@ -7348,7 +8709,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://em.fsu.edu/images/people/hart_sq500_2025.png",
+      "source_url": "https://em.fsu.edu/faculty-staff.php"
+    }
   },
   {
     "full_name": "Lee K. Metcalf",
@@ -7388,6 +8753,17 @@
         "evidence": "Individual official faculty page located through public search.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/internationalaffairs/faculty/lee-k-metcalf/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Lee K. Metcalf.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "lee-k-metcalf",
@@ -7396,7 +8772,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/internationalaffairs/wp-content/uploads/sites/12/2020/09/MetcalfLee-e1712672644452.jpg",
+      "source_url": "https://cosspp.fsu.edu/internationalaffairs/faculty/lee-k-metcalf/"
+    }
   },
   {
     "full_name": "Liling Chang",
@@ -7486,6 +8866,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/geography/faculty/liling-chang/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Liling Chang.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "liling.chang@fsu.edu",
@@ -7502,7 +8893,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/geography/wp-content/uploads/sites/41/2024/09/Liling-Chang-2024-4x4-web-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/geography/faculty/liling-chang/"
+    }
   },
   {
     "full_name": "Lindsay Cannon",
@@ -7536,6 +8931,17 @@
         "extraction": "automatic",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/sociology/faculty/#post-120",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Lindsay  Cannon.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "Lcannon2@fsu.edu",
@@ -7545,7 +8951,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/sociology/wp-content/uploads/sites/18/2026/08/Screenshot-2026-10-02-204645-300x257.png",
+      "source_url": "https://cosspp.fsu.edu/sociology/faculty/#post-120"
+    }
   },
   {
     "full_name": "Lisa Munson",
@@ -7576,6 +8986,17 @@
         "extraction": "automatic",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/sociology/faculty/#post-120",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Lisa Munson.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "lisa.munson@fsu.edu",
@@ -7585,7 +9006,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/sociology/wp-content/uploads/sites/18/2020/02/Munson-FSU-Headshot-300x200.jpg",
+      "source_url": "https://cosspp.fsu.edu/sociology/faculty/#post-120"
+    }
   },
   {
     "full_name": "Lisa Turner de Vera",
@@ -7616,6 +9041,17 @@
         "evidence": "Listed in the current faculty directory, accessed through indexed official content.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/iss/faculty/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Lisa Turner de Vera, Ph.D..",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "lisa-turner-de-vera",
@@ -7624,7 +9060,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/iss/wp-content/uploads/sites/13/2022/11/Lisa-Turner-de-Vera-2022-4x4-web-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/iss/faculty/"
+    }
   },
   {
     "full_name": "Lonna Atkeson",
@@ -7685,6 +9125,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/lonna-atkeson/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Lonna Atkeson.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "latkeson@fsu.edu",
@@ -7695,7 +9146,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2021/09/Lonna-Atkeson-web-e1733509096588-300x300.jpeg",
+      "source_url": "https://cosspp.fsu.edu/polisci/faculty/lonna-atkeson/"
+    }
   },
   {
     "full_name": "Luke Boosey",
@@ -7779,6 +9234,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/luke-boosey/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Luke Boosey.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "lboosey@fsu.edu",
@@ -7791,7 +9257,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "personal_website_url": "http://myweb.fsu.edu/lboosey/"
+    "personal_website_url": "http://myweb.fsu.edu/lboosey/",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2020/02/Luke_Boosey_2022_4x6-200x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/economics/faculty/luke-boosey/"
+    }
   },
   {
     "full_name": "Luke P. Rodgers",
@@ -7862,6 +9332,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/luke-rodgers/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Luke P. Rodgers.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "lprodgers@fsu.edu",
@@ -7873,7 +9354,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "personal_website_url": "https://www.lukeprodgers.com"
+    "personal_website_url": "https://www.lukeprodgers.com",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2020/09/Luke-Rodgers-2024-4x6-1-200x300.jpeg",
+      "source_url": "https://cosspp.fsu.edu/economics/faculty/luke-rodgers/"
+    }
   },
   {
     "full_name": "Manoj Atolia",
@@ -7978,6 +9463,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/manoj-atolia/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Manoj Atolia.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "matolia@fsu.edu",
@@ -7990,7 +9486,11 @@
     "faculty_review_status": "not_requested",
     "publication_status": "public",
     "personal_website_url": "http://myweb.fsu.edu/matolia/",
-    "cv_url": "https://myweb.fsu.edu/matolia/ManojAtolia_CV.pdf"
+    "cv_url": "https://myweb.fsu.edu/matolia/ManojAtolia_CV.pdf",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2020/02/matolia-200x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/economics/faculty/manoj-atolia/"
+    }
   },
   {
     "full_name": "Maria Cristina Ramos",
@@ -8097,6 +9597,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/sociology/faculty/maria-cristina-ramos-ph-d/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Maria Cristina  Ramos.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "mcr22c@fsu.edu",
@@ -8109,7 +9620,11 @@
     "faculty_review_status": "not_requested",
     "publication_status": "public",
     "personal_website_url": "https://www.mariacramos.com/",
-    "cv_url": "https://mariacramos.com/files/cv.pdf"
+    "cv_url": "https://mariacramos.com/files/cv.pdf",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/sociology/wp-content/uploads/sites/18/2026/06/Maria-Cristina-Ramos-SQ-300x300.jpeg",
+      "source_url": "https://cosspp.fsu.edu/sociology/faculty/maria-cristina-ramos-ph-d/"
+    }
   },
   {
     "full_name": "Mark Souva",
@@ -8182,6 +9697,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/mark-souva/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Mark Souva.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "msouva@fsu.edu",
@@ -8194,7 +9720,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/Souva-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/polisci/faculty/mark-souva/"
+    }
   },
   {
     "full_name": "Mark W. Horner",
@@ -8253,6 +9783,17 @@
         "extraction": "agent_reviewed",
         "retrieval": "search_index",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/geography/faculty/mark-horner/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Mark W. Horner.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "mhorner@fsu.edu",
@@ -8268,7 +9809,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/geography/wp-content/uploads/sites/41/2023/08/Mark-Horner-2023-4x4-web-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/geography/faculty/mark-horner/"
+    }
   },
   {
     "full_name": "Mason Mathews",
@@ -8341,6 +9886,17 @@
         "extraction": "agent_reviewed",
         "retrieval": "search_index",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/geography/faculty/mason-mathews/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Mason Mathews.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "mm24di@fsu.edu",
@@ -8351,7 +9907,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/geography/wp-content/uploads/sites/41/2025/01/MasonKERPortraitNEW-300x200.png",
+      "source_url": "https://cosspp.fsu.edu/geography/faculty/mason-mathews/"
+    }
   },
   {
     "full_name": "Mathew Hauer",
@@ -8406,6 +9966,17 @@
         "evidence": "Listed as an affiliate in the current Pepper Institute directory.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/sociology/faculty/#post-120",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Mathew Hauer.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "mehauer@fsu.edu",
@@ -8415,7 +9986,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/sociology/wp-content/uploads/sites/18/2020/02/Mathew-Hauer-2022-4x4-web-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/sociology/faculty/#post-120"
+    }
   },
   {
     "full_name": "Matthew M. Brooks",
@@ -8470,6 +10045,17 @@
         "evidence": "Listed as an affiliate in the current Pepper Institute directory.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/sociology/faculty/#post-120",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Matthew M. Brooks.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "Matt.Brooks@fsu.edu",
@@ -8479,7 +10065,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/sociology/wp-content/uploads/sites/18/2023/08/Matthew-Brooks-2023-4x4-web-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/sociology/faculty/#post-120"
+    }
   },
   {
     "full_name": "Mauricio Astudillo Rodas",
@@ -8535,6 +10125,17 @@
         "evidence": "Official profile explicitly lists these specializations.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/askew/faculty/mauricio-astudillo-rodas/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Mauricio Astudillo Rodas.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "mauricio-astudillo-rodas",
@@ -8543,7 +10144,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2023/09/Mauricio-Astudillo-Rodas-2023-4x4-1-300x300.jpeg",
+      "source_url": "https://cosspp.fsu.edu/askew/faculty/mauricio-astudillo-rodas/"
+    }
   },
   {
     "full_name": "Meaghan McSorley",
@@ -8614,6 +10219,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/durp/faculty/meaghan-mcsorley/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Meaghan McSorley.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "meaghan-mcsorley",
@@ -8623,7 +10239,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "cv_url": "https://cosspp.fsu.edu/durp/wp-content/uploads/sites/9/2023/09/MSM_CV_web_2309.docx"
+    "cv_url": "https://cosspp.fsu.edu/durp/wp-content/uploads/sites/9/2023/09/MSM_CV_web_2309.docx",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/durp/wp-content/uploads/sites/9/2023/09/Capture-300x285.png",
+      "source_url": "https://cosspp.fsu.edu/durp/faculty/meaghan-mcsorley/"
+    }
   },
   {
     "full_name": "Megan Evans",
@@ -8703,6 +10323,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/sociology/faculty/megan-evans/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Megan Evans.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "mme26c@fsu.edu",
@@ -8714,7 +10345,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "personal_website_url": "https://www.drmeganevans.com/"
+    "personal_website_url": "https://www.drmeganevans.com/",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/sociology/wp-content/uploads/sites/18/2026/08/Megan-Evans_17946368478066459038-topaz-denoise-enhance-faceai-300x300.png",
+      "source_url": "https://cosspp.fsu.edu/sociology/faculty/megan-evans/"
+    }
   },
   {
     "full_name": "Mehak Sachdeva",
@@ -8797,6 +10432,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/durp/faculty/mehak-sachdeva/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Mehak Sachdeva.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "short_biography": "Develops spatial models of how place and social interactions shape behavior and policy outcomes.",
@@ -8808,7 +10454,11 @@
     "faculty_review_status": "not_requested",
     "publication_status": "public",
     "personal_website_url": "https://www.mehaksachdeva.com/",
-    "cv_url": "https://www.mehaksachdeva.com/uploads/Sachdeva_CV.pdf"
+    "cv_url": "https://www.mehaksachdeva.com/uploads/Sachdeva_CV.pdf",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/durp/wp-content/uploads/sites/9/2025/02/Sachdeva_headshot_jpeg-294x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/durp/faculty/mehak-sachdeva/"
+    }
   },
   {
     "full_name": "Michael Duncan",
@@ -8879,6 +10529,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/durp/faculty/michael-duncan/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Michael Duncan.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "michael-duncan",
@@ -8888,7 +10549,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "cv_url": "https://cosspp.fsu.edu/durp/wp-content/uploads/sites/9/2020/02/Duncan_General_Vita_2022-08-18-1.pdf"
+    "cv_url": "https://cosspp.fsu.edu/durp/wp-content/uploads/sites/9/2020/02/Duncan_General_Vita_2022-08-18-1.pdf",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/durp/wp-content/uploads/sites/9/2020/02/Michael-Duncan.jpg",
+      "source_url": "https://cosspp.fsu.edu/durp/faculty/michael-duncan/"
+    }
   },
   {
     "full_name": "Michael McFarland",
@@ -8970,6 +10635,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/sociology/faculty/#post-120",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Michael McFarland.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "mmcfarland@fsu.edu",
@@ -8980,7 +10656,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "cv_url": "https://cosspp.fsu.edu/publichealth/wp-content/uploads/sites/16/2019/07/MMCFARLAND.pdf"
+    "cv_url": "https://cosspp.fsu.edu/publichealth/wp-content/uploads/sites/16/2019/07/MMCFARLAND.pdf",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/sociology/wp-content/uploads/sites/18/2020/02/Michael-McFarland-2022-4x4-web-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/sociology/faculty/#post-120"
+    }
   },
   {
     "full_name": "Michael R. Hammock",
@@ -9028,6 +10708,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/michael-hammock/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Michael  R. Hammock.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "mhammock@fsu.edu",
@@ -9038,7 +10729,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2020/02/Michael-Hammock-2024-4x6-1-200x300.jpeg",
+      "source_url": "https://cosspp.fsu.edu/economics/faculty/michael-hammock/"
+    }
   },
   {
     "full_name": "Miles Taylor",
@@ -9094,6 +10789,17 @@
         "evidence": "Listed as a Pepper Associate or director on the official current faculty page.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/sociology/faculty/#post-120",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Miles Taylor.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "mtaylor3@fsu.edu",
@@ -9103,7 +10809,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/sociology/wp-content/uploads/sites/18/2020/02/Miles-Taylor-2024-4x4-1-300x300.jpeg",
+      "source_url": "https://cosspp.fsu.edu/sociology/faculty/#post-120"
+    }
   },
   {
     "full_name": "Minyoung Ku",
@@ -9158,6 +10868,17 @@
         "evidence": "Areas of Interest explicitly identify these topics.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/askew/faculty/minyoung-ku/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Minyoung Ku.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "minyoung-ku",
@@ -9166,7 +10887,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2024/11/Askew-Headshot-Web-Ku-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/askew/faculty/minyoung-ku/"
+    }
   },
   {
     "full_name": "Na’ama Nagar",
@@ -9241,6 +10966,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/naama-nagar/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Na&#8217;ama Nagar.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "nnagar@fsu.edu",
@@ -9288,7 +11024,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/Nagar-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/polisci/faculty/naama-nagar/"
+    }
   },
   {
     "full_name": "Nicholas L. Brown",
@@ -9375,6 +11115,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/nicholas-brown/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Nicholas L. Brown.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "nlb24c@fsu.edu",
@@ -9386,7 +11137,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "personal_website_url": "https://sites.google.com/view/nicholaslbrown"
+    "personal_website_url": "https://sites.google.com/view/nicholaslbrown",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2024/10/Nicholas-Brown-topaz-enhance-faceai-1-e1788531008397-300x284.jpeg",
+      "source_url": "https://cosspp.fsu.edu/economics/faculty/nicholas-brown/"
+    }
   },
   {
     "full_name": "Nick Bergan",
@@ -9468,6 +11223,17 @@
         "extraction": "agent_reviewed",
         "retrieval": "search_index",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/geography/faculty-affiliates/nick-quinton/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Nick Quinton.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "nick-quinton",
@@ -9476,7 +11242,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/geography/wp-content/uploads/sites/41/2015/07/Nick-Quinton-1.jpg",
+      "source_url": "https://cosspp.fsu.edu/geography/faculty-affiliates/nick-quinton/"
+    }
   },
   {
     "full_name": "Olga Gasparyan",
@@ -9584,6 +11354,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/olga-gasparyan/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Olga Gasparyan.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "ogasparyan@fsu.edu",
@@ -9659,7 +11440,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2023/08/Gasparyan-headshot4-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/polisci/faculty/olga-gasparyan/"
+    }
   },
   {
     "full_name": "Onnie Norrbin",
@@ -9735,6 +11520,17 @@
         "evidence": "Biography identifies both IA and Economics appointments and research on Asian economic growth and development, including East Asian development.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/internationalaffairs/faculty/onnie-norbin/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Onnie Norrbin.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "onnie-norrbin",
@@ -9743,7 +11539,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/internationalaffairs/wp-content/uploads/sites/12/2020/09/Onsurang-Norrbin-2023-4x4-web-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/internationalaffairs/faculty/onnie-norbin/"
+    }
   },
   {
     "full_name": "Paromita Sanyal",
@@ -9863,6 +11663,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/sociology/faculty/paromita-sanyal/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Paromita Sanyal.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "psanyal@fsu.edu",
@@ -9875,7 +11686,11 @@
     "faculty_review_status": "not_requested",
     "publication_status": "public",
     "personal_website_url": "https://sanyalsociology.wordpress.com/2018/12/12/paromita-sanyal/",
-    "cv_url": "https://sanyalsociology.wordpress.com/wp-content/uploads/2018/12/psanyalcv_dec2018.pdf"
+    "cv_url": "https://sanyalsociology.wordpress.com/wp-content/uploads/2018/12/psanyalcv_dec2018.pdf",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/sociology/wp-content/uploads/sites/18/2020/02/Paromita-Sanyal-2022-4x4-web-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/sociology/faculty/paromita-sanyal/"
+    }
   },
   {
     "full_name": "Patricia Homan",
@@ -9960,6 +11775,17 @@
         "evidence": "Listed as a Pepper Associate or director on the official current faculty page.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/sociology/faculty/patricia-homan/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Patricia Homan.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "phoman@fsu.edu",
@@ -9969,7 +11795,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/sociology/wp-content/uploads/sites/18/2020/02/Patricia-Homan-2023-4x4-1-300x300.jpeg",
+      "source_url": "https://cosspp.fsu.edu/sociology/faculty/patricia-homan/"
+    }
   },
   {
     "full_name": "Pellumb Reshidi",
@@ -10030,6 +11860,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/pellumb-reshidi/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Pellumb Reshidi.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "pr25k@fsu.edu",
@@ -10041,7 +11882,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "personal_website_url": "https://www.preshidi.com"
+    "personal_website_url": "https://www.preshidi.com",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2025/12/Pellumb-Reshidi-221x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/economics/faculty/pellumb-reshidi/"
+    }
   },
   {
     "full_name": "Portia Campos",
@@ -10109,6 +11954,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/askew/faculty/portia-campos/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Portia Campos.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "portia-campos",
@@ -10118,7 +11974,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "cv_url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2020/09/Campos_General_Vita_2020-03-13.pdf"
+    "cv_url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2020/09/Campos_General_Vita_2020-03-13.pdf",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2020/02/Askew-Headshot-Web-Campos-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/askew/faculty/portia-campos/"
+    }
   },
   {
     "full_name": "Quintin Beazer",
@@ -10189,6 +12049,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/quintin-beazer/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Quintin Beazer.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "qbeazer@fsu.edu",
@@ -10243,7 +12114,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/Quintin-Beazer-2022-4x4-web-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/polisci/faculty/quintin-beazer/"
+    }
   },
   {
     "full_name": "R. Mark Isaac",
@@ -10328,6 +12203,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/mark-issac/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed R. Mark Isaac.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "misaac@fsu.edu",
@@ -10339,7 +12225,11 @@
     "faculty_review_status": "not_requested",
     "publication_status": "public",
     "personal_website_url": "http://myweb.fsu.edu/misaac/",
-    "cv_url": "https://myweb.fsu.edu/misaac/vita.pdf"
+    "cv_url": "https://myweb.fsu.edu/misaac/vita.pdf",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2020/02/Mark-Isaac-2026-4x6-web-200x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/economics/faculty/mark-issac/"
+    }
   },
   {
     "full_name": "R. Vijay Krishna",
@@ -10419,6 +12309,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/r-vijay-krishna/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed R. Vijay  Krishna.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "vkrishna@fsu.edu",
@@ -10430,7 +12331,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "personal_website_url": "https://rvijaykrishna.weebly.com"
+    "personal_website_url": "https://rvijaykrishna.weebly.com",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2020/09/Vijay-Krishna-300x300.jpeg",
+      "source_url": "https://cosspp.fsu.edu/economics/faculty/r-vijay-krishna/"
+    }
   },
   {
     "full_name": "Rachael Cofield",
@@ -10461,6 +12366,17 @@
         "extraction": "automatic",
         "retrieval": "direct",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/geography/faculty/rachael-cofield/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Rachael Cofield.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "rcofield@fsu.edu",
@@ -10470,7 +12386,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/geography/wp-content/uploads/sites/41/2022/10/aab87edc-9403-45ea-abae-faa551eb4464-e1736538447214-300x300.png",
+      "source_url": "https://cosspp.fsu.edu/geography/faculty/rachael-cofield/"
+    }
   },
   {
     "full_name": "Radha Modi",
@@ -10501,6 +12421,17 @@
         "evidence": "Listed in the current faculty directory, accessed through indexed official content.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/iss/faculty/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Radha  Modi.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "radha-modi",
@@ -10509,7 +12440,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/iss/wp-content/uploads/sites/13/2022/12/profilepicmodi-297x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/iss/faculty/"
+    }
   },
   {
     "full_name": "Randall G. Holcombe",
@@ -10577,6 +12512,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/randall-g-holcombe/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Randall G. Holcombe.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "holcombe@fsu.edu",
@@ -10588,7 +12534,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "personal_website_url": "https://www.RandallHolcombe.com"
+    "personal_website_url": "https://www.RandallHolcombe.com",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2020/02/rholcombe-200x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/economics/faculty/randall-g-holcombe/"
+    }
   },
   {
     "full_name": "Raoul Lavin",
@@ -10629,6 +12579,17 @@
         "evidence": "Individual official profile located through indexed public content.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/askew/faculty/raoul-lavin/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Raoul Lavin.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "raoul-lavin",
@@ -10637,7 +12598,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2023/08/Askew-Headshot-Web-Lavin-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/askew/faculty/raoul-lavin/"
+    }
   },
   {
     "full_name": "Rayne Hawkins",
@@ -10667,6 +12632,17 @@
         "evidence": "Listed under Faculty or Faculty Affiliates, separate from Staff, in current EMHS directory.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://em.fsu.edu/faculty-staff.php",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Rayne Hawkins.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "rhawkins@em.fsu.edu",
@@ -10676,7 +12652,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://em.fsu.edu/images/people/hawkins_sq400_2021b.png",
+      "source_url": "https://em.fsu.edu/faculty-staff.php"
+    }
   },
   {
     "full_name": "Renata Schama",
@@ -10730,6 +12710,17 @@
         "evidence": "College update specifically identifies the three Integrated Studies faculty within its ISS report.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/iss/faculty/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Renata Schama.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "renata-schama",
@@ -10738,7 +12729,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/iss/wp-content/uploads/sites/13/2025/03/Renata-Schama-2025-4x4-web-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/iss/faculty/"
+    }
   },
   {
     "full_name": "Robert Duggleby",
@@ -10768,6 +12763,17 @@
         "evidence": "Listed under Faculty or Faculty Affiliates, separate from Staff, in current EMHS directory.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://em.fsu.edu/faculty-staff.php",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Robert Duggleby.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "rduggleby@em.fsu.edu",
@@ -10777,7 +12783,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://em.fsu.edu/images/people/kernel_sq400_2021.jpg",
+      "source_url": "https://em.fsu.edu/faculty-staff.php"
+    }
   },
   {
     "full_name": "Robert McDaniel",
@@ -10807,6 +12817,17 @@
         "evidence": "Listed under Faculty or Faculty Affiliates, separate from Staff, in current EMHS directory.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://em.fsu.edu/faculty-staff.php",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Robert McDaniel.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "rmcdaniel@em.fsu.edu",
@@ -10816,7 +12837,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://em.fsu.edu/images/people/rmcdaniel_sq400_2016.jpg",
+      "source_url": "https://em.fsu.edu/faculty-staff.php"
+    }
   },
   {
     "full_name": "Ryan Owens",
@@ -10877,6 +12902,17 @@
         "extraction": "agent_reviewed",
         "retrieval": "search_index",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/ryan-owens/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Ryan Owens.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "Ryan.Owens@fsu.edu",
@@ -10893,7 +12929,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2024/08/2025-Ryan-Owens-4x4-1-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/polisci/faculty/ryan-owens/"
+    }
   },
   {
     "full_name": "Sam England",
@@ -10956,6 +12996,17 @@
         "extraction": "agent_reviewed",
         "retrieval": "search_index",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/sam-england/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Sam England.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "sam.england@fsu.edu",
@@ -10968,7 +13019,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2026/07/England-Headshot-300x292.jpg",
+      "source_url": "https://cosspp.fsu.edu/polisci/faculty/sam-england/"
+    }
   },
   {
     "full_name": "Samuel R. Staley",
@@ -11025,6 +13080,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/dmi/current-team/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Samuel R. Staley, PhD.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "samuel-r-staley",
@@ -11034,7 +13100,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "cv_url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2020/02/vita.doc"
+    "cv_url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2020/02/vita.doc",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/dmi/wp-content/uploads/sites/8/2024/06/Screen-Shot-2024-06-06-at-6.28.02-PM-edited-1.png",
+      "source_url": "https://cosspp.fsu.edu/dmi/current-team/"
+    }
   },
   {
     "full_name": "Sean Ehrlich",
@@ -11092,6 +13162,17 @@
         "extraction": "agent_reviewed",
         "retrieval": "search_index",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/sean-ehrlich/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Sean Ehrlich.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "sehrlich@fsu.edu",
@@ -11109,7 +13190,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/Ehrlich-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/polisci/faculty/sean-ehrlich/"
+    }
   },
   {
     "full_name": "Shantel Buggs",
@@ -11153,6 +13238,17 @@
         "evidence": "Listed in the current African American Studies faculty directory.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/sociology/faculty/#post-120",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Shantel Buggs.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "sbuggs@fsu.edu",
@@ -11162,7 +13258,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/sociology/wp-content/uploads/sites/18/2020/02/shantel-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/sociology/faculty/#post-120"
+    }
   },
   {
     "full_name": "Shawn Kantor",
@@ -11240,6 +13340,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/shawn-kantor/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Shawn Kantor.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "skantor@fsu.edu",
@@ -11251,7 +13362,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "personal_website_url": "https://shawnkantor.wixsite.com/shawnkantor"
+    "personal_website_url": "https://shawnkantor.wixsite.com/shawnkantor",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2020/09/Shawn-Kantor-2023-4x6-web-200x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/economics/faculty/shawn-kantor/"
+    }
   },
   {
     "full_name": "Sierra Turner",
@@ -11296,6 +13411,17 @@
         "evidence": "Current AAS listing establishes the affiliation but does not establish primary home; primary department remains Unknown pending review.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/aas/faculty/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Sierra Turner.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "sierra-turner",
@@ -11304,7 +13430,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/aas/wp-content/uploads/sites/2/2024/07/original-678F2602-5E32-44D3-9387-2AC1DE5C5716-e1721339039908-300x300.png",
+      "source_url": "https://cosspp.fsu.edu/aas/faculty/"
+    }
   },
   {
     "full_name": "Simona Andrei",
@@ -11335,6 +13465,17 @@
         "extraction": "automatic",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/simona-andrei/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Simona Andrei.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "sandrei@fsu.edu",
@@ -11344,7 +13485,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2020/02/Simona-Andrei-4x6-web-200x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/economics/faculty/simona-andrei/"
+    }
   },
   {
     "full_name": "Sourabh Singh",
@@ -11422,6 +13567,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/sociology/faculty/sourabh-singh/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Sourabh Singh.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "ssingh2@fsu.edu",
@@ -11431,7 +13587,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/sociology/wp-content/uploads/sites/18/2020/02/Sourabh-Singh-2024-4x4-web-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/sociology/faculty/sourabh-singh/"
+    }
   },
   {
     "full_name": "Stefan C. Norrbin",
@@ -11509,6 +13669,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/stefan-norrbin/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Stefan C. Norrbin.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "snorrbin@fsu.edu",
@@ -11519,7 +13690,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2020/09/Stefan-Norrbin-2025-4x6-web-200x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/economics/faculty/stefan-norrbin/"
+    }
   },
   {
     "full_name": "Stewart Fotheringham",
@@ -11626,6 +13801,17 @@
         "evidence": "Listed under Faculty or Faculty Affiliates, separate from Staff, in current EMHS directory.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://em.fsu.edu/faculty-staff.php",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Sue Sullivan.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "ssullivan@em.fsu.edu",
@@ -11635,7 +13821,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://em.fsu.edu/images/people/sullivan_sq500_2025.png",
+      "source_url": "https://em.fsu.edu/faculty-staff.php"
+    }
   },
   {
     "full_name": "Sue Titus Reid",
@@ -11766,6 +13956,17 @@
         "evidence": "Listed in the current Public Health faculty directory; primary appointment is handled separately.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/sociology/faculty/teresa-roach/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Teresa Roach.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "tar09c@fsu.edu",
@@ -11775,7 +13976,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/sociology/wp-content/uploads/sites/18/2020/02/Teresa-Roach-2024-4x4-1-300x300.jpeg",
+      "source_url": "https://cosspp.fsu.edu/sociology/faculty/teresa-roach/"
+    }
   },
   {
     "full_name": "Tian Tang",
@@ -11879,6 +14084,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/askew/faculty/tian-tang/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Tian Tang.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "cv_url": "https://cosspp.fsu.edu/wp-content/uploads/sites/5/2020/02/Tang_General_Vita_2022-08-19.pdf",
@@ -11888,7 +14104,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2020/02/Askew-Headshot-Web-Tang-1-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/askew/faculty/tian-tang/"
+    }
   },
   {
     "full_name": "Tim Chapin",
@@ -11985,6 +14205,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/durp/faculty/tim-chapin/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Tim Chapin.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "cv_url": "https://cosspp.fsu.edu/durp/wp-content/uploads/sites/9/2024/10/TSC-Vita-Sept-2024.pdf",
@@ -11994,7 +14225,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/durp/wp-content/uploads/sites/9/2020/02/Tim-Chapin-2022-4x4-web-1-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/durp/faculty/tim-chapin/"
+    }
   },
   {
     "full_name": "Tisha Joseph Holmes",
@@ -12094,6 +14329,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/durp/faculty/tisha-holmes/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Tisha Joseph Holmes.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "short_biography": "Examines weather-related hazards and planning responses in the southeastern United States and Caribbean.",
@@ -12117,7 +14363,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/durp/wp-content/uploads/sites/9/2020/02/Tisha-Holmes-2023-4x4-1-300x300.jpeg",
+      "source_url": "https://cosspp.fsu.edu/durp/faculty/tisha-holmes/"
+    }
   },
   {
     "full_name": "Tory Peek",
@@ -12148,6 +14398,17 @@
         "evidence": "Listed in the current faculty directory, accessed through indexed official content.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/publichealth/faculty/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Tory Peek.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "tory-peek",
@@ -12156,7 +14417,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/publichealth/wp-content/uploads/sites/16/2024/08/Tory-Peek-IMG_1303-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/publichealth/faculty/"
+    }
   },
   {
     "full_name": "Tracy Banner",
@@ -12187,6 +14452,17 @@
         "evidence": "Listed in the current faculty directory, accessed through indexed official content.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/askew/faculty/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Tracy Banner.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "tracy-banner",
@@ -12195,7 +14471,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2022/08/Tracy-Woodward-2023-4x4-2-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/askew/faculty/"
+    }
   },
   {
     "full_name": "Tracy Woodard",
@@ -12226,6 +14506,17 @@
         "evidence": "Listed in the current faculty directory, accessed through indexed official content.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/iss/faculty/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Tracy Woodard, Ph.D..",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "tracy-woodard",
@@ -12234,7 +14525,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/iss/wp-content/uploads/sites/13/2022/03/Tracy-Woodard-Headshot-272x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/iss/faculty/"
+    }
   },
   {
     "full_name": "Tuba Tuncel",
@@ -12326,6 +14621,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/tuba-tuncel/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Tuba Tuncel.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "ttuncel@fsu.edu",
@@ -12373,7 +14679,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "personal_website_url": "https://sites.google.com/site/tubatuncel/"
+    "personal_website_url": "https://sites.google.com/site/tubatuncel/",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2022/08/Tuba_Tuncel_2024_4x6-200x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/economics/faculty/tuba-tuncel/"
+    }
   },
   {
     "full_name": "Tyler McCreary",
@@ -12455,6 +14765,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/geography/faculty/tyler-mccreary/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Tyler McCreary.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "tmccreary@fsu.edu",
@@ -12465,7 +14786,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/geography/wp-content/uploads/sites/41/2015/12/Tyler-McCreary-2023-4x4-1-300x300.jpeg",
+      "source_url": "https://cosspp.fsu.edu/geography/faculty/tyler-mccreary/"
+    }
   },
   {
     "full_name": "Victor Mesev",
@@ -12519,6 +14844,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/geography/faculty/victor-mesev/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Victor Mesev.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "vmesev@fsu.edu",
@@ -12529,7 +14865,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/geography/wp-content/uploads/sites/41/2017/07/Victor-Panama-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/geography/faculty/victor-mesev/"
+    }
   },
   {
     "full_name": "Vivek Moorthy",
@@ -12638,6 +14978,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/vivek-moorthy/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Vivek Moorthy.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "vm25m@fsu.edu",
@@ -12650,7 +15001,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "personal_website_url": "https://www.vivekmoorthy.com"
+    "personal_website_url": "https://www.vivekmoorthy.com",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2025/09/VivekMoorthy_Aug2022_8x12Lg_21.avif",
+      "source_url": "https://cosspp.fsu.edu/economics/faculty/vivek-moorthy/"
+    }
   },
   {
     "full_name": "Whitney T. Bendeck",
@@ -12681,6 +15036,17 @@
         "evidence": "Listed in the current faculty directory, accessed through indexed official content.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/internationalaffairs/faculty/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Whitney  T. Bendeck.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "whitney-t-bendeck",
@@ -12689,7 +15055,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/internationalaffairs/wp-content/uploads/sites/12/2020/09/Whitney-Bendeck-2022-4x4-web-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/internationalaffairs/faculty/"
+    }
   },
   {
     "full_name": "William Butler",
@@ -12769,6 +15139,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/durp/faculty/william-butler/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed William Butler.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "william-butler",
@@ -12777,7 +15158,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/durp/wp-content/uploads/sites/9/2020/02/William-Butler-2023-4x4-1-300x300.jpeg",
+      "source_url": "https://cosspp.fsu.edu/durp/faculty/william-butler/"
+    }
   },
   {
     "full_name": "William M. Cockriel",
@@ -12808,6 +15193,17 @@
         "extraction": "automatic",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/2629/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed William M. Cockriel.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "william.cockriel@fsu.edu",
@@ -12817,7 +15213,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2024/10/Cockriel__William_4x6_Web-200x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/economics/faculty/2629/"
+    }
   },
   {
     "full_name": "William T. Jackson",
@@ -12914,6 +15314,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/askew/faculty/william-t-jackson/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed William T. Jackson.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "william-t-jackson",
@@ -12924,7 +15335,11 @@
     "faculty_review_status": "not_requested",
     "publication_status": "public",
     "personal_website_url": "https://www.williamtjackson.com",
-    "cv_url": "https://www.williamtjackson.com/uploads/1/4/4/3/144336747/w._jackson_cv_08-07-26.pdf"
+    "cv_url": "https://www.williamtjackson.com/uploads/1/4/4/3/144336747/w._jackson_cv_08-07-26.pdf",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2024/08/Askew-Headshot-Web-Jackson-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/askew/faculty/william-t-jackson/"
+    }
   },
   {
     "full_name": "Xiaojun Yang",
@@ -12966,6 +15381,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/geography/faculty/xiaojun-yang/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Xiaojun Yang.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "xyang@fsu.edu",
@@ -12976,7 +15402,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "personal_website_url": "http://myweb.fsu.edu/xyang"
+    "personal_website_url": "http://myweb.fsu.edu/xyang",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/geography/wp-content/uploads/sites/41/2016/10/IMG_5707BC-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/geography/faculty/xiaojun-yang/"
+    }
   },
   {
     "full_name": "Xiaoyu Cheng",
@@ -13048,6 +15478,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/xiaoyu-cheng/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Xiaoyu Cheng.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "xcheng@fsu.edu",
@@ -13085,7 +15526,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "personal_website_url": "https://www.xiaoyu-cheng.com"
+    "personal_website_url": "https://www.xiaoyu-cheng.com",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2022/09/Dr.-Xiaoyu-Cheng-2022-300x296.png",
+      "source_url": "https://cosspp.fsu.edu/economics/faculty/xiaoyu-cheng/"
+    }
   },
   {
     "full_name": "Xue Gao",
@@ -13166,6 +15611,17 @@
         "evidence": "Listed in the current lab faculty directory.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/askew/faculty/xue-gao/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Xue Gao.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "xue-gao",
@@ -13174,7 +15630,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2023/09/Askew-Headshot-Web-Gao-1-300x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/askew/faculty/xue-gao/"
+    }
   },
   {
     "full_name": "Yao Li",
@@ -13238,6 +15698,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/sociology/faculty/yao-li/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Yao  Li.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "yl23y@fsu.edu",
@@ -13248,7 +15719,11 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/sociology/wp-content/uploads/sites/18/2023/08/my-picture_Potrait-2025-300x300.jpeg",
+      "source_url": "https://cosspp.fsu.edu/sociology/faculty/yao-li/"
+    }
   },
   {
     "full_name": "Yonggyun Kim",
@@ -13332,6 +15807,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/yonggyun-kim/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Yonggyun Kim.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "ykim22@fsu.edu",
@@ -13344,7 +15830,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "personal_website_url": "https://sites.google.com/view/yonggyun-yg-kim/"
+    "personal_website_url": "https://sites.google.com/view/yonggyun-yg-kim/",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2026/07/KimYG_Photo-B_Touched-up-231x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/economics/faculty/yonggyun-kim/"
+    }
   },
   {
     "full_name": "Youwei Xing",
@@ -13404,6 +15894,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/youwei-xing/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Youwei Xing.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "yx25a@fsu.edu",
@@ -13440,7 +15941,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "personal_website_url": "https://sites.google.com/view/youweixing"
+    "personal_website_url": "https://sites.google.com/view/youweixing",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2025/10/Youwei-Xing_small-200x300.jpg",
+      "source_url": "https://cosspp.fsu.edu/economics/faculty/youwei-xing/"
+    }
   },
   {
     "full_name": "Yusaku Horiuchi",
@@ -13546,6 +16051,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/2080/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Yusaku Horiuchi.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "yusaku.horiuchi@fsu.edu",
@@ -13588,7 +16104,11 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "personal_website_url": "https://horiuchi.org"
+    "personal_website_url": "https://horiuchi.org",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2025/08/Screenshot-2025-08-09-151650-251x300.png",
+      "source_url": "https://cosspp.fsu.edu/polisci/faculty/2080/"
+    }
   },
   {
     "full_name": "Ziqi Li",
@@ -13657,6 +16177,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/geography/faculty/ziqi-li/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "photo"
+        ],
+        "evidence": "The official FSU page places this portrait in the faculty profile or roster card headed Ziqi Li.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "ziqi.li@fsu.edu",
@@ -13668,6 +16199,10 @@
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
     "publication_status": "public",
-    "personal_website_url": "https://sites.google.com/view/ziqi-li"
+    "personal_website_url": "https://sites.google.com/view/ziqi-li",
+    "photo": {
+      "url": "https://cosspp.fsu.edu/geography/wp-content/uploads/sites/41/2023/09/Ziqi-Li-2024-4x4-1-300x300.jpeg",
+      "source_url": "https://cosspp.fsu.edu/geography/faculty/ziqi-li/"
+    }
   }
 ]

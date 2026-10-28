@@ -571,8 +571,8 @@ select {
   margin-bottom: 20px;
 }
 .avatar {
-  width: 43px;
-  height: 43px;
+  width: 56px;
+  height: 56px;
   border-radius: 50%;
   background: var(--soft);
   color: var(--garnet);
@@ -582,6 +582,49 @@ select {
   display: grid;
   place-items: center;
   flex-shrink: 0;
+  overflow: hidden;
+}
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 25%;
+}
+.portrait-link {
+  display: block;
+  flex-shrink: 0;
+  border-radius: 50%;
+  text-decoration: none;
+}
+.avatar-large {
+  width: 112px;
+  height: 112px;
+  font-size: 32px;
+}
+.profile-heading {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 28px 0 24px;
+}
+.profile-heading .page-heading {
+  min-width: 0;
+  padding: 0;
+}
+.photo-credit {
+  margin: -10px 0 24px;
+}
+@media (max-width: 540px) {
+  .profile-heading {
+    gap: 16px;
+  }
+  .profile-heading .avatar-large {
+    width: 80px;
+    height: 80px;
+  }
+  .profile-heading .page-heading h1 {
+    overflow-wrap: anywhere;
+  }
 }
 .department-label {
   font-size: 10px;

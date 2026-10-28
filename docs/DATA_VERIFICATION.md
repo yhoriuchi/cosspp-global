@@ -8,7 +8,8 @@
 6. Do not publish pending geographic claims. Leave public fields empty while retaining private candidates and questions. Default results exclude upcoming/unknown appointments and nonregular categories.
 7. Never infer languages or identity information. Under the owner-approved policy of 2026-10-27, publish languages explicitly stated in a public CV or the faculty member's own academic profile, with a reviewed source URL, access date and the original proficiency wording when provided. Separate publication consent is not required for these public self-reports. Do not infer proficiency, or treat public self-report as confirmation of this directory. A publication language, name, nationality, education or research location is not evidence of language ability.
 8. Review available public CVs as well as profiles for research interests and geographic expertise. Explicit American Politics or research focused on the United States supports United States as a research country; an American employer, degree or journal does not. Make verified homepage/CV links prominent near the top of profiles.
-9. Run validation, CSV round-trip tests, source-link review and appropriate build/browser checks. Inspect production artifacts for leakage.
+9. Under the owner's 2026-10-27 instruction, display faculty portraits found on official FSU pages. Verify the association with the named profile or roster card, record the official image URL and a directly reviewed page source, and exclude logos and placeholders. Do not identify people by facial recognition or infer personal characteristics. Load images from their official HTTPS locations; keep initials when a portrait is absent or cannot load. This does not assert a Creative Commons license or faculty confirmation. University marks remain excluded.
+10. Run validation, CSV round-trip tests, source-link review and appropriate build/browser checks. Inspect production artifacts for leakage.
 
 ## Profile update workflow
 

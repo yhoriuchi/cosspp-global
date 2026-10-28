@@ -36,7 +36,7 @@ workflows, policies, tests, dependencies, credentials or repository settings.
    United States for explicit American Politics or substantive U.S.-focused research,
    never merely from an employer, education or journal. Inspect CV/homepage links
    on profiles and keep verified cv_url/personal_website_url values current.
-   Never add citizenship, photos or university marks.
+   Never add citizenship or university marks. Faculty portraits may be added only from official FSU HTTPS image URLs after directly reviewing the named profile/roster association. Store photo.url and photo.source_url with a matching reviewed photo source. Exclude logos and generic placeholders; preserve initials when no portrait is verified. Do not infer identity from faces or copy image binaries into the public repository.
 6. Make at most 25 substantive profile changes per run. Preserve all unchanged
    records byte-for-byte in meaning; do not update dates merely because a scheduled
    job ran. If a larger substantive change is necessary, retain the original data

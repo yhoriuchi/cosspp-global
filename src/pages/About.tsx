@@ -82,7 +82,8 @@ export function About({ rows }: { rows: Faculty[] }) {
               with links to the sources. Proficiency is included only as stated by the faculty
               member; a public self-report does not imply confirmation of this directory. The
               directory does not collect or publish citizenship information, or infer language
-              ability from personal background. Faculty photographs are not reproduced.
+              ability from personal background. Faculty portraits, where available, are displayed
+              from official FSU pages, with links to their sources.
             </p>
             <p>
               The site has no account system, analytics, tracking cookies, or submission database.

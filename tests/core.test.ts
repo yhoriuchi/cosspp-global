@@ -330,3 +330,51 @@ describe('CSV interchange', () => {
     expect(() => readCSV('id,private\na,b')).toThrow();
   });
 });
+
+describe('official faculty portraits', () => {
+  const photo = {
+    url: 'https://cosspp.fsu.edu/uploads/portrait.jpg',
+    source_url: 'https://cosspp.fsu.edu/faculty/test/',
+  };
+  const source = {
+    url: photo.source_url,
+    accessed: '2026-10-27',
+    fields: ['photo'],
+    evidence: 'Named official faculty card contains the portrait.',
+    extraction: 'agent_reviewed',
+    retrieval: 'direct',
+  };
+  const record = { ...base, photo, sources: [...base.sources, source] };
+  it('accepts a portrait with a matching directly reviewed official page', () => {
+    expect(facultySchema.safeParse(record).success).toBe(true);
+    expect(facultySchema.safeParse(base).success).toBe(true);
+  });
+  it('rejects unreviewed, unmatched or search-index-only portrait evidence', () => {
+    for (const patch of [
+      { url: 'https://cosspp.fsu.edu/other/' },
+      { extraction: 'automatic' },
+      { retrieval: 'search_index' },
+      { fields: ['full_name'] },
+    ]) {
+      expect(
+        facultySchema.safeParse({ ...record, sources: [...base.sources, { ...source, ...patch }] })
+          .success,
+      ).toBe(false);
+    }
+  });
+  it('rejects invalid, nonofficial and insecure image or source URLs', () => {
+    for (const bad of [
+      'invalid',
+      'http://cosspp.fsu.edu/photo.jpg',
+      'https://fsu.edu.example.org/photo.jpg',
+      'https://example.org/photo.jpg',
+      'https://name@cosspp.fsu.edu/photo.jpg',
+    ]) {
+      for (const key of ['url', 'source_url']) {
+        expect(
+          facultySchema.safeParse({ ...record, photo: { ...photo, [key]: bad } }).success,
+        ).toBe(false);
+      }
+    }
+  });
+});

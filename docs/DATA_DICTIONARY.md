@@ -14,6 +14,7 @@ Authoritative executable schema: `src/types/faculty.ts`. Public dataset: `data/p
 | email, office | Optional public professional contact/location only. No personal contact collection. |
 | official_profile_url | Official individual profile OR actual official directory/card fallback. Fallbacks must not be counted as substantive biographies. |
 | personal_website_url, cv_url | Optional source-verified link. Link presence does not imply target accessibility or CV freshness. |
+| photo | Optional `{url,source_url}`; HTTPS FSU image and official page URLs. Requires a directly reviewed source supporting photo with matching source_url. Images remain hosted by FSU; initials are the fallback. |
 | short_biography | Concise paraphrase of supported academic work; no copied full biographies. |
 | phd | Optional institution, field, year. Years only when explicit and consistent. |
 | other_degrees | Optional degree objects: institution, field, year. |
@@ -39,7 +40,7 @@ Language proficiency values: Native, Fluent / Professional, Conversational, Basi
 
 ## Deliberately absent public fields
 
-Citizenship, nationality classification, internal notes, unpublished review candidates, consent correspondence, photos and university marks. The schema is strict: unknown properties fail validation, including nested unknown fields. A future private consent system must use a separate store with proper access control, never additional browser-bundled fields.
+Citizenship, nationality classification, internal notes, unpublished review candidates, consent correspondence and university marks. The schema is strict: unknown properties fail validation, including nested unknown fields. A future private consent system must use a separate store with proper access control, never additional browser-bundled fields.
 
 ## CSV convention
 
