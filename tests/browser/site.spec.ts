@@ -6,7 +6,9 @@ async function openFilters(page: Page) {
   if ((await button.isVisible()) && (await button.getAttribute('aria-expanded')) === 'false')
     await button.click();
 }
-test('country expertise appears in regional searches with matching exploration counts', async ({ page }) => {
+test('country expertise appears in regional searches with matching exploration counts', async ({
+  page,
+}) => {
   await page.goto('?page=explore');
   const eastAsia = page.locator('.place-grid').getByRole('link', { name: /^East Asia / });
   const count = Number((await eastAsia.innerText()).match(/\d+/)![0]);
@@ -106,16 +108,14 @@ test('homepage illustration and interactive research map have distinct behavior'
   await expect(page.getByRole('checkbox', { name: 'Japan', exact: true })).toBeChecked();
   await expect(page.getByRole('link', { name: 'Yusaku Horiuchi', exact: true })).toBeVisible();
 });
-test('geographic navigation, empty language state and unknown profile', async ({ page }) => {
+test('geographic navigation, sourced language filter and unknown profile', async ({ page }) => {
   await page.goto('?page=explore');
   await expect(page.locator('.world-map')).toBeVisible();
   await page.locator('.place-grid').getByRole('link', { name: /Japan/ }).click();
   await openFilters(page);
   await expect(page.getByRole('checkbox', { name: 'Japan', exact: true })).toBeChecked();
   await page.locator('summary').filter({ hasText: 'Languages' }).click();
-  await expect(
-    page.getByText('Language options will appear here as faculty choose to share them.'),
-  ).toBeVisible();
+  await expect(page.getByRole('checkbox', { name: 'Japanese', exact: true })).toBeVisible();
   await page.goto('?page=profile&id=does-not-exist');
   await expect(page.getByRole('heading', { name: 'Profile not found' })).toBeVisible();
 });
@@ -196,4 +196,39 @@ test('map failure preserves geographic search and profile accessibility', async 
   expect(
     results.violations.map((v) => ({ id: v.id, targets: v.nodes.map((n) => n.target) })),
   ).toEqual([]);
+});
+
+test('profile highlights detailed sources, self-reported languages and US research', async ({
+  page,
+}) => {
+  await page.goto('?page=directory&language=ja&q=Horiuchi');
+  await expect(page.getByRole('link', { name: 'Yusaku Horiuchi', exact: true })).toBeVisible();
+  await page.getByRole('link', { name: 'Yusaku Horiuchi', exact: true }).click();
+  const resources = page.getByRole('navigation', { name: 'Detailed faculty information' });
+  await expect(resources.getByRole('link', { name: /Personal academic website/ })).toHaveAttribute(
+    'href',
+    'https://horiuchi.org',
+  );
+  await expect(resources.getByRole('link', { name: /Curriculum vitae/ })).toBeVisible();
+  expect(
+    await resources.evaluate(
+      (el) =>
+        !!(
+          el.compareDocumentPosition(document.querySelector('.profile-layout')!) &
+          Node.DOCUMENT_POSITION_FOLLOWING
+        ),
+    ),
+  ).toBe(true);
+  await expect(page.getByRole('heading', { name: 'Japanese', exact: true })).toBeVisible();
+  await expect(page.getByRole('link', { name: 'public CV ↗', exact: true }).first()).toBeVisible();
+  await expect(page.getByText(/Shared with faculty permission/)).toHaveCount(0);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(
+    true,
+  );
+  const results = await new AxeBuilder({ page })
+    .withTags(['wcag2a', 'wcag2aa', 'wcag21aa'])
+    .analyze();
+  expect(results.violations).toEqual([]);
+  await page.goto('?page=directory&country=US&q=Atkeson');
+  await expect(page.getByRole('link', { name: 'Lonna Atkeson', exact: true })).toBeVisible();
 });

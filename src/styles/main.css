@@ -709,6 +709,13 @@ select {
 .back-link + .page-heading {
   padding-top: 28px;
 }
+.profile-resource-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 0 0 2rem;
+}
+
 .profile-layout,
 .about-layout {
   display: grid;

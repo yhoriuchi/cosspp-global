@@ -16,8 +16,6 @@ export function checkRefresh(before: Faculty[], input: unknown, today: string) {
     changed++;
     if (person.last_updated !== today || person.last_verified !== today)
       throw new Error(`${person.id}: changed records need current review dates`);
-    if (!isDeepStrictEqual(person.languages, previous?.languages ?? []))
-      throw new Error(`${person.id}: language/consent changes require a separate review`);
     if (
       person.verification_status !== 'source_verified' ||
       person.faculty_review_status !== 'not_requested'
@@ -33,7 +31,6 @@ export function checkRefresh(before: Faculty[], input: unknown, today: string) {
           'verification_status',
           'faculty_review_status',
           'publication_status',
-          'languages',
         ].includes(field)
       )
         continue;
@@ -51,6 +48,24 @@ export function checkRefresh(before: Faculty[], input: unknown, today: string) {
         )
       )
         throw new Error(`${person.id}: ${field} needs fresh, directly reviewed evidence`);
+    }
+    for (const language of person.languages) {
+      if (previous?.languages.some((old) => isDeepStrictEqual(old, language))) continue;
+      if (
+        language.verified_on !== today ||
+        !person.sources.some(
+          (source) =>
+            source.url === language.verification_source &&
+            source.fields.includes('languages') &&
+            source.accessed === today &&
+            source.retrieval === 'direct' &&
+            source.extraction === 'agent_reviewed' &&
+            source.reviewed_by === 'agent',
+        )
+      )
+        throw new Error(
+          `${person.id}: changed language needs fresh, directly reviewed self-report evidence`,
+        );
     }
     if (person.sources.some((source) => source.accessed > today))
       throw new Error(`${person.id}: future source date`);

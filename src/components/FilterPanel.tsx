@@ -80,7 +80,7 @@ export function FilterPanel({
               </div>
             ) : (
               <p className="muted small">
-                Language options will appear here as faculty choose to share them.
+                Language filters reflect explicit statements in the public sources reviewed.
               </p>
             )}
           </fieldset>

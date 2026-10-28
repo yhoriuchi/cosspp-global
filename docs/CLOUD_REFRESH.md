@@ -35,7 +35,7 @@ publication does not need an OpenAI API key.
   It hands off only the candidate faculty JSON to a fresh runner. Source text and
   agent-generated output are untrusted data, never executable workflow code.
 - The fresh runner uses the original trusted schema/tests/scripts. It rejects
-  removals, stable-ID changes, consent/language changes, artificial confirmation,
+  removals, stable-ID changes, unsupported language changes, artificial confirmation,
   stale dates, indexed-only evidence for changed fields and batches over 30 changes.
   It validates/tests/builds, derives the inventory and commits only two data files.
   A concurrent `main` change rejects the push; the workflow never force-pushes.

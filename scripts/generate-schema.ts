@@ -10,5 +10,5 @@ writeFileSync(
   ) + '\n',
 );
 console.log(
-  'Generated structural schema; execute TypeScript validator for evidence and consent cross-checks.',
+  'Generated structural schema; execute TypeScript validator for evidence and language provenance cross-checks.',
 );

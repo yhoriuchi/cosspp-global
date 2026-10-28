@@ -88,7 +88,7 @@ describe('cloud data promotion', () => {
     stale[0].last_verified = '2026-10-20';
     expect(() => checkRefresh(fixture(), stale, today)).toThrow(/current review/);
   });
-  it('rejects schema-valid language additions without a separate consent review', () => {
+  it('accepts directly reviewed public self-report and rejects stale or indexed language evidence', () => {
     const rows = change();
     rows[0].languages = [
       {
@@ -98,13 +98,19 @@ describe('cloud data promotion', () => {
         reading_proficiency: 'Not specified',
         writing_proficiency: 'Not specified',
         verification_source: 'https://example.edu/profile',
-        faculty_confirmed: true,
-        publication_approved: true,
-        approval_date: today,
+        evidence_type: 'public_profile',
+        source_statement: 'English',
+        verified_on: today,
       },
     ];
     rows[0].sources[1].fields.push('languages');
-    expect(() => checkRefresh(fixture(), rows, today)).toThrow(/language\/consent/);
+    expect(checkRefresh(fixture(), rows, today).changed).toBe(1);
+    rows[0].sources[1].retrieval = 'search_index';
+    expect(() => checkRefresh(fixture(), rows, today)).toThrow(/directly/);
+    rows[0].sources[1].retrieval = 'direct';
+    rows[0].sources[1].accessed = '2026-10-20';
+    rows[0].languages[0].verified_on = '2026-10-20';
+    expect(() => checkRefresh(fixture(), rows, today)).toThrow(/fresh/);
   });
   it('rejects fabricated future access dates and unexpected fields', () => {
     const rows = change();

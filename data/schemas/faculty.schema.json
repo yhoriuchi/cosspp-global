@@ -282,7 +282,9 @@
               "ta",
               "te",
               "ne",
-              "tl"
+              "tl",
+              "ml",
+              "uz"
             ]
           },
           "language": {
@@ -292,7 +294,7 @@
           "speaking_proficiency": {
             "type": "string",
             "enum": [
-              "Native / Heritage",
+              "Native",
               "Fluent / Professional",
               "Conversational",
               "Basic",
@@ -302,7 +304,7 @@
           "reading_proficiency": {
             "type": "string",
             "enum": [
-              "Native / Heritage",
+              "Native",
               "Fluent / Professional",
               "Conversational",
               "Basic",
@@ -312,7 +314,7 @@
           "writing_proficiency": {
             "type": "string",
             "enum": [
-              "Native / Heritage",
+              "Native",
               "Fluent / Professional",
               "Conversational",
               "Basic",
@@ -323,18 +325,25 @@
             "type": "string",
             "format": "uri"
           },
-          "faculty_confirmed": {
-            "type": "boolean",
-            "const": true
+          "evidence_type": {
+            "type": "string",
+            "enum": [
+              "public_cv",
+              "public_profile"
+            ]
           },
-          "publication_approved": {
-            "type": "boolean",
-            "const": true
+          "source_statement": {
+            "type": "string",
+            "minLength": 1
           },
-          "approval_date": {
+          "verified_on": {
             "type": "string",
             "format": "date",
             "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+          },
+          "proficiency_statement": {
+            "type": "string",
+            "minLength": 1
           }
         },
         "required": [
@@ -344,9 +353,9 @@
           "reading_proficiency",
           "writing_proficiency",
           "verification_source",
-          "faculty_confirmed",
-          "publication_approved",
-          "approval_date"
+          "evidence_type",
+          "source_statement",
+          "verified_on"
         ],
         "additionalProperties": false
       }

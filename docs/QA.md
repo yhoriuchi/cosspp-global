@@ -96,3 +96,32 @@ All 176 records validate, 46 unit tests pass, and TypeScript/build plus the 8-fi
 artifact audit pass. All 21 browser tests passed in 50.1 seconds across desktop
 and mobile Chromium and iPhone WebKit. The regression checks visible labels,
 exactly one copy of each, profile region links and their directory results.
+
+## Public CV/profile enrichment and language policy — 2026-10-27
+
+The owner approved publishing explicitly self-reported languages from public CVs
+or faculty-owned profiles with reviewed provenance, without separate consent.
+This supersedes the initial consent-gate descriptions above. Source review is
+still distinct from faculty confirmation of the directory.
+
+Checked source links for all 176 records; reviewed identity and relevant
+research/language sections of 79 accessible CVs. Updated 91 profiles. The dataset
+now has 116 profiles with research interests, 57 with geography, 46 with countries,
+60 personal-site links, 81 CV links and 44 language entries across 18 people.
+Two linked CVs could not be retrieved (robots restriction and HTTP 403); a stale
+HTTP 404 CV link was removed. Other CVs were not located in checked sources.
+CV publication dates vary; access dates do not establish document freshness.
+Private per-person review outcomes and extracted source text are ignored.
+
+Final 176-record validation, 46 unit tests, TypeScript/build and eight-file
+artifact privacy/subpath audit passed. All 24 browser tests passed (1.9 minutes)
+across desktop/mobile Chromium and iPhone WebKit, including every profile route,
+Japanese search, prominent homepage/CV links, self-report provenance, United
+States research search, overflow, keyboard navigation and automated accessibility.
+No actual iPhone hardware test was performed. Existing nonfatal Zod annotation
+warnings remain. The weekly cloud source-refresh schedule remains disabled;
+its validator/prompt now support fresh directly reviewed public language evidence.
+
+The final real-data CSV export/import exactly preserved all 176 schema-normalized
+records, including language provenance. Raw JSON comparison differs only because
+validation supplies declared defaults; import candidates stayed private.

@@ -33,7 +33,7 @@ No account, backend, environment secret or paid database is needed for the websi
 - Home page with search, actual dataset counts, explicitly labeled example searches and a compact, uniformly colored Tallahassee-centered world illustration beside the headline, with search beneath the headline. Explore geography provides the interactive research map in the original world layout; both omit Antarctica.
 - Fast name/topic/country/region/language/method search, accent-insensitive matching, combined multi-select filters, clear/reset, name/department sorting and meaningful empty states.
 - OR within each filter group; AND across groups. Multiword free text matches all words across a profile. Department filters include documented additional affiliations.
-- Faculty cards and direct-link profiles, evidence/source details, appointment categories and guidance to keep public faculty profiles/CVs current.
+- Faculty cards and direct-link profiles with prominent official-page, personal-site and CV links, evidence/source details, appointment categories and guidance to keep public faculty profiles/CVs current.
 - Faculty-facing wording emphasizes discovery and source context; scope and confirmation methods are explained on About without repeated absence notices on individual profiles.
 - Country/region explorer using local public-domain Natural Earth geometry and D3, plus equivalent accessible links without a map. Regional searches include country expertise (Japan → East Asia and Asia); search, exploration counts and visible region labels share the same [geographic membership rules](docs/REGION_SEARCH.md).
 - Department browsing, scope/privacy explanation, responsive light/dark modes, keyboard controls and visible update dates.
@@ -41,19 +41,23 @@ No account, backend, environment secret or paid database is needed for the websi
 
 Query routes such as `?page=directory&country=JP&department=Political+Science` and `?page=profile&id=yusaku-horiuchi` refresh under a GitHub Pages repository subpath without a server rewrite.
 
-## Initial dataset — 2026-10-27
+## Dataset after CV review — 2026-10-27
 
 | Measure | Collected records |
 |---|---:|
 | Distinct people | 176 |
 | Current regular/teaching appointments in default results | 155 |
-| Documented research interests | 95 |
-| Source-supported research countries and/or regions | 37 |
-| Country-specific research information | 27 |
+| Documented research interests | 116 |
+| Source-supported research countries and/or regions | 57 |
+| Country-specific research information | 46 |
 | Official profile or official directory/card link | 176 |
 | Individual-profile URL pattern (heuristic) | 124 |
-| CV links (contents not downloaded) | 57 |
-| Faculty-confirmed, publication-approved languages | 0 |
+| Personal academic website links | 60 |
+| CV links | 81 |
+| Accessible CVs reviewed for relevant research/language information | 79 |
+| Profiles with publicly self-reported languages | 18 |
+
+The follow-up reviewed source links for all 176 records and supplemented 91 profiles. Explicit public self-reports support 44 language entries across 18 people; skill levels are not inferred. American Politics and explicitly U.S.-focused research support United States. CVs that could not be accessed remain unresolved; linked CVs may be older than current official profiles.
 
 The six principal main rosters were systematically retrieved/reviewed: Political Science, Economics, Sociology, Geography, Urban and Regional Planning, and Askew Public Administration and Policy. Additional records and affiliations come from International Affairs, ISS/Integrated Studies, Public Health, African American Studies, Demography and selected centers. Some indexed pages could not be verified live. This is not a certified census, and geography coverage includes the United States and cross-national work. Missing fields mean unrecorded, not absent expertise.
 
@@ -66,7 +70,7 @@ Use `pnpm run <name>`, `npm run <name>` if npm is installed, or `./scripts/local
 | Command | Purpose |
 |---|---|
 | dev | Local Vite development server |
-| validate | Strict schema, evidence, duplicates, ISO codes and language consent checks |
+| validate | Strict schema, evidence, duplicates, ISO codes and language self-report provenance checks |
 | test | Search/filter/publication-gate/CSV unit tests |
 | build | Validation + TypeScript + production build + artifact privacy/base-path audit |
 | preview | Serve `dist/` locally; match its build base |
@@ -96,7 +100,7 @@ The browser-test preview configuration explicitly uses `/cosspp-global/`. CI bui
 
 ## Maintain the data
 
-Edit `data/public/faculty.json` only with source-supported facts. Keep stable IDs. Every populated substantive field requires reviewed source evidence; preserve extraction/review/retrieval distinctions and access dates. Use private candidates for uncertainty. The strict schema rejects unknown/private properties, unapproved languages and unsupported fields. Run validate/tests/build after promotion.
+Edit `data/public/faculty.json` only with source-supported facts. Keep stable IDs. Every populated substantive field requires reviewed source evidence; preserve extraction/review/retrieval distinctions and access dates. Use private candidates for uncertainty. The strict schema rejects unknown/private properties, inferred or unsourced languages and unsupported fields. Run validate/tests/build after promotion.
 
 For CSV edits, export, edit nested JSON cells carefully, import to private candidates, review and then promote. Export neutralizes formula-like cells; import restores their literal text. Read the [data dictionary](docs/DATA_DICTIONARY.md), [collection workflow](docs/DATA_COLLECTION.md) and [verification policy](docs/DATA_VERIFICATION.md) before changing research classifications.
 
@@ -114,6 +118,6 @@ For CSV edits, export, edit nested JSON cells carefully, import to private candi
 
 ## Before publication
 
-The build exposes only the public schema and static assets. A public repository would also expose code/docs/public data. No citizenship, internal review notes, private history, photos or unapproved languages belong in either. Faculty confirmation has not yet been obtained. The owner’s update policy routes changes through faculty-maintained public profiles/CVs. Configure and verify periodic automated source refreshes before describing them as operational; the cloud workflow is prepared but its first remote run is not yet verified. Review institutional representation, permissions/licensing, data/source gaps and staged/history contents.
+The build exposes only the public schema and static assets. A public repository would also expose code/docs/public data. No citizenship, internal review notes, private history, photos or inferred or unsourced languages belong in either. Faculty confirmation has not yet been obtained. The owner’s update policy routes changes through faculty-maintained public profiles/CVs. Configure and verify periodic automated source refreshes before describing them as operational; the cloud workflow is prepared but its first remote run is not yet verified. Review institutional representation, permissions/licensing, data/source gaps and staged/history contents.
 
 **Do not create a remote repository, push or deploy without explicit owner approval.** On 2026-10-27 the owner approved the `yhoriuchi/cosspp-global` repository (subsequently made Public by the owner), weekly cloud refreshes and publication after validation. The workflow has no general push trigger; deployment requires `ENABLE_PAGES=true` and either manual dispatch or a validated refresh commit. See [cloud setup](docs/CLOUD_REFRESH.md). Exact authorization steps are in [DEPLOYMENT.md](docs/DEPLOYMENT.md). Remaining research and future secure editing/expansion are in [ROADMAP.md](docs/ROADMAP.md).

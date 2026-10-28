@@ -78,9 +78,10 @@ export function About({ rows }: { rows: Faculty[] }) {
           <section className="profile-section">
             <h2>Privacy & faculty control</h2>
             <p>
-              Faculty choose whether to share language information. Published language entries
-              require their explicit confirmation and permission, including any proficiency details.
-              The directory does not collect or publish citizenship information, or infer language
+              Language entries reflect explicit statements in public CVs or faculty-owned profiles,
+              with links to the sources. Proficiency is included only as stated by the faculty
+              member; a public self-report does not imply confirmation of this directory. The
+              directory does not collect or publish citizenship information, or infer language
               ability from personal background. Faculty photographs are not reproduced.
             </p>
             <p>
@@ -99,17 +100,16 @@ export function About({ rows }: { rows: Faculty[] }) {
               Filters are stored in the URL and can be bookmarked or shared.
             </p>
             <p>
-              Regional searches also include country expertise: for example, Japan matches East
-              Asia and Asia. These geographic groupings help discovery; they do not imply that a
-              faculty member studies every country in the region. Regional labels on cards and
-              profiles include these groupings; source details describe the specific research.
+              Regional searches also include country expertise: for example, Japan matches East Asia
+              and Asia. These geographic groupings help discovery; they do not imply that a faculty
+              member studies every country in the region. Regional labels on cards and profiles
+              include these groupings; source details describe the specific research.
             </p>
             <p className="small muted">
               Geographic groupings are adapted from{' '}
               <a href="https://www.unicode.org/cldr/">Unicode CLDR</a> (
-              <a href={`${import.meta.env.BASE_URL}unicode-license.txt`}>license</a>). Latin
-              America includes the Caribbean; North America includes Central America and the
-              Caribbean.
+              <a href={`${import.meta.env.BASE_URL}unicode-license.txt`}>license</a>). Latin America
+              includes the Caribbean; North America includes Central America and the Caribbean.
             </p>
             <p>
               Regular and teaching faculty with current appointments appear by default. Use the

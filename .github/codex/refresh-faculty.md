@@ -27,8 +27,16 @@ workflows, policies, tests, dependencies, credentials or repository settings.
    facts and their evidence; do not manufacture human or faculty confirmation.
 5. Set changed records to verification_status=source_verified and
    faculty_review_status=not_requested, with both date fields equal to today's UTC
-   date. Leave languages unchanged, including consent metadata; new people have
-   empty languages. Never add citizenship, photos or university marks.
+   date. Languages may be added or updated only from explicit self-reports in public
+   CVs or faculty-owned profiles. Read the CV language/skills section; record
+   evidence_type, source_statement, verification_source and verified_on. Preserve
+   original proficiency wording in proficiency_statement; leave unspecified skills
+   as Not specified. Every changed language needs its own matching fresh direct source.
+   Do not infer ability from names, background or publication language. Include
+   United States for explicit American Politics or substantive U.S.-focused research,
+   never merely from an employer, education or journal. Inspect CV/homepage links
+   on profiles and keep verified cv_url/personal_website_url values current.
+   Never add citizenship, photos or university marks.
 6. Make at most 25 substantive profile changes per run. Preserve all unchanged
    records byte-for-byte in meaning; do not update dates merely because a scheduled
    job ran. If a larger substantive change is necessary, retain the original data

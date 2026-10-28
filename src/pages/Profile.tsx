@@ -30,6 +30,21 @@ export function Profile({ person: r, params }: { person?: Faculty; params: URLSe
       >
         <p>{r.academic_title}</p>
       </PageHeading>
+      <nav className="profile-resource-links" aria-label="Detailed faculty information">
+        <a className="button" href={r.official_profile_url}>
+          Official FSU profile ↗
+        </a>
+        {r.personal_website_url && (
+          <a className="button" href={r.personal_website_url}>
+            Personal academic website ↗
+          </a>
+        )}
+        {r.cv_url && (
+          <a className="button" href={r.cv_url}>
+            Curriculum vitae (CV) ↗
+          </a>
+        )}
+      </nav>
       <div className="profile-layout">
         <div>
           <div className="profile-section">
@@ -66,8 +81,8 @@ export function Profile({ person: r, params }: { person?: Faculty; params: URLSe
             <div className="profile-section">
               <h2>Geographic research expertise</h2>
               <p className="muted small">
-                Research locations documented in the sources below, with regional groupings
-                for the countries studied.
+                Research locations documented in the sources below, with regional groupings for the
+                countries studied.
               </p>
               <div className="tags">
                 {r.geographic_research_countries.map((c) => (
@@ -98,12 +113,24 @@ export function Profile({ person: r, params }: { person?: Faculty; params: URLSe
               {r.languages.map((l) => (
                 <div key={l.code}>
                   <h3>{l.language}</h3>
-                  <p>
-                    Speaking: {l.speaking_proficiency} · Reading: {l.reading_proficiency} · Writing:{' '}
-                    {l.writing_proficiency}
-                  </p>
+                  {l.proficiency_statement && <p>{l.proficiency_statement}</p>}
+                  {[
+                    ['Speaking', l.speaking_proficiency],
+                    ['Reading', l.reading_proficiency],
+                    ['Writing', l.writing_proficiency],
+                  ]
+                    .filter(([, level]) => level !== 'Not specified')
+                    .map(([skill, level]) => (
+                      <p key={skill}>
+                        {skill}: {level}
+                      </p>
+                    ))}
                   <p className="muted small">
-                    Shared with faculty permission on {l.approval_date}.
+                    Self-reported in a{' '}
+                    <a href={l.verification_source}>
+                      {l.evidence_type === 'public_cv' ? 'public CV' : 'faculty profile'} ↗
+                    </a>
+                    . Reviewed {l.verified_on}.
                   </p>
                 </div>
               ))}
@@ -176,10 +203,7 @@ export function Profile({ person: r, params }: { person?: Faculty; params: URLSe
           </div>
         </div>
         <aside className="profile-aside">
-          <p className="eyebrow">CONNECT & LEARN MORE</p>
-          <a href={r.official_profile_url}>Official FSU profile / listing ↗</a>
-          {r.personal_website_url && <a href={r.personal_website_url}>Academic website ↗</a>}
-          {r.cv_url && <a href={r.cv_url}>Curriculum vitae ↗</a>}
+          <p className="eyebrow">CONTACT</p>
           {r.email && <a href={`mailto:${r.email}`}>{r.email}</a>}
           {r.office && <p>{r.office}</p>}
           <hr />

@@ -36,7 +36,7 @@ export const sourceSchema = z.strictObject({
   retrieval: z.enum(['direct', 'search_index']).default('direct'),
 });
 const proficiency = z.enum([
-  'Native / Heritage',
+  'Native',
   'Fluent / Professional',
   'Conversational',
   'Basic',
@@ -80,6 +80,8 @@ const languageCodes = [
   'te',
   'ne',
   'tl',
+  'ml',
+  'uz',
 ] as const;
 const languageSchema = z.strictObject({
   code: z.enum(languageCodes),
@@ -88,9 +90,10 @@ const languageSchema = z.strictObject({
   reading_proficiency: proficiency,
   writing_proficiency: proficiency,
   verification_source: url,
-  faculty_confirmed: z.literal(true),
-  publication_approved: z.literal(true),
-  approval_date: date,
+  evidence_type: z.enum(['public_cv', 'public_profile']),
+  source_statement: text,
+  verified_on: date,
+  proficiency_statement: text.optional(),
 });
 const degreeSchema = z.strictObject({
   institution: text,
@@ -225,6 +228,26 @@ export const facultySchema = z
         ctx.addIssue({ code: 'custom', message: `Duplicate ${label} within record` });
     const languageNames = new Intl.DisplayNames(['en'], { type: 'language' });
     for (const l of r.languages) {
+      if (
+        !r.sources.some(
+          (s) =>
+            s.url === l.verification_source &&
+            s.fields.includes('languages') &&
+            s.accessed === l.verified_on &&
+            (s.extraction !== 'automatic' || !!s.reviewed_by),
+        )
+      )
+        ctx.addIssue({
+          code: 'custom',
+          path: ['languages'],
+          message: 'Each language requires matching reviewed source evidence and access date',
+        });
+      if (l.verified_on > r.last_verified)
+        ctx.addIssue({
+          code: 'custom',
+          path: ['languages'],
+          message: 'Language review date cannot follow profile verification',
+        });
       const aliases: Record<string, string[]> = { zh: ['Mandarin Chinese'], tl: ['Filipino'] };
       if (![languageNames.of(l.code), ...(aliases[l.code] || [])].includes(l.language))
         ctx.addIssue({

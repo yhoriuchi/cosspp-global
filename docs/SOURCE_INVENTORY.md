@@ -7,7 +7,7 @@ All source observations below were made on **2026-10-27**. Per-person source arr
 - https://cosspp.fsu.edu/ — college website.
 - https://cosspp.fsu.edu/deans-office/faculty-and-staff/ — roster index connecting departments, programs and centers; historical headline faculty total deliberately not used as a denominator.
 - https://cosspp.fsu.edu/departments-and-programs/ — department/program starting point; direct retrieval failed intermittently.
-- https://cosspp.fsu.edu/robots.txt — automation restrictions reviewed. Document downloads were excluded.
+- https://cosspp.fsu.edu/robots.txt — user-agent-specific automation restrictions reviewed. The general crawler group allows public documents; PDF/DOC exclusions belong to the Twitterbot group. Allowed public CVs were retrieved with modest request rates. Unavailable policies and blocked sources were recorded without bypassing them.
 
 ## Six principal units: systematic main-roster coverage
 
@@ -39,10 +39,10 @@ Current program/center URLs are enumerated in `data/sources/inventory.json`, gen
 
 ## Additional evidence and conflicts
 
-Current official faculty biographies form most enrichment evidence. Faculty-maintained academic sites, official FSU Honors/Native American and Indigenous Studies pages, Rutgers institutional biography and original journal abstracts supply selected details. Published paper titles alone were not used as proof of research geography. CV URLs were recorded without restricted document retrieval; current contents/freshness remain unchecked.
+Current official faculty biographies form most enrichment evidence. Faculty-maintained academic sites, official FSU Honors/Native American and Indigenous Studies pages, Rutgers institutional biography and original journal abstracts supply selected details. Published paper titles alone were not used as proof of research geography. Follow-up source-link review covered all 176 records; 79 accessible CVs were checked for identity, explicit language statements and relevant research sections. There are now 81 CV links and 60 personal-site links, including newly discovered links from official biographies and faculty websites. Eighteen profiles contain 44 explicitly self-reported language entries. CV dates vary; a source access date does not certify that the CV itself is current. Unavailable CVs remain unresolved, and no proficiency is inferred.
 
 The September 28, 2026 college update and a dated Askew-director announcement helped reconcile personnel changes. Current rosters supersede stale biography ranks when supported; unknown cases are excluded from defaults where the appointment itself is unresolved. A link-access report remains private and distinguishes unavailable policy, blocked targets, redirects, document restrictions, HTTP failures and reachable links.
 
 ## Remaining collection work
 
-Complete individual research enrichment; resolve uncertain appointments and primary homes; examine current emeritus/affiliate lists without inflating regular-faculty counts; audit every center systematically; replace directory fallbacks where genuine individual pages exist; secure faculty confirmation and separate language publication approval. No claim of full college census completeness is made.
+Complete individual research enrichment; resolve uncertain appointments and primary homes; examine current emeritus/affiliate lists without inflating regular-faculty counts; audit every center systematically; replace directory fallbacks where genuine individual pages exist; continue optional faculty confirmation of directory accuracy. Language publication follows the owner-approved public-self-report policy, with source provenance rather than separate consent. No claim of full college census completeness is made.

@@ -31,7 +31,7 @@ With pnpm, direct forwarding also works as `pnpm exec vite preview --host 127.0.
 
 - Static site: all `data/public/faculty.json` fields after validation, source citations, research metadata, public professional email/profile/CV links, site copy, CSS/JS and local public-domain map.
 - Public repository: source, public data, documentation, schema and workflow. Private review files/history/raw caches are ignored, but must also be absent from tracked history. Publishing is more than uploading `dist/` if the repository is public.
-- No citizenship, photos, logos, internal notes, unapproved languages, consent records or private project history.
+- No citizenship, photos, logos, internal notes, inferred or unsourced languages, consent records or private project history.
 
 ## Unresolved release decisions
 

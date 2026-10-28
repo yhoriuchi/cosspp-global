@@ -50,7 +50,7 @@ const report = {
     (r) => !!(r.geographic_research_countries.length || r.geographic_research_regions.length),
   ),
   with_country: count((r) => !!r.geographic_research_countries.length),
-  with_approved_languages: count((r) => !!r.languages.length),
+  with_publicly_self_reported_languages: count((r) => !!r.languages.length),
   awaiting_faculty_review: count((r) => r.faculty_review_status !== 'confirmed'),
   potential_duplicates,
   link_checks: existsSync('data/review/link-report.json')

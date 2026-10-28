@@ -26,7 +26,7 @@ Authoritative executable schema: `src/types/faculty.ts`. Public dataset: `data/p
 | international_research_projects, international_institutional_affiliations | Optional source-supported descriptions. |
 | countries_of_prior_professional_experience | ISO codes for professional experience only; never used as research-country matches. |
 | selected_publications | Citation and public URL; empty initially. Do not turn titles alone into geographic classifications. |
-| languages | Controlled ISO language code, name, speaking/reading/writing proficiency, verification URL, faculty_confirmed, publication_approved, approval_date. Both booleans must be true in public data. |
+| languages | Controlled ISO language code, name, speaking/reading/writing proficiency (Not specified unless explicit), verification_source URL, evidence_type (public_cv/public_profile), source_statement, verified_on access date, and optional original proficiency_statement. Each entry must match a reviewed languages source by URL and date. Public self-report does not assert directory confirmation or separate consent. |
 | sources | Array of URL, accessed date, supported field names, short paraphrased evidence, extraction method, optional reviewed_by and retrieval channel. |
 | sources.extraction | automatic, agent_reviewed, human_reviewed. An automatically extracted field needs explicit reviewed_by agent/human before publication. |
 | sources.retrieval | direct or search_index. Search-index review date is not proof of live availability. |
@@ -35,7 +35,7 @@ Authoritative executable schema: `src/types/faculty.ts`. Public dataset: `data/p
 | faculty_review_status | not_requested, pending, confirmed; independent from source review. |
 | publication_status | Public schema accepts only public. This describes eligibility for a proposed build, not authorization to deploy it. |
 
-Language proficiency values: Native / Heritage, Fluent / Professional, Conversational, Basic, Not specified. Each skill is separate; the code never assigns proficiency from background information. Extend the language-code vocabulary with tests when adding a genuinely confirmed language.
+Language proficiency values: Native, Fluent / Professional, Conversational, Basic, Not specified. Each skill is separate; the code never assigns proficiency from background information. Extend the language-code vocabulary with tests when adding a explicitly self-reported language.
 
 ## Deliberately absent public fields
 

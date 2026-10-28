@@ -134,10 +134,21 @@
         "extraction": "agent_reviewed",
         "retrieval": "search_index",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://www.amandadriscoll.xyz",
+        "accessed": "2026-10-27",
+        "fields": [
+          "cv_url"
+        ],
+        "evidence": "Faculty-maintained website links to this public CV. The link target was not downloaded because its robots policy restricts automated retrieval.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "adriscoll@fsu.edu",
-    "cv_url": "https://www.dropbox.com/s/e093ibpra8jjoeu/ADriscollcv.pdf?dl=0",
+    "cv_url": "https://www.dropbox.com/scl/fi/8ckosvt2vlezr3mwec0tl/ADriscollcv.pdf?rlkey=4cet6fhp2umcu0if31jzq4ilf&st=vhyuczxj&dl=0",
     "short_biography": "Studies democratic institutions in Latin America, especially courts, interbranch relations, and the rule of law.",
     "personal_website_url": "https://www.amandadriscoll.xyz",
     "phd": {
@@ -246,6 +257,17 @@
         "evidence": "Listed as a Pepper Associate or director on the official current faculty page.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/geography/faculty/amber-dejohn/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url"
+        ],
+        "evidence": "Official faculty profile explicitly links this personal academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "ad23cb@fsu.edu",
@@ -261,7 +283,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://www.amberddejohn.com/"
   },
   {
     "full_name": "Amid Ardakani",
@@ -403,7 +426,11 @@
       "Public Health",
       "Pepper Institute on Aging and Public Policy"
     ],
-    "research_interests": [],
+    "research_interests": [
+      "Medical sociology",
+      "Social epidemiology",
+      "Sociology of religion"
+    ],
     "methodological_expertise": [],
     "geographic_research_countries": [],
     "geographic_research_regions": [],
@@ -455,6 +482,28 @@
         "evidence": "Listed as a Pepper Associate or director on the official current faculty page.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/publichealth/faculty/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "cv_url"
+        ],
+        "evidence": "Official faculty listing links the curriculum vitae; the document identifies this faculty member.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/publichealth/wp-content/uploads/sites/16/2019/07/CVBURDETTE.doc",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests"
+        ],
+        "evidence": "CV Teaching and Research Interests explicitly identifies medical sociology, social epidemiology and sociology of religion.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "aburdette@fsu.edu",
@@ -464,7 +513,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "cv_url": "https://cosspp.fsu.edu/publichealth/wp-content/uploads/sites/16/2019/07/CVBURDETTE.doc"
   },
   {
     "full_name": "Ana-Maria Dimand",
@@ -480,7 +530,11 @@
       "Government contracting",
       "Environmental policy",
       "Sustainability",
-      "Collaborative governance"
+      "Collaborative governance",
+      "Public procurement",
+      "Public-sector innovation",
+      "Public-sector workforce",
+      "Artificial intelligence in government"
     ],
     "methodological_expertise": [],
     "geographic_research_countries": [],
@@ -523,24 +577,93 @@
         "retrieval": "search_index"
       },
       {
-        "url": "https://cosspp.fsu.edu/wp-content/uploads/sites/5/2024/08/DimandCV.pdf",
+        "url": "https://cosspp.fsu.edu/askew/faculty/ana-maria-dimand/",
         "accessed": "2026-10-27",
         "fields": [
-          "cv_url"
+          "research_interests",
+          "languages"
         ],
-        "evidence": "CV URL discovered in public search; not downloaded; dated file is not used to establish current appointment.",
+        "evidence": "Official faculty biography explicitly states that she speaks Romanian, English, Spanish, Italian and French; no levels are specified. Research Activities describes public procurement, innovation, public-sector workforce and AI governance.",
         "extraction": "agent_reviewed",
-        "retrieval": "search_index"
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/askew/faculty/ana-maria-dimand/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url"
+        ],
+        "evidence": "Official faculty profile explicitly links this personal academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
-    "cv_url": "https://cosspp.fsu.edu/wp-content/uploads/sites/5/2024/08/DimandCV.pdf",
     "id": "ana-maria-dimand",
-    "languages": [],
+    "languages": [
+      {
+        "code": "ro",
+        "language": "Romanian",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://cosspp.fsu.edu/askew/faculty/ana-maria-dimand/",
+        "evidence_type": "public_profile",
+        "source_statement": "Speaks Romanian",
+        "verified_on": "2026-10-27"
+      },
+      {
+        "code": "en",
+        "language": "English",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://cosspp.fsu.edu/askew/faculty/ana-maria-dimand/",
+        "evidence_type": "public_profile",
+        "source_statement": "Speaks English",
+        "verified_on": "2026-10-27"
+      },
+      {
+        "code": "es",
+        "language": "Spanish",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://cosspp.fsu.edu/askew/faculty/ana-maria-dimand/",
+        "evidence_type": "public_profile",
+        "source_statement": "Speaks Spanish",
+        "verified_on": "2026-10-27"
+      },
+      {
+        "code": "it",
+        "language": "Italian",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://cosspp.fsu.edu/askew/faculty/ana-maria-dimand/",
+        "evidence_type": "public_profile",
+        "source_statement": "Speaks Italian",
+        "verified_on": "2026-10-27"
+      },
+      {
+        "code": "fr",
+        "language": "French",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://cosspp.fsu.edu/askew/faculty/ana-maria-dimand/",
+        "evidence_type": "public_profile",
+        "source_statement": "Speaks French",
+        "verified_on": "2026-10-27"
+      }
+    ],
     "last_updated": "2026-10-27",
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://anamariadimand.github.io"
   },
   {
     "full_name": "Andrew Ballard",
@@ -550,9 +673,23 @@
     "current_affiliation_status": "current",
     "official_profile_url": "https://cosspp.fsu.edu/polisci/faculty/andrew-ballard/",
     "additional_affiliations": [],
-    "research_interests": [],
-    "methodological_expertise": [],
-    "geographic_research_countries": [],
+    "research_interests": [
+      "Congressional institutions",
+      "Elections",
+      "Political parties",
+      "Political representation",
+      "American politics"
+    ],
+    "methodological_expertise": [
+      "Quantitative text analysis",
+      "Political methodology"
+    ],
+    "geographic_research_countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
+    ],
     "geographic_research_regions": [],
     "sources": [
       {
@@ -572,6 +709,32 @@
         "extraction": "automatic",
         "retrieval": "direct",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2023/08/Ballard-CV.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "methodological_expertise",
+          "geographic_research_countries",
+          "personal_website_url"
+        ],
+        "evidence": "CV research interests identify congressional institutions and elections, political parties, representation and quantitative text analysis; the research record concerns U.S. Congress and presidential elections. Contact section gives the personal academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/andrew-ballard/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "methodological_expertise"
+        ],
+        "evidence": "Official biography explicitly describes American politics research and the profile lists Political Methodology.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "aoballard@fsu.edu",
@@ -582,7 +745,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://www.andrewoballard.com"
   },
   {
     "full_name": "Andy Scott Chang",
@@ -677,6 +841,17 @@
         "evidence": "Listed as an affiliate in the current Pepper Institute directory.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/sociology/faculty/andy-chang/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url"
+        ],
+        "evidence": "Official faculty profile explicitly links this personal academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "aschang@fsu.edu",
@@ -687,7 +862,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://www.andyscottchang.com/"
   },
   {
     "full_name": "Anne Barrett",
@@ -755,7 +931,9 @@
       "River landscapes",
       "Human-environment interactions",
       "Geomorphology",
-      "Environmental management"
+      "Environmental management",
+      "River management",
+      "Environmental change"
     ],
     "methodological_expertise": [],
     "geographic_research_countries": [],
@@ -796,6 +974,17 @@
         "extraction": "agent_reviewed",
         "retrieval": "search_index",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/geography/wp-content/uploads/sites/41/2024/08/Chin_CV_short_15Aug2024.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests"
+        ],
+        "evidence": "CV research interests explicitly include human-landscape interactions, responses of rivers to environmental change and river management.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "anne.chin@fsu.edu",
@@ -863,7 +1052,11 @@
     "additional_affiliations": [],
     "research_interests": [
       "Experimental and behavioral economics",
-      "Microeconomic theory"
+      "Microeconomic theory",
+      "Auctions",
+      "Game theory",
+      "Market design",
+      "Decision-making under uncertainty"
     ],
     "methodological_expertise": [],
     "geographic_research_countries": [],
@@ -897,6 +1090,28 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2023/11/vita_January2024.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests"
+        ],
+        "evidence": "CV Research Interests explicitly lists experimental economics, auctions, game theory and microeconomics.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/tony-kwasnica/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests"
+        ],
+        "evidence": "Official Research Activities lists market design and decision-making under uncertainty.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "akwasnica@fsu.edu",
@@ -1099,9 +1314,24 @@
     "current_affiliation_status": "current",
     "official_profile_url": "https://cosspp.fsu.edu/polisci/faculty/brad-gomez/",
     "additional_affiliations": [],
-    "research_interests": [],
-    "methodological_expertise": [],
-    "geographic_research_countries": [],
+    "research_interests": [
+      "American politics",
+      "Political behavior",
+      "Elections",
+      "Voting behavior",
+      "Congress",
+      "Public opinion",
+      "Political psychology"
+    ],
+    "methodological_expertise": [
+      "Political methodology"
+    ],
+    "geographic_research_countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
+    ],
     "geographic_research_regions": [],
     "sources": [
       {
@@ -1121,6 +1351,41 @@
         "extraction": "automatic",
         "retrieval": "direct",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/vitae-2.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "geographic_research_countries"
+        ],
+        "evidence": "CV identifies American Politics, Political Behavior and Congress as fields and documents a sustained research program on U.S. presidential/congressional elections, voter turnout and economic voting.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/brad-gomez/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "methodological_expertise"
+        ],
+        "evidence": "Official profile specifies voting behavior, public opinion, political psychology, Congress, American Politics and political methodology.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/brad-gomez/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url"
+        ],
+        "evidence": "Official faculty profile explicitly links this personal academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "bgomez@fsu.edu",
@@ -1131,7 +1396,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "http://myweb.fsu.edu/bgomez/"
   },
   {
     "full_name": "Brad Skillman",
@@ -1180,9 +1446,23 @@
     "current_affiliation_status": "current",
     "official_profile_url": "https://cosspp.fsu.edu/polisci/faculty/bradley-kile/",
     "additional_affiliations": [],
-    "research_interests": [],
+    "research_interests": [
+      "Public policy",
+      "Interest groups",
+      "Policy diffusion",
+      "Political lobbying",
+      "American politics",
+      "State politics",
+      "Health policy",
+      "Health economics"
+    ],
     "methodological_expertise": [],
-    "geographic_research_countries": [],
+    "geographic_research_countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
+    ],
     "geographic_research_regions": [],
     "sources": [
       {
@@ -1202,6 +1482,29 @@
         "extraction": "automatic",
         "retrieval": "direct",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/Kile-CV-1.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests"
+        ],
+        "evidence": "CV documents public-policy doctoral research on networks, interest groups and state policy diffusion, political lobbying instruction and policy research experience using Stata and SPSS.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/bradley-kile/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "geographic_research_countries"
+        ],
+        "evidence": "Official profile states that research concerns state and federal government-funded health care, and lists American Politics, State Politics, and Health Care Policy and Economics.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "bkile@fsu.edu",
@@ -1277,7 +1580,8 @@
     "additional_affiliations": [],
     "research_interests": [
       "Economic education",
-      "Industrial organization"
+      "Industrial organization",
+      "Applied game theory"
     ],
     "methodological_expertise": [
       "Game theory"
@@ -1321,15 +1625,76 @@
         "evidence": "Biography describes these research fields. Argentine appointment is not coded as geographic research expertise.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/iss/faculty/camilo-rubbini/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url"
+        ],
+        "evidence": "Official faculty profile explicitly links this personal academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://www.camilorubbini.com/wp-content/uploads/2026/10/Camilo_Rubbbini_CV.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "cv_url"
+        ],
+        "evidence": "Public CV linked from an official faculty page or faculty-maintained academic website; document identity checked against the faculty record. CV dates vary; current appointments remain based on current official sources.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://www.camilorubbini.com/wp-content/uploads/2026/10/Camilo_Rubbbini_CV.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "languages"
+        ],
+        "evidence": "Public CV explicitly lists research fields and English (fluent), Spanish (native).",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "camilo-rubbini",
-    "languages": [],
+    "languages": [
+      {
+        "code": "en",
+        "language": "English",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://www.camilorubbini.com/wp-content/uploads/2026/10/Camilo_Rubbbini_CV.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "English (fluent)",
+        "verified_on": "2026-10-27",
+        "proficiency_statement": "Fluent"
+      },
+      {
+        "code": "es",
+        "language": "Spanish",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://www.camilorubbini.com/wp-content/uploads/2026/10/Camilo_Rubbbini_CV.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "Spanish (native)",
+        "verified_on": "2026-10-27",
+        "proficiency_statement": "Native"
+      }
+    ],
     "last_updated": "2026-10-27",
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://www.camilorubbini.com",
+    "cv_url": "https://www.camilorubbini.com/wp-content/uploads/2026/10/Camilo_Rubbbini_CV.pdf"
   },
   {
     "full_name": "Carl Kitchens",
@@ -1342,7 +1707,14 @@
     "research_interests": [
       "Applied econometrics",
       "Labor economics",
-      "Public economics"
+      "Public economics",
+      "Economic history",
+      "Development economics",
+      "Health economics",
+      "Law and economics",
+      "Urban economics",
+      "Infrastructure",
+      "Place-based policies"
     ],
     "methodological_expertise": [],
     "geographic_research_countries": [],
@@ -1376,6 +1748,29 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2020/09/cv_06.01.2024.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "personal_website_url"
+        ],
+        "evidence": "CV Research Fields specifies economic history, development, health, and law and economics; contact section links the academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/carl-kitchens/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests"
+        ],
+        "evidence": "Official specialization includes urban economics; biography describes infrastructure and place-based policies in long-run economic growth.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "ckitchens@fsu.edu",
@@ -1386,7 +1781,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://sites.google.com/site/kitchct/"
   },
   {
     "full_name": "Carlisle Rainey",
@@ -1402,7 +1798,9 @@
     "methodological_expertise": [
       "Bayesian methods",
       "Computational methods",
-      "Quantitative methods"
+      "Quantitative methods",
+      "Logistic regression",
+      "Statistical inference"
     ],
     "geographic_research_countries": [],
     "geographic_research_regions": [],
@@ -1441,10 +1839,32 @@
         "extraction": "agent_reviewed",
         "retrieval": "search_index",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/CV-Carlisle-Rainey.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "methodological_expertise"
+        ],
+        "evidence": "CV research record develops logistic regression, small-sample estimation and statistical inference.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://www.carlislerainey.com/cv.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "cv_url"
+        ],
+        "evidence": "Public CV linked from an official faculty page or faculty-maintained academic website; document identity checked against the faculty record. CV dates vary; current appointments remain based on current official sources.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "crainey@fsu.edu",
-    "cv_url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/CV-Carlisle-Rainey.pdf",
+    "cv_url": "https://www.carlislerainey.com/cv.pdf",
     "short_biography": "Studies political methodology and teaches quantitative methods.",
     "personal_website_url": "http://www.carlislerainey.com",
     "phd": {
@@ -1474,7 +1894,9 @@
       "Water vulnerability",
       "Disaster risk management",
       "Adaptation",
-      "Environmental land-use planning"
+      "Environmental land-use planning",
+      "Water security",
+      "Vulnerability"
     ],
     "methodological_expertise": [],
     "geographic_research_countries": [],
@@ -1526,6 +1948,17 @@
         "evidence": "Listed in the current African American Studies faculty directory.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/geography/faculty/carolina-velasquez/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests"
+        ],
+        "evidence": "Official Research Activities explicitly studies water crisis and vulnerability in small Caribbean islands.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "csv23@fsu.edu",
@@ -1709,6 +2142,28 @@
         "evidence": "Listed in the current Public Health faculty directory; primary appointment is handled separately.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/durp/faculty/chris-coutts/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url"
+        ],
+        "evidence": "Official faculty profile explicitly links this personal academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cvdb.fsu.edu/cvdb/CCOUTTS.rtf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "cv_url"
+        ],
+        "evidence": "Public CV linked from an official faculty page or faculty-maintained academic website; document identity checked against the faculty record. CV dates vary; current appointments remain based on current official sources.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "short_biography": "Studies how ecological land use and nature conservation support community health, including research in Malawi.",
@@ -1718,7 +2173,9 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://coss.fsu.edu/ccoutts/",
+    "cv_url": "https://cvdb.fsu.edu/cvdb/CCOUTTS.rtf"
   },
   {
     "full_name": "Christopher Reenock",
@@ -1728,7 +2185,11 @@
     "current_affiliation_status": "current",
     "official_profile_url": "https://cosspp.fsu.edu/polisci/faculty/christopher-reenock/",
     "additional_affiliations": [],
-    "research_interests": [],
+    "research_interests": [
+      "Comparative public policy",
+      "Environmental regulatory policy",
+      "Regime dynamics"
+    ],
     "methodological_expertise": [],
     "geographic_research_countries": [],
     "geographic_research_regions": [],
@@ -1750,6 +2211,28 @@
         "extraction": "automatic",
         "retrieval": "direct",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/Reenock-Vita.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests"
+        ],
+        "evidence": "CV Research Fields explicitly lists comparative public policy, environmental regulatory policy and regime dynamics.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/christopher-reenock/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url"
+        ],
+        "evidence": "Official faculty profile explicitly links this personal academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "creenock@fsu.edu",
@@ -1760,7 +2243,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://chrisreenock.org/"
   },
   {
     "full_name": "Christopher Uejio",
@@ -1776,7 +2260,11 @@
       "Environmental health",
       "Climate adaptation",
       "Health disparities",
-      "Infectious diseases"
+      "Infectious diseases",
+      "Health geography",
+      "Extreme heat",
+      "Mosquito-borne diseases",
+      "Water quality"
     ],
     "methodological_expertise": [],
     "geographic_research_countries": [],
@@ -1827,6 +2315,18 @@
         "evidence": "Listed in the current Public Health faculty directory; primary appointment is handled separately.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/geography/wp-content/uploads/sites/41/2015/07/UejioCV23-Winter-1.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "languages"
+        ],
+        "evidence": "CV Research Interests lists health/medical geography, extreme heat, mosquito-borne diseases, water quality and decision support. Technical Skills and Languages lists Spanish with three years of training; no proficiency level is asserted.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "cuejio@fsu.edu",
@@ -1839,7 +2339,20 @@
       "year": 2011
     },
     "id": "christopher-uejio",
-    "languages": [],
+    "languages": [
+      {
+        "code": "es",
+        "language": "Spanish",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://cosspp.fsu.edu/geography/wp-content/uploads/sites/41/2015/07/UejioCV23-Winter-1.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "Spanish (3 years of training)",
+        "verified_on": "2026-10-27",
+        "proficiency_statement": "3 years of training"
+      }
+    ],
     "last_updated": "2026-10-27",
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
@@ -1984,6 +2497,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/cynthia-fan-yang/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url"
+        ],
+        "evidence": "Official faculty profile explicitly links this personal academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "cynthia.yang@fsu.edu",
@@ -1993,7 +2517,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://sites.google.com/site/cynthiafanyang/"
   },
   {
     "full_name": "Daniel Grischy",
@@ -2047,9 +2572,12 @@
       "Public management",
       "Veterans policy",
       "Policy diffusion",
-      "Higher education policy"
+      "Higher education policy",
+      "Intimate partner violence"
     ],
-    "methodological_expertise": [],
+    "methodological_expertise": [
+      "Policy evaluation"
+    ],
     "geographic_research_countries": [],
     "geographic_research_regions": [],
     "sources": [
@@ -2088,6 +2616,29 @@
         "evidence": "Biography lists diversity in public management, veterans policy, diffusion and higher education policy.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/askew/faculty/daniel-fay/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "cv_url"
+        ],
+        "evidence": "Official faculty listing links the curriculum vitae; the document identifies this faculty member.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2023/10/Fay_General_Vita_2023_10_03.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "methodological_expertise"
+        ],
+        "evidence": "CV Areas of Expertise explicitly identifies intimate partner violence and policy evaluation alongside higher education, policy diffusion and public management.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "daniel-l-fay",
@@ -2096,7 +2647,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "cv_url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2023/10/Fay_General_Vita_2023_10_03.pdf"
   },
   {
     "full_name": "Danielle N. Atkins",
@@ -2110,7 +2662,9 @@
     "research_interests": [
       "Social policy",
       "Health policy",
-      "Policy implementation"
+      "Policy implementation",
+      "Reproductive health policy",
+      "Education policy"
     ],
     "methodological_expertise": [
       "Policy analysis",
@@ -2155,6 +2709,17 @@
         "evidence": "Biography and research activities explicitly identify these topics and approaches.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/askew/faculty/danielle-atkins/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests"
+        ],
+        "evidence": "Official research description includes reproductive health policy, risky behaviors and education policy; it explicitly names policy analysis and program evaluation.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "danielle-n-atkins",
@@ -2178,7 +2743,10 @@
       "Nonprofit management",
       "Global health policy",
       "International development",
-      "Organizational networks"
+      "Organizational networks",
+      "Human rights",
+      "Human services",
+      "Emergency management"
     ],
     "methodological_expertise": [],
     "geographic_research_countries": [],
@@ -2233,6 +2801,28 @@
         "evidence": "September 21, 2026 appointment announcement confirms current Askew directorship.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/askew/faculty/david-berlan/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests"
+        ],
+        "evidence": "Official biography describes nonprofit organizational change research spanning human rights, human services, and emergency management.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/askew/faculty/david-berlan/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "cv_url"
+        ],
+        "evidence": "Official faculty listing links the curriculum vitae; the document identifies this faculty member.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "short_biography": "Studies how ideas and organizational networks shape nonprofit change across global health, development and other policy fields.",
@@ -2242,7 +2832,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "cv_url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2020/09/Berlan_General_Vita_2020-03-04.pdf"
   },
   {
     "full_name": "David Foster",
@@ -2304,6 +2895,17 @@
         "extraction": "agent_reviewed",
         "retrieval": "search_index",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2024/08/David-Foster-Curriculum-Vitae.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url"
+        ],
+        "evidence": "CV contact section gives the personal academic website; research and teaching interests explicitly include formal political theory and quantitative methods.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "drfoster@fsu.edu",
@@ -2320,7 +2922,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "http://www.fosterps.com"
   },
   {
     "full_name": "David Merrick",
@@ -2335,13 +2938,32 @@
     "research_interests": [
       "Disaster planning",
       "Emergency management",
-      "Information systems"
+      "Information systems",
+      "Disaster logistics",
+      "Unmanned aircraft systems"
     ],
     "methodological_expertise": [
       "Fieldwork",
       "Remote sensing"
     ],
-    "geographic_research_countries": [],
+    "geographic_research_countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      },
+      {
+        "code": "HT",
+        "name": "Haiti"
+      },
+      {
+        "code": "BZ",
+        "name": "Belize"
+      },
+      {
+        "code": "JM",
+        "name": "Jamaica"
+      }
+    ],
     "geographic_research_regions": [],
     "sources": [
       {
@@ -2382,6 +3004,18 @@
         "evidence": "Profile identifies interests and field research in disaster settings, and directorship of CDRP. Deployment destinations are not automatically classified as study countries.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://em.fsu.edu/faculty-merrick.php",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "geographic_research_countries"
+        ],
+        "evidence": "Official biography describes disaster field research and applied UAS work in Florida, Texas, Haiti, Belize and Jamaica; research interests include remote sensing and disaster logistics.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "dmerrick@em.fsu.edu",
@@ -2401,8 +3035,15 @@
     "current_affiliation_status": "current",
     "official_profile_url": "https://cosspp.fsu.edu/economics/faculty/davide-luparello/",
     "additional_affiliations": [],
-    "research_interests": [],
-    "methodological_expertise": [],
+    "research_interests": [
+      "Industrial organization",
+      "Applied microeconomics",
+      "Productivity",
+      "Resource misallocation"
+    ],
+    "methodological_expertise": [
+      "Structural econometrics"
+    ],
     "geographic_research_countries": [],
     "geographic_research_regions": [],
     "sources": [
@@ -2422,6 +3063,29 @@
         "extraction": "automatic",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/davide-luparello/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "methodological_expertise"
+        ],
+        "evidence": "Official biography explicitly describes industrial organization and applied microeconomics using structural econometric methods to recover behavior, study productivity, misallocation and trade.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/davide-luparello/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url"
+        ],
+        "evidence": "Official faculty profile explicitly links this personal academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "dluparello@fsu.edu",
@@ -2431,7 +3095,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://www.davideluparello.com/"
   },
   {
     "full_name": "Dawn Carr",
@@ -2509,7 +3174,12 @@
     ],
     "research_interests": [],
     "methodological_expertise": [],
-    "geographic_research_countries": [],
+    "geographic_research_countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
+    ],
     "geographic_research_regions": [],
     "sources": [
       {
@@ -2538,6 +3208,17 @@
         "evidence": "Listed as a Pepper Associate or director on the official current faculty page.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/sociology/faculty/deana-rohlinger/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "geographic_research_countries"
+        ],
+        "evidence": "Official biography explicitly identifies American politics as a substantial research area and describes research on digital technologies, social movements and political power in that context.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "deana.rohlinger@fsu.edu",
@@ -2695,6 +3376,17 @@
         "extraction": "agent_reviewed",
         "retrieval": "search_index",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://dotanhaim.com/docs/Haim_CV.pdf?v=19aea12a",
+        "accessed": "2026-10-27",
+        "fields": [
+          "cv_url"
+        ],
+        "evidence": "Public CV linked from an official faculty page or faculty-maintained academic website; document identity checked against the faculty record. CV dates vary; current appointments remain based on current official sources.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "dhaim@fsu.edu",
@@ -2711,7 +3403,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "cv_url": "https://dotanhaim.com/docs/Haim_CV.pdf?v=19aea12a"
   },
   {
     "full_name": "Doug Norton",
@@ -2721,8 +3414,13 @@
     "current_affiliation_status": "current",
     "official_profile_url": "https://cosspp.fsu.edu/economics/faculty/doug-norton/",
     "additional_affiliations": [],
-    "research_interests": [],
-    "methodological_expertise": [],
+    "research_interests": [
+      "Economics of religion",
+      "Collective action"
+    ],
+    "methodological_expertise": [
+      "Experimental methods"
+    ],
     "geographic_research_countries": [],
     "geographic_research_regions": [],
     "sources": [
@@ -2742,6 +3440,29 @@
         "extraction": "automatic",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/doug-norton/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "methodological_expertise"
+        ],
+        "evidence": "Official biography describes experimental and applied-microeconomic research on collective action; specialization includes economics of religion.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/doug-norton/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url"
+        ],
+        "evidence": "Official faculty profile explicitly links this personal academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "danorton@fsu.edu",
@@ -2751,7 +3472,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://www.dougnorton.com/"
   },
   {
     "full_name": "Doug Schrock",
@@ -2801,9 +3523,23 @@
     "current_affiliation_status": "current",
     "official_profile_url": "https://cosspp.fsu.edu/economics/faculty/elif-basaran/",
     "additional_affiliations": [],
-    "research_interests": [],
-    "methodological_expertise": [],
-    "geographic_research_countries": [],
+    "research_interests": [
+      "Development economics",
+      "Labor economics",
+      "Migration",
+      "Regional inequality",
+      "International trade",
+      "Regional economics"
+    ],
+    "methodological_expertise": [
+      "Spatial general equilibrium modeling"
+    ],
+    "geographic_research_countries": [
+      {
+        "code": "TR",
+        "name": "Türkiye"
+      }
+    ],
     "geographic_research_regions": [],
     "sources": [
       {
@@ -2822,16 +3558,102 @@
         "extraction": "automatic",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/elif-basaran/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests"
+        ],
+        "evidence": "Official biography explicitly identifies development and labor economics with a focus on migration and regional inequality.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/elif-basaran/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url"
+        ],
+        "evidence": "Official faculty profile explicitly links this personal academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://www.elif-basaran.com/_files/ugd/968c7f_ea8c78e039054347b75f13b8f6be7b2a.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "cv_url"
+        ],
+        "evidence": "Public CV linked from an official faculty page or faculty-maintained academic website; document identity checked against the faculty record. CV dates vary; current appointments remain based on current official sources.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://www.elif-basaran.com/_files/ugd/968c7f_ea8c78e039054347b75f13b8f6be7b2a.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "methodological_expertise",
+          "geographic_research_countries",
+          "languages"
+        ],
+        "evidence": "Public CV lists research fields and Turkish (Native), English (Fluent), French (Basic); job-market paper abstract explicitly studies Syrian refugee migration into Türkiye.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "efb5398@psu.edu",
     "id": "elif-basaran",
-    "languages": [],
+    "languages": [
+      {
+        "code": "tr",
+        "language": "Turkish",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://www.elif-basaran.com/_files/ugd/968c7f_ea8c78e039054347b75f13b8f6be7b2a.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "Turkish (Native)",
+        "verified_on": "2026-10-27",
+        "proficiency_statement": "Native"
+      },
+      {
+        "code": "en",
+        "language": "English",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://www.elif-basaran.com/_files/ugd/968c7f_ea8c78e039054347b75f13b8f6be7b2a.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "English (Fluent)",
+        "verified_on": "2026-10-27",
+        "proficiency_statement": "Fluent"
+      },
+      {
+        "code": "fr",
+        "language": "French",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://www.elif-basaran.com/_files/ugd/968c7f_ea8c78e039054347b75f13b8f6be7b2a.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "French (Basic)",
+        "verified_on": "2026-10-27",
+        "proficiency_statement": "Basic"
+      }
+    ],
     "last_updated": "2026-10-27",
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://www.elif-basaran.com/",
+    "cv_url": "https://www.elif-basaran.com/_files/ugd/968c7f_ea8c78e039054347b75f13b8f6be7b2a.pdf"
   },
   {
     "full_name": "Eman M. Vovsi",
@@ -3064,15 +3886,63 @@
         "evidence": "Biography and interest list explicitly identify these topics; nationality language and publication-country candidates are not encoded.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/askew/faculty/ene-ikpebe/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url"
+        ],
+        "evidence": "Official faculty profile explicitly links this personal academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/askew/faculty/ene-ikpebe/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "cv_url"
+        ],
+        "evidence": "Official faculty listing links the curriculum vitae; the document identifies this faculty member.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2021/08/CV_Ene-Ikpebe-1.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "languages"
+        ],
+        "evidence": "CV Research Interests lists public management, policy process and human capital development. Skills explicitly lists French (intermediate).",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "ene-ikpebe",
-    "languages": [],
+    "languages": [
+      {
+        "code": "fr",
+        "language": "French",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2021/08/CV_Ene-Ikpebe-1.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "French (intermediate)",
+        "verified_on": "2026-10-27",
+        "proficiency_statement": "Intermediate"
+      }
+    ],
     "last_updated": "2026-10-27",
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "http://www.eneikpebe.com",
+    "cv_url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2021/08/CV_Ene-Ikpebe-1.pdf"
   },
   {
     "full_name": "Eric Coleman",
@@ -3288,9 +4158,22 @@
     "current_affiliation_status": "current",
     "official_profile_url": "https://cosspp.fsu.edu/economics/faculty/gabriel-olivier/",
     "additional_affiliations": [],
-    "research_interests": [],
-    "methodological_expertise": [],
-    "geographic_research_countries": [],
+    "research_interests": [
+      "Economics of education",
+      "Labor economics",
+      "Political economy",
+      "Education policy"
+    ],
+    "methodological_expertise": [
+      "Quasi-experimental methods",
+      "Causal inference"
+    ],
+    "geographic_research_countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
+    ],
     "geographic_research_regions": [],
     "sources": [
       {
@@ -3310,17 +4193,53 @@
         "extraction": "automatic",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/gabriel-olivier/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "methodological_expertise",
+          "geographic_research_countries"
+        ],
+        "evidence": "Official biography identifies economics of education using quasi-experimental methods, studying U.S. federal minimum wages, school vouchers, integration busing and language bans in Louisiana schools; listed interests include labor economics and political economy.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/gabriel-olivier/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url"
+        ],
+        "evidence": "Official faculty profile explicitly links this personal academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://github.com/user-attachments/files/23688177/CV_11_25.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "cv_url"
+        ],
+        "evidence": "Public CV linked from an official faculty page or faculty-maintained academic website; document identity checked against the faculty record. CV dates vary; current appointments remain based on current official sources.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "go26f@fsu.edu",
-    "cv_url": "https://fsu.qualtrics.com/WRQualtricsControlPanel/File.php?F=F_eeBxcazmpNusU2l",
+    "cv_url": "https://github.com/user-attachments/files/23688177/CV_11_25.pdf",
     "id": "gabriel-olivier",
     "languages": [],
     "last_updated": "2026-10-27",
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://gabrieljolivier.github.io/"
   },
   {
     "full_name": "Gary VanLandingham",
@@ -3338,7 +4257,12 @@
     "methodological_expertise": [
       "Program evaluation"
     ],
-    "geographic_research_countries": [],
+    "geographic_research_countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
+    ],
     "geographic_research_regions": [],
     "sources": [
       {
@@ -3378,6 +4302,28 @@
         "evidence": "Biography and interest list identify these expertise areas.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/askew/faculty/gary-van-landingham/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "cv_url"
+        ],
+        "evidence": "Official faculty listing links the curriculum vitae; the document identifies this faculty member.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2023/10/VanLandingham_General_Vita_2023_10_19.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "geographic_research_countries"
+        ],
+        "evidence": "CV describes directing an evidence-based policymaking initiative working with more than 30 U.S. states and local governments and conducting policy studies for Florida government.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "gary-vanlandingham",
@@ -3386,7 +4332,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "cv_url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2023/10/VanLandingham_General_Vita_2023_10_19.pdf"
   },
   {
     "full_name": "Hanzhang Liu",
@@ -3450,10 +4397,43 @@
         "extraction": "agent_reviewed",
         "retrieval": "search_index",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2025/08/2025-08-29-Hanzhang-Liu-CV.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "languages"
+        ],
+        "evidence": "CV language section explicitly lists Mandarin Chinese as native.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://hanzhang-liu.org/wp-content/uploads/2026/09/cv_liu_202609.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "cv_url"
+        ],
+        "evidence": "Public CV linked from an official faculty page or faculty-maintained academic website; document identity checked against the faculty record. CV dates vary; current appointments remain based on current official sources.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://hanzhang-liu.org/wp-content/uploads/2026/09/cv_liu_202609.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "languages"
+        ],
+        "evidence": "September 2026 public CV explicitly reports Mandarin Chinese: Native.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "hanzhang.liu@fsu.edu",
-    "cv_url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2025/08/2025-08-29-Hanzhang-Liu-CV.pdf",
+    "cv_url": "https://hanzhang-liu.org/wp-content/uploads/2026/09/cv_liu_202609.pdf",
     "short_biography": "Studies authoritarian institutions and political development, with a particular focus on China.",
     "personal_website_url": "https://hanzhang-liu.org/",
     "phd": {
@@ -3462,7 +4442,20 @@
       "year": 2019
     },
     "id": "hanzhang-liu",
-    "languages": [],
+    "languages": [
+      {
+        "code": "zh",
+        "language": "Chinese",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://hanzhang-liu.org/wp-content/uploads/2026/09/cv_liu_202609.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "Mandarin Chinese: Native",
+        "verified_on": "2026-10-27",
+        "proficiency_statement": "Mandarin Chinese: native"
+      }
+    ],
     "last_updated": "2026-10-27",
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
@@ -3669,12 +4662,15 @@
       "Extreme weather",
       "Climate change",
       "Tropical cyclones",
-      "Climate resilience"
+      "Climate resilience",
+      "Climate dynamics",
+      "Climate impact assessment"
     ],
     "methodological_expertise": [
       "Climate modeling",
       "Machine learning",
-      "Statistical modeling"
+      "Statistical modeling",
+      "Numerical modeling"
     ],
     "geographic_research_countries": [],
     "geographic_research_regions": [],
@@ -3714,6 +4710,18 @@
         "extraction": "agent_reviewed",
         "retrieval": "search_index",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/geography/wp-content/uploads/sites/41/2026/07/CV_Huang-1.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "methodological_expertise"
+        ],
+        "evidence": "CV Research Interests & Objectives explicitly describes climate dynamics, global/regional climate modeling and climate impact assessments using big data and numerical models.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "hhuang5@fsu.edu",
@@ -3761,6 +4769,17 @@
         "extraction": "automatic",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/hyoeun-park/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url"
+        ],
+        "evidence": "Official faculty profile explicitly links this personal academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "hyoeun.econ@gmail.com",
@@ -3770,7 +4789,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://sites.google.com/view/hyoeunpark-econ/home"
   },
   {
     "full_name": "Jacqueline Colao",
@@ -3782,7 +4802,12 @@
     "additional_affiliations": [],
     "research_interests": [],
     "methodological_expertise": [],
-    "geographic_research_countries": [],
+    "geographic_research_countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
+    ],
     "geographic_research_regions": [],
     "sources": [
       {
@@ -3800,6 +4825,17 @@
         "extraction": "automatic",
         "retrieval": "direct",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/jacqueline-colao/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "geographic_research_countries"
+        ],
+        "evidence": "Official biography explicitly describes American politics research on elections and democratic representation. The existing upcoming appointment status is retained.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "jacqueline-colao",
@@ -3896,9 +4932,19 @@
     "current_affiliation_status": "current",
     "official_profile_url": "https://cosspp.fsu.edu/polisci/faculty/james-strickland/",
     "additional_affiliations": [],
-    "research_interests": [],
+    "research_interests": [
+      "American politics",
+      "Lobbying",
+      "Interest groups",
+      "State politics"
+    ],
     "methodological_expertise": [],
-    "geographic_research_countries": [],
+    "geographic_research_countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
+    ],
     "geographic_research_regions": [],
     "sources": [
       {
@@ -3918,6 +4964,18 @@
         "extraction": "automatic",
         "retrieval": "direct",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2025/08/2025-08-29-James-Stickland-CV-.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "geographic_research_countries"
+        ],
+        "evidence": "CV describes doctoral research on multi-client lobbying in American states and a sustained research program on lobbyists, interest groups, and U.S. state legislatures.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "jmstrickland@fsu.edu",
@@ -4006,8 +5064,16 @@
     "current_affiliation_status": "current",
     "official_profile_url": "https://cosspp.fsu.edu/polisci/faculty/jason-davis/",
     "additional_affiliations": [],
-    "research_interests": [],
-    "methodological_expertise": [],
+    "research_interests": [
+      "International political economy",
+      "International trade",
+      "Conflict",
+      "Security policy"
+    ],
+    "methodological_expertise": [
+      "Game theory",
+      "Formal theory"
+    ],
     "geographic_research_countries": [],
     "geographic_research_regions": [],
     "sources": [
@@ -4028,6 +5094,29 @@
         "extraction": "automatic",
         "retrieval": "direct",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/jason-davis/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "methodological_expertise"
+        ],
+        "evidence": "Official biography describes international political economy and conflict, using game-theoretic models for interstate bargaining over trade and security policy.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/jason-davis/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url"
+        ],
+        "evidence": "Official faculty profile explicitly links this personal academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "jason.davis@fsu.edu",
@@ -4038,7 +5127,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "http://umich.edu/~jasonsd"
   },
   {
     "full_name": "Javier Cano-Urbina",
@@ -4050,7 +5140,9 @@
     "additional_affiliations": [],
     "research_interests": [
       "Applied econometrics",
-      "Labor economics"
+      "Labor economics",
+      "Development economics",
+      "Applied microeconomics"
     ],
     "methodological_expertise": [],
     "geographic_research_countries": [],
@@ -4083,16 +5175,76 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/javier-cano-urbina/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url"
+        ],
+        "evidence": "Official faculty profile explicitly links this personal academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://myweb.fsu.edu/jcanourbina/JavierCanoUrbina-CV.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "cv_url"
+        ],
+        "evidence": "Public CV linked from an official faculty page or faculty-maintained academic website; document identity checked against the faculty record. CV dates vary; current appointments remain based on current official sources.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://myweb.fsu.edu/jcanourbina/JavierCanoUrbina-CV.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "languages"
+        ],
+        "evidence": "Public CV lists labor economics, development economics and applied microeconomics as major fields; languages: English, Spanish (Native).",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "jcanourbina@fsu.edu",
     "id": "javier-cano-urbina",
-    "languages": [],
+    "languages": [
+      {
+        "code": "en",
+        "language": "English",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://myweb.fsu.edu/jcanourbina/JavierCanoUrbina-CV.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "English, Spanish (Native)",
+        "verified_on": "2026-10-27"
+      },
+      {
+        "code": "es",
+        "language": "Spanish",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://myweb.fsu.edu/jcanourbina/JavierCanoUrbina-CV.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "English, Spanish (Native)",
+        "verified_on": "2026-10-27",
+        "proficiency_statement": "Native"
+      }
+    ],
     "last_updated": "2026-10-27",
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://myweb.fsu.edu/jcanourbina/",
+    "cv_url": "https://myweb.fsu.edu/jcanourbina/JavierCanoUrbina-CV.pdf"
   },
   {
     "full_name": "Jeff Brown",
@@ -4214,6 +5366,17 @@
         "extraction": "agent_reviewed",
         "retrieval": "search_index",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/CV-Jens-Grosser-Latest-version-1.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "languages"
+        ],
+        "evidence": "CV Personal Information explicitly lists German (native), English and Dutch; no English or Dutch proficiency level is specified.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "jgrosser@fsu.edu",
@@ -4226,7 +5389,42 @@
       "year": 2006
     },
     "id": "jens-grosser",
-    "languages": [],
+    "languages": [
+      {
+        "code": "de",
+        "language": "German",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/CV-Jens-Grosser-Latest-version-1.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "German (native)",
+        "verified_on": "2026-10-27",
+        "proficiency_statement": "Native"
+      },
+      {
+        "code": "en",
+        "language": "English",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/CV-Jens-Grosser-Latest-version-1.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "English",
+        "verified_on": "2026-10-27"
+      },
+      {
+        "code": "nl",
+        "language": "Dutch",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/CV-Jens-Grosser-Latest-version-1.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "Dutch",
+        "verified_on": "2026-10-27"
+      }
+    ],
     "last_updated": "2026-10-27",
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
@@ -4247,7 +5445,8 @@
       "Microeconomic theory",
       "Artificial intelligence",
       "Decision-making",
-      "Experimental and behavioral economics"
+      "Experimental and behavioral economics",
+      "Financial decision-making"
     ],
     "methodological_expertise": [
       "Experimental methods"
@@ -4297,6 +5496,18 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2022/08/CV_Jeongbin-Kim.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "personal_website_url"
+        ],
+        "evidence": "CV Teaching and Research Fields includes AI and financial decision-making; header provides the academic webpage.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "jkim33@fsu.edu",
@@ -4308,7 +5519,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://sites.google.com/site/jbkimecon"
   },
   {
     "full_name": "Joe Calhoun",
@@ -4384,7 +5596,8 @@
       "Urbanization",
       "Urban resilience",
       "Infrastructure development",
-      "International planning"
+      "International planning",
+      "Water sustainability"
     ],
     "methodological_expertise": [
       "Impact evaluation",
@@ -4406,6 +5619,54 @@
       {
         "code": "KE",
         "name": "Kenya"
+      },
+      {
+        "code": "EG",
+        "name": "Egypt"
+      },
+      {
+        "code": "TZ",
+        "name": "Tanzania"
+      },
+      {
+        "code": "RW",
+        "name": "Rwanda"
+      },
+      {
+        "code": "ET",
+        "name": "Ethiopia"
+      },
+      {
+        "code": "LK",
+        "name": "Sri Lanka"
+      },
+      {
+        "code": "RU",
+        "name": "Russia"
+      },
+      {
+        "code": "GH",
+        "name": "Ghana"
+      },
+      {
+        "code": "BJ",
+        "name": "Benin"
+      },
+      {
+        "code": "TH",
+        "name": "Thailand"
+      },
+      {
+        "code": "CN",
+        "name": "China"
+      },
+      {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      {
+        "code": "US",
+        "name": "United States"
       }
     ],
     "geographic_research_regions": [
@@ -4463,6 +5724,29 @@
         "evidence": "CV URL discovered in public search; not downloaded; dated file is not used to establish current appointment.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/wp-content/uploads/sites/36/2021/09/cv_jfelkner.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "geographic_research_countries"
+        ],
+        "evidence": "CV professional research experience describes World Bank urbanization and transportation analyses/simulations in Kenya, Egypt, Tanzania, Rwanda, Ethiopia, Sri Lanka and Russia, and water sustainability research in Cambodia. These are research project settings, not institutional locations.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/durp/faculty/john-felkner/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "geographic_research_countries"
+        ],
+        "evidence": "Official biography identifies funded research and World Bank/USAID work across listed countries. Research summaries explicitly describe a study of urban form and sustainable transportation in all Florida cities, and research on Mekong water sustainability.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "short_biography": "Studies urbanization, resilience, and the economic and environmental effects of infrastructure.",
@@ -4489,7 +5773,8 @@
       "Behavioral economics",
       "Political institutions",
       "Experimental and behavioral economics",
-      "Public economics"
+      "Public economics",
+      "Voting"
     ],
     "methodological_expertise": [
       "Experimental methods"
@@ -4539,10 +5824,33 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2020/02/HammanCV.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "personal_website_url"
+        ],
+        "evidence": "CV header gives the personal academic website and Research Interests includes voting and political institutions.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://myweb.fsu.edu/jhamman/doc/HammanCV.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "cv_url"
+        ],
+        "evidence": "Public CV linked from an official faculty page or faculty-maintained academic website; document identity checked against the faculty record. CV dates vary; current appointments remain based on current official sources.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "jhamman@fsu.edu",
-    "cv_url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2020/02/HammanCV.pdf",
+    "cv_url": "https://myweb.fsu.edu/jhamman/doc/HammanCV.pdf",
     "short_biography": "Uses experiments to investigate delegation, coordination, leadership and decisions within organizations and political institutions.",
     "id": "john-r-hamman",
     "languages": [],
@@ -4550,7 +5858,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://myweb.fsu.edu/jhamman"
   },
   {
     "full_name": "John Reynolds",
@@ -4634,6 +5943,10 @@
       {
         "code": "MX",
         "name": "Mexico"
+      },
+      {
+        "code": "US",
+        "name": "United States"
       }
     ],
     "geographic_research_regions": [
@@ -4687,15 +6000,86 @@
         "evidence": "Article describes his research on voter turnout incentives using The Civic Thumb program in Chihuahua, Mexico as a case study.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/internationalaffairs/faculty/juan-david-irigoyen-borunda-phd/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "geographic_research_countries"
+        ],
+        "evidence": "Official specialization explicitly identifies Latin American Politics and American Politics.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/internationalaffairs/faculty/juan-david-irigoyen-borunda-phd/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url"
+        ],
+        "evidence": "Official faculty profile explicitly links this personal academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://www.jd-irigoyen-borunda.com/_files/ugd/eb96bb_1e95c002a38649619bad87134011608b.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "cv_url"
+        ],
+        "evidence": "Public CV linked from an official faculty page or faculty-maintained academic website; document identity checked against the faculty record. CV dates vary; current appointments remain based on current official sources.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://www.jd-irigoyen-borunda.com/_files/ugd/eb96bb_1e95c002a38649619bad87134011608b.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "languages"
+        ],
+        "evidence": "Public CV explicitly lists English as fluent, Spanish as native, and academic writing in both languages as proficient.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "juan-david-irigoyen-borunda",
-    "languages": [],
+    "languages": [
+      {
+        "code": "en",
+        "language": "English",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://www.jd-irigoyen-borunda.com/_files/ugd/eb96bb_1e95c002a38649619bad87134011608b.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "English - Fluent; Academic writing in Spanish and English - Proficient",
+        "verified_on": "2026-10-27",
+        "proficiency_statement": "Fluent; academic writing: proficient"
+      },
+      {
+        "code": "es",
+        "language": "Spanish",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://www.jd-irigoyen-borunda.com/_files/ugd/eb96bb_1e95c002a38649619bad87134011608b.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "Spanish - Native speaker; Academic writing in Spanish and English - Proficient",
+        "verified_on": "2026-10-27",
+        "proficiency_statement": "Native speaker; academic writing: proficient"
+      }
+    ],
     "last_updated": "2026-10-27",
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://www.jd-irigoyen-borunda.com",
+    "cv_url": "https://www.jd-irigoyen-borunda.com/_files/ugd/eb96bb_1e95c002a38649619bad87134011608b.pdf"
   },
   {
     "full_name": "Kai Ou",
@@ -4709,7 +6093,12 @@
       "Voting",
       "Elections",
       "Behavioral choice",
-      "Institutional effects"
+      "Institutional effects",
+      "Inequality",
+      "Religion",
+      "Islamic finance",
+      "Information design",
+      "Mechanism design"
     ],
     "methodological_expertise": [
       "Experimental methods",
@@ -4717,7 +6106,12 @@
       "Quantitative methods",
       "Causal inference"
     ],
-    "geographic_research_countries": [],
+    "geographic_research_countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
+    ],
     "geographic_research_regions": [],
     "sources": [
       {
@@ -4756,12 +6150,45 @@
         "extraction": "agent_reviewed",
         "retrieval": "search_index",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/OUKAI_CV_Politics-1.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests"
+        ],
+        "evidence": "CV Research Interests explicitly includes inequality, religion, Muslim and Islamic finance, information and mechanism design.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/kai-ou/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "geographic_research_countries"
+        ],
+        "evidence": "Official faculty profile explicitly lists American Politics as an area of interest alongside comparative politics and political methodology.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://sites.google.com/a/nyu.edu/kai_ou/home?authuser=0",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url"
+        ],
+        "evidence": "The previously linked faculty-owned website explicitly states that the website has moved to this address.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "kou@fsu.edu",
     "cv_url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/OUKAI_CV_Politics-1.pdf",
     "short_biography": "Studies political and economic behavior, voting, and coordination using theory and experiments.",
-    "personal_website_url": "https://sites.google.com/a/nyu.edu/kai_ou/home?authuser=0",
+    "personal_website_url": "https://kaiou-web.github.io/",
     "phd": {
       "institution": "New York University",
       "field": "Politics",
@@ -4785,9 +6212,14 @@
     "additional_affiliations": [],
     "research_interests": [
       "Development economics",
-      "Macroeconomics"
+      "Macroeconomics",
+      "International trade"
     ],
-    "methodological_expertise": [],
+    "methodological_expertise": [
+      "Structural estimation",
+      "Causal inference",
+      "Quantitative economic modeling"
+    ],
     "geographic_research_countries": [],
     "geographic_research_regions": [],
     "sources": [
@@ -4832,13 +6264,63 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2024/10/Academic_CV___Kalyani___Sept__24.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "methodological_expertise",
+          "languages"
+        ],
+        "evidence": "CV Fields of Interest includes international trade; Skills lists structural estimation, causal inference and quantitative economic modelling. Languages are explicitly Malayalam (native), English (fluent), and Hindi (fluent).",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "kp23ba@fsu.edu",
     "cv_url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2024/10/Academic_CV___Kalyani___Sept__24.pdf",
     "short_biography": "Research connects development economics with macroeconomics.",
     "id": "kalyani-padmakumar",
-    "languages": [],
+    "languages": [
+      {
+        "code": "ml",
+        "language": "Malayalam",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2024/10/Academic_CV___Kalyani___Sept__24.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "Malayalam (native)",
+        "verified_on": "2026-10-27",
+        "proficiency_statement": "Native"
+      },
+      {
+        "code": "en",
+        "language": "English",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2024/10/Academic_CV___Kalyani___Sept__24.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "English (fluent)",
+        "verified_on": "2026-10-27",
+        "proficiency_statement": "Fluent"
+      },
+      {
+        "code": "hi",
+        "language": "Hindi",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2024/10/Academic_CV___Kalyani___Sept__24.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "Hindi (fluent)",
+        "verified_on": "2026-10-27",
+        "proficiency_statement": "Fluent"
+      }
+    ],
     "last_updated": "2026-10-27",
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
@@ -4853,9 +6335,19 @@
     "current_affiliation_status": "current",
     "official_profile_url": "https://cosspp.fsu.edu/polisci/faculty/karen-cyphers/",
     "additional_affiliations": [],
-    "research_interests": [],
+    "research_interests": [
+      "Public opinion",
+      "Civic engagement",
+      "State politics",
+      "Public policy"
+    ],
     "methodological_expertise": [],
-    "geographic_research_countries": [],
+    "geographic_research_countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
+    ],
     "geographic_research_regions": [],
     "sources": [
       {
@@ -4874,6 +6366,18 @@
         "extraction": "automatic",
         "retrieval": "direct",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/karen-cyphers/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "geographic_research_countries"
+        ],
+        "evidence": "Official biography describes public-opinion and civic-engagement research in the context of Florida policy and politics; specialization lists state politics and civics literacy.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "khalperin@fsu.edu",
@@ -4948,10 +6452,21 @@
     "additional_affiliations": [],
     "research_interests": [
       "Applied econometrics",
-      "Labor economics"
+      "Labor economics",
+      "Health economics",
+      "Applied microeconomics",
+      "Public economics",
+      "Maternal and child health",
+      "Food security",
+      "Hospital markets"
     ],
     "methodological_expertise": [],
-    "geographic_research_countries": [],
+    "geographic_research_countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
+    ],
     "geographic_research_regions": [],
     "sources": [
       {
@@ -4982,17 +6497,53 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2024/05/Yewell_CV_May2024_public_1_.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "geographic_research_countries",
+          "personal_website_url"
+        ],
+        "evidence": "CV research fields identify health economics, applied microeconomics and public economics. Funded research describes maternal/infant health and Medicaid in Kentucky, and U.S. school-meal policy. Header provides personal website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/katherine-yewell/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests"
+        ],
+        "evidence": "Official biography identifies maternal and child health, food security, household decision-making and hospital markets as research areas.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://kgyewell.com/wp-content/uploads/2026/03/yewell_cv_mar2026_public.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "cv_url"
+        ],
+        "evidence": "Public CV linked from an official faculty page or faculty-maintained academic website; document identity checked against the faculty record. CV dates vary; current appointments remain based on current official sources.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "kyewell@fsu.edu",
-    "cv_url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2024/05/Yewell_CV_May2024_public_1_.pdf",
+    "cv_url": "https://kgyewell.com/wp-content/uploads/2026/03/yewell_cv_mar2026_public.pdf",
     "id": "katherine-yewell",
     "languages": [],
     "last_updated": "2026-10-27",
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://www.kgyewell.com"
   },
   {
     "full_name": "Kathryn Baughman Samuel",
@@ -5135,7 +6686,11 @@
     "additional_affiliations": [
       "Public Health"
     ],
-    "research_interests": [],
+    "research_interests": [
+      "Health economics",
+      "Microeconomics",
+      "Applied economics"
+    ],
     "methodological_expertise": [],
     "geographic_research_countries": [],
     "geographic_research_regions": [],
@@ -5167,6 +6722,17 @@
         "evidence": "Listed in the current Public Health faculty directory; primary appointment is handled separately.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/katie-sherron/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests"
+        ],
+        "evidence": "Official Research Activities explicitly lists health economics, microeconomics and applied economics.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "ksherron@fsu.edu",
@@ -5297,6 +6863,17 @@
         "evidence": "Biography explicitly describes preservation, neighborhood inequalities and housing-related research.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/durp/faculty/kelly-kinahan/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "cv_url"
+        ],
+        "evidence": "Official faculty listing links the curriculum vitae; the document identifies this faculty member.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "kelly-kinahan",
@@ -5305,7 +6882,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "cv_url": "https://cosspp.fsu.edu/durp/wp-content/uploads/sites/9/2022/08/fall-2022-Kinahan_CV_7-2022.pdf"
   },
   {
     "full_name": "Kelly Matush",
@@ -5496,6 +7074,17 @@
         "evidence": "Listed in the current Public Health faculty directory; primary appointment is handled separately.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/askew/faculty/keon-hyung-lee/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "cv_url"
+        ],
+        "evidence": "Official faculty listing links the curriculum vitae; the document identifies this faculty member.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "keon-hyung-lee",
@@ -5504,7 +7093,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "cv_url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2020/02/CV_Keon-Lee-1.pdf"
   },
   {
     "full_name": "Koji Ueno",
@@ -5831,6 +7421,10 @@
       {
         "code": "US",
         "name": "United States"
+      },
+      {
+        "code": "GB",
+        "name": "United Kingdom"
       }
     ],
     "geographic_research_regions": [],
@@ -5881,6 +7475,17 @@
         "extraction": "agent_reviewed",
         "retrieval": "search_index",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://sites.google.com/view/liling-chang",
+        "accessed": "2026-10-27",
+        "fields": [
+          "geographic_research_countries"
+        ],
+        "evidence": "Faculty-owned website describes research using forest ecosystem modeling in California and carbon-water observations from the Birmingham Institute for Forest Research FACE experiment.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "liling.chang@fsu.edu",
@@ -6029,9 +7634,25 @@
     "current_affiliation_status": "current",
     "official_profile_url": "https://cosspp.fsu.edu/polisci/faculty/lonna-atkeson/",
     "additional_affiliations": [],
-    "research_interests": [],
-    "methodological_expertise": [],
-    "geographic_research_countries": [],
+    "research_interests": [
+      "American politics",
+      "Election science",
+      "Election administration",
+      "Voting rights",
+      "Public opinion",
+      "Political psychology",
+      "Political behavior",
+      "Public policy"
+    ],
+    "methodological_expertise": [
+      "Survey methodology"
+    ],
+    "geographic_research_countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
+    ],
     "geographic_research_regions": [],
     "sources": [
       {
@@ -6051,6 +7672,19 @@
         "extraction": "automatic",
         "retrieval": "direct",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/lonna-atkeson/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "methodological_expertise",
+          "geographic_research_countries"
+        ],
+        "evidence": "Official biography identifies election science, survey methodology, voting rights, public opinion, political psychology and behavior; the profile explicitly lists American Politics.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "latkeson@fsu.edu",
@@ -6078,7 +7712,11 @@
       "Experimental economics",
       "Experimental and behavioral economics",
       "Public economics",
-      "Microeconomic theory"
+      "Microeconomic theory",
+      "Game theory",
+      "Organizational economics",
+      "Personnel economics",
+      "Contest theory"
     ],
     "methodological_expertise": [
       "Experimental methods",
@@ -6129,6 +7767,18 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2020/02/CV_Boosey_2023_May.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "personal_website_url"
+        ],
+        "evidence": "CV Research Interests explicitly lists game theory, organizational economics, personnel economics and contest theory; header gives academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "lboosey@fsu.edu",
@@ -6140,7 +7790,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "http://myweb.fsu.edu/lboosey/"
   },
   {
     "full_name": "Luke P. Rodgers",
@@ -6153,7 +7804,9 @@
     "research_interests": [
       "Applied econometrics",
       "Labor economics",
-      "Public economics"
+      "Public economics",
+      "Tax policy",
+      "Family economics"
     ],
     "methodological_expertise": [],
     "geographic_research_countries": [],
@@ -6187,6 +7840,28 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2023/04/RodgersCV.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url"
+        ],
+        "evidence": "CV contact section identifies the personal academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/luke-rodgers/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests"
+        ],
+        "evidence": "Official biography states that research focuses on how tax policy affects families.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "lprodgers@fsu.edu",
@@ -6197,7 +7872,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://www.lukeprodgers.com"
   },
   {
     "full_name": "Manoj Atolia",
@@ -6212,7 +7888,12 @@
       "International economics",
       "Macroeconomics",
       "Economic inequality",
-      "Automation"
+      "Automation",
+      "Market frictions",
+      "Macroeconomic fluctuations",
+      "Technological change",
+      "Economic growth",
+      "Economic reforms"
     ],
     "methodological_expertise": [
       "Numerical economic modeling"
@@ -6264,6 +7945,39 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/manoj-atolia/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url"
+        ],
+        "evidence": "Official faculty profile explicitly links this personal academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://myweb.fsu.edu/matolia/ManojAtolia_CV.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "cv_url"
+        ],
+        "evidence": "Public CV linked from an official faculty page or faculty-maintained academic website; document identity checked against the faculty record. CV dates vary; current appointments remain based on current official sources.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://myweb.fsu.edu/matolia/ManojAtolia_CV.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests"
+        ],
+        "evidence": "CV research-areas statement identifies market frictions and macroeconomic fluctuations, technical change and growth, and reforms/government policy in developing countries.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "matolia@fsu.edu",
@@ -6274,7 +7988,9 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "http://myweb.fsu.edu/matolia/",
+    "cv_url": "https://myweb.fsu.edu/matolia/ManojAtolia_CV.pdf"
   },
   {
     "full_name": "Maria Cristina Ramos",
@@ -6288,11 +8004,17 @@
       "Social psychology",
       "Health inequalities",
       "Computational social science",
-      "Social networks"
+      "Social networks",
+      "Identity theory",
+      "Meaning measurement"
     ],
     "methodological_expertise": [
       "Network analysis",
-      "Computational methods"
+      "Computational methods",
+      "Natural language processing",
+      "Social network analysis",
+      "Experimental design",
+      "Computational text analysis"
     ],
     "geographic_research_countries": [],
     "geographic_research_regions": [],
@@ -6341,6 +8063,40 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/sociology/faculty/maria-cristina-ramos-ph-d/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url"
+        ],
+        "evidence": "Official faculty profile explicitly links this personal academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://mariacramos.com/files/cv.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "cv_url"
+        ],
+        "evidence": "Public CV linked from an official faculty page or faculty-maintained academic website; document identity checked against the faculty record. CV dates vary; current appointments remain based on current official sources.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://mariacramos.com/files/cv.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "methodological_expertise"
+        ],
+        "evidence": "CV Research Areas & Methods section explicitly lists computational sociology, text-as-data/NLP, social network analysis, identity theory, meaning measurement and experimental design.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "mcr22c@fsu.edu",
@@ -6351,7 +8107,9 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://www.mariacramos.com/",
+    "cv_url": "https://mariacramos.com/files/cv.pdf"
   },
   {
     "full_name": "Mark Souva",
@@ -6365,9 +8123,15 @@
       "Conflict processes",
       "Military power",
       "Economic sanctions",
-      "Foreign policy"
+      "Foreign policy",
+      "International trade",
+      "Arms races",
+      "Naval power"
     ],
-    "methodological_expertise": [],
+    "methodological_expertise": [
+      "Research design",
+      "Generalized linear models"
+    ],
     "geographic_research_countries": [],
     "geographic_research_regions": [],
     "sources": [
@@ -6406,6 +8170,18 @@
         "extraction": "agent_reviewed",
         "retrieval": "search_index",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/Souva-CV-1.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "methodological_expertise"
+        ],
+        "evidence": "CV Research and Teaching Interests specifies international trade, arms races, naval power, research design and generalized linear models.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "msouva@fsu.edu",
@@ -6827,6 +8603,17 @@
         "evidence": "Biography identifies these research areas and qualitative/mixed-method scholarship.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/durp/faculty/meaghan-mcsorley/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "cv_url"
+        ],
+        "evidence": "Official faculty listing links the curriculum vitae; the document identifies this faculty member.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "meaghan-mcsorley",
@@ -6835,7 +8622,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "cv_url": "https://cosspp.fsu.edu/durp/wp-content/uploads/sites/9/2023/09/MSM_CV_web_2309.docx"
   },
   {
     "full_name": "Megan Evans",
@@ -6847,8 +8635,20 @@
     "additional_affiliations": [
       "Center for Demography and Population Health"
     ],
-    "research_interests": [],
-    "methodological_expertise": [],
+    "research_interests": [
+      "Urban sociology",
+      "Social demography",
+      "Race and ethnicity",
+      "Social networks"
+    ],
+    "methodological_expertise": [
+      "Quantitative methods",
+      "Computational methods",
+      "Social network analysis",
+      "Spatial analysis",
+      "Text analysis",
+      "Sentiment analysis"
+    ],
     "geographic_research_countries": [],
     "geographic_research_regions": [],
     "sources": [
@@ -6880,6 +8680,29 @@
         "evidence": "October 30, 2026 seminar announcement identifies Evans as a CDPH research associate.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/sociology/wp-content/uploads/sites/18/2026/08/MEvans_CV_Sep2026_web6757.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "methodological_expertise"
+        ],
+        "evidence": "CV Research and Teaching Interests explicitly lists urban sociology, social demography, race and ethnicity, social networks, and quantitative/computational methods including network, spatial, text and sentiment analysis.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/sociology/faculty/megan-evans/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url"
+        ],
+        "evidence": "Official faculty profile explicitly links this personal academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "mme26c@fsu.edu",
@@ -6890,7 +8713,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://www.drmeganevans.com/"
   },
   {
     "full_name": "Mehak Sachdeva",
@@ -6951,6 +8775,28 @@
         "evidence": "Biography explains spatially explicit models, social interactions, spatial statistics and computational social science.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/durp/faculty/mehak-sachdeva/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url"
+        ],
+        "evidence": "Official faculty profile explicitly links this personal academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://www.mehaksachdeva.com/uploads/Sachdeva_CV.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "cv_url"
+        ],
+        "evidence": "Public CV linked from an official faculty page or faculty-maintained academic website; document identity checked against the faculty record. CV dates vary; current appointments remain based on current official sources.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "short_biography": "Develops spatial models of how place and social interactions shape behavior and policy outcomes.",
@@ -6960,7 +8806,9 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://www.mehaksachdeva.com/",
+    "cv_url": "https://www.mehaksachdeva.com/uploads/Sachdeva_CV.pdf"
   },
   {
     "full_name": "Michael Duncan",
@@ -7020,6 +8868,17 @@
         "evidence": "Biography identifies quantitative analysis, GIS analyst experience and transportation research interests.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/durp/faculty/michael-duncan/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "cv_url"
+        ],
+        "evidence": "Official faculty listing links the curriculum vitae; the document identifies this faculty member.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "michael-duncan",
@@ -7028,7 +8887,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "cv_url": "https://cosspp.fsu.edu/durp/wp-content/uploads/sites/9/2020/02/Duncan_General_Vita_2022-08-18-1.pdf"
   },
   {
     "full_name": "Michael McFarland",
@@ -7041,7 +8901,12 @@
       "Center for Demography and Population Health",
       "Public Health"
     ],
-    "research_interests": [],
+    "research_interests": [
+      "Intergenerational health",
+      "Early-life poverty",
+      "Child development",
+      "Biosocial processes"
+    ],
     "methodological_expertise": [],
     "geographic_research_countries": [],
     "geographic_research_regions": [],
@@ -7083,6 +8948,28 @@
         "evidence": "Listed in the current CDPH faculty directory.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/publichealth/faculty/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "cv_url"
+        ],
+        "evidence": "Official faculty listing links the curriculum vitae; the document identifies this faculty member.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/publichealth/wp-content/uploads/sites/16/2019/07/MMCFARLAND.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests"
+        ],
+        "evidence": "CV Research and Original Creative Work describes intergenerational and multigenerational origins of physical and mental health, early-life poverty, child development and biosocial interplay.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "mmcfarland@fsu.edu",
@@ -7092,7 +8979,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "cv_url": "https://cosspp.fsu.edu/publichealth/wp-content/uploads/sites/16/2019/07/MMCFARLAND.pdf"
   },
   {
     "full_name": "Michael R. Hammock",
@@ -7102,7 +8990,12 @@
     "current_affiliation_status": "current",
     "official_profile_url": "https://cosspp.fsu.edu/economics/faculty/michael-hammock/",
     "additional_affiliations": [],
-    "research_interests": [],
+    "research_interests": [
+      "Law and economics",
+      "Environmental economics",
+      "Public choice",
+      "Economic education"
+    ],
     "methodological_expertise": [],
     "geographic_research_countries": [],
     "geographic_research_regions": [],
@@ -7122,6 +9015,17 @@
         ],
         "evidence": "Listed in the current departmental faculty roster; title and profile links transcribed from the corresponding faculty card. Parsed roster entries were compared with the displayed official directory listing.",
         "extraction": "automatic",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/michael-hammock/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests"
+        ],
+        "evidence": "Official biography explicitly lists law and economics, environmental economics, public choice and economic pedagogy.",
+        "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
       }
@@ -7274,10 +9178,17 @@
     "additional_affiliations": [
       "International Affairs"
     ],
-    "research_interests": [],
+    "research_interests": [
+      "Comparative politics",
+      "Political communication",
+      "Political violence",
+      "International relations"
+    ],
     "methodological_expertise": [],
     "geographic_research_countries": [],
-    "geographic_research_regions": [],
+    "geographic_research_regions": [
+      "Middle East"
+    ],
     "sources": [
       {
         "url": "https://cosspp.fsu.edu/polisci/faculty/",
@@ -7306,12 +9217,73 @@
         "evidence": "Current IA directory identifies Nagar as director and teaching professor; Political Science listing also persists.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/Nagar-CV-1.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "languages"
+        ],
+        "evidence": "CV Fields explicitly identifies comparative politics and political communication. Language section reports English (fluent), Hebrew (native speaker), and Arabic (Intermediate).",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/faculty/naama-nagar/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "geographic_research_regions"
+        ],
+        "evidence": "Official specialization explicitly includes Middle East Politics and Political Violence.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "nnagar@fsu.edu",
     "cv_url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/Nagar-CV-1.pdf",
     "id": "naama-nagar",
-    "languages": [],
+    "languages": [
+      {
+        "code": "en",
+        "language": "English",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/Nagar-CV-1.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "English (fluent)",
+        "verified_on": "2026-10-27",
+        "proficiency_statement": "Fluent"
+      },
+      {
+        "code": "he",
+        "language": "Hebrew",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/Nagar-CV-1.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "Hebrew (native speaker)",
+        "verified_on": "2026-10-27",
+        "proficiency_statement": "Native speaker"
+      },
+      {
+        "code": "ar",
+        "language": "Arabic",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/Nagar-CV-1.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "Arabic (Intermediate)",
+        "verified_on": "2026-10-27",
+        "proficiency_statement": "Intermediate"
+      }
+    ],
     "last_updated": "2026-10-27",
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
@@ -7327,9 +9299,16 @@
     "official_profile_url": "https://cosspp.fsu.edu/economics/faculty/nicholas-brown/",
     "additional_affiliations": [],
     "research_interests": [
-      "Applied econometrics"
+      "Applied econometrics",
+      "Applied microeconomics"
     ],
-    "methodological_expertise": [],
+    "methodological_expertise": [
+      "Panel data analysis",
+      "Difference-in-differences",
+      "Treatment-effect estimation",
+      "Causal inference",
+      "Factor models"
+    ],
     "geographic_research_countries": [],
     "geographic_research_regions": [],
     "sources": [
@@ -7361,6 +9340,41 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2024/10/Curriculum_Vitae.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "methodological_expertise",
+          "personal_website_url"
+        ],
+        "evidence": "CV research section documents panel-data econometrics, treatment-effect estimation, and difference-in-differences methods. Header gives personal academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/nicholas-brown/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "methodological_expertise"
+        ],
+        "evidence": "Official profile identifies causal inference, panel data and factor models as areas of interest, with applied microeconomics as a specialization.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/nicholas-brown/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url"
+        ],
+        "evidence": "The current official faculty profile explicitly links this academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "nlb24c@fsu.edu",
@@ -7371,7 +9385,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://sites.google.com/view/nicholaslbrown"
   },
   {
     "full_name": "Nick Bergan",
@@ -7475,13 +9490,25 @@
       "Comparative public policy",
       "Public opinion",
       "Climate policy",
-      "Health policy"
+      "Health policy",
+      "Visual politics",
+      "Political communication",
+      "Comparative political economy",
+      "Bureaucracy",
+      "Governance",
+      "Public goods provision",
+      "Computational social science"
     ],
     "methodological_expertise": [
       "Causal inference",
       "Natural language processing",
       "Computational social science",
-      "Machine learning"
+      "Machine learning",
+      "Image analysis",
+      "Computational text analysis",
+      "Survey experiments",
+      "Eye-tracking",
+      "Geospatial analysis"
     ],
     "geographic_research_countries": [],
     "geographic_research_regions": [
@@ -7522,10 +9549,45 @@
         "extraction": "agent_reviewed",
         "retrieval": "search_index",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2023/08/Gasparyan_CV_FSU.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "languages"
+        ],
+        "evidence": "CV Languages and Skills explicitly lists English, Spanish, German, Korean (beginner), and Russian (native). Unstated proficiency is not inferred.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://olgasparyan.com/documents/Gasparyan_CV_sep2026.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "cv_url"
+        ],
+        "evidence": "Public CV linked from an official faculty page or faculty-maintained academic website; document identity checked against the faculty record. CV dates vary; current appointments remain based on current official sources.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://olgasparyan.com/documents/Gasparyan_CV_sep2026.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "methodological_expertise",
+          "languages"
+        ],
+        "evidence": "September 2026 CV explicitly lists research areas, methods, and Russian (native), English, Spanish, German, Korean (beginner).",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "ogasparyan@fsu.edu",
-    "cv_url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2023/08/Gasparyan_CV_FSU.pdf",
+    "cv_url": "https://olgasparyan.com/documents/Gasparyan_CV_sep2026.pdf",
     "short_biography": "Studies how policy changes shape public opinion and local political behavior across countries.",
     "personal_website_url": "https://olgasparyan.com/",
     "phd": {
@@ -7534,7 +9596,65 @@
       "year": 2020
     },
     "id": "olga-gasparyan",
-    "languages": [],
+    "languages": [
+      {
+        "code": "ru",
+        "language": "Russian",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://olgasparyan.com/documents/Gasparyan_CV_sep2026.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "Russian (native)",
+        "verified_on": "2026-10-27",
+        "proficiency_statement": "Native"
+      },
+      {
+        "code": "en",
+        "language": "English",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://olgasparyan.com/documents/Gasparyan_CV_sep2026.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "English, Spanish, German, Korean (beginner)",
+        "verified_on": "2026-10-27"
+      },
+      {
+        "code": "es",
+        "language": "Spanish",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://olgasparyan.com/documents/Gasparyan_CV_sep2026.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "English, Spanish, German, Korean (beginner)",
+        "verified_on": "2026-10-27"
+      },
+      {
+        "code": "de",
+        "language": "German",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://olgasparyan.com/documents/Gasparyan_CV_sep2026.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "English, Spanish, German, Korean (beginner)",
+        "verified_on": "2026-10-27"
+      },
+      {
+        "code": "ko",
+        "language": "Korean",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://olgasparyan.com/documents/Gasparyan_CV_sep2026.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "Korean (beginner)",
+        "verified_on": "2026-10-27",
+        "proficiency_statement": "Beginner"
+      }
+    ],
     "last_updated": "2026-10-27",
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
@@ -7721,6 +9841,28 @@
         "evidence": "Listed in the current CDPH faculty directory.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/sociology/faculty/paromita-sanyal/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url"
+        ],
+        "evidence": "Official faculty profile explicitly links this personal academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://sanyalsociology.wordpress.com/wp-content/uploads/2018/12/psanyalcv_dec2018.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "cv_url"
+        ],
+        "evidence": "Public CV linked from an official faculty page or faculty-maintained academic website; document identity checked against the faculty record. CV dates vary; current appointments remain based on current official sources.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "psanyal@fsu.edu",
@@ -7731,7 +9873,9 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://sanyalsociology.wordpress.com/2018/12/12/paromita-sanyal/",
+    "cv_url": "https://sanyalsociology.wordpress.com/wp-content/uploads/2018/12/psanyalcv_dec2018.pdf"
   },
   {
     "full_name": "Patricia Homan",
@@ -7837,7 +9981,10 @@
     "additional_affiliations": [],
     "research_interests": [
       "Experimental and behavioral economics",
-      "Microeconomic theory"
+      "Microeconomic theory",
+      "Social learning",
+      "Information sequencing",
+      "Artificial intelligence"
     ],
     "methodological_expertise": [],
     "geographic_research_countries": [],
@@ -7871,6 +10018,18 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2025/12/Pellumb_Reshidi_CV-1.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "personal_website_url"
+        ],
+        "evidence": "CV header gives personal academic website; research papers study social learning, information sequencing and AI adoption.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "pr25k@fsu.edu",
@@ -7881,7 +10040,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://www.preshidi.com"
   },
   {
     "full_name": "Portia Campos",
@@ -7892,7 +10052,12 @@
     "official_profile_url": "https://cosspp.fsu.edu/askew/faculty/portia-campos/",
     "email": "portia.campos@fsu.edu",
     "additional_affiliations": [],
-    "research_interests": [],
+    "research_interests": [
+      "Social capital",
+      "Democratic participation",
+      "Immigration",
+      "Poverty"
+    ],
     "methodological_expertise": [],
     "geographic_research_countries": [],
     "geographic_research_regions": [],
@@ -7922,6 +10087,28 @@
         "evidence": "Individual official profile located through indexed public content.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/askew/faculty/portia-campos/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "cv_url"
+        ],
+        "evidence": "Official faculty listing links the curriculum vitae; the document identifies this faculty member.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2020/09/Campos_General_Vita_2020-03-13.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests"
+        ],
+        "evidence": "CV records doctoral research on social capital and democratic participation in Filipino-American communities, and published research on immigration and poverty.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "portia-campos",
@@ -7930,7 +10117,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "cv_url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2020/09/Campos_General_Vita_2020-03-13.pdf"
   },
   {
     "full_name": "Quintin Beazer",
@@ -7990,6 +10178,17 @@
         "extraction": "agent_reviewed",
         "retrieval": "search_index",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/Beazer_CV-1.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "languages"
+        ],
+        "evidence": "CV Skills explicitly lists Russian (fluent), Uzbek (intermediate), and Spanish (reading). The Spanish statement identifies reading only without specifying a level.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "qbeazer@fsu.edu",
@@ -8002,7 +10201,44 @@
       "year": 2011
     },
     "id": "quintin-beazer",
-    "languages": [],
+    "languages": [
+      {
+        "code": "ru",
+        "language": "Russian",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/Beazer_CV-1.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "Russian (fluent)",
+        "verified_on": "2026-10-27",
+        "proficiency_statement": "Fluent"
+      },
+      {
+        "code": "uz",
+        "language": "Uzbek",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/Beazer_CV-1.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "Uzbek (intermediate)",
+        "verified_on": "2026-10-27",
+        "proficiency_statement": "Intermediate"
+      },
+      {
+        "code": "es",
+        "language": "Spanish",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/Beazer_CV-1.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "Spanish (reading)",
+        "verified_on": "2026-10-27",
+        "proficiency_statement": "Reading"
+      }
+    ],
     "last_updated": "2026-10-27",
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
@@ -8019,7 +10255,14 @@
     "additional_affiliations": [],
     "research_interests": [
       "Experimental and behavioral economics",
-      "Public economics"
+      "Public economics",
+      "Public goods",
+      "Group formation",
+      "Auctions",
+      "Mechanism design",
+      "Economics of religion",
+      "Risk aversion",
+      "Asset markets"
     ],
     "methodological_expertise": [],
     "geographic_research_countries": [],
@@ -8052,6 +10295,39 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/mark-issac/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url"
+        ],
+        "evidence": "Official faculty profile explicitly links this personal academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://myweb.fsu.edu/misaac/vita.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "cv_url"
+        ],
+        "evidence": "Public CV linked from an official faculty page or faculty-maintained academic website; document identity checked against the faculty record. CV dates vary; current appointments remain based on current official sources.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://myweb.fsu.edu/misaac/vita.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests"
+        ],
+        "evidence": "CV Current Specific Research Interests section identifies public goods, group formation, auctions, incentive-compatible mechanisms, theology/economics, compassion, asset markets and risk aversion.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "misaac@fsu.edu",
@@ -8061,7 +10337,9 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "http://myweb.fsu.edu/misaac/",
+    "cv_url": "https://myweb.fsu.edu/misaac/vita.pdf"
   },
   {
     "full_name": "R. Vijay Krishna",
@@ -8072,7 +10350,9 @@
     "official_profile_url": "https://cosspp.fsu.edu/economics/faculty/r-vijay-krishna/",
     "additional_affiliations": [],
     "research_interests": [
-      "Microeconomic theory"
+      "Microeconomic theory",
+      "Decision theory",
+      "Contract theory"
     ],
     "methodological_expertise": [],
     "geographic_research_countries": [],
@@ -8106,17 +10386,51 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2020/09/rvk_resume.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url"
+        ],
+        "evidence": "CV contact section supplies personal academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/r-vijay-krishna/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests"
+        ],
+        "evidence": "Official research description explicitly identifies decision theory and contract theory.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://rvijaykrishna.weebly.com/uploads/2/4/2/4/24249400/rvk-resume.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "cv_url"
+        ],
+        "evidence": "Public CV linked from an official faculty page or faculty-maintained academic website; document identity checked against the faculty record. CV dates vary; current appointments remain based on current official sources.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "vkrishna@fsu.edu",
-    "cv_url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2020/09/rvk_resume.pdf",
+    "cv_url": "https://rvijaykrishna.weebly.com/uploads/2/4/2/4/24249400/rvk-resume.pdf",
     "id": "r-vijay-krishna",
     "languages": [],
     "last_updated": "2026-10-27",
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://rvijaykrishna.weebly.com"
   },
   {
     "full_name": "Rachael Cofield",
@@ -8252,6 +10566,17 @@
         "evidence": "Current institute faculty and staff page identifies Holcombe as DeVoe L. Moore Professor of Economics.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2020/02/vita.doc",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url"
+        ],
+        "evidence": "CV header supplies personal academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "holcombe@fsu.edu",
@@ -8262,7 +10587,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://www.RandallHolcombe.com"
   },
   {
     "full_name": "Raoul Lavin",
@@ -8688,6 +11014,17 @@
         "evidence": "Current institute profile describes teaching professorship and supervision of academic research projects on Chinese transportation policy and finance.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/dmi/current-team/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "cv_url"
+        ],
+        "evidence": "Official faculty listing links the curriculum vitae; the document identifies this faculty member.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "samuel-r-staley",
@@ -8696,7 +11033,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "cv_url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2020/02/vita.doc"
   },
   {
     "full_name": "Sean Ehrlich",
@@ -8837,10 +11175,18 @@
     "research_interests": [
       "Applied econometrics",
       "Labor economics",
-      "Public economics"
+      "Public economics",
+      "Economic history",
+      "Economics of innovation",
+      "Regional economics"
     ],
     "methodological_expertise": [],
-    "geographic_research_countries": [],
+    "geographic_research_countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
+    ],
     "geographic_research_regions": [],
     "sources": [
       {
@@ -8871,6 +11217,29 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/shawn-kantor/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "geographic_research_countries"
+        ],
+        "evidence": "Official profile identifies U.S. economic history as a specialization and describes a sustained research program evaluating New Deal spending and regional economic growth.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/shawn-kantor/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url"
+        ],
+        "evidence": "Official faculty profile explicitly links this personal academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "skantor@fsu.edu",
@@ -8881,7 +11250,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://shawnkantor.wixsite.com/shawnkantor"
   },
   {
     "full_name": "Sierra Turner",
@@ -9079,7 +11449,12 @@
     "methodological_expertise": [
       "Applied econometrics"
     ],
-    "geographic_research_countries": [],
+    "geographic_research_countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
+    ],
     "geographic_research_regions": [],
     "sources": [
       {
@@ -9123,6 +11498,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/stefan-norrbin/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "geographic_research_countries"
+        ],
+        "evidence": "Official biography documents applied research contracts on Florida child support guidelines, property taxes, housing affordability and juvenile delinquency.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "snorrbin@fsu.edu",
@@ -9263,7 +11649,8 @@
     "research_interests": [
       "Criminal law",
       "Criminal justice",
-      "Constitutional law"
+      "Constitutional law",
+      "Criminology"
     ],
     "methodological_expertise": [],
     "geographic_research_countries": [],
@@ -9305,6 +11692,28 @@
         "evidence": "Official profile lists these interest areas.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/askew/faculty/sue-titus-reid/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "cv_url"
+        ],
+        "evidence": "Official faculty listing links the curriculum vitae; the document identifies this faculty member.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2020/09/Reid_General_Vita_2020-02-14.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests"
+        ],
+        "evidence": "CV research record includes books on crime, criminology, criminal justice and criminal law.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "sue-titus-reid",
@@ -9313,7 +11722,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "cv_url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2020/09/Reid_General_Vita_2020-02-14.pdf"
   },
   {
     "full_name": "Teresa Roach",
@@ -9381,7 +11791,9 @@
     "research_interests": [
       "Energy policy",
       "Technology innovation",
-      "Digital governance"
+      "Digital governance",
+      "Technology policy",
+      "Smart cities"
     ],
     "methodological_expertise": [
       "Policy analysis",
@@ -9456,6 +11868,17 @@
         "evidence": "Listed in the current lab faculty directory.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/wp-content/uploads/sites/5/2020/02/Tang_General_Vita_2022-08-19.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests"
+        ],
+        "evidence": "CV Areas of Expertise explicitly lists technology policy, smart cities, policy analysis and program evaluation.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "cv_url": "https://cosspp.fsu.edu/wp-content/uploads/sites/5/2020/02/Tang_General_Vita_2022-08-19.pdf",
@@ -9479,10 +11902,19 @@
     "research_interests": [
       "Growth management",
       "Urban redevelopment",
-      "Land use planning"
+      "Land use planning",
+      "Smart growth",
+      "Demography",
+      "Sports facilities and urban development",
+      "Master planned communities"
     ],
     "methodological_expertise": [],
-    "geographic_research_countries": [],
+    "geographic_research_countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
+    ],
     "geographic_research_regions": [],
     "sources": [
       {
@@ -9531,6 +11963,28 @@
         "evidence": "CV URL discovered in public search; not downloaded; dated file is not used to establish current appointment.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/durp/wp-content/uploads/sites/9/2024/10/TSC-Vita-Sept-2024.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests"
+        ],
+        "evidence": "CV Research Interests explicitly lists smart growth, demography, sports facilities and urban development, and master planned communities.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/durp/faculty/tim-chapin/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "geographic_research_countries"
+        ],
+        "evidence": "Official biography explicitly describes research on Florida growth management, demographic trends, urban patterns and transportation systems.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "cv_url": "https://cosspp.fsu.edu/durp/wp-content/uploads/sites/9/2024/10/TSC-Vita-Sept-2024.pdf",
@@ -9629,12 +12083,36 @@
         "evidence": "Listed in the current lab faculty directory.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/durp/wp-content/uploads/sites/9/2020/02/Holmes_General_Vita_2022-08-16.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "languages"
+        ],
+        "evidence": "CV Language Proficiency explicitly states English is native in speaking, reading and writing.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "short_biography": "Examines weather-related hazards and planning responses in the southeastern United States and Caribbean.",
     "cv_url": "https://cosspp.fsu.edu/durp/wp-content/uploads/sites/9/2020/02/Holmes_General_Vita_2022-08-16.pdf",
     "id": "tisha-joseph-holmes",
-    "languages": [],
+    "languages": [
+      {
+        "code": "en",
+        "language": "English",
+        "speaking_proficiency": "Native",
+        "reading_proficiency": "Native",
+        "writing_proficiency": "Native",
+        "verification_source": "https://cosspp.fsu.edu/durp/wp-content/uploads/sites/9/2020/02/Holmes_General_Vita_2022-08-16.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "English - native in speaking, reading, and writing.",
+        "verified_on": "2026-10-27",
+        "proficiency_statement": "Native in speaking, reading, and writing"
+      }
+    ],
     "last_updated": "2026-10-27",
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
@@ -9836,18 +12314,66 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2022/08/CV_TUBA_TUNCEL.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url",
+          "languages"
+        ],
+        "evidence": "CV Other section lists Turkish (Native), English, French; contact information gives the personal academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "ttuncel@fsu.edu",
     "cv_url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2022/08/CV_TUBA_TUNCEL.pdf",
     "short_biography": "Studies pharmaceutical firms, innovation and regulation in health economics.",
     "id": "tuba-tuncel",
-    "languages": [],
+    "languages": [
+      {
+        "code": "tr",
+        "language": "Turkish",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2022/08/CV_TUBA_TUNCEL.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "Turkish (Native)",
+        "verified_on": "2026-10-27",
+        "proficiency_statement": "Native"
+      },
+      {
+        "code": "en",
+        "language": "English",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2022/08/CV_TUBA_TUNCEL.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "English",
+        "verified_on": "2026-10-27"
+      },
+      {
+        "code": "fr",
+        "language": "French",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2022/08/CV_TUBA_TUNCEL.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "French",
+        "verified_on": "2026-10-27"
+      }
+    ],
     "last_updated": "2026-10-27",
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://sites.google.com/site/tubatuncel/"
   },
   {
     "full_name": "Tyler McCreary",
@@ -9949,8 +12475,18 @@
     "current_affiliation_status": "current",
     "official_profile_url": "https://cosspp.fsu.edu/geography/faculty/victor-mesev/",
     "additional_affiliations": [],
-    "research_interests": [],
-    "methodological_expertise": [],
+    "research_interests": [
+      "Urban remote sensing",
+      "Population geography",
+      "Conflict mapping",
+      "Geography of sport"
+    ],
+    "methodological_expertise": [
+      "Remote sensing",
+      "GIS",
+      "Image classification",
+      "Urban morphological modeling"
+    ],
     "geographic_research_countries": [],
     "geographic_research_regions": [],
     "sources": [
@@ -9971,6 +12507,18 @@
         "extraction": "automatic",
         "retrieval": "direct",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/geography/wp-content/uploads/sites/41/2015/07/Mesev-CV-Jan2025-1.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "methodological_expertise"
+        ],
+        "evidence": "CV opening research statement explicitly lists urban remote sensing, GIS/remote sensing integration, image classification, cartographic representations, urban morphological modeling, population geography, conflict mapping and sport geography.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "vmesev@fsu.edu",
@@ -10005,6 +12553,10 @@
       {
         "code": "BR",
         "name": "Brazil"
+      },
+      {
+        "code": "KE",
+        "name": "Kenya"
       }
     ],
     "geographic_research_regions": [
@@ -10074,6 +12626,18 @@
         "evidence": "Listed in the current CDPH faculty directory.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2025/09/CV-September-2025.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "geographic_research_countries",
+          "personal_website_url"
+        ],
+        "evidence": "CV contact section gives the personal academic website; current research describes a randomized religious intervention in Kenya with completed fieldwork and a funded domestic-worker study in Brazil.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "vm25m@fsu.edu",
@@ -10085,7 +12649,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://www.vivekmoorthy.com"
   },
   {
     "full_name": "Whitney T. Bendeck",
@@ -10138,7 +12703,8 @@
     "research_interests": [
       "Environmental planning",
       "Climate adaptation",
-      "Collaborative governance"
+      "Collaborative governance",
+      "Climate gentrification"
     ],
     "methodological_expertise": [
       "Qualitative methods",
@@ -10146,7 +12712,12 @@
       "Case studies",
       "Content analysis"
     ],
-    "geographic_research_countries": [],
+    "geographic_research_countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
+    ],
     "geographic_research_regions": [],
     "sources": [
       {
@@ -10186,6 +12757,18 @@
         "evidence": "Biography explicitly describes these interests and qualitative methods.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/durp/faculty/william-butler/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "geographic_research_countries"
+        ],
+        "evidence": "Official Research Activities explicitly focuses on sea-level rise and climate gentrification in Florida coastal communities.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "william-butler",
@@ -10249,7 +12832,11 @@
       "Representative bureaucracy",
       "Policing",
       "Public service delivery",
-      "Organizational socialization"
+      "Organizational socialization",
+      "Local government",
+      "Political control of bureaucracy",
+      "Justice provision",
+      "Responsiveness"
     ],
     "methodological_expertise": [
       "Quantitative methods",
@@ -10294,6 +12881,39 @@
         "evidence": "Biography and Areas of Interest explicitly identify these topics and quantitative/mixed methods.",
         "extraction": "agent_reviewed",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/askew/faculty/william-t-jackson/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url"
+        ],
+        "evidence": "Official faculty profile explicitly links this personal academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://www.williamtjackson.com/uploads/1/4/4/3/144336747/w._jackson_cv_08-07-26.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "cv_url"
+        ],
+        "evidence": "Public CV linked from an official faculty page or faculty-maintained academic website; document identity checked against the faculty record. CV dates vary; current appointments remain based on current official sources.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://www.williamtjackson.com/uploads/1/4/4/3/144336747/w._jackson_cv_08-07-26.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests"
+        ],
+        "evidence": "CV Research Interests section explicitly lists local government, political control of bureaucracy, justice provision, responsiveness and quantitative methods.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "id": "william-t-jackson",
@@ -10302,7 +12922,9 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://www.williamtjackson.com",
+    "cv_url": "https://www.williamtjackson.com/uploads/1/4/4/3/144336747/w._jackson_cv_08-07-26.pdf"
   },
   {
     "full_name": "Xiaojun Yang",
@@ -10333,6 +12955,17 @@
         "extraction": "automatic",
         "retrieval": "direct",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/geography/faculty/xiaojun-yang/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url"
+        ],
+        "evidence": "Official faculty profile explicitly links this personal academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "xyang@fsu.edu",
@@ -10342,7 +12975,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "http://myweb.fsu.edu/xyang"
   },
   {
     "full_name": "Xiaoyu Cheng",
@@ -10402,18 +13036,56 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "search_index"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2022/08/CV_XiaoyuCheng-1.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url",
+          "languages"
+        ],
+        "evidence": "CV header gives personal website; Languages explicitly lists English (fluent) and Chinese (native).",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "xcheng@fsu.edu",
     "cv_url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2022/08/CV_XiaoyuCheng-1.pdf",
     "short_biography": "Studies decisions and information within microeconomic theory.",
     "id": "xiaoyu-cheng",
-    "languages": [],
+    "languages": [
+      {
+        "code": "en",
+        "language": "English",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2022/08/CV_XiaoyuCheng-1.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "English (fluent)",
+        "verified_on": "2026-10-27",
+        "proficiency_statement": "Fluent"
+      },
+      {
+        "code": "zh",
+        "language": "Chinese",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2022/08/CV_XiaoyuCheng-1.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "Chinese (native)",
+        "verified_on": "2026-10-27",
+        "proficiency_statement": "Native"
+      }
+    ],
     "last_updated": "2026-10-27",
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://www.xiaoyu-cheng.com"
   },
   {
     "full_name": "Xue Gao",
@@ -10590,7 +13262,8 @@
       "Information economics",
       "Industrial organization",
       "Contract theory",
-      "Microeconomic theory"
+      "Microeconomic theory",
+      "Dynamic games"
     ],
     "methodological_expertise": [],
     "geographic_research_countries": [],
@@ -10626,10 +13299,43 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/faculty/yonggyun-kim/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url"
+        ],
+        "evidence": "Official faculty profile explicitly links this personal academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://yonggyun-yg-kim.github.io/files/CV/CV_ygkim.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "cv_url"
+        ],
+        "evidence": "Public CV linked from an official faculty page or faculty-maintained academic website; document identity checked against the faculty record. CV dates vary; current appointments remain based on current official sources.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://yonggyun-yg-kim.github.io/files/CV/CV_ygkim.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests"
+        ],
+        "evidence": "Public CV research-interests statement explicitly includes dynamic games.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "ykim22@fsu.edu",
-    "cv_url": "https://fsu.qualtrics.com/WRQualtricsControlPanel/File.php?F=F_umGnGxPuA7i1hkZ",
+    "cv_url": "https://yonggyun-yg-kim.github.io/files/CV/CV_ygkim.pdf",
     "short_biography": "Studies information, contracts and industrial organization using microeconomic theory.",
     "id": "yonggyun-kim",
     "languages": [],
@@ -10637,7 +13343,8 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://sites.google.com/view/yonggyun-yg-kim/"
   },
   {
     "full_name": "Youwei Xing",
@@ -10647,9 +13354,22 @@
     "current_affiliation_status": "current",
     "official_profile_url": "https://cosspp.fsu.edu/economics/faculty/youwei-xing/",
     "additional_affiliations": [],
-    "research_interests": [],
-    "methodological_expertise": [],
-    "geographic_research_countries": [],
+    "research_interests": [
+      "Public economics",
+      "Economic history",
+      "Political economy",
+      "Banking",
+      "Applied microeconomics"
+    ],
+    "methodological_expertise": [
+      "Causal inference"
+    ],
+    "geographic_research_countries": [
+      {
+        "code": "US",
+        "name": "United States"
+      }
+    ],
     "geographic_research_regions": [],
     "sources": [
       {
@@ -10669,17 +13389,58 @@
         "extraction": "automatic",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2025/10/CV_Youwei-Xing_09122025.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "methodological_expertise",
+          "geographic_research_countries",
+          "personal_website_url",
+          "languages"
+        ],
+        "evidence": "CV Research Fields lists public economics, economic history, political economy, banking and applied microeconomics. Working-paper abstracts describe Erie Canal construction, New York elections and banking; Skills includes causal inference. Language section lists English (fluent), Chinese (native). Header gives academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "yx25a@fsu.edu",
     "cv_url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2025/10/CV_Youwei-Xing_09122025.pdf",
     "id": "youwei-xing",
-    "languages": [],
+    "languages": [
+      {
+        "code": "en",
+        "language": "English",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2025/10/CV_Youwei-Xing_09122025.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "English (fluent)",
+        "verified_on": "2026-10-27",
+        "proficiency_statement": "Fluent"
+      },
+      {
+        "code": "zh",
+        "language": "Chinese",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2025/10/CV_Youwei-Xing_09122025.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "Chinese (native)",
+        "verified_on": "2026-10-27",
+        "proficiency_statement": "Native"
+      }
+    ],
     "last_updated": "2026-10-27",
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://sites.google.com/view/youweixing"
   },
   {
     "full_name": "Yusaku Horiuchi",
@@ -10693,14 +13454,16 @@
       "Public opinion",
       "Public diplomacy",
       "Japanese politics",
-      "Elections"
+      "Elections",
+      "Political methodology"
     ],
     "methodological_expertise": [
       "Experimental methods",
       "Statistical methods",
       "Causal inference",
       "Survey research",
-      "Conjoint analysis"
+      "Conjoint analysis",
+      "Survey experiments"
     ],
     "geographic_research_countries": [
       {
@@ -10747,10 +13510,46 @@
         "extraction": "agent_reviewed",
         "retrieval": "direct",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2025/08/cv.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "research_interests",
+          "methodological_expertise",
+          "personal_website_url",
+          "languages"
+        ],
+        "evidence": "CV Interests includes global public opinion, public diplomacy, survey experiments and political methodology; header provides the personal homepage. Language and Skills explicitly lists Japanese (native) and English (fluent).",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://horiuchi.org/files/cv/cv.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "cv_url"
+        ],
+        "evidence": "Public CV linked from an official faculty page or faculty-maintained academic website; document identity checked against the faculty record. CV dates vary; current appointments remain based on current official sources.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
+      },
+      {
+        "url": "https://horiuchi.org/files/cv/cv.pdf",
+        "accessed": "2026-10-27",
+        "fields": [
+          "languages"
+        ],
+        "evidence": "October 23, 2026 public CV explicitly reports Japanese (native), English (fluent), alongside research interests in global public opinion, public diplomacy, survey experiments, political methodology and Japanese politics.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "yusaku.horiuchi@fsu.edu",
-    "cv_url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2025/08/cv.pdf",
+    "cv_url": "https://horiuchi.org/files/cv/cv.pdf",
     "short_biography": "Studies public opinion, public diplomacy, elections, and Japanese politics using experiments and statistical methods.",
     "phd": {
       "institution": "Massachusetts Institute of Technology",
@@ -10758,12 +13557,38 @@
       "year": 2001
     },
     "id": "yusaku-horiuchi",
-    "languages": [],
+    "languages": [
+      {
+        "code": "ja",
+        "language": "Japanese",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://horiuchi.org/files/cv/cv.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "Japanese (native)",
+        "verified_on": "2026-10-27",
+        "proficiency_statement": "Native"
+      },
+      {
+        "code": "en",
+        "language": "English",
+        "speaking_proficiency": "Not specified",
+        "reading_proficiency": "Not specified",
+        "writing_proficiency": "Not specified",
+        "verification_source": "https://horiuchi.org/files/cv/cv.pdf",
+        "evidence_type": "public_cv",
+        "source_statement": "English (fluent)",
+        "verified_on": "2026-10-27",
+        "proficiency_statement": "Fluent"
+      }
+    ],
     "last_updated": "2026-10-27",
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://horiuchi.org"
   },
   {
     "full_name": "Ziqi Li",
@@ -10821,6 +13646,17 @@
         "extraction": "agent_reviewed",
         "retrieval": "search_index",
         "reviewed_by": "agent"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/geography/faculty/ziqi-li/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "personal_website_url"
+        ],
+        "evidence": "Official faculty profile explicitly links this personal academic website.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "direct"
       }
     ],
     "email": "ziqi.li@fsu.edu",
@@ -10831,6 +13667,7 @@
     "last_verified": "2026-10-27",
     "verification_status": "source_verified",
     "faculty_review_status": "not_requested",
-    "publication_status": "public"
+    "publication_status": "public",
+    "personal_website_url": "https://sites.google.com/view/ziqi-li"
   }
 ]

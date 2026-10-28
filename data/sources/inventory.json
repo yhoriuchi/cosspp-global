@@ -85,6 +85,7 @@
       "2026-10-27"
     ],
     "retrieval_methods": [
+      "direct",
       "search_index"
     ],
     "faculty_ids": [
@@ -97,6 +98,7 @@
       "2026-10-27"
     ],
     "retrieval_methods": [
+      "direct",
       "search_index"
     ],
     "faculty_ids": [
@@ -109,6 +111,7 @@
       "2026-10-27"
     ],
     "retrieval_methods": [
+      "direct",
       "search_index"
     ],
     "faculty_ids": [
@@ -121,6 +124,7 @@
       "2026-10-27"
     ],
     "retrieval_methods": [
+      "direct",
       "search_index"
     ],
     "faculty_ids": [
@@ -133,6 +137,7 @@
       "2026-10-27"
     ],
     "retrieval_methods": [
+      "direct",
       "search_index"
     ],
     "faculty_ids": [
@@ -145,6 +150,7 @@
       "2026-10-27"
     ],
     "retrieval_methods": [
+      "direct",
       "search_index"
     ],
     "faculty_ids": [
@@ -169,6 +175,7 @@
       "2026-10-27"
     ],
     "retrieval_methods": [
+      "direct",
       "search_index"
     ],
     "faculty_ids": [
@@ -205,6 +212,7 @@
       "2026-10-27"
     ],
     "retrieval_methods": [
+      "direct",
       "search_index"
     ],
     "faculty_ids": [
@@ -229,6 +237,7 @@
       "2026-10-27"
     ],
     "retrieval_methods": [
+      "direct",
       "search_index"
     ],
     "faculty_ids": [
@@ -253,6 +262,7 @@
       "2026-10-27"
     ],
     "retrieval_methods": [
+      "direct",
       "search_index"
     ],
     "faculty_ids": [
@@ -301,6 +311,7 @@
       "2026-10-27"
     ],
     "retrieval_methods": [
+      "direct",
       "search_index"
     ],
     "faculty_ids": [
@@ -364,6 +375,7 @@
       "2026-10-27"
     ],
     "retrieval_methods": [
+      "direct",
       "search_index"
     ],
     "faculty_ids": [
@@ -400,6 +412,7 @@
       "2026-10-27"
     ],
     "retrieval_methods": [
+      "direct",
       "search_index"
     ],
     "faculty_ids": [
@@ -412,6 +425,7 @@
       "2026-10-27"
     ],
     "retrieval_methods": [
+      "direct",
       "search_index"
     ],
     "faculty_ids": [
@@ -424,6 +438,7 @@
       "2026-10-27"
     ],
     "retrieval_methods": [
+      "direct",
       "search_index"
     ],
     "faculty_ids": [
@@ -436,6 +451,7 @@
       "2026-10-27"
     ],
     "retrieval_methods": [
+      "direct",
       "search_index"
     ],
     "faculty_ids": [
@@ -448,6 +464,7 @@
       "2026-10-27"
     ],
     "retrieval_methods": [
+      "direct",
       "search_index"
     ],
     "faculty_ids": [
@@ -460,6 +477,7 @@
       "2026-10-27"
     ],
     "retrieval_methods": [
+      "direct",
       "search_index"
     ],
     "faculty_ids": [
@@ -484,6 +502,7 @@
       "2026-10-27"
     ],
     "retrieval_methods": [
+      "direct",
       "search_index"
     ],
     "faculty_ids": [
@@ -496,6 +515,7 @@
       "2026-10-27"
     ],
     "retrieval_methods": [
+      "direct",
       "search_index"
     ],
     "faculty_ids": [
@@ -508,6 +528,7 @@
       "2026-10-27"
     ],
     "retrieval_methods": [
+      "direct",
       "search_index"
     ],
     "faculty_ids": [
@@ -821,6 +842,7 @@
       "2026-10-27"
     ],
     "retrieval_methods": [
+      "direct",
       "search_index"
     ],
     "faculty_ids": [
@@ -845,6 +867,7 @@
       "2026-10-27"
     ],
     "retrieval_methods": [
+      "direct",
       "search_index"
     ],
     "faculty_ids": [
@@ -924,6 +947,7 @@
       "2026-10-27"
     ],
     "retrieval_methods": [
+      "direct",
       "search_index"
     ],
     "faculty_ids": [
@@ -991,6 +1015,7 @@
       "2026-10-27"
     ],
     "retrieval_methods": [
+      "direct",
       "search_index"
     ],
     "faculty_ids": [
@@ -1220,6 +1245,7 @@
       "2026-10-27"
     ],
     "retrieval_methods": [
+      "direct",
       "search_index"
     ],
     "faculty_ids": [
@@ -1352,6 +1378,7 @@
       "2026-10-27"
     ],
     "retrieval_methods": [
+      "direct",
       "search_index"
     ],
     "faculty_ids": [
@@ -1516,6 +1543,7 @@
       "2026-10-27"
     ],
     "retrieval_methods": [
+      "direct",
       "search_index"
     ],
     "faculty_ids": [
@@ -1576,6 +1604,7 @@
       "2026-10-27"
     ],
     "retrieval_methods": [
+      "direct",
       "search_index"
     ],
     "faculty_ids": [
@@ -1588,6 +1617,7 @@
       "2026-10-27"
     ],
     "retrieval_methods": [
+      "direct",
       "search_index"
     ],
     "faculty_ids": [
@@ -1604,18 +1634,6 @@
     ],
     "faculty_ids": [
       "hongtao-yi"
-    ]
-  },
-  {
-    "url": "https://cosspp.fsu.edu/wp-content/uploads/sites/5/2024/08/DimandCV.pdf",
-    "access_dates": [
-      "2026-10-27"
-    ],
-    "retrieval_methods": [
-      "search_index"
-    ],
-    "faculty_ids": [
-      "ana-maria-dimand"
     ]
   },
   {
@@ -1660,6 +1678,7 @@
       "2026-10-27"
     ],
     "retrieval_methods": [
+      "direct",
       "search_index"
     ],
     "faculty_ids": [
@@ -1748,6 +1767,1170 @@
     ],
     "faculty_ids": [
       "andy-scott-chang"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2020/09/Campos_General_Vita_2020-03-13.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "portia-campos"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2020/09/Reid_General_Vita_2020-02-14.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "sue-titus-reid"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2021/08/CV_Ene-Ikpebe-1.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "ene-ikpebe"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2023/10/Fay_General_Vita_2023_10_03.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "daniel-l-fay"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/askew/wp-content/uploads/sites/5/2023/10/VanLandingham_General_Vita_2023_10_19.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "gary-vanlandingham"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/faculty/carl-kitchens/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "carl-kitchens"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/faculty/cynthia-fan-yang/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "cynthia-fan-yang"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/faculty/davide-luparello/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "davide-luparello"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/faculty/doug-norton/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "doug-norton"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/faculty/elif-basaran/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "elif-basaran"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/faculty/gabriel-olivier/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "gabriel-olivier"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/faculty/hyoeun-park/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "hyoeun-park"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/faculty/javier-cano-urbina/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "javier-cano-urbina"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/faculty/katherine-yewell/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "katherine-yewell"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/faculty/katie-sherron/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "katie-sherron"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/faculty/luke-rodgers/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "luke-p-rodgers"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/faculty/mark-issac/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "r-mark-isaac"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/faculty/michael-hammock/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "michael-r-hammock"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/faculty/nicholas-brown/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "nicholas-l-brown"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/faculty/r-vijay-krishna/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "r-vijay-krishna"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/faculty/shawn-kantor/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "shawn-kantor"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/faculty/tony-kwasnica/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "anthony-kwasnica"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2020/02/CV_Boosey_2023_May.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "luke-boosey"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2020/02/HammanCV.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "john-r-hamman"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2020/02/vita.doc",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "randall-g-holcombe"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2020/09/cv_06.01.2024.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "carl-kitchens"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2020/09/rvk_resume.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "r-vijay-krishna"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2022/08/CV_Jeongbin-Kim.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "jeongbin-kim"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2022/08/CV_TUBA_TUNCEL.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "tuba-tuncel"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2022/08/CV_XiaoyuCheng-1.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "xiaoyu-cheng"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2023/04/RodgersCV.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "luke-p-rodgers"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2023/11/vita_January2024.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "anthony-kwasnica"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2024/05/Yewell_CV_May2024_public_1_.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "katherine-yewell"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2024/10/Academic_CV___Kalyani___Sept__24.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "kalyani-padmakumar"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2024/10/Curriculum_Vitae.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "nicholas-l-brown"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2025/09/CV-September-2025.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "vivek-moorthy"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2025/10/CV_Youwei-Xing_09122025.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "youwei-xing"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/economics/wp-content/uploads/sites/10/2025/12/Pellumb_Reshidi_CV-1.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "pellumb-reshidi"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/geography/faculty/xiaojun-yang/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "xiaojun-yang"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/geography/faculty/ziqi-li/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "ziqi-li"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/geography/wp-content/uploads/sites/41/2015/07/Mesev-CV-Jan2025-1.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "victor-mesev"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/geography/wp-content/uploads/sites/41/2015/07/UejioCV23-Winter-1.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "christopher-uejio"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/geography/wp-content/uploads/sites/41/2024/08/Chin_CV_short_15Aug2024.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "anne-chin"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/geography/wp-content/uploads/sites/41/2026/07/CV_Huang-1.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "huanping-huang"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/faculty/andrew-ballard/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "andrew-ballard"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/faculty/brad-gomez/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "brad-gomez"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/faculty/bradley-kile/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "bradley-kile"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/faculty/christopher-reenock/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "christopher-reenock"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/faculty/jacqueline-colao/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "jacqueline-colao"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/faculty/jason-davis/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "jason-davis"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/faculty/karen-cyphers/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "karen-cyphers"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/faculty/lonna-atkeson/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "lonna-atkeson"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/faculty/naama-nagar/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "naama-nagar"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/Beazer_CV-1.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "quintin-beazer"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/CV-Carlisle-Rainey.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "carlisle-rainey"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/CV-Jens-Grosser-Latest-version-1.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "jens-grosser"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/Kile-CV-1.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "bradley-kile"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/Nagar-CV-1.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "naama-nagar"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/OUKAI_CV_Politics-1.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "kai-ou"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/Reenock-Vita.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "christopher-reenock"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/Souva-CV-1.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "mark-souva"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2020/02/vitae-2.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "brad-gomez"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2023/08/Ballard-CV.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "andrew-ballard"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2023/08/Gasparyan_CV_FSU.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "olga-gasparyan"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2024/08/David-Foster-Curriculum-Vitae.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "david-foster"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2025/08/2025-08-29-Hanzhang-Liu-CV.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "hanzhang-liu"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2025/08/2025-08-29-James-Stickland-CV-.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "james-strickland"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/polisci/wp-content/uploads/sites/15/2025/08/cv.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "yusaku-horiuchi"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/publichealth/wp-content/uploads/sites/16/2019/07/CVBURDETTE.doc",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "amy-burdette"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/publichealth/wp-content/uploads/sites/16/2019/07/MMCFARLAND.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "michael-mcfarland"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/sociology/faculty/deana-rohlinger/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "deana-a-rohlinger"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/sociology/faculty/megan-evans/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "megan-evans"
+    ]
+  },
+  {
+    "url": "https://cosspp.fsu.edu/sociology/wp-content/uploads/sites/18/2026/08/MEvans_CV_Sep2026_web6757.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "megan-evans"
+    ]
+  },
+  {
+    "url": "https://cvdb.fsu.edu/cvdb/CCOUTTS.rtf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "chris-coutts"
+    ]
+  },
+  {
+    "url": "https://dotanhaim.com/docs/Haim_CV.pdf?v=19aea12a",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "dotan-haim"
+    ]
+  },
+  {
+    "url": "https://github.com/user-attachments/files/23688177/CV_11_25.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "gabriel-olivier"
+    ]
+  },
+  {
+    "url": "https://hanzhang-liu.org/wp-content/uploads/2026/09/cv_liu_202609.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "hanzhang-liu"
+    ]
+  },
+  {
+    "url": "https://horiuchi.org/files/cv/cv.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "yusaku-horiuchi"
+    ]
+  },
+  {
+    "url": "https://kgyewell.com/wp-content/uploads/2026/03/yewell_cv_mar2026_public.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "katherine-yewell"
+    ]
+  },
+  {
+    "url": "https://mariacramos.com/files/cv.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "maria-cristina-ramos"
+    ]
+  },
+  {
+    "url": "https://myweb.fsu.edu/jcanourbina/JavierCanoUrbina-CV.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "javier-cano-urbina"
+    ]
+  },
+  {
+    "url": "https://myweb.fsu.edu/jhamman/doc/HammanCV.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "john-r-hamman"
+    ]
+  },
+  {
+    "url": "https://myweb.fsu.edu/matolia/ManojAtolia_CV.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "manoj-atolia"
+    ]
+  },
+  {
+    "url": "https://myweb.fsu.edu/misaac/vita.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "r-mark-isaac"
+    ]
+  },
+  {
+    "url": "https://olgasparyan.com/documents/Gasparyan_CV_sep2026.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "olga-gasparyan"
+    ]
+  },
+  {
+    "url": "https://rvijaykrishna.weebly.com/uploads/2/4/2/4/24249400/rvk-resume.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "r-vijay-krishna"
+    ]
+  },
+  {
+    "url": "https://sanyalsociology.wordpress.com/wp-content/uploads/2018/12/psanyalcv_dec2018.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "paromita-sanyal"
+    ]
+  },
+  {
+    "url": "https://sites.google.com/a/nyu.edu/kai_ou/home?authuser=0",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "kai-ou"
+    ]
+  },
+  {
+    "url": "https://sites.google.com/view/liling-chang",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "liling-chang"
+    ]
+  },
+  {
+    "url": "https://www.amandadriscoll.xyz",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "amanda-driscoll"
+    ]
+  },
+  {
+    "url": "https://www.camilorubbini.com/wp-content/uploads/2026/10/Camilo_Rubbbini_CV.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "camilo-rubbini"
+    ]
+  },
+  {
+    "url": "https://www.carlislerainey.com/cv.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "carlisle-rainey"
+    ]
+  },
+  {
+    "url": "https://www.elif-basaran.com/_files/ugd/968c7f_ea8c78e039054347b75f13b8f6be7b2a.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "elif-basaran"
+    ]
+  },
+  {
+    "url": "https://www.jd-irigoyen-borunda.com/_files/ugd/eb96bb_1e95c002a38649619bad87134011608b.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "juan-david-irigoyen-borunda"
+    ]
+  },
+  {
+    "url": "https://www.mehaksachdeva.com/uploads/Sachdeva_CV.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "mehak-sachdeva"
+    ]
+  },
+  {
+    "url": "https://www.williamtjackson.com/uploads/1/4/4/3/144336747/w._jackson_cv_08-07-26.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "william-t-jackson"
+    ]
+  },
+  {
+    "url": "https://yonggyun-yg-kim.github.io/files/CV/CV_ygkim.pdf",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "direct"
+    ],
+    "faculty_ids": [
+      "yonggyun-kim"
     ]
   }
 ]

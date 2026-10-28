@@ -87,10 +87,10 @@ const base = {
       speaking_proficiency: 'Fluent / Professional',
       reading_proficiency: 'Not specified',
       writing_proficiency: 'Not specified',
-      verification_source: 'https://example.org/consent',
-      faculty_confirmed: true,
-      publication_approved: true,
-      approval_date: '2026-10-27',
+      verification_source: 'https://example.org/faculty',
+      evidence_type: 'public_profile',
+      source_statement: 'French: professional speaking proficiency',
+      verified_on: '2026-10-27',
     },
   ],
   sources: [
@@ -122,7 +122,9 @@ describe('directory search', () => {
   it('finds country-only expertise through region filters and region text without altering claims', () => {
     const japanOnly = { ...a, geographic_research_regions: [] };
     for (const region of ['East Asia', 'Asia']) {
-      expect(filterFaculty([japanOnly, b], { ...emptyFilters, region: [region] })).toEqual([japanOnly]);
+      expect(filterFaculty([japanOnly, b], { ...emptyFilters, region: [region] })).toEqual([
+        japanOnly,
+      ]);
       expect(filterFaculty([japanOnly, b], { ...emptyFilters, q: region })).toEqual([japanOnly]);
     }
     expect(filterFaculty([japanOnly], { ...emptyFilters, region: ['Europe'] })).toEqual([]);
@@ -131,9 +133,13 @@ describe('directory search', () => {
   it('deduplicates country and explicit region membership and does not infer specific countries', () => {
     expect(researchRegions(a).filter((r) => r === 'East Asia')).toHaveLength(1);
     const regionalOnly = { ...a, geographic_research_countries: [] };
-    expect(filterFaculty([regionalOnly], { ...emptyFilters, region: ['Asia'] })).toEqual([regionalOnly]);
+    expect(filterFaculty([regionalOnly], { ...emptyFilters, region: ['Asia'] })).toEqual([
+      regionalOnly,
+    ]);
     expect(filterFaculty([regionalOnly], { ...emptyFilters, country: ['JP'] })).toEqual([]);
-    expect(filterFaculty([a], { ...emptyFilters, region: ['East Asia'], country: ['FR'] })).toEqual([]);
+    expect(filterFaculty([a], { ...emptyFilters, region: ['East Asia'], country: ['FR'] })).toEqual(
+      [],
+    );
     expect(researchRegions(b)).toEqual([]);
   });
   it.each([
@@ -224,10 +230,16 @@ describe('publication gate', () => {
     });
     try {
       expect(() =>
-        facultySchema.parse({ ...a, geographic_research_countries: [{ code: 'CN', name: 'China' }] }),
+        facultySchema.parse({
+          ...a,
+          geographic_research_countries: [{ code: 'CN', name: 'China' }],
+        }),
       ).not.toThrow();
       expect(() =>
-        facultySchema.parse({ ...a, geographic_research_countries: [{ code: 'CN', name: 'Japan' }] }),
+        facultySchema.parse({
+          ...a,
+          geographic_research_countries: [{ code: 'CN', name: 'Japan' }],
+        }),
       ).toThrow();
     } finally {
       localeName.mockRestore();
@@ -279,10 +291,17 @@ describe('publication gate', () => {
       }),
     ).not.toThrow();
   });
-  it('requires BOTH language confirmation and publication consent', () => {
-    for (const key of ['faculty_confirmed', 'publication_approved'])
+  it('requires explicit public self-report provenance for each language', () => {
+    expect(() => facultySchema.parse(a)).not.toThrow();
+    for (const patch of [
+      { evidence_type: 'inferred' },
+      { source_statement: '' },
+      { verification_source: 'https://example.org/unmatched' },
+      { verified_on: '2026-10-28' },
+      { faculty_confirmed: true },
+    ])
       expect(() =>
-        facultySchema.parse({ ...a, languages: [{ ...a.languages[0], [key]: false }] }),
+        facultySchema.parse({ ...a, languages: [{ ...a.languages[0], ...patch }] }),
       ).toThrow();
   });
   it('rejects invalid languages and unsafe URLs', () => {
