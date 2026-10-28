@@ -1,0 +1,17 @@
+{
+  "sources": {
+    "https://anamariadimand.github.io/": {
+      "faculty_ids": [
+        "ana-maria-dimand"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "06f6cf977744a1f03d6ec72f9ff9326a6bde76b167cefc5973e695967378fec3",
+      "checked_at": "2026-10-28T11:30:15.209Z",
+      "status": "baseline",
+      "cv_candidates": []
+    }
+  },
+  "checked_at": "2026-10-28T11:30:15.209Z"
+}
