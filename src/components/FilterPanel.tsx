@@ -26,7 +26,11 @@ export function FilterPanel({
     [
       'department',
       'Department',
-      unique(rows.flatMap((r) => [r.primary_department, ...r.additional_affiliations])),
+      unique(
+        rows
+          .flatMap((r) => [r.primary_department, ...r.additional_affiliations])
+          .filter((unit) => unit !== 'Unknown'),
+      ),
     ],
     [
       'country',

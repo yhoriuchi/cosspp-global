@@ -116,9 +116,9 @@ export function About({ rows }: { rows: Faculty[] }) {
               Regular and teaching faculty with current appointments appear by default. Use the
               appointment checkbox to include visiting, adjunct, affiliated and upcoming listings,
               along with entries whose current appointment details are being reconciled by the
-              directory editors. Department filters match primary and additional affiliations.
-              “Other faculty listings” groups entries with a documented affiliation whose primary
-              departmental placement is being reconciled by the editors.
+              directory editors. Department filters match primary and additional affiliations. Where
+              primary departmental placement has not been established, the Departments page groups
+              the profile under a documented affiliation.
             </p>
           </section>
         </div>

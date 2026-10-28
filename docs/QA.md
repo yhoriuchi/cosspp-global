@@ -155,3 +155,8 @@ was not tested. No faculty data or matching logic changed.
 - Country choices are limited to the selected region. A selected country automatically selects and locks its containing region; resetting Country to All unlocks Region. Existing containing broad/overlapping regions are retained. Incompatible incoming single-country URLs normalize to the country's preferred mapped region; removing the region chip clears its country.
 - Profile footer now shows Last updated and its date; detailed evidence remains in the dataset, with language/photo source links preserved.
 - All 176 records, 51 unit checks, TypeScript/build and privacy/subpath audit passed. Local Chromium and iPhone WebKit spot checks confirmed linked choices, lock/unlock, reload and date-only footer with no page errors/overflow; phone screenshot inspected. Full browser-suite result is recorded in private project history.
+
+### Documented affiliation in department browsing — 2026-10-27
+
+- Department cards use a documented affiliation when primary placement is unknown and label counts as profiles. African American Studies replaces the one-person Other faculty listings card without changing primary appointment evidence or the dataset. Unknown is omitted from selectable Department options.
+- Validation of 176 records, 51 unit checks, production build and privacy/subpath audit passed. Added browser regression checks the AAS card, its default count, Kwasi Densu navigation and omission of Unknown from dropdown choices; targeted browser results recorded in private history.

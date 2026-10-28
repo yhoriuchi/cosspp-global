@@ -4,7 +4,9 @@ import { Link } from '../components/Link';
 import { isActive, queryFor } from '../utils/search';
 export function Departments({ rows }: { rows: Faculty[] }) {
   const active = rows.filter(isActive);
-  const units = [...new Set(rows.map((r) => r.primary_department))].sort();
+  const browseUnit = (r: Faculty) =>
+    r.primary_department !== 'Unknown' ? r.primary_department : r.additional_affiliations[0];
+  const units = [...new Set(rows.map(browseUnit).filter((unit): unit is string => !!unit))].sort();
   return (
     <>
       <PageHeading eyebrow="ACROSS DISCIPLINES" title="One college. Many perspectives.">
@@ -17,11 +19,11 @@ export function Departments({ rows }: { rows: Faculty[] }) {
         {units.map((d, i) => (
           <Link className="department-card" href={queryFor({ department: [d] })} key={d}>
             <span className="number">{String(i + 1).padStart(2, '0')}</span>
-            <h2>{d === 'Unknown' ? 'Other faculty listings' : d}</h2>
+            <h2>{d}</h2>
             <div>
               <span>
-                {active.filter((r) => r.primary_department === d).length}{' '}
-                {d === 'Unknown' ? 'faculty profiles' : 'primary appointments'}
+                {active.filter((r) => browseUnit(r) === d).length} faculty{' '}
+                {active.filter((r) => browseUnit(r) === d).length === 1 ? 'profile' : 'profiles'}
               </span>
               <span aria-hidden="true">↗</span>
             </div>
@@ -29,8 +31,9 @@ export function Departments({ rows }: { rows: Faculty[] }) {
         ))}
       </div>
       <p className="muted">
-        Department filters also include documented additional affiliations, so a filtered result may
-        include colleagues whose primary appointment is elsewhere.
+        Profiles are grouped by primary appointment, or by a documented affiliation when primary
+        placement has not been established. Department filters also include additional affiliations,
+        so a filtered result may include colleagues whose primary appointment is elsewhere.
       </p>
     </>
   );

@@ -367,3 +367,17 @@ test('region restricts countries and country sets and locks its region', async (
   await expect(page.getByRole('heading', { name: 'Last updated', exact: true })).toBeVisible();
   await expect(page.getByRole('heading', { name: 'Sources & updates' })).toHaveCount(0);
 });
+
+test('department browsing uses documented affiliation instead of an unknown category', async ({
+  page,
+}) => {
+  await page.goto('?page=departments');
+  await expect(page.getByRole('link', { name: /Other faculty listings/ })).toHaveCount(0);
+  const aas = page.getByRole('link', { name: /African American Studies/ });
+  await expect(aas).toContainText('1 faculty profile');
+  await aas.click();
+  await expect(page.getByRole('link', { name: 'Kwasi Densu', exact: true })).toBeVisible();
+  const department = page.getByRole('combobox', { name: 'Department', exact: true });
+  await expect(department).toHaveValue('African American Studies');
+  await expect(department.locator('option[value="Unknown"]')).toHaveCount(0);
+});

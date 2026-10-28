@@ -87,3 +87,5 @@ Profile sidebars and About now ask faculty to revise their own faculty profile p
 Profile footers display only Last updated and the record date. Detailed field-level evidence remains in the dataset for verification; language and photo source links remain next to their respective content.
 
 Country and Region are linked: Region limits the available Country options. Choosing a country sets its mapped region and locks Region until Country is reset to All. An already selected containing region (including a broader region) is retained; otherwise the first preferred grouping in the shared geography mapping is used. Incoming single-country URLs receive the same normalization. Removing the region chip also clears its country.
+
+Department browsing falls back to a documented affiliation when primary placement is unknown, without changing the sourced primary_department field. Unknown is omitted from selectable department categories. Counts describe profiles, not confirmed primary appointments.
