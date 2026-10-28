@@ -125,3 +125,5 @@ The build exposes only the public schema and static assets. A public repository 
 Country and Region are linked: Region limits the available Country options. Choosing a country sets its mapped region and locks Region until Country is reset to All. An already selected containing region (including a broader region) is retained; otherwise the first preferred grouping in the shared geography mapping is used. Incoming single-country URLs receive the same normalization. Removing the region chip also clears its country.
 
 Unit choices use a reviewed registry with departments/school, programs, COSSPP centers/institutes/lab and other FSU affiliations distinguished. Unit-card counts match the same primary-plus-additional membership used by filtering; counts overlap across units. See [classification review](docs/UNITS.md). Legacy department data/URL keys remain compatible.
+
+Language discovery and profile/card labels show languages other than English. Sourced English entries remain in the dataset; English proficiency is never inferred.

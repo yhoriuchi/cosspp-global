@@ -1,3 +1,4 @@
+import { displayedLanguages } from './profileDisplay';
 import { researchRegions, regionsForCountry } from './geography';
 import { facultyUnits, unitLabel } from './units';
 import type { Faculty } from '../types/faculty';
@@ -35,7 +36,7 @@ export function parseFilters(params: URLSearchParams): Filters {
     department: params.getAll('department'),
     country: params.getAll('country'),
     region: params.getAll('region'),
-    language: params.getAll('language'),
+    language: params.getAll('language').filter((code) => code !== 'en'),
     topic: params.getAll('topic'),
     method: params.getAll('method'),
     appointments: params.get('appointments') === 'all' ? 'all' : 'current',
@@ -77,7 +78,7 @@ export function filterFaculty(rows: Faculty[], f: Filters) {
           ...r.research_keywords,
           ...r.geographic_research_countries.map((c) => c.name),
           ...researchRegions(r),
-          ...r.languages.map((l) => l.language),
+          ...displayedLanguages(r).map((l) => l.language),
           r.short_biography || '',
         ].join(' '),
       );

@@ -1,3 +1,4 @@
+import { displayedLanguages } from '../src/utils/profileDisplay';
 import {
   facultyUnits,
   unitCounts,
@@ -441,5 +442,22 @@ describe('reviewed unit classifications', () => {
     expect(() =>
       validateUnitMembership([{ ...a, primary_department: 'Unreviewed outside university' }]),
     ).toThrow(/unreviewed unit/);
+  });
+});
+
+describe('language display scope', () => {
+  it('omits English without changing the sourced entries', () => {
+    const english = { ...a.languages[0], code: 'en' as const, language: 'English' };
+    const person = { ...a, languages: [english, ...a.languages] };
+    expect(displayedLanguages(person)).toEqual(a.languages);
+    expect(person.languages).toHaveLength(2);
+    expect(displayedLanguages({ languages: [english] })).toEqual([]);
+    expect(parseFilters(new URLSearchParams('language=en&language=fr')).language).toEqual(['fr']);
+    expect(
+      filterFaculty([{ ...a, research_interests: [], languages: [english] }], {
+        ...emptyFilters,
+        q: 'English',
+      }),
+    ).toEqual([]);
   });
 });

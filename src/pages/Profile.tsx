@@ -2,7 +2,7 @@ import type { Faculty } from '../types/faculty';
 import { Link } from '../components/Link';
 import { queryFor } from '../utils/search';
 import { PageHeading } from '../components/Layout';
-import { affiliationLabel, appointmentLabel } from '../utils/profileDisplay';
+import { affiliationLabel, appointmentLabel, displayedLanguages } from '../utils/profileDisplay';
 import { researchRegions } from '../utils/geography';
 import { FacultyPortrait } from '../components/FacultyPortrait';
 export function Profile({ person: r, params }: { person?: Faculty; params: URLSearchParams }) {
@@ -116,10 +116,10 @@ export function Profile({ person: r, params }: { person?: Faculty; params: URLSe
               </div>
             </div>
           )}
-          {r.languages.length > 0 && (
+          {displayedLanguages(r).length > 0 && (
             <div className="profile-section">
               <h2>Languages</h2>
-              {r.languages.map((l) => (
+              {displayedLanguages(r).map((l) => (
                 <div key={l.code}>
                   <h3>{l.language}</h3>
                   {l.proficiency_statement && <p>{l.proficiency_statement}</p>}

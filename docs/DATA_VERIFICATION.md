@@ -26,3 +26,7 @@ A future secure faculty-review process could add FSU SSO, faculty-owned drafts, 
 ## Owner-curated directory scope
 
 On 2026-10-27, the owner instructed that James L. Gibson be listed under Political Science only. Keep his additional_affiliations empty during routine refreshes, even if source biographies mention an outside appointment. This is a directory-scope choice, not a claim that an outside appointment does not exist.
+
+## Language display scope
+
+Owner instruction, 2026-10-27: show languages other than English in the Language filter, faculty cards and profiles. Omit the Languages section when only English is recorded. Preserve sourced English entries in the public dataset; this display choice does not establish anyone’s English proficiency. Language-name free-text discovery uses displayed languages; legacy English-only language filters reset to All.

@@ -26,3 +26,8 @@ export function appointmentLabel(person: Faculty) {
   };
   return `${categories[person.appointment_type]} · ${status[person.current_affiliation_status]}`;
 }
+
+// English is omitted from discovery/display; retain sourced data unchanged.
+export function displayedLanguages(person: Pick<Faculty, 'languages'>) {
+  return person.languages.filter((language) => language.code !== 'en');
+}

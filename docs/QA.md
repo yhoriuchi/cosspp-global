@@ -166,3 +166,8 @@ was not tested. No faculty data or matching logic changed.
 - Unit/Units labels replace Department/Departments in navigation and controls while legacy routes/data keys remain compatible. Reviewed registry distinguishes 25 represented units across four categories and records official source URLs.
 - All unit cards use the same deduplicated primary/additional membership as filtering. Browser tests visit every represented default unit and compare its displayed count to the resulting faculty count, including AAS and cross-affiliations. Added checks for Askew School label, other-FSU option grouping, ISS parent program and three recovered affiliations.
 - 176 records and 53 unit tests passed; production build/privacy audit passed. All 45 browser checks passed across desktop/phone Chromium and iPhone WebKit in 2.3 minutes. Final source-only corroboration update and public verification are recorded in private history. Real iPhone hardware was unavailable.
+
+### Languages other than English — 2026-10-27
+
+- Language dropdown, card tags and profile sections omit English; English-only records omit the Languages section. Source data remains unchanged. Legacy language=en URLs reset to All and language-name free-text discovery uses displayed languages.
+- All 176 records, 54 unit checks, TypeScript/build/privacy audit and 12 targeted desktop/mobile Chromium and iPhone WebKit checks passed. Japanese display and source links remain available; English options/tags/headings are absent. No English proficiency is inferred.

@@ -1,6 +1,6 @@
 import type { Faculty } from '../types/faculty';
 import { Link } from './Link';
-import { affiliationLabel, appointmentLabel } from '../utils/profileDisplay';
+import { affiliationLabel, appointmentLabel, displayedLanguages } from '../utils/profileDisplay';
 import { researchRegions } from '../utils/geography';
 import { FacultyPortrait } from './FacultyPortrait';
 export function profileHref(id: string) {
@@ -52,7 +52,7 @@ export function FacultyCard({ person: r }: { person: Faculty }) {
             {region}
           </span>
         ))}
-        {r.languages.map((l) => (
+        {displayedLanguages(r).map((l) => (
           <span className="tag language" key={l.code}>
             {l.language}
           </span>

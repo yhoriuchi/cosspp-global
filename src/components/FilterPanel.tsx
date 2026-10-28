@@ -1,3 +1,4 @@
+import { displayedLanguages } from '../utils/profileDisplay';
 import { researchRegions, regionsForCountry } from '../utils/geography';
 import { units, unitGroups, unitLabel } from '../utils/units';
 import type { Faculty } from '../types/faculty';
@@ -20,7 +21,7 @@ export function FilterPanel({
   ].sort((a, b) => a[1].localeCompare(b[1]));
   const languages = [
     ...new Map(
-      rows.flatMap((r) => r.languages.map((l) => [l.code, l.language] as const)),
+      rows.flatMap((r) => displayedLanguages(r).map((l) => [l.code, l.language] as const)),
     ).entries(),
   ].sort((a, b) => a[1].localeCompare(b[1]));
   const groups: [FilterKey, string, string[][]][] = [

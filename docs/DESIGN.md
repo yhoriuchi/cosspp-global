@@ -91,3 +91,5 @@ Country and Region are linked: Region limits the available Country options. Choo
 Unit browsing includes documented primary and additional affiliations without changing the sourced primary_department field. Unknown is omitted from selectable categories. Counts match filtered current faculty profiles and overlap across units.
 
 Unit choices use a reviewed registry with departments/school, programs, COSSPP centers/institutes/lab and other FSU affiliations distinguished. Unit-card counts match the same primary-plus-additional membership used by filtering; counts overlap across units. See [classification review](UNITS.md). Legacy department data/URL keys remain compatible.
+
+Language options, card tags and profile language sections display only non-English entries. English-only records have no Languages section; sourced data remains unchanged.

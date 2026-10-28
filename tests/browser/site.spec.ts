@@ -391,14 +391,12 @@ test('units are classified and every unit count matches its directory filter', a
   await expect(page.getByRole('link', { name: /Integrated Studies/ })).toContainText(
     'Within Interdisciplinary Social Science',
   );
-  const cards = await page
-    .locator('.department-card')
-    .evaluateAll((els) =>
-      els.map((el) => ({
-        href: el.getAttribute('href')!,
-        count: Number(el.textContent!.match(/(\d+) faculty/)![1]),
-      })),
-    );
+  const cards = await page.locator('.department-card').evaluateAll((els) =>
+    els.map((el) => ({
+      href: el.getAttribute('href')!,
+      count: Number(el.textContent!.match(/(\d+) faculty/)![1]),
+    })),
+  );
   for (const card of cards) {
     await page.goto(card.href);
     await expect(page.getByRole('status')).toContainText(`${card.count} faculty`);
@@ -418,4 +416,26 @@ test('units are classified and every unit count matches its directory filter', a
   await expect(page.getByRole('link', { name: 'Lisa Turner de Vera', exact: true })).toBeVisible();
   await page.goto('?page=directory&department=LeRoy+Collins+Institute');
   await expect(page.getByRole('link', { name: 'Lonna Atkeson', exact: true })).toBeVisible();
+});
+
+test('language discovery and profiles display languages other than English', async ({ page }) => {
+  await page.goto('?page=directory&q=Horiuchi');
+  const language = page.getByRole('combobox', { name: 'Language', exact: true });
+  await expect(language.locator('option[value="en"]')).toHaveCount(0);
+  await expect(page.locator('.tag.language').getByText('English', { exact: true })).toHaveCount(0);
+  await expect(page.locator('.tag.language').getByText('Japanese', { exact: true })).toBeVisible();
+  await page.getByRole('link', { name: 'Yusaku Horiuchi', exact: true }).click();
+  await expect(page.getByRole('heading', { name: 'Japanese', exact: true })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'English', exact: true })).toHaveCount(0);
+  await page.goto('?page=directory&language=en');
+  await expect(language).toHaveValue('');
+  const rows = JSON.parse(readFileSync('data/public/faculty.json', 'utf8'));
+  const onlyEnglish = rows.find(
+    (p: { languages: { code: string }[] }) =>
+      p.languages.length && p.languages.every((l) => l.code === 'en'),
+  );
+  if (onlyEnglish) {
+    await page.goto(`?page=profile&id=${onlyEnglish.id}`);
+    await expect(page.getByRole('heading', { name: 'Languages', exact: true })).toHaveCount(0);
+  }
 });
