@@ -12,3 +12,8 @@ test-results/
 *.log
 
 .pnpm-store/
+
+# Optional request-service local settings
+services/profile-requests/wrangler.jsonc
+services/profile-requests/.dev.vars
+services/profile-requests/.wrangler/

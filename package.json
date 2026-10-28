@@ -10,7 +10,7 @@
     "dev": "vite --host 127.0.0.1",
     "build": "node --import tsx scripts/validate.ts && tsc --noEmit && vite build && node --import tsx scripts/audit-build.ts",
     "preview": "vite preview --host 127.0.0.1",
-    "test": "vitest run tests/core.test.ts tests/cloud-refresh.test.ts",
+    "test": "vitest run tests/core.test.ts tests/cloud-refresh.test.ts tests/profile-requests.test.ts tests/monthly-source-monitor.test.ts",
     "validate": "node --import tsx scripts/validate.ts",
     "coverage:data": "node --import tsx scripts/coverage.ts",
     "data:export": "node --import tsx scripts/csv.ts export",

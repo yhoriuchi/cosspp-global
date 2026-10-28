@@ -1,3 +1,4 @@
+import { ProfileChangeRequest } from '../components/ProfileChangeRequest';
 import type { Faculty } from '../types/faculty';
 import { Link } from '../components/Link';
 import { queryFor } from '../utils/search';
@@ -90,7 +91,7 @@ export function Profile({ person: r, params }: { person?: Faculty; params: URLSe
             <div className="profile-section">
               <h2>Geographic research expertise</h2>
               <p className="muted small">
-                Research locations documented in the sources below, with regional groupings for the
+                Research locations documented in public academic sources, with regional groupings for the
                 countries studied.
               </p>
               <div className="tags">
@@ -186,6 +187,7 @@ export function Profile({ person: r, params }: { person?: Faculty; params: URLSe
               </ul>
             </div>
           )}
+          <ProfileChangeRequest key={r.id} person={r} />
           <div className="profile-section">
             <h2>Last updated</h2>
             <p>

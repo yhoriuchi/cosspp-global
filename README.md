@@ -26,7 +26,7 @@ pnpm install --frozen-lockfile
 pnpm run dev
 ```
 
-No account, backend, environment secret or paid database is needed for the website itself. Optional cloud source refreshes require GitHub and an OpenAI API key; see [cloud setup](docs/CLOUD_REFRESH.md). Only local loopback is bound by default. In restricted Codex sandboxes, starting a server/browser may require the app's normal network approval mechanism.
+No account, backend, environment secret or paid database is needed for the website itself. Monthly source-change checks need no AI key. Optional AI interpretation requires a paid API key; see [cloud setup](docs/CLOUD_REFRESH.md). Only local loopback is bound by default. In restricted Codex sandboxes, starting a server/browser may require the app's normal network approval mechanism.
 
 ## What is implemented
 
@@ -127,3 +127,13 @@ Country and Region are linked: Region limits the available Country options. Choo
 Unit choices use a reviewed registry with departments/school, programs, COSSPP centers/institutes/lab and other FSU affiliations distinguished. Unit-card counts match the same primary-plus-additional membership used by filtering; counts overlap across units. See [classification review](docs/UNITS.md). Legacy department data/URL keys remain compatible.
 
 Language discovery and profile/card labels show languages other than English. Sourced English entries remain in the dataset; English proficiency is never inferred.
+
+## Profile control and monthly maintenance (2026-10-28)
+
+Home explicitly identifies the site as independent; About names Yusaku Horiuchi as
+administrator. An optional two-step FSU-email request form and Cloudflare/D1/Resend
+service are prepared but disabled pending account/domain/private-queue setup. General
+requests are stored privately; explicitly consented research-summary replacements alone
+can be applied automatically. See [setup and privacy](docs/PROFILE_REQUESTS.md).
+A monthly GitHub workflow checks known public pages/CVs for changes without AI fees;
+semantic automatic enrichment remains disabled. See [maintenance status](docs/CLOUD_REFRESH.md).

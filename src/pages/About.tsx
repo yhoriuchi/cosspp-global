@@ -16,6 +16,10 @@ export function About({ rows }: { rows: Faculty[] }) {
       <div className="about-layout">
         <div>
           <section className="profile-section">
+            <h2>Site administrator</h2>
+            <p>This independent directory is maintained by Yusaku Horiuchi. It is not an official COSSPP or Florida State University website.</p>
+          </section>
+          <section className="profile-section">
             <h2>Built for academic collaboration</h2>
             <p>
               Find colleagues who share an interest in a country, a research question, or a method.
@@ -71,8 +75,9 @@ export function About({ rows }: { rows: Faculty[] }) {
               available CV.
             </p>
             <p>
-              This directory is designed to refresh profiles automatically at regular intervals
-              using those public sources.
+              A monthly cloud workflow is prepared to check linked public profiles, websites, and
+              CVs for changes. Factual profile revisions require source review; paid AI-assisted
+              refreshes are not enabled.
             </p>
           </section>
           <section className="profile-section">
@@ -86,7 +91,9 @@ export function About({ rows }: { rows: Faculty[] }) {
               from official FSU pages, with links to their sources.
             </p>
             <p>
-              The site has no account system, analytics, tracking cookies, or submission database.
+              The directory has no analytics or tracking cookies. An optional FSU-email-verified
+              change-request service is being prepared and is not yet available. When enabled,
+              it will store requests privately; only explicitly approved profile text will be published.
               Theme preference is stored in your browser. Search text appears in shareable URLs;
               avoid entering private information. Following external source links is subject to
               those sites’ policies.

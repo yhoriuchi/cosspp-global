@@ -15,7 +15,7 @@
 
 Faculty should update their own faculty profile page or publicly available CV. The directory is intended to collect changes through regular automated source refreshes; it does not route individual profile-edit requests to Yusaku Horiuchi. Published faculty professional contact links remain for academic contact, not directory corrections.
 
-The weekly cloud source-refresh workflow is prepared; see [configuration and activation](CLOUD_REFRESH.md). Public copy therefore describes the intended design, not a verified active schedule. Configure and verify the refresh execution separately before claiming it is operational. During refreshes, verify source changes, amend only affected fields and evidence, update last_updated/last_verified, run checks and record changes privately. The same public self-report and provenance requirements apply to language updates. The owner has authorized automatic publication after validation; each changed language entry must have fresh, directly reviewed evidence.
+The monthly cloud source-refresh workflow is prepared; see [configuration and activation](CLOUD_REFRESH.md). Public copy therefore describes the intended design, not a verified active schedule. Configure and verify the refresh execution separately before claiming it is operational. During refreshes, verify source changes, amend only affected fields and evidence, update last_updated/last_verified, run checks and record changes privately. The same public self-report and provenance requirements apply to language updates. The owner has authorized automatic publication after validation; each changed language entry must have fresh, directly reviewed evidence.
 
 ## Remaining evidence limits
 
@@ -30,3 +30,17 @@ On 2026-10-27, the owner instructed that James L. Gibson be listed under Politic
 ## Language display scope
 
 Owner instruction, 2026-10-27: show languages other than English in the Language filter, faculty cards and profiles. Omit the Languages section when only English is recorded. Preserve sourced English entries in the public dataset; this display choice does not establish anyone’s English proficiency. Language-name free-text discovery uses displayed languages; legacy English-only language filters reset to All.
+
+## Verified profile requests — owner request, 2026-10-28
+
+The optional service is prepared but disabled pending accounts, sender-domain verification,
+private queue approval/creation and secrets. It checks control of the exact FSU email
+already sourced on the selected profile. A general free-text request is stored privately
+and remains pending review; it is never interpreted as authority to change unrelated fields.
+An explicit replacement research summary, with separate publication consent, may replace
+only short_biography after signature, identity, age, schema and build checks. Publish a
+minimal receipt as field evidence; do not publish the email, email hash, passcode or private
+request narrative. This verifies that one submission, not every field in the profile.
+The trusted profile-requests workflow may publish its validated commit under the owner's
+request for automatic changes. All other source/provenance requirements remain in force.
+See [service setup](PROFILE_REQUESTS.md). No paid service has been activated.

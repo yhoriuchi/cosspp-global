@@ -1307,3 +1307,10 @@ hr {
     transition: none !important;
   }
 }
+
+.site-disclaimer { font-size: 13px; color: var(--muted); margin: 0 0 24px; }
+.change-request form { display: grid; gap: 16px; }
+.change-request form label:not(.appointment-toggle) { display: grid; gap: 8px; }
+.change-request input:not([type="checkbox"]), .change-request textarea { width: 100%; padding: 12px; border: 1px solid var(--line); background: var(--paper); color: var(--ink); font: inherit; font-size: 16px; }
+.change-request textarea { resize: vertical; }
+.change-request button { justify-self: start; }

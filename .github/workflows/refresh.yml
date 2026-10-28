@@ -1,7 +1,7 @@
 name: Refresh faculty sources in the cloud
 on:
   schedule:
-    - cron: '37 8 * * 1'
+    - cron: '37 8 1 * *'
   workflow_dispatch:
     inputs:
       save:

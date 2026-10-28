@@ -1,0 +1,15 @@
+{
+  "name": "cosspp-profile-requests",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-10-28",
+  "workers_dev": true,
+  "observability": { "enabled": false },
+  "vars": {
+    "ENABLED": "false",
+    "SITE_ORIGIN": "https://yhoriuchi.github.io",
+    "QUEUE_REPOSITORY": "yhoriuchi/cosspp-global-requests",
+    "FROM_EMAIL": "COSSPP Global <profiles@YOUR-VERIFIED-DOMAIN>"
+  },
+  "d1_databases": [{ "binding": "DB", "database_name": "cosspp-profile-requests", "database_id": "REPLACE_AFTER_CREATION" }],
+  "triggers": { "crons": ["17 * * * *"] }
+}

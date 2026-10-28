@@ -1,8 +1,41 @@
-# Cloud source refresh
+# Monthly source maintenance — 2026-10-28
+
+The owner requested monthly maintenance and has not approved AI charges.
+
+## No-AI monthly source check
+
+`.github/workflows/monthly-source-check.yml` is scheduled on the first day of each
+month at 08:37 UTC (04:37 EDT / 03:37 EST), independently of the Mac. It checks known
+HTTPS official profiles, faculty websites and linked CVs, and discovers candidate CV
+links. It respects robots restrictions, limits requests and saves fingerprints/status
+metadata only in data/monitor/source-state.json. First successful reads establish a
+baseline. No source body or private review material is committed.
+
+This detects changes; it does not interpret new research, search the entire web, or
+change faculty facts. New CV links remain review candidates. A failed/blocked source
+never erases faculty information. The Actions summary reports changed/unavailable counts.
+Manual setup checks can limit max_sources; scheduled runs check all eligible known URLs.
+The workflow is operational only after upload to main and a successful cloud run.
+
+No OpenAI key or paid service is needed. Standard GitHub-hosted runners in public
+repositories are free under [GitHub's current policy](https://docs.github.com/en/billing/concepts/product-billing/github-actions).
+Schedules can be delayed or disabled after 60 days of public-repository inactivity.
+The 35-minute runtime limit and inaccessible sources can limit coverage.
+
+## AI interpretation remains disabled
+
+The older AI-assisted workflow below has also been changed to monthly, but its private
+repository guard remains. Do not enable it on this public repository: candidate/log
+handling must be adapted and costs approved first. No paid AI request was made here.
+The [current OpenAI API pricing](https://developers.openai.com/api/docs/pricing) lists
+standard GPT-6.1 Sol short-context tokens at $2/million input and $10/million output.
+For illustration, one million input plus 100,000 output tokens is $3, excluding tools,
+retries and other usage. This is not an estimate or cap for a full faculty review.
+
 
 ## Owner-approved configuration — 2026-10-27
 
-Yusaku approved weekly refreshes on GitHub-hosted runners and automatic site
+Yusaku approved periodic refreshes on GitHub-hosted runners and automatic site
 deployment after validation. He subsequently explicitly approved and changed
 `yhoriuchi/cosspp-global` to Public, with Pages hosted by this same repository.
 No separate `cosspp-global-site` repository is needed. This supersedes the earlier
@@ -19,7 +52,7 @@ publication does not need an OpenAI API key.
 
 ## Execution
 
-- `.github/workflows/refresh.yml` runs Mondays at 08:37 UTC (04:37 EDT / 03:37 EST)
+- `.github/workflows/refresh.yml` runs on the first day of each month at 08:37 UTC (04:37 EDT / 03:37 EST)
   on `ubuntu-latest`, independently of the owner's computer. GitHub schedules may
   be delayed; this is periodic maintenance, not a real-time availability guarantee.
 - `ENABLE_CLOUD_REFRESH=true` enables research only in this private repository on
@@ -66,7 +99,7 @@ publication does not need an OpenAI API key.
 This process can read only sources whose access policy permits retrieval. A
 publicly linked CV may still prohibit automated downloading. Missing sources do
 not erase faculty expertise. The initial roster is not a certified census, and
-automated source review cannot guarantee perfect interpretation or complete weekly
+automated source review cannot guarantee perfect interpretation or complete monthly
 coverage. The workflow logs identify the run; data commits retain field evidence.
 Private project history remains local and must never enter the Pages artifact.
 

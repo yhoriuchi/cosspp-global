@@ -439,3 +439,38 @@ test('language discovery and profiles display languages other than English', asy
     await expect(page.getByRole('heading', { name: 'Languages', exact: true })).toHaveCount(0);
   }
 });
+
+test('independent status, named administrator and honest request availability', async ({ page }) => {
+  await page.goto('');
+  await expect(page.locator('.site-disclaimer')).toContainText('not an official');
+  await page.goto('?page=about');
+  await expect(page.getByText(/maintained by Yusaku Horiuchi/)).toBeVisible();
+  await page.goto('?page=directory&q=Horiuchi');
+  await page.getByRole('link', { name: 'Yusaku Horiuchi', exact: true }).click();
+  await expect(page.locator('.change-request')).toContainText('not available yet');
+  await expect(page.getByRole('button', { name: 'Send passcode' })).toHaveCount(0);
+});
+
+test('configured request form verifies mailbox before accepting a private request', async ({ page }) => {
+  await page.route('**/site-config.json', route => route.fulfill({ json: { profileRequestsApi: 'https://requests.example.org' } }));
+  await page.route('https://requests.example.org/**', async route => {
+    const body = route.request().postDataJSON();
+    if (route.request().url().endsWith('/challenge')) {
+      expect(body.email).toBe('test@fsu.edu');
+      await route.fulfill({ json: { challenge_id: 'test-challenge', message: 'Passcode sent.' } });
+    } else {
+      expect(body.passcode).toBe('123456');
+      expect(body.request_text).toContain('public CV');
+      expect(body.publish_biography).toBe(false);
+      await route.fulfill({ status: 202, json: { message: 'Your verified request has been saved privately on GitHub.' } });
+    }
+  });
+  await page.goto('?page=directory&q=Horiuchi');
+  await page.getByRole('link', { name: 'Yusaku Horiuchi', exact: true }).click();
+  await page.getByLabel('Step 1 — Your FSU email').fill('test@fsu.edu');
+  await page.getByRole('button', { name: 'Send passcode' }).click();
+  await page.getByLabel('Step 2 — Passcode').fill('123456');
+  await page.getByLabel('Requested change', { exact: true }).fill('Please review the new public CV on my website.');
+  await page.getByRole('button', { name: 'Submit verified request' }).click();
+  await expect(page.locator('.change-request').getByRole('status')).toContainText('saved privately on GitHub');
+});

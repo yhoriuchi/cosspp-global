@@ -1,0 +1,41 @@
+name: Monthly public-source check (no AI fees)
+on:
+  schedule:
+    - cron: '37 8 1 * *'
+  workflow_dispatch:
+    inputs:
+      max_sources:
+        description: '0 = all known sources; use a small number for a setup check'
+        type: string
+        default: '0'
+permissions:
+  contents: read
+concurrency:
+  group: monthly-source-check
+  cancel-in-progress: false
+jobs:
+  check:
+    if: ${{ github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - run: npm install --global pnpm@11.25.0
+      - run: pnpm install --frozen-lockfile
+      - run: node --import tsx scripts/monthly-source-monitor.ts
+        env:
+          MONITOR_MAX_SOURCES: ${{ inputs.max_sources || '0' }}
+      - name: Save metadata only
+        run: |
+          git add -- data/monitor/source-state.json
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Record monthly public-source fingerprints'
+          git push origin HEAD:main

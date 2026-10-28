@@ -30,6 +30,9 @@ export function Home({ rows }: { rows: Faculty[] }) {
             Discover research expertise and connect with colleagues across Florida State
             University’s College of Social Sciences and Public Policy.
           </p>
+          <p className="site-disclaimer">
+            An independent project. This is not an official COSSPP or Florida State University website.
+          </p>
           <SearchBar
             value={q}
             onChange={setQ}

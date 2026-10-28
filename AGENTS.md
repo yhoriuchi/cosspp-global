@@ -20,5 +20,15 @@ Build a research-oriented directory covering current Florida State University CO
 ## Verification and publication
 - Run `npm run validate`, `npm test`, `npm run build`; run meaningful Playwright checks after UI changes. Check keyboard, mobile, missing fields, URL filters, profile navigation and repository-subpath refreshes. Record what actually passed and any limits.
 - Do not create remote repositories, push or deploy without Yusaku's explicit approval. Local Git initialization is allowed. Never use an institutional organization account without explicit authorization.
-- Owner approval on 2026-10-27 authorizes the personal `yhoriuchi/cosspp-global` repository, weekly GitHub-hosted source refreshes and automatic site publication after validation. Refresh requires `ENABLE_CLOUD_REFRESH == 'true'`; publication requires `ENABLE_PAGES == 'true'`. Only the trusted refresh workflow may call deployment automatically, for its validated data commit. The owner subsequently approved and made `yhoriuchi/cosspp-global` Public and requested Pages from that same repository; this supersedes the private-source/separate-site plan. Do not create a second site repository. Manual publication remains available; no general push-triggered deployment. Keep review/history/raw caches private and preserve source and public self-report checks.
+- Owner approval on 2026-10-27 authorizes the personal `yhoriuchi/cosspp-global` repository, monthly GitHub-hosted source refreshes and automatic site publication after validation. Refresh requires `ENABLE_CLOUD_REFRESH == 'true'`; publication requires `ENABLE_PAGES == 'true'`. Only the trusted refresh and verified profile-request workflows may call deployment automatically, for their validated data commits. The owner subsequently approved and made `yhoriuchi/cosspp-global` Public and requested Pages from that same repository; this supersedes the private-source/separate-site plan. Do not create a second site repository. Manual publication remains available; no general push-triggered deployment. Keep review/history/raw caches private and preserve source and public self-report checks.
 - Maintain one private project history at `project_history/Yusaku_Horiuchi/YYYY-MM-DD by Codex.md`, following the canonical Project History Guide and current AI-use guide. Record runtime fields independently; do not infer active settings from defaults.
+
+## Owner request — 2026-10-28
+
+Monthly no-AI public-source change detection is authorized; paid semantic refresh remains
+disabled pending cost approval and public-log adaptation. Prepare the optional free-plan
+FSU-email request service; do not claim it live before accounts, sender domain, private
+queue and secrets are configured. The trusted profile-requests workflow may publish only
+an explicitly consented replacement short_biography after identity/signature checks and
+validation. Keep general requests private and pending review. See canonical project
+policy in docs/DATA_VERIFICATION.md and setup in docs/PROFILE_REQUESTS.md.
