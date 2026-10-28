@@ -1,7 +1,7 @@
 import { researchRegions } from '../utils/geography';
 import type { Faculty } from '../types/faculty';
 import type { Filters } from '../utils/search';
-type FilterKey = 'department' | 'country' | 'region' | 'language' | 'topic' | 'method';
+type FilterKey = 'department' | 'country' | 'region' | 'language';
 export function FilterPanel({
   rows,
   filters,
@@ -21,71 +21,44 @@ export function FilterPanel({
     ...new Map(
       rows.flatMap((r) => r.languages.map((l) => [l.code, l.language] as const)),
     ).entries(),
-  ];
+  ].sort((a, b) => a[1].localeCompare(b[1]));
   const groups: [FilterKey, string, string[][]][] = [
     [
       'department',
       'Department',
       unique(rows.flatMap((r) => [r.primary_department, ...r.additional_affiliations])),
     ],
-    ['country', 'Country studied', countries],
-    ['region', 'Research region', unique(rows.flatMap(researchRegions))],
-    ['language', 'Languages', languages],
-    ['topic', 'Research topic', unique(rows.flatMap((r) => r.research_interests))],
-    ['method', 'Research method', unique(rows.flatMap((r) => r.methodological_expertise))],
+    ['country', 'Country', countries],
+    ['region', 'Region', unique(rows.flatMap(researchRegions))],
+    ['language', 'Language', languages],
   ];
   return (
-    <aside className="filters" aria-label="Faculty filters">
-      <div className="filter-heading">
-        <h2>Refine your search</h2>
-        <span aria-hidden="true">≡</span>
+    <section className="filters" aria-label="Faculty filters">
+      <div className="filter-selects">
+        {groups.map(([key, label, options]) => (
+          <label key={key}>
+            <span>{label}</span>
+            <select
+              value={filters[key].length > 1 ? '__multiple__' : filters[key][0] || ''}
+              onChange={(e) =>
+                onChange({ ...filters, [key]: e.target.value ? [e.target.value] : [] })
+              }
+            >
+              <option value="">All</option>
+              {filters[key].length > 1 && (
+                <option value="__multiple__" disabled>
+                  {filters[key].length} selected
+                </option>
+              )}
+              {options.map(([value, name]) => (
+                <option key={value} value={value}>
+                  {key === 'department' && name === 'Unknown' ? 'Other faculty listings' : name}
+                </option>
+              ))}
+            </select>
+          </label>
+        ))}
       </div>
-      <p className="filter-help">
-        Match any choice within a group,
-        <br />
-        and every group you select.
-      </p>
-      {groups.map(([key, label, options]) => (
-        <details
-          key={key}
-          open={['department', 'country', 'region'].includes(key) || filters[key].length > 0}
-        >
-          <summary>
-            {label}
-            {filters[key].length > 0 && <span className="filter-count">{filters[key].length}</span>}
-          </summary>
-          <fieldset>
-            <legend className="sr-only">{label}</legend>
-            {options.length ? (
-              <div className="filter-options">
-                {options.map(([value, name]) => (
-                  <label key={value}>
-                    <input
-                      type="checkbox"
-                      checked={filters[key].includes(value)}
-                      onChange={() =>
-                        onChange({
-                          ...filters,
-                          [key]: filters[key].includes(value)
-                            ? filters[key].filter((x) => x !== value)
-                            : [...filters[key], value],
-                        })
-                      }
-                    />
-                    <span>
-                      {key === 'department' && name === 'Unknown' ? 'Other faculty listings' : name}
-                    </span>
-                  </label>
-                ))}
-              </div>
-            ) : (
-              <p className="muted small">
-                Language filters reflect explicit statements in the public sources reviewed.
-              </p>
-            )}
-          </fieldset>
-        </details>
-      ))}
       <label className="appointment-toggle">
         <input
           type="checkbox"
@@ -96,6 +69,6 @@ export function FilterPanel({
         />
         <span>Include additional appointments and affiliations</span>
       </label>
-    </aside>
+    </section>
   );
 }

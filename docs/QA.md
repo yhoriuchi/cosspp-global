@@ -125,3 +125,20 @@ its validator/prompt now support fresh directly reviewed public language evidenc
 The final real-data CSV export/import exactly preserved all 176 schema-normalized
 records, including language provenance. Raw JSON comparison differs only because
 validation supplies declared defaults; import candidates stayed private.
+
+## Four compact directory filters — 2026-10-27
+
+Replaced the topic/method checkbox sidebar with Department, Country, Region and
+Language dropdowns immediately below free-text search. They form one desktop row
+and a two-column phone grid. Search hint/placeholder explicitly include topics
+and methods. Existing topic/method links and multi-value URLs still work; selecting
+a dropdown value replaces that group's selection, while chips remain removable.
+
+Validation of 176 records, 46 unit tests and TypeScript/build/privacy/subpath audit
+passed. All 27 browser tests passed (1.7 minutes). After a Safari control-height
+refinement, rebuilt and reran all six responsive/accessibility/dropdown checks
+across desktop/mobile Chromium and iPhone WebKit: passed (30.5 seconds), including
+44px minimum target height, keyboard focus, all four combined selections, topic
+and method text queries, reset, reload and legacy multi-value URLs. Private visual
+checks and screenshots confirm the desktop/phone layouts. Actual iPhone hardware
+was not tested. No faculty data or matching logic changed.

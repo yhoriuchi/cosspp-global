@@ -31,8 +31,8 @@ No account, backend, environment secret or paid database is needed for the websi
 ## What is implemented
 
 - Home page with search, actual dataset counts, explicitly labeled example searches and a compact, uniformly colored Tallahassee-centered world illustration beside the headline, with search beneath the headline. Explore geography provides the interactive research map in the original world layout; both omit Antarctica.
-- Fast name/topic/country/region/language/method search, accent-insensitive matching, combined multi-select filters, clear/reset, name/department sorting and meaningful empty states.
-- OR within each filter group; AND across groups. Multiword free text matches all words across a profile. Department filters include documented additional affiliations.
+- Fast name/topic/country/region/language/method search, accent-insensitive matching, four dropdown filters below the search box (Department, Country, Region and Language), clear/reset, name/department sorting and meaningful empty states.
+- Dropdowns select one value per group; AND across groups. Existing multi-value URLs retain OR within a group. Research topics and methods remain searchable through free text and profile links. Multiword free text matches all words across a profile. Department filters include documented additional affiliations.
 - Faculty cards and direct-link profiles with prominent official-page, personal-site and CV links, evidence/source details, appointment categories and guidance to keep public faculty profiles/CVs current.
 - Faculty-facing wording emphasizes discovery and source context; scope and confirmation methods are explained on About without repeated absence notices on individual profiles.
 - Country/region explorer using local public-domain Natural Earth geometry and D3, plus equivalent accessible links without a map. Regional searches include country expertise (Japan → East Asia and Asia); search, exploration counts and visible region labels share the same [geographic membership rules](docs/REGION_SEARCH.md).

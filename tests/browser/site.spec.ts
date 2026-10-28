@@ -1,11 +1,6 @@
 import { readFileSync } from 'node:fs';
-import { test, expect, type Page } from '@playwright/test';
+import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
-async function openFilters(page: Page) {
-  const button = page.getByRole('button', { name: 'Refine filters' });
-  if ((await button.isVisible()) && (await button.getAttribute('aria-expanded')) === 'false')
-    await button.click();
-}
 test('country expertise appears in regional searches with matching exploration counts', async ({
   page,
 }) => {
@@ -24,8 +19,9 @@ test('country expertise appears in regional searches with matching exploration c
     ).toHaveCount(1);
     await expect(horiuchiCard.getByText(region, { exact: true })).toBeVisible();
   }
-  await openFilters(page);
-  await expect(page.getByRole('checkbox', { name: 'East Asia', exact: true })).toBeChecked();
+  await expect(page.getByRole('combobox', { name: 'Region', exact: true })).toHaveValue(
+    'East Asia',
+  );
   await page.reload();
   await expect(page.getByRole('link', { name: 'Yusaku Horiuchi', exact: true })).toBeVisible();
   await page.goto('?page=directory&region=Asia&q=Horiuchi');
@@ -58,13 +54,13 @@ test('home, search, filters, profile, refresh and history under repository subpa
   await page.getByRole('link', { name: 'Back to faculty directory' }).click();
   await expect(page.getByRole('searchbox')).toHaveValue('Horiuchi');
   await page.getByRole('button', { name: 'Clear filters' }).click();
-  await openFilters(page);
-  await page.getByRole('checkbox', { name: 'Japan', exact: true }).check();
-  await page.getByRole('checkbox', { name: 'Political Science', exact: true }).check();
+  await page.getByRole('combobox', { name: 'Country', exact: true }).selectOption('JP');
+  await page
+    .getByRole('combobox', { name: 'Department', exact: true })
+    .selectOption('Political Science');
   await expect(page.getByRole('link', { name: 'Yusaku Horiuchi', exact: true })).toBeVisible();
   await page.reload();
-  await openFilters(page);
-  await expect(page.getByRole('checkbox', { name: 'Japan', exact: true })).toBeChecked();
+  await expect(page.getByRole('combobox', { name: 'Country', exact: true })).toHaveValue('JP');
   await page.getByRole('searchbox').fill('zzzz-no-person');
   await expect(page.getByRole('heading', { name: 'No results for this search' })).toBeVisible();
 });
@@ -104,18 +100,16 @@ test('homepage illustration and interactive research map have distinct behavior'
   const japan = page.locator('.world-map').getByRole('link', { name: /^Japan:/ });
   await japan.focus();
   await page.keyboard.press('Enter');
-  await openFilters(page);
-  await expect(page.getByRole('checkbox', { name: 'Japan', exact: true })).toBeChecked();
+  await expect(page.getByRole('combobox', { name: 'Country', exact: true })).toHaveValue('JP');
   await expect(page.getByRole('link', { name: 'Yusaku Horiuchi', exact: true })).toBeVisible();
 });
 test('geographic navigation, sourced language filter and unknown profile', async ({ page }) => {
   await page.goto('?page=explore');
   await expect(page.locator('.world-map')).toBeVisible();
   await page.locator('.place-grid').getByRole('link', { name: /Japan/ }).click();
-  await openFilters(page);
-  await expect(page.getByRole('checkbox', { name: 'Japan', exact: true })).toBeChecked();
-  await page.locator('summary').filter({ hasText: 'Languages' }).click();
-  await expect(page.getByRole('checkbox', { name: 'Japanese', exact: true })).toBeVisible();
+  await expect(page.getByRole('combobox', { name: 'Country', exact: true })).toHaveValue('JP');
+  await page.getByRole('combobox', { name: 'Language', exact: true }).selectOption('ja');
+  await expect(page.getByRole('link', { name: 'Yusaku Horiuchi', exact: true })).toBeVisible();
   await page.goto('?page=profile&id=does-not-exist');
   await expect(page.getByRole('heading', { name: 'Profile not found' })).toBeVisible();
 });
@@ -187,8 +181,7 @@ test('map failure preserves geographic search and profile accessibility', async 
   await page.getByRole('link', { name: 'Browse research countries and regions.' }).click();
   await expect(page.getByText('The map could not load.', { exact: false })).toBeVisible();
   await page.locator('.place-grid').getByRole('link', { name: /Japan/ }).click();
-  await openFilters(page);
-  await expect(page.getByRole('checkbox', { name: 'Japan', exact: true })).toBeChecked();
+  await expect(page.getByRole('combobox', { name: 'Country', exact: true })).toHaveValue('JP');
   await page.getByRole('link', { name: 'Yusaku Horiuchi', exact: true }).click();
   const results = await new AxeBuilder({ page })
     .withTags(['wcag2a', 'wcag2aa', 'wcag21aa'])
@@ -231,4 +224,60 @@ test('profile highlights detailed sources, self-reported languages and US resear
   expect(results.violations).toEqual([]);
   await page.goto('?page=directory&country=US&q=Atkeson');
   await expect(page.getByRole('link', { name: 'Lonna Atkeson', exact: true })).toBeVisible();
+});
+
+test('four compact dropdowns combine with topic and method text search', async ({ page }) => {
+  await page.goto('?page=directory');
+  const filters = page.getByRole('region', { name: 'Faculty filters' });
+  await expect(filters.getByRole('combobox')).toHaveCount(4);
+  await expect(
+    page.getByText('Search names, research topics, methods, places, and languages.'),
+  ).toBeVisible();
+  const positions = await filters
+    .getByRole('combobox')
+    .evaluateAll((selects) =>
+      selects.map((el) => ({
+        x: el.getBoundingClientRect().x,
+        y: el.getBoundingClientRect().y,
+        height: el.getBoundingClientRect().height,
+      })),
+    );
+  const searchBottom = await page
+    .getByRole('searchbox')
+    .evaluate((el) => el.getBoundingClientRect().bottom);
+  expect(positions.every((p) => p.height >= 44)).toBe(true);
+  expect(positions[0].y).toBeGreaterThan(searchBottom);
+  expect(positions[0].y).toBe(positions[1].y);
+  expect(positions[1].x).toBeGreaterThan(positions[0].x);
+  if (page.viewportSize()!.width > 540) {
+    expect(new Set(positions.map((p) => p.y)).size).toBe(1);
+  } else {
+    expect(positions[2].y).toBeGreaterThan(positions[0].y);
+    expect(positions[2].y).toBe(positions[3].y);
+  }
+  await page
+    .getByRole('combobox', { name: 'Department', exact: true })
+    .selectOption('Political Science');
+  await page.getByRole('combobox', { name: 'Country', exact: true }).selectOption('JP');
+  await page.getByRole('combobox', { name: 'Region', exact: true }).selectOption('East Asia');
+  await page.getByRole('combobox', { name: 'Language', exact: true }).selectOption('ja');
+  await page.getByRole('searchbox').fill('Conjoint analysis');
+  await expect(page.getByRole('link', { name: 'Yusaku Horiuchi', exact: true })).toBeVisible();
+  await page.reload();
+  await expect(page.getByRole('combobox', { name: 'Language', exact: true })).toHaveValue('ja');
+  await page.getByRole('searchbox').fill('Public diplomacy');
+  await expect(page.getByRole('link', { name: 'Yusaku Horiuchi', exact: true })).toBeVisible();
+  await page.getByRole('combobox', { name: 'Department', exact: true }).focus();
+  await page.keyboard.press('Tab');
+  await expect(page.getByRole('combobox', { name: 'Country', exact: true })).toBeFocused();
+  await page.getByRole('button', { name: 'Clear filters' }).click();
+  await expect(page.getByRole('searchbox')).toHaveValue('');
+  for (const label of ['Department', 'Country', 'Region', 'Language'])
+    await expect(page.getByRole('combobox', { name: label, exact: true })).toHaveValue('');
+  await page.goto('?page=directory&country=JP&country=US');
+  await expect(page.getByRole('combobox', { name: 'Country', exact: true })).toHaveValue(
+    '__multiple__',
+  );
+  await page.getByRole('combobox', { name: 'Country', exact: true }).selectOption('JP');
+  expect(new URL(page.url()).searchParams.getAll('country')).toEqual(['JP']);
 });
