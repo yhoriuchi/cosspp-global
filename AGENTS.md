@@ -6,6 +6,7 @@ Build a research-oriented directory covering current Florida State University CO
 - React + TypeScript + Vite, static JSON and client-side filtering; no required backend or paid service. Maintain small reusable components and accessible semantic controls.
 - `data/public/faculty.json` is the public dataset. Strict Zod schemas in `src/types/faculty.ts` define the publication boundary. Country identifiers use ISO alpha-2 codes. Sources support individual populated fields; stable IDs must survive name changes.
 - `data/review/`, raw source caches, local QA output and `project_history/` remain private and ignored. Never import them into application source or copy them to `public/`.
+- Unit choices follow the reviewed registry in `src/utils/units.ts` and `docs/UNITS.md`. Distinguish academic units, research groups and other FSU affiliations; counts and filtering share documented membership.
 - Update README and relevant docs with changes; preserve unrelated work. Follow global R guide before any R code.
 
 ## Evidence and privacy

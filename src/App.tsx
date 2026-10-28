@@ -17,7 +17,7 @@ export default function App() {
   const id = params.get('id');
   const previousRoute = useRef(`${page}:${id}`);
   useEffect(() => {
-    document.title = `${page === 'profile' ? rows.find((r) => r.id === id)?.full_name || 'Profile' : ({ home: 'Faculty Expertise & Connections', directory: 'Faculty directory', explore: 'Explore geography', departments: 'Departments', about: 'About' } as Record<string, string>)[page] || 'Page not found'} · COSSPP Global`;
+    document.title = `${page === 'profile' ? rows.find((r) => r.id === id)?.full_name || 'Profile' : ({ home: 'Faculty Expertise & Connections', directory: 'Faculty directory', explore: 'Explore geography', departments: 'Units', about: 'About' } as Record<string, string>)[page] || 'Page not found'} · COSSPP Global`;
     if (previousRoute.current !== `${page}:${id}`) {
       document.querySelector<HTMLHeadingElement>('h1')?.focus({ preventScroll: true });
       window.scrollTo(0, 0);

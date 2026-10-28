@@ -757,6 +757,8 @@
     "faculty_ids": [
       "amit-anshumali",
       "emelie-griffin",
+      "lisa-turner-de-vera",
+      "lonna-atkeson",
       "maria-cristina-ramos",
       "onnie-norrbin",
       "renata-schama"
@@ -3169,6 +3171,18 @@
     ],
     "faculty_ids": [
       "youwei-xing"
+    ]
+  },
+  {
+    "url": "https://sdsc.fsu.edu/member/ziqi-li/",
+    "access_dates": [
+      "2026-10-27"
+    ],
+    "retrieval_methods": [
+      "search_index"
+    ],
+    "faculty_ids": [
+      "ziqi-li"
     ]
   }
 ]

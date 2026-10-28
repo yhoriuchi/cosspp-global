@@ -160,3 +160,9 @@ was not tested. No faculty data or matching logic changed.
 
 - Department cards use a documented affiliation when primary placement is unknown and label counts as profiles. African American Studies replaces the one-person Other faculty listings card without changing primary appointment evidence or the dataset. Unknown is omitted from selectable Department options.
 - Validation of 176 records, 51 unit checks, production build and privacy/subpath audit passed. Added browser regression checks the AAS card, its default count, Kwasi Densu navigation and omission of Unknown from dropdown choices; targeted browser results recorded in private history.
+
+### Unit classification audit — 2026-10-27
+
+- Unit/Units labels replace Department/Departments in navigation and controls while legacy routes/data keys remain compatible. Reviewed registry distinguishes 25 represented units across four categories and records official source URLs.
+- All unit cards use the same deduplicated primary/additional membership as filtering. Browser tests visit every represented default unit and compare its displayed count to the resulting faculty count, including AAS and cross-affiliations. Added checks for Askew School label, other-FSU option grouping, ISS parent program and three recovered affiliations.
+- 176 records and 53 unit tests passed; production build/privacy audit passed. All 45 browser checks passed across desktop/phone Chromium and iPhone WebKit in 2.3 minutes. Final source-only corroboration update and public verification are recorded in private history. Real iPhone hardware was unavailable.

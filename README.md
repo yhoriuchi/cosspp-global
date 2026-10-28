@@ -31,12 +31,12 @@ No account, backend, environment secret or paid database is needed for the websi
 ## What is implemented
 
 - Home page with search, actual dataset counts, explicitly labeled example searches and a compact, uniformly colored Tallahassee-centered world illustration beside the headline, with search beneath the headline. Explore geography provides the interactive research map in the original world layout; both omit Antarctica.
-- Fast name/topic/country/region/language/method search, accent-insensitive matching, four dropdown filters below the search box (Department, Country, Region and Language), clear/reset, name/department sorting and meaningful empty states.
-- Dropdowns select one value per group; AND across groups. Existing multi-value URLs retain OR within a group. Research topics and methods remain searchable through free text and profile links. Multiword free text matches all words across a profile. Department filters include documented additional affiliations.
+- Fast name/topic/country/region/language/method search, accent-insensitive matching, four dropdown filters below the search box (Unit, Country, Region and Language), clear/reset, name/department sorting and meaningful empty states.
+- Dropdowns select one value per group; AND across groups. Existing multi-value URLs retain OR within a group. Research topics and methods remain searchable through free text and profile links. Multiword free text matches all words across a profile. Unit filters include documented additional affiliations.
 - Faculty cards and direct-link profiles with prominent official-page, personal-site and CV links, evidence/source details, appointment categories and guidance to keep public faculty profiles/CVs current.
 - Faculty-facing wording emphasizes discovery and source context; scope and confirmation methods are explained on About without repeated absence notices on individual profiles.
 - Country/region explorer using local public-domain Natural Earth geometry and D3, plus equivalent accessible links without a map. Regional searches include country expertise (Japan → East Asia and Asia); search, exploration counts and visible region labels share the same [geographic membership rules](docs/REGION_SEARCH.md).
-- Department browsing, scope/privacy explanation, responsive light/dark modes, keyboard controls and visible update dates.
+- Unit browsing, scope/privacy explanation, responsive light/dark modes, keyboard controls and visible update dates.
 - Typed JSON, strict publication validation, CSV import/export, private coverage/link reports, unit/browser tests and a disabled-by-default GitHub Pages deployment workflow.
 
 Query routes such as `?page=directory&country=JP&department=Political+Science` and `?page=profile&id=yusaku-horiuchi` refresh under a GitHub Pages repository subpath without a server rewrite.
@@ -123,3 +123,5 @@ The build exposes only the public schema and static assets. A public repository 
 **Do not create a remote repository, push or deploy without explicit owner approval.** On 2026-10-27 the owner approved the `yhoriuchi/cosspp-global` repository (subsequently made Public by the owner), weekly cloud refreshes and publication after validation. The workflow has no general push trigger; deployment requires `ENABLE_PAGES=true` and either manual dispatch or a validated refresh commit. See [cloud setup](docs/CLOUD_REFRESH.md). Exact authorization steps are in [DEPLOYMENT.md](docs/DEPLOYMENT.md). Remaining research and future secure editing/expansion are in [ROADMAP.md](docs/ROADMAP.md).
 
 Country and Region are linked: Region limits the available Country options. Choosing a country sets its mapped region and locks Region until Country is reset to All. An already selected containing region (including a broader region) is retained; otherwise the first preferred grouping in the shared geography mapping is used. Incoming single-country URLs receive the same normalization. Removing the region chip also clears its country.
+
+Unit choices use a reviewed registry with departments/school, programs, COSSPP centers/institutes/lab and other FSU affiliations distinguished. Unit-card counts match the same primary-plus-additional membership used by filtering; counts overlap across units. See [classification review](docs/UNITS.md). Legacy department data/URL keys remain compatible.

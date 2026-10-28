@@ -38,7 +38,7 @@ export function Header({ page }: { page: string }) {
           {[
             ['directory', 'Faculty directory'],
             ['explore', 'Explore geography'],
-            ['departments', 'Departments'],
+            ['departments', 'Units'],
             ['about', 'About'],
           ].map(([p, label]) => (
             <Link key={p} href={`?page=${p}`} aria-current={page === p ? 'page' : undefined}>

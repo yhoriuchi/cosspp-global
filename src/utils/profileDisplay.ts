@@ -1,10 +1,11 @@
+import { unitLabel } from './units';
 import type { Faculty } from '../types/faculty';
 
 // Present directory metadata without implying a judgment about the faculty member.
 export function affiliationLabel(person: Faculty) {
-  if (person.primary_department !== 'Unknown') return person.primary_department;
+  if (person.primary_department !== 'Unknown') return unitLabel(person.primary_department);
   return person.additional_affiliations.length
-    ? `${person.additional_affiliations[0]} affiliation`
+    ? `${unitLabel(person.additional_affiliations[0])} affiliation`
     : 'COSSPP directory';
 }
 

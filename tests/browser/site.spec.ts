@@ -66,9 +66,7 @@ test('home, search, filters, profile, refresh and history under repository subpa
   await expect(page.getByRole('searchbox')).toHaveValue('Horiuchi');
   await page.getByRole('button', { name: 'Clear filters' }).click();
   await page.getByRole('combobox', { name: 'Country', exact: true }).selectOption('JP');
-  await page
-    .getByRole('combobox', { name: 'Department', exact: true })
-    .selectOption('Political Science');
+  await page.getByRole('combobox', { name: 'Unit', exact: true }).selectOption('Political Science');
   await expect(page.getByRole('link', { name: 'Yusaku Horiuchi', exact: true })).toBeVisible();
   await page.reload();
   await expect(page.getByRole('combobox', { name: 'Country', exact: true })).toHaveValue('JP');
@@ -264,9 +262,7 @@ test('four compact dropdowns combine with topic and method text search', async (
     expect(positions[2].y).toBeGreaterThan(positions[0].y);
     expect(positions[2].y).toBe(positions[3].y);
   }
-  await page
-    .getByRole('combobox', { name: 'Department', exact: true })
-    .selectOption('Political Science');
+  await page.getByRole('combobox', { name: 'Unit', exact: true }).selectOption('Political Science');
   await page.getByRole('combobox', { name: 'Country', exact: true }).selectOption('JP');
   await expect(page.getByRole('combobox', { name: 'Region', exact: true })).toHaveValue(
     'East Asia',
@@ -279,12 +275,12 @@ test('four compact dropdowns combine with topic and method text search', async (
   await expect(page.getByRole('combobox', { name: 'Language', exact: true })).toHaveValue('ja');
   await page.getByRole('searchbox').fill('Public diplomacy');
   await expect(page.getByRole('link', { name: 'Yusaku Horiuchi', exact: true })).toBeVisible();
-  await page.getByRole('combobox', { name: 'Department', exact: true }).focus();
+  await page.getByRole('combobox', { name: 'Unit', exact: true }).focus();
   await page.keyboard.press('Tab');
   await expect(page.getByRole('combobox', { name: 'Country', exact: true })).toBeFocused();
   await page.getByRole('button', { name: 'Clear filters' }).click();
   await expect(page.getByRole('searchbox')).toHaveValue('');
-  for (const label of ['Department', 'Country', 'Region', 'Language'])
+  for (const label of ['Unit', 'Country', 'Region', 'Language'])
     await expect(page.getByRole('combobox', { name: label, exact: true })).toHaveValue('');
   await page.goto('?page=directory&country=JP&country=US');
   await expect(page.getByRole('combobox', { name: 'Country', exact: true })).toHaveValue(
@@ -374,10 +370,52 @@ test('department browsing uses documented affiliation instead of an unknown cate
   await page.goto('?page=departments');
   await expect(page.getByRole('link', { name: /Other faculty listings/ })).toHaveCount(0);
   const aas = page.getByRole('link', { name: /African American Studies/ });
-  await expect(aas).toContainText('1 faculty profile');
+  await expect(aas).toContainText('5 faculty profiles');
   await aas.click();
   await expect(page.getByRole('link', { name: 'Kwasi Densu', exact: true })).toBeVisible();
-  const department = page.getByRole('combobox', { name: 'Department', exact: true });
+  const department = page.getByRole('combobox', { name: 'Unit', exact: true });
   await expect(department).toHaveValue('African American Studies');
   await expect(department.locator('option[value="Unknown"]')).toHaveCount(0);
+});
+
+test('units are classified and every unit count matches its directory filter', async ({ page }) => {
+  await page.goto('?page=departments');
+  await expect(page.getByRole('link', { name: 'Units', exact: true })).toBeVisible();
+  for (const group of [
+    'Departments & school',
+    'Programs',
+    'COSSPP centers, institutes & lab',
+    'Other FSU affiliations',
+  ])
+    await expect(page.getByRole('heading', { name: group, exact: true })).toBeVisible();
+  await expect(page.getByRole('link', { name: /Integrated Studies/ })).toContainText(
+    'Within Interdisciplinary Social Science',
+  );
+  const cards = await page
+    .locator('.department-card')
+    .evaluateAll((els) =>
+      els.map((el) => ({
+        href: el.getAttribute('href')!,
+        count: Number(el.textContent!.match(/(\d+) faculty/)![1]),
+      })),
+    );
+  for (const card of cards) {
+    await page.goto(card.href);
+    await expect(page.getByRole('status')).toContainText(`${card.count} faculty`);
+  }
+  await page.goto('?page=directory&department=Public+Administration+and+Policy');
+  const unit = page.getByRole('combobox', { name: 'Unit', exact: true });
+  await expect(unit).toHaveValue('Public Administration and Policy');
+  await expect(unit.locator('option:checked')).toHaveText(
+    'Askew School of Public Administration and Policy',
+  );
+  await expect(
+    unit.locator('optgroup[label="Other FSU affiliations"] option[value="FSU College of Law"]'),
+  ).toHaveCount(1);
+  await page.goto('?page=directory&department=Interdisciplinary+Social+Science&q=Ramos');
+  await expect(page.getByRole('link', { name: 'Maria Cristina Ramos', exact: true })).toBeVisible();
+  await page.goto('?page=directory&department=Urban+and+Regional+Planning&q=Lisa');
+  await expect(page.getByRole('link', { name: 'Lisa Turner de Vera', exact: true })).toBeVisible();
+  await page.goto('?page=directory&department=LeRoy+Collins+Institute');
+  await expect(page.getByRole('link', { name: 'Lonna Atkeson', exact: true })).toBeVisible();
 });

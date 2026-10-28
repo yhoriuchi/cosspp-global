@@ -1,3 +1,10 @@
+import {
+  facultyUnits,
+  unitCounts,
+  validateUnitMembership,
+  units,
+  unitLabel,
+} from '../src/utils/units';
 import { describe, it, expect, vi } from 'vitest';
 import { countryCodes, datasetSchema, facultySchema, regions } from '../src/types/faculty';
 import { researchRegions, regionsForCountry } from '../src/utils/geography';
@@ -404,5 +411,35 @@ describe('linked country and region filters', () => {
       ).toEqual([region]);
     }
     expect(reconcileGeography({ ...emptyFilters, region: ['Europe'] }).region).toEqual(['Europe']);
+  });
+});
+
+describe('reviewed unit classifications', () => {
+  it('deduplicates primary/additional membership and does not invent an unknown home', () => {
+    const p = {
+      primary_department: 'Political Science',
+      additional_affiliations: ['Political Science', 'International Affairs'],
+    };
+    expect(facultyUnits(p)).toEqual(['Political Science', 'International Affairs']);
+    expect(
+      facultyUnits({
+        primary_department: 'Unknown',
+        additional_affiliations: ['African American Studies'],
+      }),
+    ).toEqual(['African American Studies']);
+    expect(unitCounts([{ ...a, ...p }]).get('Political Science')).toBe(1);
+  });
+  it('distinguishes school, program, research and other FSU affiliations', () => {
+    expect(unitLabel('Public Administration and Policy')).toBe(
+      'Askew School of Public Administration and Policy',
+    );
+    expect(units.find((u) => u.key === 'Integrated Studies')?.parent).toBe(
+      'Interdisciplinary Social Science',
+    );
+    expect(units.find((u) => u.key === 'FSU College of Law')?.group).toBe('Other FSU affiliations');
+    expect(new Set(units.map((u) => u.key)).size).toBe(units.length);
+    expect(() =>
+      validateUnitMembership([{ ...a, primary_department: 'Unreviewed outside university' }]),
+    ).toThrow(/unreviewed unit/);
   });
 });

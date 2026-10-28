@@ -1,4 +1,5 @@
 import { researchRegions, regionsForCountry } from './geography';
+import { facultyUnits, unitLabel } from './units';
 import type { Faculty } from '../types/faculty';
 export type Filters = {
   q: string;
@@ -69,7 +70,7 @@ export function filterFaculty(rows: Faculty[], f: Filters) {
       const haystack = normalize(
         [
           r.full_name,
-          r.primary_department,
+          ...facultyUnits(r).map(unitLabel),
           ...r.additional_affiliations,
           ...r.research_interests,
           ...r.methodological_expertise,
@@ -86,7 +87,7 @@ export function filterFaculty(rows: Faculty[], f: Filters) {
           .trim()
           .split(/\s+/)
           .every((w) => haystack.includes(w)) &&
-        match(f.department, [r.primary_department, ...r.additional_affiliations]) &&
+        match(f.department, facultyUnits(r)) &&
         match(
           f.country,
           r.geographic_research_countries.map((c) => c.code),

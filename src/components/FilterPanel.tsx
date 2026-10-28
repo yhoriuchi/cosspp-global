@@ -1,4 +1,5 @@
 import { researchRegions, regionsForCountry } from '../utils/geography';
+import { units, unitGroups, unitLabel } from '../utils/units';
 import type { Faculty } from '../types/faculty';
 import { reconcileGeography, type Filters } from '../utils/search';
 type FilterKey = 'department' | 'country' | 'region' | 'language';
@@ -25,7 +26,7 @@ export function FilterPanel({
   const groups: [FilterKey, string, string[][]][] = [
     [
       'department',
-      'Department',
+      'Unit',
       unique(
         rows
           .flatMap((r) => [r.primary_department, ...r.additional_affiliations])
@@ -68,11 +69,27 @@ export function FilterPanel({
                   {filters[key].length} selected
                 </option>
               )}
-              {options.map(([value, name]) => (
-                <option key={value} value={value}>
-                  {key === 'department' && name === 'Unknown' ? 'Other faculty listings' : name}
-                </option>
-              ))}
+              {key === 'department'
+                ? unitGroups.map((group) => {
+                    const available = units.filter(
+                      (unit) =>
+                        unit.group === group && options.some(([value]) => value === unit.key),
+                    );
+                    return available.length ? (
+                      <optgroup label={group} key={group}>
+                        {available.map((unit) => (
+                          <option key={unit.key} value={unit.key}>
+                            {unitLabel(unit.key)}
+                          </option>
+                        ))}
+                      </optgroup>
+                    ) : null;
+                  })
+                : options.map(([value, name]) => (
+                    <option key={value} value={value}>
+                      {name}
+                    </option>
+                  ))}
             </select>
           </label>
         ))}

@@ -7,8 +7,8 @@ Authoritative executable schema: `src/types/faculty.ts`. Public dataset: `data/p
 | id | Stable lowercase ASCII slug assigned once; retain through name/title changes. Never regenerate IDs during routine refreshes. |
 | full_name, preferred_display_name | Verified full name; optional preferred display name requires source evidence. No identity inference. |
 | academic_title | Source-supported title. Prefer current roster/new dated appointment over stale biography text. |
-| primary_department | Main appointment; `Unknown` explicitly marks unresolved primary affiliation. |
-| additional_affiliations | Other verified units/centers. Department filter matches both primary and additional affiliations. |
+| primary_department | Main appointment unit (legacy field name); `Unknown` explicitly marks unresolved primary affiliation. Unit labels/categories are reviewed in `src/utils/units.ts`; never infer a primary appointment from a hosting URL. |
+| additional_affiliations | Other verified units/centers. Unit filter matches both primary and additional affiliations. |
 | appointment_type | regular, teaching, visiting, adjunct, emeritus, affiliate, unknown. Default results include current regular/teaching only. |
 | current_affiliation_status | current (listed currently), upcoming (explicit future start), unknown (unresolved). Does not imply an HR audit. |
 | email, office | Optional public professional contact/location only. No personal contact collection. |

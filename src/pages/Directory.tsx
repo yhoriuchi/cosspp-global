@@ -1,3 +1,4 @@
+import { unitLabel } from '../utils/units';
 import type { Faculty } from '../types/faculty';
 import { PageHeading } from '../components/Layout';
 import { SearchBar } from '../components/SearchBar';
@@ -31,7 +32,7 @@ export function Directory({ rows, params }: { rows: Faculty[]; params: URLSearch
             Sort by{' '}
             <select value={f.sort} onChange={(e) => set({ ...f, sort: e.target.value })}>
               <option value="name">Name A–Z</option>
-              <option value="department">Department</option>
+              <option value="department">Unit</option>
             </select>
           </label>
           <button className="text-button" onClick={() => set({ ...emptyFilters })}>
@@ -54,8 +55,8 @@ export function Directory({ rows, params }: { rows: Faculty[]; params: URLSearch
                     }
                     aria-label={`Remove ${key} filter ${value}`}
                   >
-                    {key}:{' '}
-                    {key === 'department' && value === 'Unknown' ? 'Other faculty listings' : value}{' '}
+                    {key === 'department' ? 'unit' : key}:{' '}
+                    {key === 'department' ? unitLabel(value) : value}{' '}
                     <span aria-hidden="true">×</span>
                   </button>
                 )),

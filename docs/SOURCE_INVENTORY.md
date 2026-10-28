@@ -46,3 +46,7 @@ The September 28, 2026 college update and a dated Askew-director announcement he
 ## Remaining collection work
 
 Complete individual research enrichment; resolve uncertain appointments and primary homes; examine current emeritus/affiliate lists without inflating regular-faculty counts; audit every center systematically; replace directory fallbacks where genuine individual pages exist; continue optional faculty confirmation of directory accuracy. Language publication follows the owner-approved public-self-report policy, with source provenance rather than separate consent. No claim of full college census completeness is made.
+
+## Unit classification audit — 2026-10-27
+
+Reviewed 25 represented organization keys against official college and FSU sources; separated school/departments, programs, college research groups and other FSU affiliations. All 176 existing names reconcile to cached official source context; this does not independently certify primary homes. Added three explicit affiliations and strengthened one existing membership source; retained conflicting primary-placement evidence conservatively. See [decisions and sources](UNITS.md). Counts use the same membership as filtering and do not form an exclusive partition or a complete organizational census.

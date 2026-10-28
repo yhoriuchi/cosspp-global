@@ -838,7 +838,8 @@ hr {
   padding: 28px;
   text-decoration: none;
 }
-.department-card h2 {
+.department-card h2,
+.department-card h3 {
   font-size: 25px;
   margin: 20px 0 35px;
 }

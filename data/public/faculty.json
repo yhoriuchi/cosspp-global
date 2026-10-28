@@ -9017,7 +9017,9 @@
     "current_affiliation_status": "current",
     "official_profile_url": "https://cosspp.fsu.edu/iss/faculty/",
     "email": "LTurnerdevera@fsu.edu",
-    "additional_affiliations": [],
+    "additional_affiliations": [
+      "Urban and Regional Planning"
+    ],
     "research_interests": [],
     "methodological_expertise": [],
     "geographic_research_countries": [],
@@ -9049,6 +9051,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/engage-2025-2026-updates-from-cosspps-chairs-and-directors/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "additional_affiliations"
+        ],
+        "evidence": "The college update explicitly identifies the ISS director as affiliated faculty in Urban and Regional Planning.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "search_index"
       }
     ],
     "id": "lisa-turner-de-vera",
@@ -9070,7 +9083,9 @@
     "appointment_type": "regular",
     "current_affiliation_status": "current",
     "official_profile_url": "https://cosspp.fsu.edu/polisci/faculty/lonna-atkeson/",
-    "additional_affiliations": [],
+    "additional_affiliations": [
+      "LeRoy Collins Institute"
+    ],
     "research_interests": [
       "American politics",
       "Election science",
@@ -9133,6 +9148,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://cosspp.fsu.edu/engage-2025-2026-updates-from-cosspps-chairs-and-directors/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "additional_affiliations"
+        ],
+        "evidence": "The college unit update explicitly identifies Atkeson as Director of the LeRoy Collins Institute and LeRoy Collins Eminent Scholar in Civic Education and Political Science.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "search_index"
       }
     ],
     "email": "latkeson@fsu.edu",
@@ -9496,7 +9522,9 @@
     "appointment_type": "regular",
     "current_affiliation_status": "current",
     "official_profile_url": "https://cosspp.fsu.edu/sociology/faculty/maria-cristina-ramos-ph-d/",
-    "additional_affiliations": [],
+    "additional_affiliations": [
+      "Interdisciplinary Social Science"
+    ],
     "research_interests": [
       "Social psychology",
       "Health inequalities",
@@ -9551,12 +9579,9 @@
         "url": "https://cosspp.fsu.edu/engage-2025-2026-updates-from-cosspps-chairs-and-directors/",
         "accessed": "2026-10-27",
         "fields": [
-          "primary_department",
-          "academic_title",
-          "appointment_type",
-          "current_affiliation_status"
+          "additional_affiliations"
         ],
-        "evidence": "September 28, 2026 update identifies Ramos as a Fall 2026 tenure-track Sociology hire. This and the current roster supersede the old ISS appointment in her biography body.",
+        "evidence": "The college ISS report explicitly lists Ramos among its faculty. Current Sociology roster/header still identifies Assistant Professor of Sociology; retained that primary placement and recorded the ISS affiliation without inferring an appointment change.",
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "search_index"
@@ -16156,7 +16181,6 @@
           "methodological_expertise",
           "geographic_research_countries",
           "geographic_research_regions",
-          "additional_affiliations",
           "short_biography"
         ],
         "evidence": "Official college report identifies Li and Liling Chang as leaders of a California wildfire prediction project using foundation models.",
@@ -16185,6 +16209,17 @@
         "extraction": "agent_reviewed",
         "reviewed_by": "agent",
         "retrieval": "direct"
+      },
+      {
+        "url": "https://sdsc.fsu.edu/member/ziqi-li/",
+        "accessed": "2026-10-27",
+        "fields": [
+          "additional_affiliations"
+        ],
+        "evidence": "The official Spatial Data Science Center faculty member page lists Ziqi Li as SDSC Faculty and Assistant Professor of Geography.",
+        "extraction": "agent_reviewed",
+        "reviewed_by": "agent",
+        "retrieval": "search_index"
       }
     ],
     "email": "ziqi.li@fsu.edu",

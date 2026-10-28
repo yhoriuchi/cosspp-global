@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { units, unitCounts } from '../utils/units';
 import type { Faculty } from '../types/faculty';
 import { SearchBar } from '../components/SearchBar';
 import { Link } from '../components/Link';
@@ -11,8 +12,9 @@ export function Home({ rows }: { rows: Faculty[] }) {
   const countries = new Set(
     active.flatMap((r) => r.geographic_research_countries.map((c) => c.code)),
   );
-  const departments = new Set(
-    active.map((r) => r.primary_department).filter((d) => d !== 'Unknown'),
+  const counts = unitCounts(active);
+  const academicUnits = units.filter(
+    (unit) => ['Departments & school', 'Programs'].includes(unit.group) && counts.has(unit.key),
   );
   return (
     <>
@@ -56,8 +58,8 @@ export function Home({ rows }: { rows: Faculty[] }) {
           <span>current faculty listed</span>
         </div>
         <div>
-          <strong>{departments.size}</strong>
-          <span>primary academic units</span>
+          <strong>{academicUnits.length}</strong>
+          <span>academic units represented</span>
         </div>
         <div>
           <strong>{countries.size}</strong>
@@ -89,9 +91,9 @@ export function Home({ rows }: { rows: Faculty[] }) {
             [
               '02',
               'Cross disciplines',
-              'Discover complementary expertise across departments and programs.',
+              'Discover complementary expertise across academic units.',
               'departments',
-              'Browse departments',
+              'Browse units',
             ],
             [
               '03',
