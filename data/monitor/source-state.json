@@ -8,10 +8,815 @@
         "website"
       ],
       "sha256": "06f6cf977744a1f03d6ec72f9ff9326a6bde76b167cefc5973e695967378fec3",
-      "checked_at": "2026-10-28T11:30:15.209Z",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "unchanged",
+      "cv_candidates": []
+    },
+    "https://cvdb.fsu.edu/cvdb/CCOUTTS.rtf": {
+      "faculty_ids": [
+        "chris-coutts"
+      ],
+      "kinds": [
+        "cv"
+      ],
+      "sha256": "a635d2c52a5d4e1d05909d06c0d4c988d4c05a8319a9e54d03c84f0cfea68565",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": []
+    },
+    "https://dotanhaim.com/": {
+      "faculty_ids": [
+        "dotan-haim"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "e4ebfb40d83dea96025bdc08685c6aa811bfe30489ffa4b21e8703729fb741a5",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": [
+        "https://dotanhaim.com/cv.html"
+      ]
+    },
+    "https://dotanhaim.com/docs/Haim_CV.pdf?v=19aea12a": {
+      "faculty_ids": [
+        "dotan-haim"
+      ],
+      "kinds": [
+        "cv"
+      ],
+      "sha256": "19aea12a4974559a8ad7a6a988e0229fdd74a20ade4ed49959f8ccb9eb963bfa",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": []
+    },
+    "https://gabrieljolivier.github.io/": {
+      "faculty_ids": [
+        "gabriel-olivier"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "2e8f3c191e285e03db45f5b1f75dd5742307a5cc1699cae0aedf0a587f94cf93",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": [
+        "https://gabrieljolivier.github.io/cv/"
+      ]
+    },
+    "https://github.com/user-attachments/files/23688177/CV_11_25.pdf": {
+      "faculty_ids": [
+        "gabriel-olivier"
+      ],
+      "kinds": [
+        "cv"
+      ],
+      "sha256": "3f9d109f0edb0368dac97e4b1409c6f730b59cf978dc8e35c6cac83b0598839b",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": []
+    },
+    "https://hanzhang-liu.org/": {
+      "faculty_ids": [
+        "hanzhang-liu"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "8e50a5715e7e9a3a88d1ed7cc7458859f2eb9d1bfd846662a44908191f65523a",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": [
+        "https://hanzhang-liu.org/cv/",
+        "https://hanzhang-liu.org/cv"
+      ]
+    },
+    "https://hanzhang-liu.org/wp-content/uploads/2026/09/cv_liu_202609.pdf": {
+      "faculty_ids": [
+        "hanzhang-liu"
+      ],
+      "kinds": [
+        "cv"
+      ],
+      "sha256": "84e6d841e0ca583cf1ffe3af7a5e73a39fd6cc6d2cd1f58a910c60030e204372",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": []
+    },
+    "https://horiuchi.org/": {
+      "faculty_ids": [
+        "yusaku-horiuchi"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "7d669bbd921b9bf46a4913998abb2c430ba6b8a46b6330002d02e60f7cd83980",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": [
+        "https://horiuchi.org/cv/",
+        "https://horiuchi.org/files/cv/cv.pdf"
+      ]
+    },
+    "https://horiuchi.org/files/cv/cv.pdf": {
+      "faculty_ids": [
+        "yusaku-horiuchi"
+      ],
+      "kinds": [
+        "cv"
+      ],
+      "sha256": "d36eb55e94ccddf2a4acb4eb4c8ee5886197abaf5ebbe24eb9730accc0631e67",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": []
+    },
+    "https://kaiou-web.github.io/": {
+      "faculty_ids": [
+        "kai-ou"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "5e77d0ad53649befcfaff0b115a516f2e6af4e08c74e6d46a82cb6de924f1074",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": [
+        "https://kaiou-web.github.io/assets/pdf/OUKAI_CV.pdf"
+      ]
+    },
+    "https://mariacramos.com/files/cv.pdf": {
+      "faculty_ids": [
+        "maria-cristina-ramos"
+      ],
+      "kinds": [
+        "cv"
+      ],
+      "sha256": "c1c4776f1670bc211702ca25620da357aef23b2fd8f9ad82d8259f44a88db22a",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": []
+    },
+    "https://myweb.fsu.edu/jcanourbina/": {
+      "faculty_ids": [
+        "javier-cano-urbina"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "6b645d18493c83d33323b86ac12ffbc8360e4e76e7145ca3cdf55f8edd64c219",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": [
+        "https://myweb.fsu.edu/jcanourbina/JavierCanoUrbina-CV.pdf"
+      ]
+    },
+    "https://myweb.fsu.edu/jcanourbina/JavierCanoUrbina-CV.pdf": {
+      "faculty_ids": [
+        "javier-cano-urbina"
+      ],
+      "kinds": [
+        "cv"
+      ],
+      "sha256": "7a8030c699d19fa585d48e3b012c5c070a04ba9032aff8430a95b9da2ca28bb0",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": []
+    },
+    "https://myweb.fsu.edu/jhamman": {
+      "faculty_ids": [
+        "john-r-hamman"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "d3bd7c09c1d90220ae9d658140d950bb3431ef789bbf3218b6df8a9703ae22fa",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": [
+        "https://myweb.fsu.edu/jhamman/vita.html"
+      ]
+    },
+    "https://myweb.fsu.edu/jhamman/doc/HammanCV.pdf": {
+      "faculty_ids": [
+        "john-r-hamman"
+      ],
+      "kinds": [
+        "cv"
+      ],
+      "sha256": "6734acc12a242bafe6d5cab88e90dafe44b5c3f2c1a82c744377d117c2c39fcb",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": []
+    },
+    "https://myweb.fsu.edu/matolia/ManojAtolia_CV.pdf": {
+      "faculty_ids": [
+        "manoj-atolia"
+      ],
+      "kinds": [
+        "cv"
+      ],
+      "sha256": "8cbc710ea1e552d61f77288279e342aa6e07f764d4cbeaee9c8fd741d2395f80",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": []
+    },
+    "https://myweb.fsu.edu/misaac/vita.pdf": {
+      "faculty_ids": [
+        "r-mark-isaac"
+      ],
+      "kinds": [
+        "cv"
+      ],
+      "sha256": "5db468002d3b6e903838aec77675c2ebd97cbeb3957c815f960735034836b12a",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": []
+    },
+    "https://myweb.fsu.edu/msouva/": {
+      "faculty_ids": [
+        "mark-souva"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "25913bc76c31c1c3db24e10a440f225e88486c284d01e356a9cb193ca7eb1e54",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": [
+        "https://myweb.fsu.edu/msouva/Vita--Souva%20March%202024.pdf"
+      ]
+    },
+    "https://myweb.fsu.edu/sehrlich/": {
+      "faculty_ids": [
+        "sean-ehrlich"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "23493adad48908177ea8ad583e6385df2ceb85081a35478f801910391232f8ef",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": []
+    },
+    "https://olgasparyan.com/": {
+      "faculty_ids": [
+        "olga-gasparyan"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "624b3712b30c52afccd72a64f46fa354c69ca3c3c270e463c71dcacb3d2bc3ab",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": [
+        "https://olgasparyan.com/cv.html",
+        "https://olgasparyan.com/documents/Gasparyan_CV_sep2026.pdf"
+      ]
+    },
+    "https://olgasparyan.com/documents/Gasparyan_CV_sep2026.pdf": {
+      "faculty_ids": [
+        "olga-gasparyan"
+      ],
+      "kinds": [
+        "cv"
+      ],
+      "sha256": "7a8e73a9251345edc4a1a4e97d6a7cc8f67d22aea93bc0ea446fd94a3e61f688",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": []
+    },
+    "https://rvijaykrishna.weebly.com/": {
+      "faculty_ids": [
+        "r-vijay-krishna"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "4e457d036fe718663ed34f3083637c3f9b6cbfa4dee63194c2b4a3e267d306b6",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": [
+        "https://rvijaykrishna.weebly.com/curriculum-vitae.html"
+      ]
+    },
+    "https://rvijaykrishna.weebly.com/uploads/2/4/2/4/24249400/rvk-resume.pdf": {
+      "faculty_ids": [
+        "r-vijay-krishna"
+      ],
+      "kinds": [
+        "cv"
+      ],
+      "sha256": "e612c43c895b5ee5c9ace5fcad2fd109c39583d8a6a8f4876d14a7a41450beea",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": []
+    },
+    "https://shawnkantor.wixsite.com/shawnkantor": {
+      "faculty_ids": [
+        "shawn-kantor"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "05f1a35786c9d651c6362e5b4f3d474feb31786e29891a3591a11fdc5578042f",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": [
+        "https://33a0be5b-1831-4aac-b450-98e5e1361e6b.filesusr.com/ugd/823a82_e94c5b7ee29542179636d70a815acc3d.pdf"
+      ]
+    },
+    "https://sites.google.com/site/cynthiafanyang/": {
+      "faculty_ids": [
+        "cynthia-fan-yang"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "42058557eccfa675ead703a779306b0248b03ccf086d0e2fc9d9a3bdb8b7b9dc",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": []
+    },
+    "https://sites.google.com/site/jbkimecon": {
+      "faculty_ids": [
+        "jeongbin-kim"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "6879dd76d5cc02d7f53434c953bac8d060c55b51f2db68cc4976719ad04541c6",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": []
+    },
+    "https://sites.google.com/site/jwghome/": {
+      "faculty_ids": [
+        "jens-grosser"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "30734d5bbf3091155c2525b67424f296934d1358ee08184379e1f42f65381258",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": [
+        "https://sites.google.com/site/jwghome/cv"
+      ]
+    },
+    "https://sites.google.com/site/kitchct/": {
+      "faculty_ids": [
+        "carl-kitchens"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "abc42560096a2e75b9c424037702720229fb63a3d25eb9370ca5f60edcdd5280",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": []
+    },
+    "https://sites.google.com/site/tubatuncel/": {
+      "faculty_ids": [
+        "tuba-tuncel"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "2fd890b5a22ae5e6d606afbec2f5067f8216aa09a458f2c0fdde056894bc6243",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": [
+        "https://sites.google.com/site/tubatuncel/cv"
+      ]
+    },
+    "https://sites.google.com/view/hyoeunpark-econ/home": {
+      "faculty_ids": [
+        "hyoeun-park"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "7f110f2fbd4494ce3eefd2c07aea75ab08333e16e3717cf4c4d2190a0f7b5eac",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": [
+        "https://sites.google.com/view/hyoeunpark-econ/cv"
+      ]
+    },
+    "https://sites.google.com/view/liling-chang": {
+      "faculty_ids": [
+        "liling-chang"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "26f032142c4fa017cb292eca91bb8992c0c6cb94c30b233c23855bc9ace25c9f",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": []
+    },
+    "https://sites.google.com/view/nicholaslbrown": {
+      "faculty_ids": [
+        "nicholas-l-brown"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "ae065b40fef6fef20c3bba9767154f7ea120842d0894c949f11cf926aa8f3d4c",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": [
+        "https://sites.google.com/view/nicholaslbrown/cv"
+      ]
+    },
+    "https://sites.google.com/view/yonggyun-yg-kim/": {
+      "faculty_ids": [
+        "yonggyun-kim"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "043ef15e95784f8715538eda618dece4ebfe430ba89ecad982a8621090475a7e",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": [
+        "https://yonggyun-yg-kim.github.io/files/CV/CV_ygkim.pdf"
+      ]
+    },
+    "https://sites.google.com/view/youweixing": {
+      "faculty_ids": [
+        "youwei-xing"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "62bd383684416c69f023c4aae21a6989b2a5b4e06bf6bf96a5905a629e4b2bfd",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": [
+        "https://sites.google.com/view/youweixing/curriculum-vitae"
+      ]
+    },
+    "https://sites.google.com/view/ziqi-li": {
+      "faculty_ids": [
+        "ziqi-li"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "9fe0bd95632b32683f3e8adc2a5f12d04f7f9a5e0fe2d81277ac04f24c8c8699",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": []
+    },
+    "https://www.amandadriscoll.xyz/": {
+      "faculty_ids": [
+        "amanda-driscoll"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "12d612cae4d5d5fccc8aaeb7a03416d6cd342e49584ac0779fd871952151db12",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": [
+        "https://www.amandadriscoll.xyz/"
+      ]
+    },
+    "https://www.amberddejohn.com/": {
+      "faculty_ids": [
+        "amber-dejohn"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "7a7a856e66fd798e4f508561efc5a22d34f03f427b1fa715395842370b10ad08",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": []
+    },
+    "https://www.andrewoballard.com/": {
+      "faculty_ids": [
+        "andrew-ballard"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "88c2681fcc1b1d0f0f42cfd344a90dc01d54a836b0891f74244b267a69ac4777",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": [
+        "https://andrewoballard.com/cv/"
+      ]
+    },
+    "https://www.andyscottchang.com/": {
+      "faculty_ids": [
+        "andy-scott-chang"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "1b0e625585e15043bcfa9f3a92759240e8ffdce9cf4e74d838daceaad1e87a3a",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": [
+        "https://www.andyscottchang.com/cv"
+      ]
+    },
+    "https://www.camilorubbini.com/": {
+      "faculty_ids": [
+        "camilo-rubbini"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "1fa2d081185968e89c9ff95d7d8bb31325715b2157c95095f6d952f5857a8b6b",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": [
+        "https://www.camilorubbini.com/cv/"
+      ]
+    },
+    "https://www.camilorubbini.com/wp-content/uploads/2026/10/Camilo_Rubbbini_CV.pdf": {
+      "faculty_ids": [
+        "camilo-rubbini"
+      ],
+      "kinds": [
+        "cv"
+      ],
+      "sha256": "cf1f4ff0cda324d748778fc73cea534955411625423bc6fce7971d84c16eb314",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": []
+    },
+    "https://www.carlislerainey.com/cv.pdf": {
+      "faculty_ids": [
+        "carlisle-rainey"
+      ],
+      "kinds": [
+        "cv"
+      ],
+      "sha256": "6cf3e804ae02e7bd551faddc994e98a9dd05a9b8a146ea8bc915880be8dcaaeb",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": []
+    },
+    "https://www.davideluparello.com/": {
+      "faculty_ids": [
+        "davide-luparello"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "d144774ba5da052fc4661a2396b9683a2c4928f4104897e3f99454218c2bb3ff",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": []
+    },
+    "https://www.dougnorton.com/": {
+      "faculty_ids": [
+        "doug-norton"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "bcfac56bfe5519e558637a6d1f038826c4296949dd3d40e03f2cdb7583321e06",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": []
+    },
+    "https://www.drmeganevans.com/": {
+      "faculty_ids": [
+        "megan-evans"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "56f24015bce71ed34a19d28bdaec3a819859539c28e8dd611c39a74d36edf6b3",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": [
+        "https://www.drmeganevans.com/cv"
+      ]
+    },
+    "https://www.elif-basaran.com/": {
+      "faculty_ids": [
+        "elif-basaran"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "5072112dd19463c095b5bc70aae45c361ff447ac9d594d844447cfef07debedd",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": [
+        "https://www.elif-basaran.com/_files/ugd/968c7f_ea8c78e039054347b75f13b8f6be7b2a.pdf"
+      ]
+    },
+    "https://www.elif-basaran.com/_files/ugd/968c7f_ea8c78e039054347b75f13b8f6be7b2a.pdf": {
+      "faculty_ids": [
+        "elif-basaran"
+      ],
+      "kinds": [
+        "cv"
+      ],
+      "sha256": "28abbb92741f76f84d20612740b12d8cc851d86a649cc0ae79d9c98a3a93379c",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": []
+    },
+    "https://www.fsu.edu/cvdb/MHAMMOCK.rtf?1346": {
+      "faculty_ids": [
+        "michael-r-hammock"
+      ],
+      "kinds": [
+        "cv"
+      ],
+      "sha256": "02bd09f0c507549894857915ae08dfcd9c73e6f972fef5c1a0e049a5c76b580d",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": []
+    },
+    "https://www.jd-irigoyen-borunda.com/": {
+      "faculty_ids": [
+        "juan-david-irigoyen-borunda"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "b5540db5cab7ad38f2f9931ff578025f850c86de6b717a4754d826af985986d3",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": [
+        "https://www.jd-irigoyen-borunda.com/blank-2"
+      ]
+    },
+    "https://www.jd-irigoyen-borunda.com/_files/ugd/eb96bb_1e95c002a38649619bad87134011608b.pdf": {
+      "faculty_ids": [
+        "juan-david-irigoyen-borunda"
+      ],
+      "kinds": [
+        "cv"
+      ],
+      "sha256": "44e5b298f57ff6648606da93ab370d8c52dd87c76321d68ba8eb1b3097b24d24",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": []
+    },
+    "https://www.kellymatush.com/": {
+      "faculty_ids": [
+        "kelly-matush"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "0a1cc651a1502ee19ee390a0bdb0040d72494fc49bfacf6b6d974642d76a0a77",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": [
+        "https://www.kellymatush.com/pagecv"
+      ]
+    },
+    "https://www.lukeprodgers.com/": {
+      "faculty_ids": [
+        "luke-p-rodgers"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "53cc70ff5d245dd8fdd555415901b3f9c396f6f3a9af03772ee7ad6ad417d282",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": [
+        "https://lukeprodgers.com/RodgersCV.pdf"
+      ]
+    },
+    "https://www.mariacramos.com/": {
+      "faculty_ids": [
+        "maria-cristina-ramos"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "f458bd84993bca419de2449c4e144da3225f2fc7c8bb764b8ba108bb06c979d7",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": [
+        "https://mariacramos.com/files/cv.pdf"
+      ]
+    },
+    "https://www.mehaksachdeva.com/": {
+      "faculty_ids": [
+        "mehak-sachdeva"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "f4a4c2e637a602b81b9e779b06162caa63e0ebb93eca13a8443d7af20c43811a",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": []
+    },
+    "https://www.mehaksachdeva.com/uploads/Sachdeva_CV.pdf": {
+      "faculty_ids": [
+        "mehak-sachdeva"
+      ],
+      "kinds": [
+        "cv"
+      ],
+      "sha256": "4246ef51250542fe626fc9fadecb43a59e6c9ffc2ef9ce50ba9b90d9c5371bcd",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": []
+    },
+    "https://www.preshidi.com/": {
+      "faculty_ids": [
+        "pellumb-reshidi"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "afeec0021f25b34eeaf09f42816f0f39654d654621b96bd0048175f23384ee49",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": [
+        "https://www.preshidi.com/CV/Pellumb_Reshidi_CV.pdf"
+      ]
+    },
+    "https://www.randallholcombe.com/": {
+      "faculty_ids": [
+        "randall-g-holcombe"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "4a65ebcfeafa571985d4e3fb297771370bd45a623973cadb032728cac23ffe6c",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": []
+    },
+    "https://www.vivekmoorthy.com/": {
+      "faculty_ids": [
+        "vivek-moorthy"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "d953c4ce59bd8fec55e6a813ba7a51fd2dbb01d4b18f58e6e1f9954ecaf7ad91",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": []
+    },
+    "https://www.williamtjackson.com/": {
+      "faculty_ids": [
+        "william-t-jackson"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "a2f40e0db7b3d77673a297f89fcaf4e2e6847561099a26b49be2a73f355864d0",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": [
+        "https://www.williamtjackson.com/uploads/1/4/4/3/144336747/w._jackson_cv_08-07-26.pdf"
+      ]
+    },
+    "https://www.williamtjackson.com/uploads/1/4/4/3/144336747/w._jackson_cv_08-07-26.pdf": {
+      "faculty_ids": [
+        "william-t-jackson"
+      ],
+      "kinds": [
+        "cv"
+      ],
+      "sha256": "dcd83913cb0782d171c1ddebfa18f17c4d5e75d7b5161263d6d23c28bd2d3fdc",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": []
+    },
+    "https://www.xiaoyu-cheng.com/": {
+      "faculty_ids": [
+        "xiaoyu-cheng"
+      ],
+      "kinds": [
+        "website"
+      ],
+      "sha256": "d115ec0da3f30880773ef3f285cd9c4b938dec3ef4a775a587e74babd176831e",
+      "checked_at": "2026-11-01T15:25:58.997Z",
+      "status": "baseline",
+      "cv_candidates": []
+    },
+    "https://yonggyun-yg-kim.github.io/files/CV/CV_ygkim.pdf": {
+      "faculty_ids": [
+        "yonggyun-kim"
+      ],
+      "kinds": [
+        "cv"
+      ],
+      "sha256": "696493b250582a2e152c191e7ef2153dd3d5b54c9bd626f9db5e5ffad8f5ade8",
+      "checked_at": "2026-11-01T15:25:58.997Z",
       "status": "baseline",
       "cv_candidates": []
     }
   },
-  "checked_at": "2026-10-28T11:30:15.209Z"
+  "checked_at": "2026-11-01T15:25:58.997Z"
 }
