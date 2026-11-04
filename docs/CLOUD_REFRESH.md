@@ -22,6 +22,36 @@ repositories are free under [GitHub's current policy](https://docs.github.com/en
 Schedules can be delayed or disabled after 60 days of public-repository inactivity.
 The 35-minute runtime limit and inaccessible sources can limit coverage.
 
+### Diagnostic metadata and network checks
+
+The monitor stores bounded aggregate diagnostics in `data/monitor/source-state.json`:
+eligible, attempted and successful source counts, plus failure counts grouped by
+stage (`robots` or `source`), category and optional numeric HTTP status. The Actions
+summary uses those same counts. It does not include exception messages, source bodies,
+response headers, certificates or additional source URLs. Existing successful
+fingerprints and their dates survive failed checks. `checked_at` at the top level is
+the run date; each source's `checked_at` remains its last successful retrieval date.
+
+Categories distinguish explicit robots disallow, unavailable/unreadable robots,
+HTTP access restrictions and other HTTP failures, DNS/TLS/transport failures,
+timeouts, rejected destinations/URLs, redirect limits, size limits, unsupported
+content and unknown errors. An unavailable robots policy still blocks content
+retrieval. Both successful policies and failures are cached by original origin
+for one run only; a fresh run retries policy retrieval. Counts describe affected
+sources, not network requests. Historical failures cannot be reclassified from
+their old aggregate status.
+
+The IPv4 correction admits ordinary `192.0.78.x` destinations while retaining
+the special-purpose `192.0.0.0/24` and documentation `192.0.2.0/24` exclusions,
+instead of excluding the entire `192.0.0.0/16`. Protocol-assignment exceptions
+remain conservatively excluded. See the [IANA IPv4 registry](https://www.iana.org/assignments/iana-ipv4-special-registry/)
+(checked 2026-10-28). This is a focused correction, not a claim of exhaustive
+address-registry coverage. HTTPS-only URLs, credential/port checks, rejection of
+mixed public/non-public DNS results, DNS pinning, TLS certificate validation,
+robots rules, 1.3-second request spacing, 15-second socket timeouts, byte limits
+and redirect limits remain in force. A certificate failure is not permission to
+disable TLS validation or replace a source URL without evidence.
+
 ## AI interpretation remains disabled
 
 The older AI-assisted workflow below has also been changed to monthly, but its private

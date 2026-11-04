@@ -137,3 +137,5 @@ requests are stored privately; explicitly consented research-summary replacement
 can be applied automatically. See [setup and privacy](docs/PROFILE_REQUESTS.md).
 A monthly GitHub workflow checks known public pages/CVs for changes without AI fees;
 semantic automatic enrichment remains disabled. See [maintenance status](docs/CLOUD_REFRESH.md).
+The monitor records aggregate failure categories without raw error text or source bodies,
+and caches unavailable robots policies for the rest of that run while keeping access blocked.
